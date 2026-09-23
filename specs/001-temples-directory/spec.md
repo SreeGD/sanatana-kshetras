@@ -74,7 +74,24 @@ A member of the global Hindu diaspora, or a traveler abroad, wants to find Sanat
 
 ---
 
-### User Story 5 - Contribute or correct a temple listing (Priority: P3)
+### User Story 5 - Explore the traditional cosmology beyond Earth (Priority: P2)
+
+A devotee, monk, or spiritually curious user wants to understand the traditional Sanatana cosmology that sits beyond the physical, visitable directory: the other planets/planes (lokas) described in the Puranas and Vedas, and the spiritual world beyond material creation (e.g., Vaikuntha, Goloka Vrindavana, Kailasa, Devi Loka/Manidvipa) — each grounded in a named scripture, not presented as a physical travel destination.
+
+**Why this priority**: Explicitly requested as part of the full scope ("other planets, Spiritual world") and directly supports the monk/podcast research goal (Story 3) with doctrinally-grounded cosmological content. P2 because it enriches and completes the directory's traditional worldview but isn't required for the core visit-planning MVP (Stories 1–2), since these realms cannot be visited.
+
+**Independent Test**: Can be fully tested by opening the "Beyond Earth" section and confirming every entry names a specific scriptural source (e.g., a named Purana, Upanishad, or the Brahma Samhita), is clearly separated from the physical temple directory (no address, no darshan hours, no "how to reach" field), and — where traditions disagree on the supreme abode — presents each tradition's own account rather than declaring one universally authoritative.
+
+**Acceptance Scenarios**:
+
+1. **Given** a user opens the "Beyond Earth" section, **When** they browse it, **Then** they see it clearly separated from the physical, visitable temple directory.
+2. **Given** a user views an "other planet"/loka entry (e.g., one of the fourteen traditional lokas), **When** the page loads, **Then** it names a specific scriptural source and does not present address, darshan-hours, or travel fields.
+3. **Given** a user views a "spiritual world" entry describing a deity's supreme abode (e.g., Vaikuntha, Goloka, Kailasa, Manidvipa), **When** more than one tradition describes a different supreme abode, **Then** the page presents each tradition's account attributed to its own scripture rather than asserting a single universal answer.
+4. **Given** a monk is researching this content for a podcast, **When** they read an entry, **Then** they can identify which specific text/verse grounds each claim.
+
+---
+
+### User Story 6 - Contribute or correct a temple listing (Priority: P3)
 
 A knowledgeable community member (devotee, local resident, temple administrator) wants to submit a new temple that's missing from the directory, or correct/enrich an existing listing, so the directory keeps growing toward full comprehensiveness.
 
@@ -100,13 +117,16 @@ A knowledgeable community member (devotee, local resident, temple administrator)
 - How does the directory handle two independent contributors submitting the same temple under different names? The review workflow must detect likely duplicates before publishing.
 - How does the directory handle a temple with sparse, unverified, or disputed historical information? The page must distinguish documented history from oral tradition/legend rather than presenting both as equally certain.
 - How does the directory handle a temple that is significant to more than one tradition (e.g., shared Shaiva-Shakta or Vaishnava-Shaiva significance)? Classification must allow more than one tradition tag rather than forcing a single choice.
+- How does the directory handle traditions that disagree on cosmology (e.g., Vaishnava, Shaiva, and Shakta traditions each naming a different supreme/eternal abode)? Each tradition's account must be presented on its own terms, attributed to its own scripture, rather than the directory asserting one as the single correct answer.
+- How does the directory handle a claim that has no traceable scriptural source, only popular or sectarian belief? It must be labeled as tradition/belief rather than presented with the same authority as a cited scripture.
+- What happens when a user tries to apply visit-planning fields (address, darshan hours, how to reach) to a non-physical realm? The interface must not surface those fields for entries classified as non-physical.
 
 ## Requirements *(mandatory)*
 
 ### Functional Requirements
 
-- **FR-001**: The directory MUST include temples located within India, organized by state/union territory and city.
-- **FR-002**: The directory MUST include Sanatana/Hindu temples located outside India, organized by country and city, covering both actively-worshipped diaspora community temples and historic heritage/monument temples.
+- **FR-001**: The directory MUST include temples located within India, organized by continent (Asia) > country (India) > state/union territory > city.
+- **FR-002**: The directory MUST include Sanatana/Hindu temples located outside India, organized by continent > country > city, covering both actively-worshipped diaspora community temples and historic heritage/monument temples, across all continents where such temples exist (Asia outside India, Europe, Africa, North America, South America, Oceania).
 - **FR-003**: The directory MUST include a complete, dedicated collection of all 108 Divya Desams, distinct from the general listing, each tagged with its traditional pilgrimage region (e.g., Chola Nadu, Pandya Nadu, Malai Nadu, Nadu Nadu, Vada Nadu) or its celestial classification.
 - **FR-004**: Each Divya Desam entry MUST indicate whether it is (a) a physical site in India, (b) a physical site outside India, or (c) celestial/non-physical; celestial entries MUST NOT display location, darshan-hours, or travel fields.
 - **FR-005**: Each temple entry MUST record: primary name, known alternate names/transliterations, presiding deity or deities, tradition/sect classification (Vaishnava, Shaiva, Shakta, Smarta, or other/folk), and precise location (address or descriptive location, city, state/region, country, and coordinates where available).
@@ -114,7 +134,7 @@ A knowledgeable community member (devotee, local resident, temple administrator)
 - **FR-007**: Each temple entry MUST record a "worship status" of active place of worship, heritage/monument site, or partially active, so users know what kind of visit to expect.
 - **FR-008**: Each temple entry MUST record research-oriented content usable for podcast/teaching preparation: an origin/legend narrative, at least one named source or tradition it draws from (e.g., a specific Purana, the Divya Prabandham, Thevaram, local tradition/oral history), and any associated saints or sages.
 - **FR-009**: Users MUST be able to search temples by name, including matches on alternate names/transliterations.
-- **FR-010**: Users MUST be able to filter or browse temples by country, state/region, deity, tradition, and Divya-Desam membership.
+- **FR-010**: Users MUST be able to filter or browse temples by continent, country, state/region, deity, tradition, and Divya-Desam membership.
 - **FR-011**: The directory MUST support curated groupings similar to the reference site's model (e.g., Featured, Trending/Popular, Newly Added), independent of the fixed 108 Divya Desam collection.
 - **FR-012**: The directory MUST allow community members to submit new temple entries or propose corrections to existing entries.
 - **FR-013**: Community-submitted entries and edits MUST enter a pending-review state and MUST NOT replace or appear as verified public content until reviewed and approved.
@@ -123,6 +143,11 @@ A knowledgeable community member (devotee, local resident, temple administrator)
 - **FR-016**: Each temple entry SHOULD include one or more representative images when available, and MUST clearly indicate when no image is available rather than showing a broken element.
 - **FR-017**: Each temple entry's historical/legendary content MUST visually or textually distinguish documented/attested history from oral tradition or legend.
 - **FR-018**: A temple entry MUST support more than one tradition/sect tag and more than one enshrined deity, to represent shared or multi-shrine sites.
+- **FR-019**: The directory MUST include a "Beyond Earth" section, separate from the physical temple directory, covering the traditional Puranic/Vedic cosmology: the other planets/planes (lokas) of the fourteen-loka system, and the spiritual world beyond material creation (e.g., Vaikuntha, Goloka Vrindavana, Kailasa, Devi Loka/Manidvipa), organized by tradition.
+- **FR-020**: Every entry in the directory — physical temple, loka/planet, or spiritual-world abode — MUST cite at least one named source (a specific scripture/text, or explicitly "oral tradition/local legend" when no scriptural source exists), and the citation type MUST be visibly distinguishable from unattributed claims.
+- **FR-021**: Where traditions give differing or conflicting cosmological accounts (e.g., a different supreme/eternal abode per Vaishnava, Shaiva, or Shakta tradition), the directory MUST present each account attributed to its own tradition and scripture, and MUST NOT assert a single account as universally authoritative.
+- **FR-022**: Entries in the "Beyond Earth" section MUST NOT display physical-visit fields (address, coordinates, darshan hours, how to reach), since they describe non-physical realms.
+- **FR-023**: Content for the "Beyond Earth" section and any content citing scripture MUST pass a review step by a contributor/reviewer versed in the relevant tradition before publishing, given its doctrinal sensitivity, in addition to the standard duplicate/accuracy review applied to physical temple submissions.
 
 ### Key Entities
 
@@ -130,9 +155,11 @@ A knowledgeable community member (devotee, local resident, temple administrator)
 - **Divya Desam Entry**: One of the fixed 108 records glorified by the Alvars. Links to a Temple when physical, or stands alone with a celestial classification when not. Carries its traditional region grouping (e.g., Chola Nadu, Malai Nadu, Vada Nadu).
 - **Deity**: A named form of the divine enshrined at one or more temples (e.g., Venkateswara, Meenakshi, Jagannath), with associated tradition.
 - **Tradition/Sect**: A classification such as Vaishnava, Shaiva, Shakta, Smarta, or regional/folk tradition, usable as a filter and applicable to a temple in more than one instance.
-- **Region**: A geographic grouping — country, and within India, state/union territory — used for browsing and filtering.
-- **Contribution/Submission**: A community-proposed new temple or edit to an existing one, with submitter reference, proposed data, and a review status (pending, approved, rejected).
-- **Curated Collection**: A named grouping of temples (Featured, Trending, New, 108 Divya Desam) used to surface subsets of the directory.
+- **Region**: A geographic grouping — continent, country, and within India, state/union territory — used for browsing and filtering.
+- **Realm (Loka)**: A non-earthly plane or abode described in scripture rather than a physical location — e.g., one of the fourteen traditional lokas, or a deity's spiritual-world abode (Vaikuntha, Goloka, Kailasa, Manidvipa). Attributes include name, governing deity, tradition, position in cosmology, and its scriptural citation(s). Never carries physical-visit fields.
+- **Source Citation**: A reference attached to a factual or cosmological claim — either a named scripture/text (with chapter/verse where available) or an explicit "oral tradition/local legend" label — used to ground content in tradition and distinguish attested scripture from popular belief.
+- **Contribution/Submission**: A community-proposed new temple, loka/spiritual-world entry, or edit to an existing one, with submitter reference, proposed data, and a review status (pending, approved, rejected).
+- **Curated Collection**: A named grouping of temples (Featured, Trending, New, 108 Divya Desam, Beyond Earth) used to surface subsets of the directory.
 
 ## Success Criteria *(mandatory)*
 
@@ -145,6 +172,9 @@ A knowledgeable community member (devotee, local resident, temple administrator)
 - **SC-005**: At least 90% of users surveyed after visiting a temple's detail page agree it gave them enough information to plan a visit without checking another source.
 - **SC-006**: Community-submitted entries reach a review decision (approved or rejected) within a defined turnaround window, keeping the pending queue from silently stalling growth of the directory.
 - **SC-007**: No published Divya Desam entry is ever altered to contradict its editorially verified region/classification through an unreviewed submission.
+- **SC-008**: 100% of published entries in the "Beyond Earth" section cite a named scriptural source, and 0% display physical-visit fields (address, coordinates, darshan hours, how to reach).
+- **SC-009**: Where more than one tradition describes a differing cosmological account, 100% of the affected entries present each tradition's account with its own attribution, rather than a single unattributed answer.
+- **SC-010**: The physical directory spans temples across all six inhabited continents where Sanatana temples exist (Asia, Europe, Africa, North America, South America, Oceania) at launch.
 
 ## Assumptions
 
@@ -155,3 +185,5 @@ A knowledgeable community member (devotee, local resident, temple administrator)
 - Data quality follows a hybrid model, matching the reference site's crowdsourced approach: open community contribution drives breadth and growth, while a review step and an explicit verified/pending distinction protect accuracy — with the 108 Divya Desam collection held to the highest, editorially-locked standard given its religious and cultural significance.
 - Coordinates/addresses are best-effort; some remote or historic sites may only have descriptive location rather than precise coordinates at launch.
 - Language of record is English with native-script alternate names captured per temple; full multi-language localization of the interface is out of scope for this feature.
+- "Other planets" refers to the traditional Puranic/Vedic cosmological planes (the fourteen lokas and related realms described in scripture), not modern astronomical exoplanets or space exploration; this section is explicitly doctrinal/devotional content, not a science feature.
+- "Ground the information in tradition" means every factual, historical, or cosmological claim is traceable to a named scripture, text, or explicitly-labeled oral tradition, verified by someone knowledgeable in that specific tradition — applied uniformly across physical temples, the 108 Divya Desams, and the Beyond Earth section, with the strictest scrutiny reserved for cosmological/doctrinal claims given their sensitivity across differing sampradayas (lineages).
