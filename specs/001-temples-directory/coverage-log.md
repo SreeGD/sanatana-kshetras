@@ -46,3 +46,13 @@ Explored Wikipedia's "List of Hindu temples in <state>"-style articles to find c
 - **Goa**: Shanta Durga Temple (Kavalem — Goa's most important Hindu temple, relocated inland after Portuguese destruction of the original site in 1566).
 
 State list articles also surfaced many more candidates (Bhadrachalam and Birla Mandir in Telangana; several more in Bihar and Goa) not yet added — a natural next expansion.
+
+## Full state-by-state pass (India)
+
+Dispatched 3 parallel research passes to systematically cover every Indian state/UT still missing from the directory. Result: **33 of India's 36 states/UTs now have at least one entry** (up from 17), all cross-checked against Wikipedia before writing, with honest `review_flags`/`status: pending` wherever a specific detail (founding date, dynasty, Shakti Peetha status, etc.) wasn't confirmable from available sources — several entries deliberately correct or withhold a popular claim the source didn't support (e.g. not asserting Mansa Devi Panchkula as a Shakti Peetha, reclassifying Amritsar's Ram Tirath as its officially renamed Valmiki-tradition site).
+
+**Newly covered (16 states/UTs)**: Rajasthan (4), Haryana (3), Punjab (3), Himachal Pradesh (4), Jharkhand (2), Chhattisgarh (2), Puducherry (2), Chandigarh (2, both flagged as physically in neighboring Panchkula/Haryana since no verifiable temple exists administratively inside the UT itself), Manipur (1), Tripura (1), Sikkim (1), Arunachal Pradesh (1), Meghalaya (1), Nagaland (1), Andaman & Nicobar Islands (1), Dadra & Nagar Haveli and Daman & Diu (1).
+
+**Genuinely no verifiable Hindu temple found** (not a gap — an honest research finding, consistent with regional demographics): Mizoram (Christian-majority; only an unverifiable aggregate mention of "13 temples" via one committee, no individual temple confirmable), Ladakh (Buddhist-majority; no Hindu temple article/category exists), Lakshadweep (Muslim-majority; same).
+
+India state/UT coverage: 33/36.
