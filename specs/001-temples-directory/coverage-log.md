@@ -108,3 +108,20 @@ Dispatched 5 parallel research passes to bring the remaining thin continents up 
 **Countries outside India: 41** (up from 18 before this session's Asia/Europe/Africa/Americas/Oceania passes began).
 
 Consistent pattern throughout: WebSearch unavailable all session, so every claim is WebFetch-verified against Wikipedia (occasionally non-English Wikipedia or official temple sites); every genuinely unconfirmable detail is hedged in prose or flagged, never asserted; several countries (Nigeria, Madagascar, Argentina, Venezuela, and specific cities within covered countries) were honestly reported as yielding nothing verifiable rather than forced.
+
+## Deepening the newly-added countries (10 countries from the continent sweep)
+
+Dispatched 3 parallel passes to add temples in additional cities within Canada, Suriname, New Zealand, Kenya, Tanzania, Uganda, Réunion, Zimbabwe, Zambia, and Chile. 21 new temples added, 1 existing entry enriched with better sourcing rather than padded with a weak duplicate (Zambia).
+
+**Canada**: 3 new provinces beyond Ontario — Aulds Cove Hindu Temple, Nova Scotia (1972, one of North America's oldest Hindu temples), ISKCON Montreal (1967, the third Krishna temple in the world outside India per its own history), ISKCON Calgary.
+**Suriname**: 1 more Paramaribo-area temple (Blauwgrond), independently sourced.
+**New Zealand**: 3 new cities — BAPS Christchurch, Sri Balaji Hamilton, Sri Venkateswara Swamy Wellington.
+**Kenya**: BAPS Nairobi, Shivalaay Shiva Temple Mombasa.
+**Tanzania**: ISKCON Arusha (the "second center" flagged but unwritten in the earlier pass), Shri Sanatan Dharma Mandir Mwanza.
+**Uganda**: Vishwakarma Temple, Jinja (thinnest entry of this round, honestly flagged).
+**Réunion**: Temple des Casernes, Saint-Pierre (sourced via France's official Mérimée heritage database) and Temple Kalikambal, Saint-Denis.
+**Chile**: Hindu Temple of Santiago, sourced via two independent Wikipedia biographical articles about a Chilean diplomat who attends it.
+**Zambia**: existing Lusaka entry enriched with a second independent source rather than a new weak entry.
+**Zimbabwe**: genuinely nothing additional verifiable found — reported honestly.
+
+This round again relied entirely on WebFetch (Wikipedia in multiple languages, official temple sites, and one national heritage database) since WebSearch remained unavailable throughout.
