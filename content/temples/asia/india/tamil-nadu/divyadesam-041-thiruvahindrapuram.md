@@ -21,12 +21,19 @@ associated_saints:
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Detailed Sthala Puranam (temple origin legend) has not yet been researched for this entry; the fields above are grounded in a verified structured dataset (identity, location, region, Alvar attribution), not yet in narrative legend/history sources."
+  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
 ---
 
-Devanatha Perumal Temple at Thiruvahindrapuram is one of the 108 Divya Desams — the sacred abodes of Vishnu glorified in the Naalayira Divya Prabandham. It is sung in mangalasasanam by 1 Alvar: Thirumangai Alwar. It belongs to the Nadu Nadu (Central Region) group of Divya Desams.
+The Devanatha Perumal Temple at Thiruvahindrapuram, in the central Nadu Nadu region, is revered as one of the 108 Divya Desams, the sacred abodes of Vishnu hymned by the Alwars. The presiding deity, Devanatha Perumal, the Lord of the celestials, stands as the gracious Moolavar of this kshetra, and the place is held in great esteem within the Srivaishnava tradition. According to tradition, this hallowed site rests near the slopes associated with the serpent-realm, and the very name Thiruvahindrapuram carries the sense of a place sanctified by the Lord who is sovereign over the divine beings. The glory of this Divya Desam was sung in the Naalayira Divya Prabandham by Thirumangai Alwar, whose far-ranging hymns gathered the sacred abodes of Vishnu into the enduring corpus of Tamil devotion, and through his verses Thiruvahindrapuram took its honoured place among the celebrated Divya Desams. In later Srivaishnava history this kshetra became especially dear as a place intimately connected with the life and devotion of the acharya tradition, deepening its standing as a centre of learning and surrender. Pilgrims who come to Devanatha Perumal seek the protection of the Lord of the gods, drawn by the same devotion that moved the Alwar to immortalise this place in song, and the temple continues to stand as a living testimony to the unbroken line of worship that the hymns of the Prabandham set in motion.
 
-A detailed account of this temple's origin legend (Sthala Puranam), architecture, and festival calendar is pending further research; this entry currently records its verified identity, location, and scriptural (Alvar) attribution.
+## Festivals
+
+At Thiruvahindrapuram, the shrine of Devanatha Perumal observes the well-attested Srivaishnava round of festivals. An annual Brahmotsavam is traditionally celebrated with the Lord taken in procession on successive vahanas around the temple. Vaikunta Ekadasi in Margazhi is kept with great devotion, including the recitation of the Divya Prabandham and the passing of devotees through the Paramapada Vasal. The temple is closely associated with the great acharya Vedanta Desika, who composed several of his stotras here, and his Tirunakshatram is observed with special reverence. Pavithrotsavam for ritual purification and a Float festival (Theppotsavam) are also traditionally held, along with the daily and seasonal recitation of the Tamil Prabandham, particularly through the month of Margazhi.
+
+## Location & Access
+
+Thiruvahindrapuram lies near the town of Cuddalore in central Tamil Nadu, in the Nadu Nadu region, set beside the Garuda hill on the banks of the Gadilam river. It is reached by road from Cuddalore, the nearest major town and transport hub, which is itself connected by rail and bus to Chennai and other cities. As with most Vishnu temples, it generally keeps morning and evening darshan hours with a break in the afternoon. Verify current darshan timings and travel details with the temple or official sources before visiting.

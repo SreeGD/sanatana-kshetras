@@ -22,13 +22,20 @@ associated_saints:
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Pey Alwar, Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Detailed Sthala Puranam (temple origin legend) has not yet been researched for this entry; the fields above are grounded in a verified structured dataset (identity, location, region, Alvar attribution), not yet in narrative legend/history sources."
+  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
   - "Coordinates are an approximate town-level fallback shared with nearby temples in the source dataset, not a per-temple survey coordinate."
 ---
 
-Azhagiya Singar (Narasimha) Temple at Thiruvelukkai is one of the 108 Divya Desams — the sacred abodes of Vishnu glorified in the Naalayira Divya Prabandham. It is sung in mangalasasanam by 2 Alvars: Pey Alwar, Thirumangai Alwar. It belongs to the Thondai Nadu group of Divya Desams.
+Thiruvelukkai, set within the sacred precincts of Kanchipuram in the ancient Thondai Nadu country, is revered as one of the 108 Divya Desams, the holy abodes of Lord Vishnu hymned by the Alwars. Here the Lord is enshrined as Azhagiya Singar, the beautiful lion-form of Narasimha, the man-lion avatara who tore apart the demon Hiranyakashipu to protect his devotee Prahlada. According to the sthala purana, the place is associated with the Lord's fierce yet gracious Narasimha manifestation, and the very name Velukkai is traditionally explained as deriving from the Lord's resolve to remain seated here, fulfilling the prayers of the celestials and sages who sought his presence. The presiding Moolavar of Narasimha here is celebrated for combining the awe of the man-lion with surpassing beauty and compassion, so that the terror of the avatara is softened into grace for those who take refuge in him. The temple's glory was sung in the Naalayira Divya Prabandham by the early saint Pey Alwar, one of the three foremost Mudhal Alwars, and by Thirumangai Alwar, the warrior-poet whose pasurams adorn so many of the shrines of this region. Their inclusion of Thiruvelukkai among the sacred hundred and eight confirms its standing in the devotional landscape of Srivaishnavism. Pilgrims who worship at this shrine, counted among the many Divya Desams clustered in and around Kanchipuram, come seeking the protection of the Lord who appears as a refuge for the helpless, the fierce destroyer of evil who yet remains, in this place, the lovely and approachable Azhagiya Singar.
 
-A detailed account of this temple's origin legend (Sthala Puranam), architecture, and festival calendar is pending further research; this entry currently records its verified identity, location, and scriptural (Alvar) attribution.
+## Festivals
+
+As a Narasimha shrine among the Kanchipuram Divya Desams, this temple traditionally observes the Srivaishnava festival cycle centred on an annual Brahmotsavam, when the Lord is taken in procession on the customary vahanas. Narasimha Jayanti, marking the Lord's avatara, is celebrated with special devotion here as the deity is Azhagiya Singar. Vaikunta Ekadasi is honoured in the Margazhi season with the recitation of the Tiruvaimozhi, and the great Kanchipuram observances such as the Garuda Sevai and Pavithrotsavam draw devotees. Float festivals, Pongal-day offerings, and the recitation of the Nalayira Divya Prabandham accompany these occasions, all traditionally observed in keeping with local Pancharatra practice.
+
+## Location & Access
+
+The temple stands at Thiruvelukkai in the Kanchipuram area of the old Thondai Nadu region, in Tamil Nadu. Kanchipuram, a celebrated temple town well connected by road and rail and within reach of Chennai, serves as the nearest major hub. Like most Vishnu temples it generally observes morning and evening darshan hours, with a midday closing. Verify current darshan timings and travel details with the temple or official sources before visiting.

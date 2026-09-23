@@ -22,12 +22,19 @@ associated_saints:
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Nammalwar, Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Detailed Sthala Puranam (temple origin legend) has not yet been researched for this entry; the fields above are grounded in a verified structured dataset (identity, location, region, Alvar attribution), not yet in narrative legend/history sources."
+  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
 ---
 
-Navai Mukundan Temple at Thirunavai is one of the 108 Divya Desams — the sacred abodes of Vishnu glorified in the Naalayira Divya Prabandham. It is sung in mangalasasanam by 2 Alvars: Nammalwar, Thirumangai Alwar. It belongs to the Malai Nadu (Kerala Region) group of Divya Desams.
+On the banks of the river at Thirunavai in the Malai Nadu of the Kerala region stands the temple of Navai Mukundan, where the Lord is worshipped as the Moolavar bearing the name Mukunda, the bestower of liberation, and which is counted among the 108 Divya Desams hymned by the Alwars. The very name Mukundan signifies the giver of moksha, and tradition holds this riverside abode to be a place where the Lord grants release to those who seek refuge. According to the sthala purana, this is associated with the celebrated episode of Gajendra, the elephant-king whom the Lord rushed to save from the jaws of the crocodile in the sacred waters, a deliverance that embodies the swiftness of divine grace toward the surrendered soul. Thirunavai is revered as a holy tirtha on the river, long honoured for ancestral rites and worship. The shrine was sung in the Naalayira Divya Prabandham by Nammalwar, the foremost of the Alwars whose Tiruvaymoli forms the heart of the corpus, and by Thirumangai Alwar, whose pasurams praise the Lord of this western abode. As one of the few Divya Desams lying in the Kerala country, Thirunavai holds a distinctive place in the sacred geography of the Prabandham, its Lord Mukundan revered as the compassionate granter of liberation to all who take shelter at His feet.
 
-A detailed account of this temple's origin legend (Sthala Puranam), architecture, and festival calendar is pending further research; this entry currently records its verified identity, location, and scriptural (Alvar) attribution.
+## Festivals
+
+Thirunavai, the Navai Mukundan temple on the banks of the Bharathappuzha in the Malai Nadu (Kerala) region, traditionally observes the broad Srivaishnava festival cycle centred on its annual utsavam, with processions of the Lord and recitation of the sacred Divya Prabandham hymns. Vaikunta Ekadasi is kept with special reverence and devout fasting. The setting beside the river lends particular importance to observances connected with the sacred waters, and the locality is long renowned as a tirtha where ancestral rites and ritual bathing are performed. The temple also follows customary purification and processional festivals through the year. Where specific local practices are not widely documented, the common Vaishnava round of Brahmotsavam-style celebrations, Ekadasi observances and seasonal festivals is honoured here in the traditional manner.
+
+## Location & Access
+
+The temple lies at Thirunavai in the Malappuram district of Kerala, set on the bank of the Bharathappuzha river in the Malai Nadu region, near the town of Tirur. Tirur and the larger centres of Malappuram and Kozhikode serve as the nearest transport hubs, with road and rail links connecting the area to the wider Kerala network. Like most Vishnu temples, it generally observes morning and evening darshan hours. Verify current darshan timings and travel details with the temple or official sources before visiting.

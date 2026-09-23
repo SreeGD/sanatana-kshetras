@@ -21,12 +21,19 @@ associated_saints:
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Detailed Sthala Puranam (temple origin legend) has not yet been researched for this entry; the fields above are grounded in a verified structured dataset (identity, location, region, Alvar attribution), not yet in narrative legend/history sources."
+  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
 ---
 
-Thirunaraiyur Nambi Temple at Nachiyar Koil (Thirunaraiyur) is one of the 108 Divya Desams — the sacred abodes of Vishnu glorified in the Naalayira Divya Prabandham. It is sung in mangalasasanam by 1 Alvar: Thirumangai Alwar. It belongs to the Chola Nadu group of Divya Desams.
+The temple at Thirunaraiyur, popularly known as Nachiyar Koil near Kumbakonam in the Chola Nadu, enshrines the Lord as Thirunaraiyur Nambi, also called Srinivasa, and is counted among the 108 Divya Desams hymned by the Alwars. A singular feature of this kshetra is the exalted standing of the Goddess: the shrine is named for the Nachiyar (the Divine Consort, revered here as Vanjulavalli), and tradition holds that at Thirunaraiyur the Mother is given pride of place, the very name Nachiyar Koil meaning the "Temple of the Goddess." Here the Lord and his consort are worshipped together with special reverence for the Devi, and the deities are believed to bestow grace upon their devotees in abundance. The temple is also famed for the Kal Garuda, the stone vahana of the Lord, whose festival procession is held in great esteem by tradition, the vehicle becoming remarkably weighty as it is borne. This Divya Desam holds a distinctive place in the Naalayira Divya Prabandham as a kshetra sung by Thirumangai Alwar, whose hymns extol the glory of Thirunaraiyur Nambi and his abode. According to the sthala purana the place is hallowed by the worship of celestials and sages who sought the Lord here. Pilgrims revere Thirunaraiyur as a shrine where the intercession of the Goddess is especially powerful, approaching the Lord through the Mother who presides over this sacred ground, and the temple remains beloved for the union of the divine couple it enshrines.
 
-A detailed account of this temple's origin legend (Sthala Puranam), architecture, and festival calendar is pending further research; this entry currently records its verified identity, location, and scriptural (Alvar) attribution.
+## Festivals
+
+At Nachiyar Koil, Thirunaraiyur Nambi and his consort are honoured through a full cycle of traditional festivals, the foremost being the annual Brahmotsavam with its sequence of vahana processions. The temple is especially renowned for its Garuda Sevai, when the festival deity is borne upon the celebrated Kal Garuda, whose increasing weight as it is carried by successive bearers is a famed marvel of this shrine. Vaikunta Ekadasi in Margazhi is observed with the opening of the Paramapada Vasal and the chanting of the Divya Prabandham during the Adhyayana Utsavam. Pavithrotsavam and a Float festival (Theppotsavam) are also traditionally conducted, together with the monthly and seasonal observances common to the Srivaishnava calendar.
+
+## Location & Access
+
+Nachiyar Koil, the sacred Thirunaraiyur, lies in the Chola Nadu region of the Kaveri delta, near Kumbakonam in the Thanjavur district of Tamil Nadu, set along the road toward Thirukkannamangai. Kumbakonam is the nearest principal town and railhead, while Tiruchirappalli offers the closest major city, junction and airport. As with most Vishnu temples, the shrine generally keeps morning and evening darshan hours with a break during midday. Verify current darshan timings and travel details with the temple or official sources before visiting.

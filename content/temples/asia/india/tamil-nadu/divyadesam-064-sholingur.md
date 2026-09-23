@@ -22,12 +22,19 @@ associated_saints:
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Pey Alwar, Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Detailed Sthala Puranam (temple origin legend) has not yet been researched for this entry; the fields above are grounded in a verified structured dataset (identity, location, region, Alvar attribution), not yet in narrative legend/history sources."
+  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
 ---
 
-Yoga Narasimha Swamy Temple at Sholingur (Thirukkadigai) is one of the 108 Divya Desams — the sacred abodes of Vishnu glorified in the Naalayira Divya Prabandham. It is sung in mangalasasanam by 2 Alvars: Pey Alwar, Thirumangai Alwar. It belongs to the Thondai Nadu group of Divya Desams.
+Perched atop the larger of the two hills at Sholingur in Thondai Nadu, the temple of Yoga Narasimha Swamy enshrines the Lord in the fierce yet serene man-lion avatara as its Moolavar, and it stands among the 108 Divya Desams celebrated by the Alwars. The place is anciently known as Thirukkadigai, a name that tradition derives from the sage Saptarishis and the swift attainment of grace here, the term "kadigai" evoking the brief measure of time in which the Lord is said to grant fulfilment to His devotees. According to the sthala purana, the sages who worshipped at this hill obtained release from afflictions, and the Lord appears in the contemplative yogic posture (Yoga Narasimha) rather than the wrathful form, signifying the peace that follows the destruction of evil. On the adjacent smaller hill abides Yoga Anjaneya (Hanuman), and the worship of Narasimha together with His ardent devotee is a distinctive feature of this kshetra. The temple was sung in the Naalayira Divya Prabandham by Pey Alwar, one of the earliest Mudhal Alwars, and by Thirumangai Alwar, whose verses extol the hill-shrine and its grace-bestowing Lord. The ascent of the hill, the abode of Narasimha above and Hanuman opposite, and the tradition of swift deliverance from sin and suffering together mark Thirukkadigai as a place of singular sanctity among the divine abodes of the Tamil land.
 
-A detailed account of this temple's origin legend (Sthala Puranam), architecture, and festival calendar is pending further research; this entry currently records its verified identity, location, and scriptural (Alvar) attribution.
+## Festivals
+
+Sholingur, the divya desam of Thirukkadigai, traditionally observes the great annual Brahmotsavam with its sequence of vahana processions, when the Lord is taken out on various mounts before throngs of devotees. Vaikunta Ekadasi is kept with deep devotion, marked by the recitation of the Tiruvaimozhi and special darshan of the presiding deity. The temple also follows the customary Vaishnava cycle, including Pavithrotsavam for ritual purification and a Float festival (Theppotsavam) in the cooler months. Being celebrated for its hill shrines of Yoga Narasimha on the larger hill and Yoga Anjaneya on the smaller, festivals here are closely associated with the worship of both Narasimha and Hanuman, and special abhishekams and prayers for relief from afflictions are traditionally cherished by pilgrims.
+
+## Location & Access
+
+The temple stands at Sholingur (Thirukkadigai) in the Thondai Nadu region, in the Vellore district of northern Tamil Nadu, with the principal shrine of Yoga Narasimha set atop a hill reached by a long flight of steps. Sholingur is well connected by road to Vellore and Arakkonam, the nearest major rail and transport hubs, with Chennai the closest large city further east. Like most Vishnu temples, it generally observes morning and evening darshan hours. Verify current darshan timings and travel details with the temple or official sources before visiting.

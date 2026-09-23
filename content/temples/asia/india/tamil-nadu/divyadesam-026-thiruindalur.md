@@ -21,12 +21,19 @@ associated_saints:
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Detailed Sthala Puranam (temple origin legend) has not yet been researched for this entry; the fields above are grounded in a verified structured dataset (identity, location, region, Alvar attribution), not yet in narrative legend/history sources."
+  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
 ---
 
-Parimala Ranganathar Temple at Thiruindalur is one of the 108 Divya Desams — the sacred abodes of Vishnu glorified in the Naalayira Divya Prabandham. It is sung in mangalasasanam by 1 Alvar: Thirumangai Alwar. It belongs to the Chola Nadu group of Divya Desams.
+Thiruindalur, in the fertile Chola Nadu country, is home to the Divya Desam where the Lord is worshipped as Parimala Ranganathar, the fragrant Ranganatha, reclining in the serene majesty that recalls the great Ranganatha of Srirangam. As one of the 108 Divya Desams, this shrine holds an honoured place in the sacred geography of Sri Vaishnavism. The name Parimala, meaning fragrance, points to the tradition that the Moolavar here is suffused with a divine sweetness of presence, and the Lord is beloved as a form of perfumed grace. According to the sthala purana, this is a kshetra associated with Indra, the king of the celestials, whose worship of Vishnu here is reflected in the very name Indalur; tradition holds that the Lord granted His darshan to Indra and other divine beings at this spot. Thirumangai Alwar, foremost among the Alwars in the number of Divya Desams he celebrated, sang the praises of this temple in his hymns preserved in the Naalayira Divya Prabandham, the four-thousand-verse anthology of the Tamil poet-saints. There is a cherished tradition that the Alwar pleaded with the Lord here for darshan, and the Lord responded by turning toward His devotee, an episode lovingly remembered in the temple's lore. Through the saint's sacred verses, Thiruindalur was hallowed and enshrined among the Divya Desams, and to this day devotees gather to behold Parimala Ranganathar and to drink in the fragrance of his abiding compassion.
 
-A detailed account of this temple's origin legend (Sthala Puranam), architecture, and festival calendar is pending further research; this entry currently records its verified identity, location, and scriptural (Alvar) attribution.
+## Festivals
+
+Thiruindalur, where the Lord is worshipped as Parimala Ranganathar, traditionally observes the principal Srivaishnava festivals through the year. The annual Brahmotsavam is the chief celebration, with the utsava murti taken in procession on various vahanas amid recitation of the Divya Prabandham and Vedic chanting. Vaikunta Ekadasi is kept with particular reverence, devotees gathering for the sacred fast and darshan of the Lord. Pavithrotsavam for ritual purification and, where conducted, a Float festival add to the devotional calendar. The temple, associated in tradition with the moon's worship of the Lord, also keeps Sri Jayanthi, Navaratri, the Tamil and English New Year, and Pongal, when special abhishekams and alankarams draw devotees from the Mayiladuthurai and Nagapattinam areas.
+
+## Location & Access
+
+Parimala Ranganathar Temple lies at Thiruindalur near Mayiladuthurai in the Chola Nadu region of the Kaveri delta, within Tamil Nadu's Nagapattinam district. Mayiladuthurai is the closest town and transport point, well served by rail and road, with Nagapattinam and the wider delta forming the nearest major hubs. As with most Vishnu temples, darshan is generally available during morning and evening hours, with a midday closure. Verify current darshan timings and travel details with the temple or official sources before visiting.

@@ -21,12 +21,19 @@ associated_saints:
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Detailed Sthala Puranam (temple origin legend) has not yet been researched for this entry; the fields above are grounded in a verified structured dataset (identity, location, region, Alvar attribution), not yet in narrative legend/history sources."
+  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
 ---
 
-Nitya Kalyana Perumal Temple at Thiruvidaventhai is one of the 108 Divya Desams — the sacred abodes of Vishnu glorified in the Naalayira Divya Prabandham. It is sung in mangalasasanam by 1 Alvar: Thirumangai Alwar. It belongs to the Thondai Nadu group of Divya Desams.
+Nitya Kalyana Perumal at Thiruvidaventhai, on the coast of Thondai Nadu south of Chennai, is honoured among the 108 Divya Desams sung in the Naalayira Divya Prabandham. The presiding deity (Moolavar) bears the name Nitya Kalyana Perumal, the Lord of perpetual auspiciousness, and is also revered as Varaha Perumal, associated with the boar incarnation of Vishnu who lifted the earth from the cosmic waters. According to the sthala purana, the sage Kalava worshipped here and prayed that his many daughters might be wedded; the Lord is said to have married them, and from this episode arises both the name Nitya Kalyana, signifying ever-present marriage and prosperity, and the temple's enduring fame as a place where devotees seek the blessing of timely and happy marriage. Tradition holds that the Lord grants ceaseless auspicious tidings to those who pray with sincerity, and the shrine is widely sought by families desiring matrimonial good fortune. This Divya Desam was sung by Thirumangai Alwar, the warrior-saint among the twelve Alwars, whose pasurams celebrate the Lord of Thiruvidaventhai and confirm its standing within the sacred corpus. Set near the sea, the kshetra preserves the memory of the Varaha avatara and the grace bestowed upon the sage, and remains a living centre of worship where the prayer for nitya kalyanam, unending well-being, is offered before the Perumal.
 
-A detailed account of this temple's origin legend (Sthala Puranam), architecture, and festival calendar is pending further research; this entry currently records its verified identity, location, and scriptural (Alvar) attribution.
+## Festivals
+
+Thiruvidaventhai, the abode of Nitya Kalyana Perumal, is renowned for the daily and seasonal observances tied to its name, where the Lord is venerated as one ever wedded. The annual Brahmotsavam is traditionally celebrated with processions, vahana sevai and the temple car, while Vaikunta Ekadasi is observed in the Margazhi month with the Paramapada Vasal darshan and the recitation of the Tiruvaymoli through Pagal-pathu and Ra-pathu. Pavithrotsavam for ritual purification and the Float festival (Theppotsavam) are kept in keeping with Srivaishnava custom. Being a coastal shrine, festivals associated with the Lord's marriage and grace are observed with special devotion, alongside Sri Jayanthi, Sri Rama Navami and the Alvars' commemorations that form the broader Vaishnava festival cycle.
+
+## Location & Access
+
+The temple lies at Thiruvidaventhai along the coast on the East Coast Road south of Chennai, within the historic Thondai Nadu region of the Kanchipuram country, near the Kovalam and Mahabalipuram stretch. Chennai is the nearest major city and transport hub, with the shrine reachable by the coastal road. Like most Vishnu temples, it generally observes morning and evening darshan hours with a midday interval. Verify current darshan timings and travel details with the temple or official sources before visiting.

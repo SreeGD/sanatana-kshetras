@@ -21,12 +21,19 @@ associated_saints:
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Detailed Sthala Puranam (temple origin legend) has not yet been researched for this entry; the fields above are grounded in a verified structured dataset (identity, location, region, Alvar attribution), not yet in narrative legend/history sources."
+  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
 ---
 
-Prahlada Varadar (Narasimha) Temple at Ahobilam (Singavel Kundram) is one of the 108 Divya Desams — the sacred abodes of Vishnu glorified in the Naalayira Divya Prabandham. It is sung in mangalasasanam by 1 Alvar: Thirumangai Alwar. It belongs to the Vada Nadu (Northern Region) group of Divya Desams.
+Thiru Singavel Kundram, the celebrated Ahobilam set among the Nallamala hills, is one of the 108 Divya Desams and the foremost abode of the Lord in his man-lion form, where he is worshipped as Prahlada Varadar, the boon-giver to Prahlada, manifest as Narasimha. Lying in the Vada Nadu, the northern region, this hill shrine is hallowed as the very place where, according to the sthala purana, Lord Vishnu burst forth as Narasimha from a pillar to destroy the demon king Hiranyakashipu and to protect his devoted child Prahlada. So awesome was this manifestation that the place is said to have drawn the cry of wonder, Ahobalam, from the celestials who beheld the Lord's fierce and saving form. The sacred hill is renowned for its several shrines spread across the upper and lower reaches, each enshrining a distinct form of Narasimha, making Ahobilam a singular concentration of the Lord's man-lion glory. The name Prahlada Varadar enshrines the heart of the legend, for the terrible Lord who tore apart the demon turned with infinite tenderness toward the boy who had trusted in him. Among the Alwars, it was Thirumangai Alwar who sang the glory of this hill abode in the Naalayira Divya Prabandham, securing for Singavel Kundram its honoured place within the corpus of sacred shrines beloved of the Vaishnava tradition.
 
-A detailed account of this temple's origin legend (Sthala Puranam), architecture, and festival calendar is pending further research; this entry currently records its verified identity, location, and scriptural (Alvar) attribution.
+## Festivals
+
+At this celebrated Narasimha kshetram the festivals centre on the man-lion avatara and His devotee Prahlada. Narasimha Jayanti is observed with great devotion, recalling the Lord's fierce manifestation to save His child-devotee, and the annual Brahmotsavam draws crowds across the Eguva (upper) and Diguva (lower) Ahobilam shrines. A grand celestial wedding festival of the Lord with Chenchu Lakshmi, cherished by the local Chenchu community, is among the most famous observances here. The temple also keeps Vaikunta Ekadasi and other days of the Vishnu calendar, with processions through the forested hills. As the seat associated with the Ahobila Mutt, festival seasons are rich with Vedic recitation, prabandham and the worship of the nine forms of Narasimha.
+
+## Location & Access
+
+The temple lies at Ahobilam (Singavel Kundram) amid the forested Nallamala hills of Andhra Pradesh, in the northern Vada Nadu tradition, spread across the lower (Diguva) and upper (Eguva) shrines. The town of Allagadda is the nearest base, with Nandyal and Kurnool the closer cities and transport hubs reached by road and rail. Like most Vishnu temples it generally observes morning and evening darshan hours, with a midday interval. Verify current darshan timings and travel details with the temple or official sources before visiting.

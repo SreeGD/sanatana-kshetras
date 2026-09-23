@@ -21,13 +21,20 @@ associated_saints:
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Detailed Sthala Puranam (temple origin legend) has not yet been researched for this entry; the fields above are grounded in a verified structured dataset (identity, location, region, Alvar attribution), not yet in narrative legend/history sources."
+  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
   - "Coordinates are an approximate town-level fallback shared with nearby temples in the source dataset, not a per-temple survey coordinate."
 ---
 
-Nilathingal Thunda Perumal Temple at Thirunilathingal Thundam is one of the 108 Divya Desams — the sacred abodes of Vishnu glorified in the Naalayira Divya Prabandham. It is sung in mangalasasanam by 1 Alvar: Thirumangai Alwar. It belongs to the Thondai Nadu group of Divya Desams.
+The Nilathingal Thundam Perumal Temple, situated within the great Ekambareswarar Siva temple complex at Kanchipuram in the Thondai Nadu region, enshrines the Lord as Nilathingal Thunda Perumal, here revered as a Divya Desam abode of Vishnu, with the consort honoured as Nilamangai Thaayar. The name Thirunilathingal Thundam evokes a sliver of the cool moon, and the sthala is celebrated as a place where the harmony of Vishnu and Siva is made visible, the Perumal shrine standing as a Vaishnava holy seat within a renowned Saiva kshetra. As one of the 108 Divya Desams sung in the Naalayira Divya Prabandham, its glory was hymned by Thirumangai Alwar, whose pasurams set this abode among the sacred places of Kanchi. Tradition holds Kanchipuram to be a city dense with the presence of the Lord, where many Divya Desams cluster together, and Thirunilathingal Thundam takes its place among them as a shrine where devotees who come to the ancient temple may also receive the grace of Vishnu. Standing thus, the temple embodies the Srivaishnava understanding that the Lord pervades all sacred ground, and it remains an object of pilgrimage for those who walk the circuit of Kanchi's divine abodes, drawn by the praise of Thirumangai Alwar and the antiquity of the place.
 
-A detailed account of this temple's origin legend (Sthala Puranam), architecture, and festival calendar is pending further research; this entry currently records its verified identity, location, and scriptural (Alvar) attribution.
+## Festivals
+
+As a Divya Desam within the great temple-city of Kanchipuram, this shrine shares in the rich Srivaishnava festival calendar of the region. An annual Brahmotsavam is traditionally observed with ceremonial processions of the utsava murti, special alankarams, and the recitation of the Nalayira Divya Prabandham. Vaikunta Ekadasi is kept with particular devotion, when devotees seek darshan during the sacred day of the bright fortnight of Margazhi. Pavithrotsavam, observed for the ritual purification of the year's worship, and the Float festival (Theppotsavam) are among the seasonal observances common to Kanchipuram's Vishnu temples. Adhyayana Utsavam, the festival of Prabandham recitation, is also traditionally honoured. Daily and monthly worship follows the Pancharatra and Vaikhanasa traditions long upheld in this temple town.
+
+## Location & Access
+
+The temple stands in the Thirunilathingal Thundam precinct of Kanchipuram, a celebrated temple-city in the Thondai Nadu region of northern Tamil Nadu, and lies very close to the Ekambareswarar temple complex. Kanchipuram is well connected by road and rail and is reached from Chennai, the nearest major city and transport hub roughly to its northeast. Like most Vishnu temples, the shrine generally observes morning and evening darshan hours with a midday closure. Verify current darshan timings and travel details with the temple or official sources before visiting.

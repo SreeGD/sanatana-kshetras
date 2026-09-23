@@ -68,6 +68,8 @@ content/
 
 **Alternatives considered**: Manually auditing and correcting all ~105 web-researched files in place — rejected as this session's chosen path initially, but abandoned after estimating the manual verification cost across the many name-collision clusters exceeded the cost of a clean regeneration from authoritative data.
 
+**Provenance/licensing note**: The `108divyadesam` project's own README flags that "images and any server-sourced prose are the original publisher's — confirm redistribution rights before publishing." This project draws only from `data/dataset/{temples,regions,alwars,alwar_temple_map}.json` (structured factual data — names, coordinates, region groupings, Alvar attributions — extracted from the app, not the publisher's prose) and `data/cache/{temple-history,temple-extras}.json` (independently AI-generated narrative text, marked `review: "auto"` in its own source, explicitly *not* the publisher's server-sourced prose per the README). No images and no publisher-authored prose were used. Still, confirm this reasoning before any public launch, since it wasn't independently legally reviewed here.
+
 ## Deferred decisions (explicitly out of scope for this plan)
 
 - Website/application framework, hosting, and runtime (Story-4-era decision) — to be made in a follow-up `/speckit-plan` once enough of the dataset exists to know real query/filter/scale needs.

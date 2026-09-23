@@ -21,12 +21,19 @@ associated_saints:
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Detailed Sthala Puranam (temple origin legend) has not yet been researched for this entry; the fields above are grounded in a verified structured dataset (identity, location, region, Alvar attribution), not yet in narrative legend/history sources."
+  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
 ---
 
-Vasudeva Perumal Temple at Thiruppiridhi is one of the 108 Divya Desams — the sacred abodes of Vishnu glorified in the Naalayira Divya Prabandham. It is sung in mangalasasanam by 1 Alvar: Thirumangai Alwar. It belongs to the Vada Nadu (Northern Region) group of Divya Desams.
+The Vasudeva Perumal Temple at Thiruppiridhi, in the Vada Nadu or Northern Region of the Himalayan reaches, enshrines the Lord as Vasudeva Perumal and stands among the 108 Divya Desams hymned in the Naalayira Divya Prabandham. Set in the far north amid the holy slopes associated in tradition with the abodes of sages and ascetics, Thiruppiridhi is counted among that small and remarkable group of Divya Desams that lie deep in the northern lands, distant from the Tamil heartland where most of these shrines are found. Here the Lord bears the name Vasudeva, the all-pervading one, the indwelling soul of all creation, and devotees revere this form as a reminder that Narayana presides even over the remotest mountain sanctuaries. It was Thirumangai Alwar alone among the Alwars who sang the glory of Thiruppiridhi, his pilgrim verses carrying the devotion of the Tamil saints to these northern heights and enshrining the place forever within the Divya Prabandham. By his hymns the shrine takes its honoured station among the 108 sacred abodes, a witness to the breadth of the Alwars' vision, which beheld the same Vishnu present at the southern river-deltas and upon the snow-bound northern peaks alike. Tradition holds this to be a place hallowed by the austerities of rishis, where the devotee who reaches its remote precincts is granted the vision of Vasudeva and the blessing of having pilgrimaged to one of the Lord's most far-flung earthly seats.
 
-A detailed account of this temple's origin legend (Sthala Puranam), architecture, and festival calendar is pending further research; this entry currently records its verified identity, location, and scriptural (Alvar) attribution.
+## Festivals
+
+Thiruppiridhi is a Himalayan Divya Desam glorified by the Azhwars, and its observances reflect the simpler devotional rhythm of these remote northern shrines rather than a full Tamil utsavam calendar. The principal Vaishnava occasions are traditionally honoured here: Vaikunta Ekadasi as a day of fasting and special darshan, the major annual Ekadasis, Sri Rama Navami, and Krishna Janmashtami, when Vasudeva Perumal receives special worship. Where a Brahmotsavam is observed, the Lord is honoured with abhishekam and ritual offerings. Because the shrine sits within the wider sacred geography of the upper Himalayas, pilgrims commonly venerate it as part of the larger Char Dham circuit, and its sanctity is tied to that pilgrimage season as much as to any single festival.
+
+## Location & Access
+
+Thiruppiridhi is identified with a Himalayan site in the Uttarakhand region of the northern hills, in the vicinity of the upper Alaknanda valley near Devaprayag, far from the southern temple towns. The nearest large city and transport hub is Rishikesh or Dehradun, from which mountain roads continue upward. Like most Vishnu temples, it generally observes morning and evening darshan hours, subject to the seasonal access of the high Himalayas. Verify current darshan timings and travel details with the temple or official sources before visiting.

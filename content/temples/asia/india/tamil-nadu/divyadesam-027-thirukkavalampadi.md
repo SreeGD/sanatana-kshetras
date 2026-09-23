@@ -21,12 +21,19 @@ associated_saints:
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Detailed Sthala Puranam (temple origin legend) has not yet been researched for this entry; the fields above are grounded in a verified structured dataset (identity, location, region, Alvar attribution), not yet in narrative legend/history sources."
+  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
 ---
 
-Gopala Krishnan Temple at Thirukkavalampadi (Nandhipura Vinnagaram) is one of the 108 Divya Desams — the sacred abodes of Vishnu glorified in the Naalayira Divya Prabandham. It is sung in mangalasasanam by 1 Alvar: Thirumangai Alwar. It belongs to the Chola Nadu group of Divya Desams.
+At Thirukkavalampadi, also known as Nandhipura Vinnagaram, in the Chola Nadu region, the Lord is enshrined as Gopala Krishnan, the cowherd Krishna, and the temple stands as one of the 108 Divya Desams revered by Sri Vaishnavas. The Moolavar here graces His devotees in the beloved form of Krishna, the divine herdsman of Brindavan, recalling the Lord's earthly leelas amid the cowherds and milkmaids. The appellation Vinnagaram, meaning a celestial city or temple of the heavens, marks this as one of the shrines whose very name proclaims its sanctity as an abode of the Lord. According to tradition, the place is linked with Nandi and with the worship offered here by celestial and divine beings, from which the name Nandhipura is drawn; the sthala purana cherishes the memory of Krishna's grace manifesting at this spot. Thirumangai Alwar, the great prince among the Alwar saints who sang of more Divya Desams than any other, glorified this temple in his hymns within the Naalayira Divya Prabandham, the four-thousand-verse compendium of the Alwars' devotion. By the sanctifying touch of his Tamil verses, Thirukkavalampadi was numbered among the Divya Desams and drawn into the sacred circuit of the Cauvery delta shrines. Pilgrims come here to behold Gopala Krishnan, seeking the tender, playful grace of the cowherd Lord who is held to draw near to His devotees with the same intimacy he showed the cowherds of old.
 
-A detailed account of this temple's origin legend (Sthala Puranam), architecture, and festival calendar is pending further research; this entry currently records its verified identity, location, and scriptural (Alvar) attribution.
+## Festivals
+
+At Thirukkavalampadi, known as Nandhipura Vinnagaram, where the Lord is adored as Gopala Krishnan, the festival cycle naturally gives special place to Sri Krishna Jayanthi (Gokulashtami), celebrated with fervour befitting the temple's Krishna form, alongside the wider Srivaishnava observances. The annual Brahmotsavam is the foremost festival, with processions of the utsava murti, Prabandham recitation and Vedic honours. Vaikunta Ekadasi is kept with the sacred fast and darshan, and Pavithrotsavam is observed for the ritual purification of the year's worship. A Float festival may be conducted where the tradition allows. Pongal, the Tamil and English New Year and Navaratri are also marked, drawing devotees from the surrounding Nagapattinam region to this Nangur-area shrine.
+
+## Location & Access
+
+The temple is situated at Thirukkavalampadi, also called Nandhipura Vinnagaram, in the Chola Nadu region of Tamil Nadu's Nagapattinam district, among the Divya Desams of the Kaveri delta near the Nangur cluster. Mayiladuthurai and Nagapattinam are the nearest towns offering rail and road connections, with local transport reaching the village. Like most Vishnu temples, it generally observes morning and evening darshan hours with a midday break. Verify current darshan timings and travel details with the temple or official sources before visiting.

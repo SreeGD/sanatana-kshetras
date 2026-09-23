@@ -71,7 +71,7 @@ Single content/data repository (see plan.md § Project Structure):
 
 **Independent Test**: `python3 scripts/validate_content.py --divya-desam-report` reports 108/108 present, no `seq` gaps/duplicates, and 0 unresolved `temple_ref` values.
 
-**Status**: Complete (108/108), but via a different path than originally planned — see `research.md` § "The 108 Divya Desam identity/region/coordinate/Alvar data is generated from the `108divyadesam` project's dataset". Six parallel web-research passes surfaced real name-collision misattributions and a region-group error (Nadu Nadu vs. Thondai Nadu conflated), so identity/region/coordinates/Alvar-attribution were regenerated from an authoritative dataset instead. **Trade-off**: each entry's `history` is currently a short, accurate, fact-grounded stub rather than a full researched legend — see US3/T020-T023 below, which are NOT yet satisfied by this data and remain open follow-up work.
+**Status**: Complete (108/108), but via a different path than originally planned — see `research.md` § "The 108 Divya Desam identity/region/coordinate/Alvar data is generated from the `108divyadesam` project's dataset". Six parallel web-research passes surfaced real name-collision misattributions and a region-group error (Nadu Nadu vs. Thondai Nadu conflated), so identity/region/coordinates/Alvar-attribution were regenerated from an authoritative dataset instead. **Trade-off** (since resolved — see US3/T020-T023 below): each entry's `history` was initially a short, accurate, fact-grounded stub rather than a full narrative; it has since been enriched with rich history/festival/access content from the same sibling project's independently-generated (unverified) dataset.
 
 ### Implementation for User Story 2
 
@@ -93,12 +93,14 @@ Single content/data repository (see plan.md § Project Structure):
 
 **Independent Test**: For the Divya Desam entries, each linked Temple file has a non-empty `history` body, `sources` with a named `text` when `type: scripture`, and `associated_saints` populated where applicable (FR-008).
 
+**Status**: Complete for all 106 physical entries, via a different path than T020-T023 originally described — each entry's `history` body is now a rich narrative (with a "Festivals" and "Location & Access" section) adapted from the `108divyadesam` project's independently AI-generated `temple-history.json`/`temple-extras.json` (marked `review: "auto"` in its own pipeline). Every enriched entry carries a `review_flags` note and a `sources` citation disclosing this provenance — the content is a well-informed draft, not independently verified against scholarly sources, consistent with FR-020's citation requirement and the "ground the information in tradition" directive.
+
 ### Implementation for User Story 3
 
-- [ ] T020 [P] [US3] Enrich the Chola Nadu and Pandya Nadu Divya Desam temple entries (from T013–T014) with full `history` narrative bodies, `associated_saints` (Alvars) where applicable, and `sources` citing specific texts (e.g., Divya Prabandham hymns, relevant Puranas) per FR-008
-- [ ] T021 [P] [US3] Enrich the Malai Nadu, Nadu Nadu, and Vada Nadu Divya Desam temple entries (from T015–T017) with the same history/saints/sources depth as T020
-- [ ] T022 [US3] Set each enriched entry's `documented_vs_legend` field (`documented` | `legend` | `mixed`, per FR-017) based on whether its `history` content is attested history or oral tradition (depends on T020, T021)
-- [ ] T023 [US3] Run `python3 scripts/validate_content.py` to confirm all enriched entries still pass schema validation, i.e., still carry ≥1 `sources` item (FR-020) (depends on T022)
+- [x] T020 [P] [US3] Enrich the Chola Nadu and Pandya Nadu Divya Desam temple entries (from T013–T014) with full `history` narrative bodies, `associated_saints` (Alvars) where applicable, and `sources` citing specific texts (e.g., Divya Prabandham hymns, relevant Puranas) per FR-008
+- [x] T021 [P] [US3] Enrich the Malai Nadu, Nadu Nadu, and Vada Nadu Divya Desam temple entries (from T015–T017) with the same history/saints/sources depth as T020
+- [x] T022 [US3] Set each enriched entry's `documented_vs_legend` field (`documented` | `legend` | `mixed`, per FR-017) based on whether its `history` content is attested history or oral tradition (depends on T020, T021)
+- [x] T023 [US3] Run `python3 scripts/validate_content.py` to confirm all enriched entries still pass schema validation, i.e., still carry ≥1 `sources` item (FR-020) (depends on T022)
 
 **Checkpoint**: US1, US2, US3 all independently functional.
 

@@ -22,12 +22,19 @@ associated_saints:
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Nammalwar, Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Detailed Sthala Puranam (temple origin legend) has not yet been researched for this entry; the fields above are grounded in a verified structured dataset (identity, location, region, Alvar attribution), not yet in narrative legend/history sources."
+  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
 ---
 
-Thiruvaazhmaarban Temple at Thiruvalla (Thiruvallavazh) is one of the 108 Divya Desams — the sacred abodes of Vishnu glorified in the Naalayira Divya Prabandham. It is sung in mangalasasanam by 2 Alvars: Nammalwar, Thirumangai Alwar. It belongs to the Malai Nadu (Kerala Region) group of Divya Desams.
+Thiruvalla, known in the Divya Prabandham as Thiruvallavazh, is one of the 108 Divya Desams situated in the Malai Nadu (Kerala) region, where the Lord is worshipped as Thiruvaazhmaarban, the One who bears the auspicious mark of Sri (Lakshmi) upon His chest. The very name evokes the abode where the Goddess dwells eternally upon the bosom of the Lord, signifying His inseparable union with Sri Mahalakshmi, source of grace and intercession. This sacred shrine was sung by both Nammalwar, the foremost of the Alwars, and Thirumangai Alwar, and their hymns in the Naalayira Divya Prabandham establish Thiruvallavazh among the cherished Kerala Divya Desams. According to tradition, the place is hallowed as one where the Lord, adorned by the presence of His consort, extends His protection to devotees who seek shelter at His feet. As one of the abodes praised by two great Alwars, Thiruvalla holds an honoured station in the devotional geography of Srivaishnavism, and the meaning of the Lord's name here, the bearer of the radiant chest upon which Lakshmi resides, gives the shrine a special place in meditations upon the divine couple. Pilgrims to the Kerala Divya Desams revere Thiruvallavazh as a sacred station where the Alwars' surrender and song still echo, and where the Lord, ever accompanied by Sri, remains the refuge of all who turn to Him.
 
-A detailed account of this temple's origin legend (Sthala Puranam), architecture, and festival calendar is pending further research; this entry currently records its verified identity, location, and scriptural (Alvar) attribution.
+## Festivals
+
+Thiruvallavazh (Thiruvalla) observes the customary Srivaishnava festivals within the framework of Kerala temple tradition. The annual Brahmotsavam is the foremost celebration, marked by processions of the festival deity, abhishekams, special decorations and the recitation of the Azhwars' divine hymns. Vaikunta Ekadasi in Margazhi is kept as a particularly holy occasion for the Lord's darshan. As a temple of the Malayalam land, it also honours the festivals of the regional calendar, including the Onam season, with traditional offerings and devotional gatherings. Pavithrotsavam and other seasonal poojas round out the yearly observances, preserving the ancient devotional heritage of this Divya Desam celebrated by the Azhwars.
+
+## Location & Access
+
+The Thiruvaazhmaarban Temple is situated at Thiruvalla in the Pathanamthitta district of the Malai Nadu (Kerala) region, in central Kerala. Thiruvalla itself is a well-connected town with its own railway station on the main southern line, while larger transport hubs and airports lie within the surrounding region. Like most Vishnu temples it generally observes morning and evening darshan hours, with the sanctum closed during the midday interval. Verify current darshan timings and travel details with the temple or official sources before visiting.
