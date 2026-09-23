@@ -1,0 +1,30 @@
+---
+id: mehandipur-balaji-temple-dausa-district
+name: "Mehandipur Balaji Temple"
+deities:
+  - "Balaji (Hanuman)"
+traditions: [vaishnava, folk_regional]
+continent: asia
+country: "India"
+region: "Rajasthan"
+city: "Mehandipur, Dausa district"
+coordinates: {lat: 26.9333, lng: 76.7833}
+worship_status: active
+darshan_hours: "Varies by season and by the temple's own ritual schedule; consult the temple's own trust/management for the current daily schedule before visiting."
+best_time_to_visit: "October to March for cooler weather; the temple draws pilgrims and ritual activity year-round, and no single best festival season could be confirmed from the sources consulted for this entry."
+how_to_reach: "Mehandipur is a town in Dausa district, Rajasthan, along the Jaipur-Agra road corridor; Jaipur is the nearest major city with rail and international-airport connections. Consult current transport schedules before planning a visit."
+sources:
+  - {type: historical_record, note: "Cross-checked against Wikipedia's 'Mehandipur Balaji Temple' article: confirms the temple's location in Mehandipur, Dausa district, Rajasthan (coordinates approx. 26°56'N 76°47'E); confirms the presiding deity is worshipped as 'Balaji,' described in the source as a childhood form of Hanuman as revered in several parts of India; confirms the temple, unusually for this type of shrine, is located within a town rather than a rural setting; confirms the temple's documented reputation for ritualistic healing and exorcism of evil spirits, which the source states attracts pilgrims from across Rajasthan and beyond; confirms that in 2013 an international team of scientists, scholars, and psychiatrists from Germany, the Netherlands, AIIMS (All India Institute of Medical Sciences), and the University of Delhi began a study evaluating the treatments and rituals practiced at the temple; confirms the source also references an earlier 1981 study, 'A psychiatric study of patients attending Mahendipur Balaji Temple,' published in the Indian Journal of Psychiatry, as well as academic work on possession, pilgrimage, and healing in India by scholars including Graham Dwyer, Ann Grodzins Gold, and Sudhir Kakar."}
+documented_vs_legend: mixed
+status: pending
+review_flags:
+  - "This temple's central point of public and academic interest is its documented practice of ritualistic healing and exorcism for devotees believed to be afflicted by evil spirits, possession, or negative energy — a practice that sits outside mainstream Hindu temple worship norms. Wikipedia confirms the practice exists, its general reputation, and that it has drawn sustained academic/medical scrutiny (a 1981 psychiatric study and a 2013 international, AIIMS-linked research initiative), but does not document the specific ritual procedures, their claimed mechanism, or any published findings/conclusions from that research in the source consulted here. This entry deliberately does not describe specific ritual steps or claim any medical/scientific validation or debunking of the practice, since neither is confirmed in the sources checked; readers should understand the practice as real and documented in the sense that it draws large numbers of devotees and genuine academic study, without this entry taking a position on its efficacy."
+  - "No founding date, founding legend, or dynasty/patronage history for the temple was located in the sources consulted; this entry does not assert one."
+  - "No confirmed festival calendar or standard darshan-hours schedule specific to this temple was located in the sources consulted."
+---
+
+Mehandipur Balaji, in the town of Mehandipur in Rajasthan's Dausa district, is one of North India's most visited Hanuman shrines and — unusually among major Balaji (Hanuman) temples — sits within a town rather than in the rural, hill, or forest settings typical of comparable sites. "Balaji" here refers to a childhood form of Hanuman, an identification shared with other well-known Balaji shrines elsewhere in India, including Salasar Balaji, also in Rajasthan and documented separately in this directory. This temple's own founding history, dynasty, or patronage record could not be confirmed from the sources consulted for this entry, and so is not asserted here.
+
+What most distinguishes Mehandipur Balaji from mainstream Hindu temple worship is its long-documented association with ritualistic healing and exorcism, aimed at devotees believed to be afflicted by evil spirits, possession, or negative energy. This is a genuine and significant part of the temple's identity rather than a fringe rumor: it draws substantial numbers of pilgrims specifically seeking this form of spiritual healing, and it has drawn real academic and medical attention over several decades. A 1981 study, "A psychiatric study of patients attending Mahendipur Balaji Temple," was published in the Indian Journal of Psychiatry, and in 2013 an international team of scientists, scholars, and psychiatrists from Germany, the Netherlands, AIIMS (New Delhi), and the University of Delhi began a formal study evaluating the treatments and rituals practiced at the temple. These practices, and the scholarship examining them, sit outside the norms of mainstream temple worship and remain a point of both devoted popular following and continued scholarly — and at times skeptical — scrutiny. This entry deliberately does not describe the specific ritual procedures in detail, nor take any position on their efficacy, since neither is documented in the sources checked for this entry; it is noted here factually, as a genuine and significant part of what this temple is, rather than sensationalized or dismissed.
+
+Beyond this distinctive character, Mehandipur Balaji functions as an active, heavily visited pilgrimage site. This entry could not confirm a specific festival calendar, founding-era history, or standard darshan hours from the sources consulted, and these should be verified directly with the temple's own management before planning a visit.

@@ -1,0 +1,31 @@
+---
+id: girnar-dattatreya-temple-junagadh
+name: "Girnar Dattatreya Temple"
+deities:
+  - "Dattatreya (Girnar)"
+traditions: [smarta]
+continent: asia
+country: "India"
+region: "Gujarat"
+city: "Girnar Hill, Junagadh"
+coordinates: {lat: 21.4947, lng: 70.5056}
+worship_status: active
+darshan_hours: "Not confirmed from available sources for this entry; consult local Girnar/Junagadh temple authorities for current timings, especially given the access restrictions noted below."
+best_time_to_visit: "Cooler months (roughly October-March) are generally more practical for the steep climb given Gujarat's summer heat; this entry has not been able to confirm visiting-season guidance specific to this shrine from the sources checked."
+how_to_reach: "The shrine sits at Girnar's fifth and highest peak, traditionally called Neminath Shikhar (roughly 1,145 m), reached via a stone stairway of some 10,000 steps from the base (Girnar Taleti), about 4 km east of central Junagadh. A ropeway opened in 2020 carries visitors partway up to the Ambika (Jain) temple on a lower peak, but does not reach this highest peak; the final ascent to the Dattatreya shrine still requires climbing on foot. Nearest railhead and airport are both at Junagadh/Rajkot."
+access_notes: "This site is subject to an active, documented Hindu-Jain dispute over the shrine at Girnar's highest peak, including litigation reported pending in the Gujarat High Court and restrictions on Jain worship at the peak reported since 2016 (see review_flags and history below). Visitors should treat the site's ownership and religious status as contested and unsettled rather than conforming to one side's account."
+sources:
+  - {type: historical_record, note: "Cross-checked against Wikipedia's 'Girnar' article: confirms Girnar hill (1,145 m) rises above Junagadh and is reached from Girnar Taleti via a stairway; confirms the fifth and highest peak, traditionally called Neminath Shikhar and holy to Jains as the site where the 22nd Tirthankara Neminatha is said to have attained nirvana, requires a climb of roughly 10,000 steps; confirms that a shrine now housing an idol of Dattatreya was built there surrounding footprints (charan/paduka) traditionally venerated by Jains as Neminatha's, that the article describes an associated archaeological survey by James Burgess referencing footprints at the site, that the Dattatreya idol was installed in 2004, that this installation is described in the article as illegal and is the subject of court cases between Jains and Hindus reported pending in the Gujarat High Court seeking both reconstruction of canopies over the footprints and removal of the Dattatreya idol, and that Jains have been restricted from offering prayers at the Neminath Shikhar since 2016, with the Girnar ropeway (opened 2020, terminating at the lower Ambika/Jain temple, not this peak) also reported closed on the day of Neminatha's Nirvan Kalyanak."}
+documented_vs_legend: mixed
+status: pending
+review_flags:
+  - "This entry concerns an actively contested religious site. Per Wikipedia's account, the shrine currently housing the Dattatreya idol occupies a spot that Jain tradition, and an archaeological survey referenced in the same source, associate with Neminatha's footprints; the Dattatreya idol's 2004 installation is described in the source as illegal, and cases over the ownership and configuration of this specific shrine are reported to be pending before the Gujarat High Court, with Jain access to the peak restricted since 2016. This entry states what the source documents without taking a position on the underlying ownership dispute, which remains legally unsettled."
+  - "No independently documented founding date exists for a Dattatreya shrine at this location prior to 2004; this entry does not assert one. Older popular tradition associating Girnar broadly with Dattatreya (e.g., as a site of his penance) predates and is distinct from the specific 2004 shrine/idol installation that is the subject of the dispute, but this entry has not been able to verify that older tradition against an independent source and does not elaborate on it beyond noting it exists in popular pilgrimage literature."
+  - "Coordinates given are Wikipedia's general infobox coordinates for Girnar hill as a whole, not a precise reading for the fifth-peak shrine specifically."
+---
+
+Girnar, a five-peaked hill rising above Junagadh in Gujarat, is one of Jainism's major tirthas: Jain tradition holds that Neminatha, the 22nd Tirthankara, attained nirvana at the hill's fifth and highest peak, traditionally known as Neminath Shikhar, reached by a stairway of roughly 10,000 stone steps from the base at Girnar Taleti. The lower peaks host a cluster of major Jain temples, including the black-granite Neminath temple (built 1128 CE) on the first peak and the Ambika temple on the second, the latter now also served by a ropeway opened in 2020 that does not extend to the highest peak.
+
+The shrine at this highest peak is, at present, the subject of an active and documented Hindu-Jain dispute rather than settled history, and this entry describes that dispute as sourced rather than taking a position on it. According to Wikipedia's account, a shrine now housing an idol of Dattatreya was built at the site surrounding a set of footprints (charan/paduka) that Jain tradition, and an archaeological survey referenced in the same source, associate with Neminatha. The Dattatreya idol's installation, in 2004, is described in that source as illegal, and cases seeking both the reconstruction of canopies over the footprints and the removal of the Dattatreya idol are reported to be pending before the Gujarat High Court. Jains have reportedly been restricted from offering prayers at Neminath Shikhar since 2016, and the Girnar ropeway is said to be closed on the day marking Neminatha's Nirvan Kalyanak.
+
+Because the peak's religious status and ownership remain legally and communally contested, this entry is marked pending rather than verified. Readers — particularly pilgrims or content-makers describing the site — should treat the Dattatreya shrine's status as actively disputed rather than settled, pending resolution of the litigation described above.

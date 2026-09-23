@@ -1,0 +1,33 @@
+---
+id: shrikhand-mahadev-kullu-district
+name: "Shrikhand Mahadev"
+alt_names:
+  - {value: "Srikhand Mahadev"}
+deities:
+  - "Shiva (Shrikhand Mahadev)"
+traditions: [shaiva]
+continent: asia
+country: "India"
+region: "Himachal Pradesh"
+city: "Nirmand sub-division, Kullu district"
+coordinates: {lat: 31.6594, lng: 77.6442}
+worship_status: active
+darshan_hours: "No fixed hours and no built shrine; the rock formation at the summit is reached only by completing a multi-day high-altitude trek, which is only feasible during the short accessible season."
+best_time_to_visit: "This entry has not been able to confirm exact yatra dates from the sources checked. Treks to a Himalayan summit at this altitude (18,570 ft) are conventionally undertaken in summer, and the peak is inaccessible under snow for much of the year; consult the Himachal Pradesh administration/forest department for current-year yatra registration and dates before planning a trip."
+how_to_reach: "The trek starts at Jaon village in the Nirmand sub-division of Kullu district and covers roughly 32 km (one way) to the summit at approximately 18,570 ft, via halts including Singhaad, Thaachru, Kali Ghati, and the holy Nain Sarowar lake; a particularly steep stretch known as Dandi-Dhaar, roughly 12 km long at an incline approaching 70 degrees, is described as one of the most demanding sections of any trek in India. Nearest broad-gauge railhead is Shimla and nearest airport is Kullu-Manali (Bhuntar)."
+access_notes: "There is no built temple here. The object of worship is a natural rock formation roughly 75 feet tall at the summit, described in sources as a Shivalingam; this entry describes it as the natural formation it is, not as constructed temple architecture. This is among the most physically demanding pilgrimage treks in India and carries real altitude and terrain risk; pilgrims should be properly acclimatized, adequately equipped, and should follow local administration guidance and any registration requirements before attempting it."
+sources:
+  - {type: historical_record, note: "Cross-checked against Wikipedia's 'Shrikhand Mahadev' article: confirms the peak, in Kullu district's Nirmand subdivision, reaches 18,570 ft, and that a natural rock Shivalingam roughly 75 feet tall stands at the summit (no constructed temple is described); confirms a separate rock formation behind the main Shivalingam is associated with Kartikeya; confirms the trek is widely described as one of the toughest in India, with a roughly 12 km stretch (Dandi-Dhaar) at an incline approaching 70 degrees; confirms the total trek is 32 km one-way from base village Jaon, passing Singhaad, Thaachru, Kali Ghati, and Nain Sarowar lake."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's 'Nirmand' article: confirms the 32 km one-way trek from Jaon village to the Shrikhand Mahadev summit (approx. 18,570 ft), and explicitly describes Shrikhand Mahadev as one of the five Kailash peaks (Pancha Kailash), located in Nirmand sub-division, Kullu district."}
+  - {type: oral_tradition, note: "Part of the Pancha Kailash (five Kailash) pilgrimage tradition, in which Mount Kailash in Tibet and four Indian Himalayan peaks (Adi Kailash, Manimahesh Kailash, Kinnaur Kailash, and Shrikhand Mahadev) are each venerated as an abode of Shiva; commonly repeated legends linking the site to Bhrigu or Parashurama could not be confirmed against the sources checked for this entry and are therefore omitted rather than asserted."}
+documented_vs_legend: mixed
+status: pending
+review_flags:
+  - "No built temple exists at this site; this entry describes a natural rock formation, per the sourcing instruction against inventing temple architecture that doesn't exist."
+  - "Exact yatra dates, registration process, and any official casualty/safety statistics were not confirmed by the sources checked in this session; this entry states the trek's documented difficulty (terrain, incline, altitude) without asserting specific fatality figures it could not verify."
+  - "Commonly cited legends connecting the site to Bhrigu or Parashurama were not found in the sources checked and are omitted rather than repeated unverified."
+---
+
+Shrikhand Mahadev is an 18,570-foot Himalayan summit in the Nirmand sub-division of Kullu district, crowned by a natural rock formation roughly 75 feet tall that pilgrims venerate as a Shivalingam. As at Kinnaur Kailash, there is no constructed temple: the mountain's own rock is the object of worship, with a second rock formation behind it associated in local tradition with Kartikeya, Shiva's son. Shrikhand Mahadev is counted among the Pancha Kailash — the five Himalayan peaks, alongside Mount Kailash in Tibet and Adi Kailash, Manimahesh Kailash, and Kinnaur Kailash in India, venerated as abodes of Shiva. Popular pilgrimage literature often links the site to Mahabharata-era or Puranic figures such as Bhrigu or Parashurama, but this entry has not been able to confirm any such legend against the sources checked, and omits it rather than repeat it as fact.
+
+The trek to the summit is widely described as among the toughest pilgrimage routes in India: a 32 km, one-way climb from the base village of Jaon, passing through Singhaad, Thaachru, Kali Ghati, and the holy Nain Sarowar lake, and including a roughly 12 km stretch called Dandi-Dhaar where the gradient approaches 70 degrees. The combination of extreme altitude, a multi-day exposed route, and unpredictable Himalayan weather makes this a serious undertaking rather than a casual pilgrimage. Sources consulted for this entry did not provide official casualty statistics or a fixed annual yatra calendar, so pilgrims and content-makers alike should treat trek difficulty and altitude risk as real and confirm current-year dates, registration requirements, and safety advisories directly with the Himachal Pradesh administration before attempting it, rather than relying on this entry for that operational detail.
