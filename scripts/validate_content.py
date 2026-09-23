@@ -62,6 +62,8 @@ def load_entries(content_root):
         if not base.exists():
             continue
         for path in sorted(base.rglob("*.md")):
+            if path.name.startswith("_"):
+                continue  # coordination/manifest file, not a content entry
             rel = path.relative_to(ROOT) if ROOT in path.parents else path
             front_matter, err = parse_front_matter(path.read_text(encoding="utf-8"))
             if err:

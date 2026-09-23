@@ -50,6 +50,14 @@ content/
 
 **Alternatives considered**: Freeform citation text in the Markdown body only — rejected because it can't be validated mechanically, so "100% of entries cite a named source" (SC-008) would be unverifiable without manual audit of every file.
 
+## Decision: Underscore-prefixed files are non-content coordination artifacts
+
+**Decision**: Any file under `content/**` whose name starts with `_` (e.g., `content/divya-desam/_manifest-<region-group>.md`) is skipped by `scripts/validate_content.py` and is not a real entry.
+
+**Rationale**: Parallel content-authoring work (e.g., multiple contributors/agents each covering one Divya Desam region group) needs a place to hand off a list of authored temples for centralized sequence-number assignment without colliding with another contributor's numbering, and without that handoff file being mistaken for — or validated as — a real Temple/Divya-Desam/Realm entry. A leading underscore is a widely recognized "not real content" convention and needed no new schema or directory.
+
+**Alternatives considered**: Requiring every contributor to self-assign `seq` — rejected, since two contributors working in parallel on different region groups have no way to avoid colliding sequence numbers without a coordination step; a per-region draft file outside `content/` entirely — rejected only for convenience, since keeping the manifest next to the entries it describes makes the handoff easier to find and clean up.
+
 ## Deferred decisions (explicitly out of scope for this plan)
 
 - Website/application framework, hosting, and runtime (Story-4-era decision) — to be made in a follow-up `/speckit-plan` once enough of the dataset exists to know real query/filter/scale needs.
