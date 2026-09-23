@@ -170,3 +170,17 @@ Nearly every entry in this batch carries genuine review_flags for unresolved sou
 ## Ashtavinayak (8 Ganesha temples, Maharashtra)
 
 Added all 8: Moreshwar/Morgaon (the circuit's start-and-end point), Siddhivinayak/Siddhatek (explicitly distinguished from the far more famous, unrelated Siddhivinayak Temple in Mumbai/Prabhadevi - a secondary source consulted had incorrectly conflated the two, corrected here), Ballaleshwar/Pali, Varadavinayak/Mahad, Chintamani/Theur, Girijatmaj/Lenyadri (a rock-cut cave shrine), Vighnahar/Ozar, and Mahaganapati/Ranjangaon. 3 of 8 (Morgaon, Siddhatek, Ranjangaon) were freshly WebFetch-verified this session; the other 5 were compiled from established general knowledge of this well-known fixed circuit and marked status: pending with an honest flag noting they weren't freshly re-verified.
+
+## State-by-state spiritual destination audit (new strategy)
+
+Per explicit user direction to shift from pure canonical-list-completion to a systematic state-by-state audit (checking existing coverage, filling major gaps, and enriching thin entries), dispatched 5 regional agents covering all major spiritual-tourism states. 37 new temples added across 12 states, plus the Navagraha (nine planetary temples of Tamil Nadu) canonical list completed to 9/9.
+
+**Major confirmed-priority gaps filled**: Khatu Shyam and Galtaji (Rajasthan), Belur Math (West Bengal - Ramakrishna Mission HQ), Kheer Bhawani (J&K - major Kashmiri Pandit site), the Hindu temple at Manikaran (Himachal Pradesh, carefully scoped to exclude the adjacent Sikh Gurdwara), Udupi Krishna Matha (Karnataka), Tulja Bhavani (Maharashtra - one of its 4 major Shakti Peethas, previously missing entirely), Janaki Mandir/Sitamarhi (Bihar - a rival claimant to Sita's birthplace alongside the already-covered Janakpur, Nepal), and Chitrakoot/Kamadgiri (honestly flagged - no dedicated source exists for the temple itself).
+
+**Navagraha temples: 9/9** - Thirunallar (Saturn) was already covered under Puducherry; the other 8 (Suryanar Kovil, Kailasanathar/Thingalur, Vaitheeswaran Koil, Swetharanyeswarar/Thiruvenkadu, Apatsahayesvarar/Alangudi, Agneeswarar/Kanjanur, and both Naganathaswamy temples for Rahu/Ketu) added this pass.
+
+**Genuine conflicts surfaced and honestly documented rather than resolved by guesswork**: Parli Vaijnath added as a rival claimant to the "true Vaidyanath Jyotirlinga" title alongside the already-covered Deoghar (a well-known, real scriptural/traditional dispute); Manikaran's construction date conflicts with its own attributed patron's known reign; Shankaracharya Temple, Srinagar's three-way founding-attribution dispute; a third, further-conflicting date surfaced for Achaleshwar Mahadev during an enrichment attempt.
+
+**Enrichment work**: several agents attempted to resolve open review_flags on existing pending entries via additional independent sourcing; most could not be resolved (reported honestly rather than forced), but 2 entries (Baidyanath Deoghar, Biraja Jajpur) gained useful contextual sourcing without a full status upgrade.
+
+One duplicate-detector false positive was investigated and confirmed as such: Chandi Devi and Mansa Devi, Haridwar are two distinct, real hilltop shrines that happen to share a naming pattern and city.
