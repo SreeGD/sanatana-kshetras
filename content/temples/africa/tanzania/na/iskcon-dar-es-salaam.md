@@ -19,6 +19,7 @@ documented_vs_legend: documented
 status: pending
 review_flags:
   - "No founding date for this specific center could be verified this pass. ISKCON's broader history in neighboring Kenya (Nairobi and Mombasa) is documented from 1969 onward via an ISKCON-affiliated historical archive, but no equivalent dated source specifically covering the Dar es Salaam or Arusha, Tanzania centers was found."
+  - "Re-checked on a later pass: no dedicated Wikipedia article exists for this center (both 'Iskcon Dar es Salaam Centre' and 'ISKCON Dar es Salaam' return 404); this entry's sole source remains the one-line 'Hinduism in Tanzania' inventory listing ('Iskcon Dar es Salaam Centre, Mosque street, Dar es Salaam'), confirmed unchanged on re-fetch."
 ---
 
 The ISKCON Dar es Salaam Centre on Mosque Street represents the Hare Krishna movement's presence in Tanzania's largest city, one of two documented ISKCON centers in the country alongside a second in Arusha. Like other ISKCON centers worldwide, it is built around the worship of Radha and Krishna and the practice of congregational chanting (kirtan) that the movement's founder, A. C. Bhaktivedanta Swami Prabhupada, established as central to Gaudiya Vaishnava devotional practice after founding the International Society for Krishna Consciousness in New York in 1966.

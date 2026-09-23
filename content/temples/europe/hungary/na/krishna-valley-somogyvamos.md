@@ -8,6 +8,7 @@ traditions: [vaishnava]
 continent: europe
 country: "Hungary"
 city: "Somogyvámos, Somogy County"
+coordinates: {lat: 46.56719, lng: 17.70009}
 worship_status: active
 darshan_hours: "Open to visitors; consult ISKCON Hungary directly for the current schedule before visiting."
 best_time_to_visit: "The community draws 25,000-30,000 visitors a year; major Gaudiya Vaishnava festivals such as Gaura Purnima and Janmashtami are consistent with other ISKCON communities, and confirming the current calendar with the community is recommended."
@@ -16,6 +17,7 @@ associated_saints:
   - "A. C. Bhaktivedanta Swami Prabhupada"
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Krishna valley' article: confirms the community was established in 1993 after ISKCON devotees purchased roughly 120 hectares of land at auction, with groundbreaking in February 1994; the central temple was consecrated on 5 September 1996; the settlement, also known within the community as New Vraja-dhama, grew to nearly 300 hectares by the 2020s and includes residential and agricultural land, orchards, a dairy farm, an apiary, a botanical garden, and school and library buildings; it operates off-grid using solar and wind power, wells, wood heating, and root-zone wastewater treatment; a 2021 academic study described it as 'one of the most significant ecovillages in Hungary,' with roughly 130 residents at that time and 25,000-30,000 visitors annually."}
+  - {type: historical_record, note: "Wave 2 follow-up: coordinates added from the Hungarian Wikipedia infobox for 'Krisna-völgy' (46°34'02\"N 17°42'00\"E), which also confirms the settlement's size at roughly 260 hectares and describes it as operating as an 'Indian Cultural Center and Biofarm' located about 30 km from Lake Balaton."}
 documented_vs_legend: documented
 status: verified
 review_flags:

@@ -8,6 +8,7 @@ continent: asia
 country: "China"
 city: "Hong Kong"
 address: "1B Wong Nei Chong Road, Happy Valley, Hong Kong (opposite Happy Valley Racecourse)"
+coordinates: {lat: 22.27014, lng: 114.18257}
 worship_status: active
 darshan_hours: "Varies by season and ceremony; consult the Hindu Association of Hong Kong directly for the current schedule before visiting."
 best_time_to_visit: "Major pan-Hindu festivals (e.g., Diwali) draw the largest community gatherings; confirm the current calendar with the temple."
@@ -18,6 +19,7 @@ documented_vs_legend: documented
 status: pending
 review_flags:
   - "The source checked did not give a founding date, the temple's specific enshrined deities, or architectural details; this entry documents the temple's confirmed identity, address, community role, and scale as Hong Kong's central Hindu institution, pending fuller sourcing on its history and iconography."
+  - "Coordinates were obtained via OpenStreetMap/Nominatim geocoding of the confirmed address (matching a named 'Happy Valley Hindu Temple' point of interest at 1B Wong Nai Chung Road) rather than from a Wikipedia infobox, since no source consulted in this pass gave lat/lng directly; treat as a good address-level approximation."
   - "For this directory's schema, Hong Kong is recorded with country 'China' (its ISO country) and city 'Hong Kong,' since Hong Kong is a Special Administrative Region rather than a distinct ISO country."
 ---
 

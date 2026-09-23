@@ -18,7 +18,7 @@ sources:
 documented_vs_legend: documented
 status: pending
 review_flags:
-  - "The claim that this was 'the first Shikhara-style temple built outside India' comes from an uncited photo caption in Wikipedia's 'Indians in Uganda' article and could not be independently corroborated against a second source this pass; it is treated here as a notable but unverified claim rather than established fact. The 1954 foundation-stone and 1964 completion dates, and the no-iron/steel construction detail, come from the same single source."
+  - "The claim that this was 'the first Shikhara-style temple built outside India' comes from an uncited photo caption in Wikipedia's 'Indians in Uganda' article and could not be independently corroborated against a second source this pass; it is treated here as a notable but unverified claim rather than established fact. The 1954 foundation-stone and 1964 completion dates, and the no-iron/steel construction detail, come from the same single source. Note: Wikipedia's own caption text literally reads 'the first Shikma temple built outside India' (apparently a typo/transcription error for 'Shikhara'); this entry uses the corrected, conventional spelling 'Shikhara-style' for clarity. Re-checked on a later pass: neither Kampala's nor Nakasero's own Wikipedia articles mention this temple at all, so the superlative claim remains single-sourced to this one photo caption."
   - "The temple's specific enshrined deities (listed here generically as Shiva, Vishnu, and Devi, typical of a multi-deity Sanatan Dharma Mandal institution) were not independently confirmed for this particular building this pass."
 ---
 

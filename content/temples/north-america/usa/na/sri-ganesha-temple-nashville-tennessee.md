@@ -10,6 +10,8 @@ traditions: [shaiva, vaishnava, shakta]
 continent: north-america
 country: "USA"
 city: "Nashville, Tennessee (Bellevue area)"
+coordinates: {lat: 36.1013, lng: -86.9249}
+address: "527 Old Hickory Blvd, Nashville, TN 37221."
 worship_status: active
 darshan_hours: "Varies by season; the temple has historically offered public tours on the second Saturday of each month at 3pm, but consult the temple directly for the current schedule before visiting."
 best_time_to_visit: "Year-round; Ganesha Chaturthi is the temple's marquee annual festival."
@@ -18,6 +20,7 @@ festivals:
 how_to_reach: "At 527 Old Hickory Boulevard in the Bellevue area of Nashville, Tennessee; reachable by car from anywhere in the Nashville metro area."
 sources:
   - {type: historical_record, note: "Cross-checked two independent sources that disagree on the founding date: (1) English Wikipedia's 'Timeline of Nashville, Tennessee', citing the Harvard Pluralism Project's 'America's Many Religions: Timelines', lists 'Sri Ganesha Temple established' under the year 1980; (2) the independent local heritage site sacredsitesoftn.com's entry on the temple states a founding/construction year of 1985, describes Chola/South Indian-influenced architecture with a 48-foot five-tiered main pinnacle built from imported Indian stone over more than two years, and describes 16 forms of Ganesha on the outer wall plus additional deity shrines inside. Neither source is a dedicated academic or primary-source history, so the exact founding date and full deity roster remain unconfirmed."}
+  - {type: historical_record, note: "Wave 2 re-verification: address and coordinates confirmed via two independent geocoders (Komoot Photon and OpenStreetMap/Nominatim), both of which independently return 'Sri Ganesha Temple & Hindu Cultural Center of Tennessee' at 527 Old Hickory Boulevard, Nashville, TN 37221 (36.1012757, -86.9249127), matching the street address already given in this entry's how_to_reach field. An official temple website (sriganeshatemple.org) exists but returned only a login page in this pass, with no accessible history content to resolve the 1980-vs-1985 founding-date discrepancy."}
 documented_vs_legend: documented
 status: pending
 review_flags:

@@ -11,6 +11,7 @@ continent: europe
 country: "Switzerland"
 city: "Adliswil"
 address: "Sihlweg 3, 8134 Adliswil"
+coordinates: {lat: 47.3053189, lng: 8.5245271}
 worship_status: active
 darshan_hours: "An evening puja has been held around 7:30 pm daily since 2000, with additional morning and midday ceremonies on Tuesdays and Fridays; timings can vary, so consult the temple directly before visiting."
 best_time_to_visit: "Thai Pongal (14 January), the temple's single biggest day, open 8am-9pm; and the August procession honoring Lord Murugan, which draws 3,000-4,000 participants, are its major annual events."
@@ -22,6 +23,7 @@ festivals:
   - {name: "Deepavali", approx_date: "October/November"}
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Sri Sivasubramaniar Temple' article: confirms the 1994 founding by the Sri Lankan Tamil community in a converted former factory building on the Sihl river at Sihlweg 3, Adliswil; the 2000 installation of metal deity images and start of daily evening services; the Thai Pongal and August Murugan-procession festival calendar; and its description as the largest and best-known Hindu temple in Switzerland, serving a Swiss Tamil population estimated at 30,000-35,000 nationally."}
+  - {type: historical_record, note: "Wave 2 follow-up: coordinates cross-checked via OpenStreetMap Nominatim geocoding of the confirmed street address, closely matching an independent name-based POI search. Wikipedia additionally credits the temple's founding to an interreligious society formed in the 1990s to support Switzerland's Tamil community."}
 documented_vs_legend: documented
 status: verified
 review_flags:

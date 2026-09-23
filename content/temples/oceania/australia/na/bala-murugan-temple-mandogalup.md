@@ -14,6 +14,7 @@ traditions: [shaiva, vaishnava, shakta]
 continent: oceania
 country: "Australia"
 city: "Mandogalup, Perth"
+coordinates: {lat: -32.2063, lng: 115.8455}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "Year-round; Thaipusam is the temple's largest annual festival."
@@ -23,6 +24,7 @@ festivals:
   - {name: "Ayyappan Poojai", approx_date: "November/December"}
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Bala Murugan Temple' article: confirms it is run by the Saiva Maha Sabai of Western Australia and is dedicated primarily to Murugan, with subsidiary shrines to fourteen other Hindu deities including Ganesha, Shiva, Ayyappan, Venkateshvara, Lakshmi, Durga, and Hanuman. Groundbreaking occurred in 1996; construction faced planning delays before the temple officially opened on 11 May 2008, with its first Kumbhabhishekham (consecration) performed the same day. Built in Dravidian style with a gopuram, it is volunteer-run and hosts festivals including Thaipusam, Ayyappan Poojai, Pradosham, and Lakshmi Pooja."}
+  - {type: historical_record, note: "Coordinates added this pass via OpenStreetMap/Nominatim, which geocodes a place of worship explicitly named 'Bala Murugan Temple' to 12 Mandogalup Road, Mandogalup WA 6167 (approximately -32.2063, 115.8455), an exact match to the address already given in this entry's how_to_reach field."}
 documented_vs_legend: documented
 status: verified
 ---

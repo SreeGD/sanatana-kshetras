@@ -7,7 +7,7 @@ traditions: [other]
 continent: asia
 country: "Sri Lanka"
 city: "Jaffna"
-coordinates: {lat: 9.6929, lng: 80.0247}
+coordinates: {lat: 9.6745, lng: 80.0293}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "July/August for the 25-day Nallur Festival, the temple's grandest annual observance, culminating in the chariot procession."
@@ -17,6 +17,7 @@ festivals:
 sources:
   - {type: historical_record, note: "1624 CE Portuguese-era destruction (under Filipe de Oliveira) and the 1734 CE Dutch-era reconstruction are documented in Sri Lankan Tamil historical sources."}
   - {type: historical_record, note: "Cross-checked during verification pass against Wikipedia's account of the temple: founding traditionally dated to 948 CE, developed in the 13th century under Jaffna-kingdom minister Puvenaya Vaku, rebuilt a third time in the 15th/16th century under Sapumal Kumaraya, destroyed by the Portuguese in 1624, and rebuilt as the present (fourth) structure in 1734 during Dutch rule; major expansions (bell towers, sanctum, walls, gopurams) followed from the 1890s through the 20th/21st centuries."}
+  - {type: historical_record, note: "Coordinates corrected during a Wave 2 enrichment pass: the previous value (9.6929, 80.0247) was roughly 2.1 km from the temple's actual position; the current value (9.6745, 80.0293) is taken directly from the geographic-coordinates field in the infobox of Wikipedia's Nallur Kandaswamy temple article."}
 documented_vs_legend: mixed
 status: verified
 review_flags:

@@ -10,12 +10,14 @@ traditions: [vaishnava]
 continent: north-america
 country: "USA"
 city: "Hays County, Texas (south of Austin)"
-coordinates: {lat: 30.1556, lng: -97.9578}
+coordinates: {lat: 30.1558, lng: -97.9578}
+address: "400 Barsana Rd, Austin, TX 78737."
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own website for the current daily schedule before visiting."
 best_time_to_visit: "Year-round; festivals here can draw crowds up to roughly 8,000 visitors."
 how_to_reach: "On a large rural campus in Hays County, Texas, south of Austin; reachable by car."
 sources:
+  - {type: historical_record, note: "Wave 2 re-verification: address and coordinates confirmed via Komoot Photon geocoding, which identifies 'Radha Madhav Dham' at 400 Barsana Road, Austin, TX 78737 (30.1558465, -97.9578375) -- matching this entry's pre-existing coordinates to within about 25 meters."}
   - {type: historical_record, note: "Cross-checked via Wikipedia's 'Radha Madhav Dham' article: established in 1990 as the main US center of Jagadguru Kripalu Parishat (JKP), a nonprofit organization founded in the 1970s, on more than 200 acres designed as a replica of the sacred Braj region (with representations of Govardhan, Radha Kund, and Prem Sarovar). Its main temple, the Shree Raseshwari Radha Rani Temple, is 35,000 square feet with a 90-foot golden dome, white and blue granite construction, and 84 columns across five levels, in a blend of North Indian, South Indian, and modern architectural styles. Sources describe it as attended by roughly 1,000 families with festivals drawing up to about 8,000 visitors; the same article notes JKP's founder, Prakashanand Saraswati, was convicted in 2011 on child sex crime charges, after which the organization publicly distanced itself from him (April 2011). Wikipedia also records claims, attributed to the organization/its promotional materials, that it is the 'oldest Hindu Temple in Texas and largest in North America' -- a superlative this entry reports as a claim rather than an independently verified fact."}
 documented_vs_legend: documented
 status: verified

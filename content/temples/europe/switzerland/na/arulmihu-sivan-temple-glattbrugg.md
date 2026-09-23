@@ -8,12 +8,14 @@ continent: europe
 country: "Switzerland"
 city: "Glattbrugg"
 address: "Industriestrasse 34, 8152 Glattbrugg"
+coordinates: {lat: 47.4310, lng: 8.5563}
 worship_status: active
 darshan_hours: "Poojas are held twice daily; consult the temple or the Saiva Tamil Sangam directly for the current schedule before visiting."
 best_time_to_visit: "Major Hindu festivals draw the temple's largest crowds, with recorded events attracting up to 4,000 visitors; consult the Saiva Tamil Sangam's calendar for specific dates."
 how_to_reach: "In Glattbrugg, in the industrial quarter between Glattbrugg and Seebach near Zürich Airport; reachable by tram or bus from Zürich or from Zürich Flughafen (Airport) railway station."
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Arulmihu Sivan Temple' article: confirms the 1994 founding as a non-profit foundation by the Saiva Tamil Sangam to serve Switzerland's Sri Lankan Tamil community (estimated 30,000-35,000 nationally, roughly 20,000 in canton Zürich), its location in a converted warehouse at Industriestrasse 34, Glattbrugg, its twice-daily poojas, and a March 2018 interfaith theatre performance staged at the temple by the Neumarkt Theatre. Confirms it was founded the same year (1994) as the Sri Sivasubramaniar Temple in nearby Adliswil, for related purposes."}
+  - {type: historical_record, note: "Wave 2 follow-up: coordinates cross-checked between Wikipedia's own infobox (47.4310, 8.5563) and an independent OpenStreetMap address geocode (47.4309370, 8.5562356), agreeing to within ~10 m."}
 documented_vs_legend: documented
 status: verified
 ---

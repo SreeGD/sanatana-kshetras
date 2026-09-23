@@ -9,6 +9,7 @@ continent: europe
 country: "Italy"
 city: "Altare, Savona"
 address: "Località Pellegrino 1, 17041 Altare (SV), Liguria, Italy"
+coordinates: {lat: 44.3289617, lng: 8.3185493}
 worship_status: active
 darshan_hours: "Varies by season and program; contact the ashram directly before visiting, as this is a monastic community rather than a temple with fixed public hours."
 best_time_to_visit: "No specific festival calendar for this ashram was found in the sources consulted; Maha Shivaratri (Feb/Mar) is traditionally significant given its Saiva Siddhanta tradition, but confirm directly with the ashram before planning a visit around it."
@@ -16,10 +17,11 @@ how_to_reach: "Located in the hills above Altare, a small town in Liguria's Savo
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Hinduism in Italy' article (which in turn cites Jacobsen & Sardella, 'Hinduism in Italy', 2020) and the ashram's own official 'About us' page (ashramgita.com): confirms the 1984 founding by Swami Yogananda Giri (born Paolo Valle), the Saiva Siddhanta and Srividya traditions followed, the Località Pellegrino, Altare (Savona) location, and its role as headquarters of the Unione Induista Italiana."}
   - {type: historical_record, note: "Cross-checked against Italian Wikipedia's 'Unione Induista Italiana' article: confirms the Union was founded in 1996 by the same Swami Yogananda Giri and received Italian state legal recognition via presidential decree on 29 December 2000."}
+  - {type: historical_record, note: "Wave 2 follow-up: coordinates added via an OpenStreetMap Nominatim match on the address; note this is a road/locality-level match on 'Localita Pellegrino' rather than a house-number-level point, since no OSM point-of-interest exists yet for the ashram building specifically."}
 documented_vs_legend: documented
 status: verified
 review_flags:
-  - "Current darshan/visiting hours are not published in any source consulted; the ashram's own 'About us' page describes its activities and address but gives no fixed public visiting schedule."
+  - "Current darshan/visiting hours are not published in any source consulted; the ashram's own 'About us' page describes its activities and address but gives no fixed public visiting schedule. Coordinates are a locality-level approximation rather than an exact building-level point."
 ---
 
 Founded in 1984 by Swami Yogananda Giri — born Paolo Valle in Italy — Matha Gitananda Ashram sits on a hillside roughly 520 meters up at Località Pellegrino, near the small town of Altare in Liguria's Savona province. The resident community follows a Sanatana Dharma path shaped by two distinct streams: Saiva Siddhanta, centered on Shiva, and Srividya, the tantric worship of the Goddess as Tripurasundari. A South Indian-style temple on the grounds hosts daily puja and scripture recitation, and the ashram is home to a monastic community of sannyasins and brahmacharins living under Swami Yogananda Giri's guidance.

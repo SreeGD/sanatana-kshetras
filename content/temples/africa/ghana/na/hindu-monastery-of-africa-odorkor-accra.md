@@ -25,6 +25,7 @@ documented_vs_legend: documented
 status: verified
 review_flags:
   - "Both cross-checked sources are Wikipedia articles; no independent (non-Wikipedia) source or the monastery's own website was reachable this pass to further corroborate founding details or confirm the current number of active branch temples."
+  - "Re-checked on a later pass: Wikipedia's own infobox marks the monastery's website (hinduafricanmonastery.org) as a dead link, and three plausible domain variants (hinduafricanmonastery.org, hindumonasteryofafrica.org, and www.-prefixed versions) all failed with DNS resolution errors, confirming the monastery has no currently reachable website. Wikipedia's infobox coordinates (5.5703°N, 0.2658°W) were re-confirmed to match this entry's recorded coordinates exactly."
 ---
 
 Founded in 1975 by Kwesi Essel, a Ghanaian who traveled to India for monastic training and returned as Swami Ghanananda Saraswati, the Hindu Monastery of Africa in the Odorkor suburb of Accra is widely described as the first Hindu monastery established and led by indigenous Africans rather than by the Indian diaspora. Its congregation draws mainly from the Akan and other Ghanaian ethnic communities, reflecting a strand of Hindu practice in West Africa that grew out of mid-20th-century Ghanaian interest in Vedic literature and correspondence with Indian religious organizations, independent of the older Gujarati and other South Asian trading communities found in much of the rest of Hindu Africa.

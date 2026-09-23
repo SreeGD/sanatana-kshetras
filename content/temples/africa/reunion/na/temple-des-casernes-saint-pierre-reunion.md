@@ -7,12 +7,14 @@ traditions: [shakta]
 continent: africa
 country: "Réunion"
 city: "Saint-Pierre"
+coordinates: {lat: -21.3308, lng: 55.4823}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "Year-round; Tamil festivals involving the on-site ritual mast (such as Cavadee) likely draw larger gatherings, though this temple's own festival calendar could not be independently confirmed."
 how_to_reach: "On Rue des Casernes in Saint-Pierre, on Réunion's southern coast; reachable by road from Saint-Denis or via Pierrefonds Airport near Saint-Pierre."
 sources:
   - {type: historical_record, note: "Cross-checked against French Wikipedia's 'Temple des Casernes' article and its cited French Ministry of Culture Mérimée heritage-database notice (PA97400104): confirms the temple, on Rue des Casernes in Saint-Pierre, reuses a former building of the Usine des Casernes (a sugar factory), dates in its present form to the first half of the 20th century, was dedicated to Hindu worship from 1950, and was registered in full as a monument historique (French protected historic monument) on 17 September 2010. The Mérimée notice further describes stone-cornered masonry, a corrugated-metal roof, kalasam finials, a square apse with bird relief on its gable, an entrance portico, and an on-site 'mât de Nargoulan' (ritual pole) and fire-ritual area."}
+  - {type: historical_record, note: "Re-verified on a later pass: French Wikipedia's own prose does not name the sugar factory, but the Mérimée notice (PA97400104, pop.culture.gouv.fr) independently corroborates both the sugar-factory reuse and the 1950 dedication-to-worship date as a proper primary-source citation, and gives infobox coordinates of 21°19'51\"S, 55°28'56.3\"E (-21.3308, 55.4823), now recorded above. No presiding deity is named in either source."}
 documented_vs_legend: documented
 status: pending
 review_flags:

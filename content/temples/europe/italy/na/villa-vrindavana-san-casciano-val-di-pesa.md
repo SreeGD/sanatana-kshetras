@@ -8,6 +8,7 @@ continent: europe
 country: "Italy"
 city: "San Casciano in Val di Pesa"
 address: "Via Scopeti 106/108, 50026 San Casciano in Val di Pesa, Florence, Tuscany"
+coordinates: {lat: 43.6862459, lng: 11.2050976}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own website for the current daily schedule before visiting."
 best_time_to_visit: "Spring through early autumn, when the Tuscan hillside gardens and cow-protection grounds are most accessible; Janmashtami is the community's major annual festival."
@@ -18,10 +19,11 @@ associated_saints:
   - "A. C. Bhaktivedanta Swami Prabhupada"
 sources:
   - {type: historical_record, note: "Cross-checked against the temple's own official site (villavrindavana.org, 'History of the Villa' page): confirms the villa was built in the 16th century, passed to the Fenzi family in the early 19th century, served as a military headquarters during WWII, fell into disrepair afterward, and was acquired and restored by ISKCON in 1979, after which it was renamed 'Villa Vrindavana.' Cross-checked further against the Italian Wikipedia articles 'Associazione internazionale per la coscienza di Krishna' and 'Induismo in Italia,' both of which place 'Villa Vrindavana' in San Casciano in Val di Pesa (Florence/Tuscany) as an active ISKCON center, and against the English Wikipedia 'ISKCON' article, which lists 'Villa Vrindavan in Italy' among ISKCON's international centers."}
+  - {type: historical_record, note: "Wave 2 follow-up: coordinates confirmed via an OpenStreetMap point-of-interest explicitly named 'Villa Vrindavana' on Via Scopeti. The temple's own site also names its on-site museum 'MOSA' (Museum of Sacred Art, 600 sq m) and gives separate contact numbers for the secretariat and the Govinda vegetarian restaurant, plus the property's Italian tax ID (codice fiscale 01764330484)."}
 documented_vs_legend: documented
 status: verified
 review_flags:
-  - "The specific name/form of the deity installed at the temple was not stated explicitly in the sources checked this session; 'Radha Krishna' reflects standard ISKCON (Gaudiya Vaishnava) temple practice rather than a site-specific confirmation."
+  - "The specific name/form of the deity installed at the temple was not stated explicitly in the sources checked this session; 'Radha Krishna' reflects standard ISKCON (Gaudiya Vaishnava) temple practice rather than a site-specific confirmation. The exact date this specific property was acquired/established as an ISKCON site (as opposed to the 1979 date already recorded) was not independently re-confirmed this pass."
 ---
 
 Villa Vrindavana occupies a Renaissance-era villa in the hills of San Casciano in Val di Pesa, just south of Florence. Built in the 16th century, the estate passed into the hands of the Fenzi family in the early 1800s, who developed its gardens, and later served as a military headquarters during the Second World War before falling into disrepair in the postwar decades. ISKCON acquired and restored the property in 1979, renaming it Villa Vrindavana after Krishna's legendary forest abode of Vrindavana, and it has since grown from a small monastic community into one of Italy's principal Hare Krishna centers.

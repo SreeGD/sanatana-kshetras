@@ -15,6 +15,7 @@ continent: oceania
 country: "Australia"
 city: "Mawson, Canberra"
 address: "82 Mawson Drive, Mawson, ACT 2607."
+coordinates: {lat: -35.3635, lng: 149.096}
 worship_status: active
 darshan_hours: "Monday-Friday evenings 6:00-8:00pm; Saturday-Sunday 10:00am-12:30pm and 6:00-8:00pm."
 best_time_to_visit: "Year-round; the temple observes Ganesh Chaturthi, Krishna Janmashtami, Onam Sadhya, Shiva Abhishekam ceremonies, and an annual Akhand Ramayan Paath (24-hour continuous Ramayana recitation)."
@@ -27,6 +28,7 @@ festivals:
 sources:
   - {type: historical_record, note: "Cross-checked directly against the temple's official website (vishnushivamandir.org.au), which confirms the address as 82 Mawson Drive, Mawson ACT 2607; daily puja conducted by a resident priest with visiting pandits for festivals and Agama-tradition utsavas; operating hours as Monday-Friday 6-8pm and weekends 10am-12:30pm plus 6-8pm; and services including yoga classes, language classes, hall bookings, catering, and a public library described as a major resource centre for South Asian art and literature. Confirms upcoming festival observances including Ganesh Chaturthi, Krishna Janmashtami, Onam Sadhya, Shiva Abhishekam, and an annual Akhand Ramayan Paath."}
   - {type: historical_record, note: "Cross-checked against a general travel-guide secondary source describing the temple as founded in 1989 and among the first Hindu temples established in Canberra, with a deity roster including Ganesh, Krishna, Satyanarayana Swamy, Parvati, Murugan, Maha Devi, Rama/Sita/Lakshman, Hanuman, and Venkateswara alongside its namesake Vishnu and Shiva."}
+  - {type: historical_record, note: "Coordinates added this pass via OpenStreetMap/Nominatim geocoding of Mawson Drive in the Mawson suburb, ACT 2607 (approximately -35.3635, 149.0960); this is street-level, not building-exact, since a precise match for house number 82 specifically was not returned."}
 documented_vs_legend: documented
 status: pending
 review_flags:

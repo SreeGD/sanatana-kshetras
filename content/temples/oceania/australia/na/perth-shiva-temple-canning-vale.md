@@ -16,6 +16,7 @@ traditions: [shaiva, vaishnava, shakta]
 continent: oceania
 country: "Australia"
 city: "Canning Vale, Perth"
+coordinates: {lat: -32.0831, lng: 115.9495}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "Year-round; Maha Shivaratri is the temple's largest annual observance, alongside monthly Pradosham and Purattasi feast days."
@@ -25,6 +26,7 @@ festivals:
   - {name: "Pradosham", approx_date: "twice monthly"}
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Perth Shiva Temple' article: confirms it is the oldest Hindu temple in Western Australia, run by the non-profit Shri Shiva Devasthanam; planning began in 1985, the land was consecrated in 1987 by Swami Shantanand Saraswati, construction was completed in February 1990, and the Royal Tower (Rajagopuram) was finished in June 2008 with over US$600,000 contributed by the Perth City Council; in May 2022 both major Australian political parties pledged AU$1 million each toward further temple development. Confirms Dravidian architecture and joint dedication to Shiva and Meenakshi, with subsidiary shrines to Ganesha, Murugan, Durga, Navagraha, Bhairava, Hanuman, Vishnu, Lakshmi, and an Athma Lingam."}
+  - {type: historical_record, note: "Coordinates added this pass via OpenStreetMap/Nominatim, which geocodes a place of worship (listed there as 'Perth Hindu Temple') to 271 Warton Road, Canning Vale WA 6155 (approximately -32.0831, 115.9495), an exact match to the address already given in this entry's how_to_reach field."}
 documented_vs_legend: documented
 status: verified
 ---

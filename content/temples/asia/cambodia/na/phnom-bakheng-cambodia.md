@@ -7,11 +7,12 @@ traditions: [shaiva]
 continent: asia
 country: "Cambodia"
 city: "Siem Reap (Angkor archaeological area)"
+coordinates: {lat: 13.42418, lng: 103.85601}
 worship_status: heritage
 best_time_to_visit: "November to February (cooler, dry season); the temple is especially popular near sunset for its hilltop views over the Angkor area, though this draws very large crowds."
 how_to_reach: "Atop a roughly 79-meter hill within the Angkor archaeological park near Siem Reap, Cambodia; reachable by a hillside path or shuttle as part of a wider tour of the Angkor complex."
 sources:
-  - {type: historical_record, note: "Cross-checked against Wikipedia's account of Phnom Bakheng during this research pass: confirms the temple is dedicated to Shiva and was completed 889-910 CE during the reign of King Yasovarman I, atop a 79-meter hill; confirms it represents Mount Meru, home of the Hindu gods, in a stepped pyramid form of seven levels representing the seven heavens; confirms it served as the central architectural feature of Yasovarman's new capital, Yasodharapura, predating Angkor Wat (already documented separately in this directory) by more than two centuries; confirms it functions today primarily as a heritage and tourist site, popular for sunset views, with the World Monuments Fund working since 2004 in partnership with the APSARA Authority on conservation given heavy visitor pressure."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's account of Phnom Bakheng during this research pass: confirms the temple is dedicated to Shiva and was completed 889-910 CE during the reign of King Yasovarman I, atop a 79-meter hill; confirms it represents Mount Meru, home of the Hindu gods, in a stepped pyramid form of seven levels representing the seven heavens; confirms it served as the central architectural feature of Yasovarman's new capital, Yasodharapura, predating Angkor Wat (already documented separately in this directory) by more than two centuries; confirms it functions today primarily as a heritage and tourist site, popular for sunset views, with the World Monuments Fund working since 2004 in partnership with the APSARA Authority on conservation given heavy visitor pressure; infobox coordinates given as 13.42418°N 103.85601°E."}
 documented_vs_legend: documented
 status: pending
 review_flags:

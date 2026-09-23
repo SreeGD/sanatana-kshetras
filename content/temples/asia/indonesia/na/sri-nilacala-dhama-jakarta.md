@@ -13,7 +13,7 @@ country: "Indonesia"
 city: "Jakarta"
 address: "Jl. Kelinci Raya No. 2F, RT.3/RW.3, Pasar Baru, Sawah Besar, Jakarta Pusat 10710, Indonesia"
 worship_status: active
-darshan_hours: "Varies by temple and season; consult the temple's own website for the current daily schedule before visiting."
+darshan_hours: "Daily temple schedule per the official website (2026): Mangala Arati 4:30 AM, Raj Bhoga Arati 12:00 PM, Sandhya Arati 7:00 PM; confirm current timings before visiting."
 best_time_to_visit: "Janmashtami is the community's largest annual observance; the temple also worships Jagannath, Baladeva, and Subhadra, suggesting an annual Rath Yatra-style observance."
 how_to_reach: "In the Pasar Baru area of Sawah Besar, Central Jakarta (Jakarta Pusat), reachable by road within the city."
 festivals:
@@ -22,6 +22,7 @@ associated_saints:
   - "A. C. Bhaktivedanta Swami Prabhupada"
 sources:
   - {type: historical_record, note: "Fetched directly from ISKCON Jakarta's official website (iskconjakarta.org) during this research pass: confirms the temple name 'Sri Nilacala Dhama,' its address in Pasar Baru, Sawah Besar, Jakarta Pusat, and that Radha Krishna, Sri Jagannath, Baladeva, Subhadra Devi, and Gaura Nitai are worshipped there. The site's 'About Us' page returned only placeholder text at the time of this research, so no founding date or narrative history could be confirmed."}
+  - {type: historical_record, note: "Re-checked iskconjakarta.org homepage in this pass: confirms the daily arati schedule (Mangala Arati 4:30 AM, Raj Bhoga Arati 12:00 PM, Sandhya Arati 7:00 PM) and re-confirms the temple's self-description as 'A Jagannath Temple for worship [of] Radha Krishna, Sri Jagannath, Baladev, and Subadra Devi and Gaura Nitai.' The dedicated 'About Us' subpage (iskconjakarta.org/about-us/) returned a 404 in this pass, so a founding date remains unconfirmed."}
 documented_vs_legend: documented
 status: pending
 review_flags:

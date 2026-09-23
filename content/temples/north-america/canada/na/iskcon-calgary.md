@@ -12,13 +12,14 @@ continent: north-america
 country: "Canada"
 city: "Calgary, Alberta"
 worship_status: active
-darshan_hours: "Varies by day and event; consult the temple directly (info@iskconcalgary.com) for the current schedule before visiting."
+darshan_hours: "Varies by day and event; the temple's own site lists a weekly Sunday Feast (arati, Bhagavad Gita class, and community meal) beginning around 4:00pm, alongside morning Mangla Arati and periodic Ekadashi kirtan and monthly 6-hour kirtan programs, but no comprehensive daily darshan schedule was found — consult the temple directly (info@iskconcalgary.com) for current timings before visiting."
 best_time_to_visit: "Year-round; Janmashtami is generally the largest annual festival at ISKCON centers worldwide."
 how_to_reach: "At 313 4th Street NE, Calgary, Alberta, reachable by car or Calgary Transit."
 festivals:
   - {name: "Janmashtami", approx_date: "August/September"}
 sources:
   - {type: historical_record, note: "Confirmed via the temple's own website (iskconcalgary.ca / www.iskconcalgary.ca), operated by the Radha Madhav Cultural Association (RMCA): gives the address as 313 4th Street NE, Calgary, and lists Sri Sri Radha Madhav, Srinathji, and Gaura Nitai as the deities receiving daily worship. Its existence is corroborated by Wikipedia's 'List of Hindu temples in Canada,' which lists 'ISKCON Calgary Temple (Sri Sri Radha Madhava)' among Calgary's Hindu temples; that article gives no further narrative detail. On a later re-check, the RMCA's own 'Founder/RMCA' page (distinct from its general 'Founder/About' page on ISKCON's global history) was located and states: 'Founded in the late 1980s, ISKCON Calgary has been a vibrant spiritual and cultural cornerstone in Calgary for over three decades.' This same page also describes an active fundraising effort for a new temple building ('Radha Madhav Dham') at a separate site (10717R 84 St NE, Calgary), not yet completed, so the current temple remains at 313 4th Street NE."}
+  - {type: historical_record, note: "Re-checked the live iskconcalgary.ca this pass: still gives no specific founding year, but lists a weekly Sunday Feast beginning around 4:00pm, morning Mangla Arati, twice-monthly online Ekadashi Kirtan, and a monthly 6-hour kirtan program (12:00pm-5:20pm plus class and evening arati) as its regular recurring programs."}
 documented_vs_legend: documented
 status: pending
 review_flags:

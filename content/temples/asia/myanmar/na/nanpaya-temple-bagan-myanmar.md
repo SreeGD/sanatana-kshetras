@@ -8,11 +8,12 @@ traditions: [other]
 continent: asia
 country: "Myanmar"
 city: "Myinkaba village, Bagan, Mandalay Region"
+coordinates: {lat: 21.152547, lng: 94.858777}
 worship_status: heritage
 best_time_to_visit: "November to February (cooler, dry season) for visiting the Bagan archaeological zone generally."
 how_to_reach: "In Myinkaba village, immediately south of the walled old city of Bagan, Mandalay Region; reachable as part of a wider tour of the Bagan archaeological zone by car, e-bike, or horse cart, close to the Manuha Temple."
 sources:
-  - {type: historical_record, note: "Cross-checked against Wikipedia's account of Nanpaya Temple during this research pass: confirms the temple's iconography draws on the Brahmanical Hindu tradition, particularly the Vishnu and Brahma sects, with intricate stone carvings of Brahma (often depicted seated on lotuses) and four central pillars each carved with three-headed Brahma figures; confirms local tradition attributes its construction to King Makuta (Manuha), a captive Mon monarch of the defeated Thaton Kingdom, as his personal residence during captivity, later converted to a temple; confirms it stands in Myinkaba village immediately south of Bagan's old city walls; describes it as one of the oldest Hindu structures in the Bagan archaeological zone and a rare surviving monument of Brahmanical Hinduism in a predominantly Buddhist landscape."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's account of Nanpaya Temple during this research pass: confirms the temple's iconography draws on the Brahmanical Hindu tradition, particularly the Vishnu and Brahma sects, with intricate stone carvings of Brahma (often depicted seated on lotuses) and four central pillars each carved with three-headed Brahma figures; confirms local tradition attributes its construction to King Makuta (Manuha), a captive Mon monarch of the defeated Thaton Kingdom, as his personal residence during captivity, later converted to a temple; confirms it stands in Myinkaba village immediately south of Bagan's old city walls; describes it as one of the oldest Hindu structures in the Bagan archaeological zone and a rare surviving monument of Brahmanical Hinduism in a predominantly Buddhist landscape; infobox coordinates given as 21.152547°N 94.858777°E."}
 documented_vs_legend: mixed
 status: pending
 review_flags:

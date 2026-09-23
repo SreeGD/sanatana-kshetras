@@ -8,8 +8,9 @@ continent: europe
 country: "Netherlands"
 city: "The Hague (Den Haag)"
 address: "Mijtensstraat 183, 2525 VC Den Haag"
+coordinates: {lat: 52.0620331, lng: 4.3068132}
 worship_status: active
-darshan_hours: "Varies by temple and season; consult the temple's own website for the current daily schedule before visiting."
+darshan_hours: "Sunday service ('Zondagdienst') every Sunday 1:00-3:00 pm (doors open 12:45 pm), with puja, lecture, aarti, prasaad, and a communal meal (bhojan) around 3:00 pm; meals are also distributed to elderly and sick community members on Sundays and holy days. Consult shrirammandir.nl for the current schedule before visiting."
 best_time_to_visit: "Diwali and Holi are the major annual celebrations for the Hindustani community in The Hague; the temple is most active during these and other Hindu festival periods."
 how_to_reach: "In the Transvaal/Schilderswijk area of The Hague, neighborhoods with a large Hindustani (Indo-Surinamese) population; reachable by tram or bus from Den Haag Centraal station."
 festivals:
@@ -17,10 +18,11 @@ festivals:
   - {name: "Holi", approx_date: "March"}
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'List of Hindu temples outside India' (confirms the temple's name and address, Mijtensstraat 183, 2525 VC Den Haag) and against 'Hindostanen' and 'Hinduism in the Netherlands', which document the concentration of the Hindustani (Indo-Surinamese) Hindu community in The Hague's Transvaal and Schilderswijk neighborhoods (a 2003 study estimated roughly 60,000 Hindus in South Holland, over 70% Sanatan Dharm), and confirm Diwali and Holi as the community's major annual festivals. No Wikipedia article was found dedicated specifically to this temple."}
+  - {type: historical_record, note: "Wave 2 follow-up: cross-checked against the temple's own live official site, shrirammandir.nl, operated by Stichting Shri Sanatan Dharm Sabha Nederland (a Dutch foundation), which confirms the address, current Sunday service schedule, and contact details. Coordinates confirmed via an OpenStreetMap point-of-interest explicitly named 'Shri Sanatan Dharm Sabha Nederland,' whose tags also include a start_date of 1923 - this almost certainly reflects the construction date of the building itself (a typical 1920s Hague row-house/hall) rather than a documented founding date for the temple congregation, and is not asserted here as a founding year without further corroboration. The temple's officiating pandits are registered with the Hindoe Raad Nederland (Hindu Council Netherlands) and serve voluntarily, drawn from the Haaglanden/Rijnmond region."}
 documented_vs_legend: documented
-status: pending
+status: verified
 review_flags:
-  - "This temple's founding year and detailed institutional history (e.g., founding organization, exact denominational affiliation within Sanatan Dharm) were not confirmed by any source found this session; only its name, address, and the general Hindustani/Sanatan Dharm community context in The Hague are cross-checked via Wikipedia. Verify directly with the temple before treating as fully verified."
+  - "This temple's founding year and detailed institutional history (e.g., founding organization's establishment date, exact denominational affiliation within Sanatan Dharm) were not confirmed by any source found; an OSM tag suggesting the building dates to 1923 reflects the structure's age, not a confirmed congregation founding date, and should not be read as the latter."
 ---
 
 Shri Ram Mandir sits in The Hague's Transvaal district, part of a cluster of neighborhoods — along with adjoining Schilderswijk — that has been home to the city's large Hindustani community since Surinamese-Indian immigration accelerated around Suriname's 1975 independence. The Hague and its surrounding province of South Holland host the largest concentration of Hindus in the Netherlands, the great majority of Surinamese-Hindustani descent and following Sanatan Dharm; temples like this one function as neighborhood centers of worship, priestly service (pandits play a central organizing role in Hindustani religious life), and cultural continuity for that community, alongside a wider network of mandirs recorded across The Hague, Rotterdam, and other Dutch cities with sizable Hindustani populations.

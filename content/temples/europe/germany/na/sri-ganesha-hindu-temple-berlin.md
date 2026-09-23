@@ -12,7 +12,8 @@ traditions: [shaiva, shakta, vaishnava]
 continent: europe
 country: "Germany"
 city: "Berlin (Neukölln)"
-address: "Hasenheide, at the northeast corner of Volkspark Hasenheide, Berlin-Neukölln, adjacent to the Neue Welt venue"
+address: "Hasenheide 106, 10967 Berlin (Neukölln), at the northeast corner of Volkspark Hasenheide, adjacent to the Neue Welt venue"
+coordinates: {lat: 52.4867779, lng: 13.4207705}
 worship_status: active
 darshan_hours: "Varies; consult the temple directly for the current schedule before visiting."
 best_time_to_visit: "The temple's three-day consecration/inauguration festival was held in June 2026; Ganesh Chaturthi and other major festivals are likely major draws going forward, but confirm the current calendar with the temple."
@@ -24,7 +25,7 @@ sources:
 documented_vs_legend: documented
 status: verified
 review_flags:
-  - "No exact street address/house number was confirmed in the sources consulted, only the temple's location at the edge of Volkspark Hasenheide, Neukölln, next to the Neue Welt venue; darshan hours and festival calendar beyond the June 2026 consecration were not available in the sources consulted."
+  - "Wave 2 follow-up: exact address (Hasenheide 106, 10967 Berlin) and coordinates were added via an OpenStreetMap Nominatim POI tagged 'Sri Ganesha Hindu Tempel'; darshan hours and a festival calendar beyond the June 2026 consecration are still not available in the sources consulted, and no dedicated website or German Wikipedia article for the temple itself (as opposed to the 'Neukölln' overview article) could be located."
   - "The characterization as 'the largest Hindu temple in continental Europe, second in Europe only to London's Neasden Temple' is the source's own phrasing and was not independently cross-verified against a second source or against Neasden Temple's own published size figures, consistent with how similar superlative claims are hedged elsewhere in this directory (e.g. the Sri Kamadchi Ampal Temple, Hamm)."
 ---
 

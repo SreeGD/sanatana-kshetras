@@ -17,6 +17,7 @@ documented_vs_legend: documented
 status: pending
 review_flags:
   - "No precise address, coordinates, or founding date for this temple was found in available sources; only its name, its role as ISKCON's main Ghana centre, and its location in Medie (outside Accra) are confirmed, via Wikipedia's 'Hinduism in Ghana' article and its cited academic and news sources."
+  - "Re-checked on a later pass: the same Wikipedia article contains a minor internal inconsistency - its body text places the temple 'in the town of Medie outside Accra,' while a separate photo caption in the same article locates it more loosely as 'in Accra.' This entry follows the more specific body-text claim (Medie). Attempts to reach a dedicated ISKCON Ghana website (iskconghana.org) failed with a DNS resolution error, confirming no such site is currently live."
 ---
 
 Located in Medie, a town outside Accra, the Sri Radha Govinda Temple serves as the International Society for Krishna Consciousness's (ISKCON) main centre for its activities in Ghana. Wikipedia's article on Hinduism in Ghana, citing academic research by Albert Kafui Wuaku (2009) and a 2010 BBC News report, describes it as the hub around which ISKCON conducts public chanting, vegetarian food distribution (part of ISKCON's global Food for Life programme), and temple worship promoting Vaishnavism in the country, alongside numerous smaller devotee groups scattered elsewhere in Ghana.

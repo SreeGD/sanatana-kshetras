@@ -8,12 +8,14 @@ traditions: [shaiva, shakta]
 continent: africa
 country: "Mauritius"
 city: "Port Louis"
+coordinates: {lat: -20.1497, lng: 57.5195}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "Year-round; given its Shiva-Parvati dedication, Maha Shivaratri is likely significant, though this temple's own festival calendar was not independently documented this pass."
-how_to_reach: "On Nicolay Road in Port Louis, Mauritius's capital; reachable by road within the city."
+how_to_reach: "In the Nicolay locality (Roche Bois ward) of Port Louis, Mauritius's capital; OpenStreetMap records its street as Temple Road, though sources also describe the general area as 'Nicolay Road.' Reachable by road within the city."
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Maheswarnath Mandir' article, which names the 'Sockalingum Meenatchee Ammen kovil' on Nicolay Road, Port Louis (locally known as the 'Kaylasson temple') as one of the works built by the same team of Tamil artisans, supervised by Mr Goinsamy Maestry, who also built the Maheswarnath Mandir at Triolet (founded 1888) and the Jummah Masjid in Port Louis."}
+  - {type: historical_record, note: "Re-verified on a later pass via OpenStreetMap/Nominatim, which locates the temple at -20.1497, 57.5195 with the address 'Sockalingum Meenatchee Ammen Kovil, Temple Road, Nicolay, Roche Bois, Town of Port-Louis' - corroborating the Nicolay-area location while suggesting the specific street may be called Temple Road rather than Nicolay Road (Nicolay appears to be the surrounding locality/ward name); treated as a useful but not definitive cross-check, since OSM data is user-editable."}
 documented_vs_legend: mixed
 status: pending
 review_flags:

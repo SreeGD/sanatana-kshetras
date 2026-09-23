@@ -13,11 +13,14 @@ traditions: [vaishnava]
 continent: north-america
 country: "USA"
 city: "Stafford, Texas (Fort Bend County, Greater Houston)"
+coordinates: {lat: 29.6071, lng: -95.5791}
+address: "1150 Brand Ln, Stafford, TX 77477."
 worship_status: active
 darshan_hours: "Varies by season; consult BAPS's own website for the current daily schedule before visiting."
 best_time_to_visit: "Year-round; the temple's consecration anniversary in late July is a major community event."
-how_to_reach: "At 1150 Brand Lane, Stafford, Texas, in Fort Bend County within the Greater Houston area; reachable by car."
+how_to_reach: "At 1150 Brand Lane, Stafford, Texas 77477, in Fort Bend County within the Greater Houston area; reachable by car."
 sources:
+  - {type: historical_record, note: "Wave 2 re-verification: coordinates confirmed via two independent geocoders (Komoot Photon and OpenStreetMap/Nominatim), both returning 'BAPS Shri Swaminarayan Mandir' at 1150 Brand Lane, Stafford, TX 77477 (29.6070559, -95.5790908)."}
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'BAPS Shri Swaminarayan Mandir Houston' article: confirms a foundation-stone ceremony in September 2000, construction from March 2002 to July 2004, and consecration on 25 July 2004; the structure, built from roughly 33,000 hand-carved pieces of Italian marble and Turkish limestone assembled without any iron or steel, cost approximately $7 million at the time; the article also notes a 2021 lawsuit alleging labor-law violations during the original construction."}
 documented_vs_legend: documented
 status: verified

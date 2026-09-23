@@ -10,12 +10,15 @@ traditions: [shaiva, shakta]
 continent: europe
 country: "United Kingdom"
 city: "Llanpumsaint, Carmarthenshire, Wales"
+address: "Skanda Vale, Llanpumsaint, Carmarthenshire, SA33 6JT"
+coordinates: {lat: 51.9649, lng: -4.2992}
 worship_status: active
 darshan_hours: "Open daily to visitors; consult Skanda Vale's own website for the current schedule of pujas and visiting hours before visiting."
 best_time_to_visit: "Major festival days for Murugan (such as Thai Pusam) and the community's other principal Hindu observances draw the largest crowds among its roughly 90,000 annual visitors; confirm the current calendar with the community."
 how_to_reach: "Near the village of Llanpumsaint in Carmarthenshire, rural west Wales; the nearest railway station is Carmarthen, with onward travel by road."
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Skanda Vale' article: confirms the 1973 founding by Guru Sri Subramaniam on a 22-acre smallholding, the original farmhouse's conversion into the Subramanium (Murugan) Temple, the 1991 dedication of the Maha Shakti Temple to Kali, the 1999 inauguration of the Sri Ranganatha (Vishnu) Temple, the founder's death in 2007, the 2007 'Shambo' controversy in which a tuberculosis-positive temple bullock was ordered slaughtered by Welsh authorities over the community's objections, and the community's charitable status, animal sanctuary, hospice, and roughly 90,000 annual visitors."}
+  - {type: historical_record, note: "Wave 2 follow-up: coordinates and postcode added, cross-checked between Wikipedia's own infobox (51°57'54\"N 4°18'07\"W) and an OpenStreetMap Nominatim name search for 'Skanda Vale Llanpumsaint,' which agree closely. Also cross-checked against the community's own site, skandavale.org/history/, which confirms founder Guru Sri Subramaniam (born 1929 in Sri Lanka) relocated a small multi-faith community from a Chelsea, London meditation group ('The Community of the Many Names of God') to this Carmarthenshire site in summer 1973, and that Skanda Vale is a registered charity (No. 511166) comprising the Lord Murugan Temple, Maha Shakti Temple, and Sri Ranganatha Temple alongside its animal sanctuary and hospice."}
 documented_vs_legend: documented
 status: verified
 review_flags:

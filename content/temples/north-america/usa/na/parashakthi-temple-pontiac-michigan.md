@@ -12,12 +12,14 @@ traditions: [shakta, shaiva, vaishnava]
 continent: north-america
 country: "USA"
 city: "Pontiac, Michigan"
-coordinates: {lat: 42.6639, lng: -83.3203}
+coordinates: {lat: 42.6639, lng: -83.3210}
+address: "551 W Kennett Rd, Pontiac, MI 48340."
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own website for the current daily schedule before visiting."
 best_time_to_visit: "Around Vijayadasami (Dussehra), which coincides with the temple's own founding/inauguration anniversary."
 how_to_reach: "On a 16-acre site in Pontiac, Michigan, in the Detroit metropolitan area; reachable by car."
 sources:
+  - {type: historical_record, note: "Wave 2 re-verification: address confirmed and coordinates fine-tuned via two independent geocoders (Komoot Photon and OpenStreetMap/Nominatim), both identifying the temple (listed under its alt name 'The Eternal Mother Temple' by Photon) at 551 West Kennett Road, Pontiac, MI 48340 (42.6639081, -83.3209668) -- within about 60 meters of this entry's pre-existing coordinates, confirming them as accurate."}
   - {type: historical_record, note: "Wikipedia article 'Parashakthi Temple': founded by Dr. Krishna Kumar, who described receiving a directive to build the temple in honor of the goddess Parashakthi; construction began in 1998 and the temple was inaugurated in 1999, coinciding with Vijayadasami; it sits on a 16-acre site with a roughly 10,000-square-foot building including a worship area, offices and multipurpose dining hall, built in traditional South Indian granite style with a 54-foot gopuram; the primary deity is Karumariamman (a South Indian form of the goddess), with additional shrines to Muruga, Hanuman and Jagannatha; a fire caused by an ember from a memorial firebox occurred April 21, 2018, with about 30 people safely evacuated."}
 documented_vs_legend: mixed
 status: verified

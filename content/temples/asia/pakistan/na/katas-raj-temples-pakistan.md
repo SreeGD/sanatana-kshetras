@@ -7,7 +7,7 @@ traditions: [shaiva]
 continent: asia
 country: "Pakistan"
 city: "Kallar Kahar, Punjab"
-coordinates: {lat: 32.7833, lng: 72.95}
+coordinates: {lat: 32.724, lng: 72.951639}
 worship_status: heritage
 best_time_to_visit: "October to March for cooler weather in the Punjab plains."
 how_to_reach: "Near Kallar Kahar on the Islamabad-Lahore Motorway, reachable by road from either city."
@@ -17,6 +17,7 @@ sources:
   - {type: oral_tradition, note: "The Sati-tears founding legend and Mahabharata/Pandava associations are traditional/legendary attributions, not independently documented history."}
   - {type: historical_record, note: "The site's post-1947 Partition history and its ongoing restoration are documented in Pakistani heritage and South Asian historical press coverage."}
   - {type: historical_record, note: "Cross-checked against Wikipedia's account of Katas Raj Temples during verification pass: confirms the Sati-tears pond legend and a Mahabharata association (the exiled Pandavas' riddle contest with a Yaksha at the pond); confirms Indian pilgrim access was restricted in 1956, 1960, and from 1965 until 1984, that roughly 2,000 Pakistani Hindus attended Maha Shivaratri observances there by 2010-2011, that Pakistani government restoration began in 2006 with a further restoration project in 2017, and that Pakistan's Supreme Court ruled in 2018 against nearby cement factories to protect the sacred pond's water levels."}
+  - {type: historical_record, note: "Coordinates corrected during a Wave 2 enrichment pass: the previous value (32.7833, 72.95) was roughly 6.6 km north of the site; the current value (32.724, 72.951639) is taken directly from the geographic-coordinates field in the infobox of Wikipedia's Katas Raj Temples article."}
 documented_vs_legend: mixed
 status: verified
 review_flags:

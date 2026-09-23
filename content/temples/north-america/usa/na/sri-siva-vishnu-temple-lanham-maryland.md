@@ -14,11 +14,14 @@ traditions: [shaiva, vaishnava]
 continent: north-america
 country: "USA"
 city: "Lanham, Maryland"
+coordinates: {lat: 38.9846, lng: -76.8534}
+address: "6905 Cipriano Rd, Lanham (Seabrook), MD 20706."
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own website for the current daily schedule before visiting."
 best_time_to_visit: "Year-round; major festivals draw large crowds from the greater Washington, D.C. Hindu community."
 how_to_reach: "In Lanham, Maryland, about a mile from NASA's Goddard Space Flight Center; reachable by car from Washington, D.C."
 sources:
+  - {type: historical_record, note: "Wave 2 re-verification: coordinates and address confirmed and added via Komoot Photon geocoding, which identifies 'Sri Siva Vishnu Temple' at 6905 Cipriano Road (38.9846319, -76.8533624); the geocoder's postal locality reads 'Seabrook, MD 20706' rather than 'Lanham,' though both are unincorporated communities in Prince George's County sharing the same ZIP code and the temple is universally known by its Lanham identity; this entry keeps 'Lanham' per the temple's own branding and prior convention. This entry previously had no coordinates or address field."}
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Sri Siva Vishnu Temple' article: confirms construction began in 1988 and was completed in 2002 when the last deity was consecrated; the temple honors Shiva as Ramanathaswamy and Vishnu as Ananthapadmanabha in its two main shrines, with architecture influenced by Pallava, Chola, and Vijayanagara styles, and is described as among the largest Hindu temples in the United States."}
 documented_vs_legend: documented
 status: verified

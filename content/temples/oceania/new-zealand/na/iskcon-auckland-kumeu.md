@@ -11,12 +11,14 @@ continent: oceania
 country: "New Zealand"
 city: "Kumeu, Auckland"
 address: "1229 Coatesville-Riverhead Highway, Kumeu, Auckland 0892."
+coordinates: {lat: -36.7719, lng: 174.5884}
 worship_status: active
 darshan_hours: "Daily, 4:30am-9:15pm, with a regular Sunday chanting and prasadam program."
 best_time_to_visit: "Year-round; Sundays for the weekly chanting/prasadam program, or Janmashtami for the temple's major annual festival."
 how_to_reach: "At 1229 Coatesville-Riverhead Highway, Kumeu, in Auckland's rural northwest, reachable by car; phone +64 9 412 8075."
 sources:
   - {type: historical_record, note: "Cross-checked directly against the temple's own official website (harekrishna.org.nz), which confirms the address as 1229 Coatesville-Riverhead Highway, Kumeu, Auckland 0892; the temple name as Sri Sri Radha-Giridhari (a form of Krishna as lifter of Govardhan Hill, paired with Radha); free public access year-round; and a roughly 100-acre campus including a goshala (cow sanctuary), a Hare Krishna School for children aged 5-13, and a regular Sunday chanting and prasadam program. Operating hours confirmed as 4:30am-9:15pm daily."}
+  - {type: historical_record, note: "Coordinates added this pass via OpenStreetMap/Nominatim, geocoding 1229 Coatesville-Riverhead Highway, Kumeū, Auckland 0892 to approximately -36.7719, 174.5884, an exact street-number match to the address already on file. Re-fetched the temple's own site this pass looking specifically for founding/establishment date information; none was found, so the review flag below stands."}
 documented_vs_legend: documented
 status: pending
 review_flags:

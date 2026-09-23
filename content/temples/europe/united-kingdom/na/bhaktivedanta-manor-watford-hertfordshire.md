@@ -7,7 +7,8 @@ traditions: [vaishnava]
 continent: europe
 country: "United Kingdom"
 city: "Watford, Hertfordshire"
-coordinates: {lat: 51.6472, lng: -0.4183}
+address: "Dharam Marg, Hilfield Lane, Aldenham, Watford WD25 8EZ"
+coordinates: {lat: 51.6656, lng: -0.3364}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own website for the current daily schedule before visiting."
 best_time_to_visit: "Janmashtami (Aug/Sep) is the Manor's largest festival by far, drawing up to 60,000 visitors over the season."
@@ -18,6 +19,7 @@ associated_saints:
   - "A. C. Bhaktivedanta Swami Prabhupada"
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's Bhaktivedanta Manor article during authoring: confirms the February 1973 Harrison donation and the 1990-1996 road-access legal dispute timeline in detail."}
+  - {type: historical_record, note: "Wave 2 coordinate re-verification: the previously recorded coordinates (51.6472, -0.4183) were roughly 6.0 km off. Corrected against Wikipedia's coordinate template for 'Bhaktivedanta Manor' (51°39'56\"N 0°20'11\"W) and cross-checked via OpenStreetMap Nominatim for the postcode WD25 8EZ, which returned a matching centroid within ~30 m."}
 documented_vs_legend: documented
 status: verified
 ---

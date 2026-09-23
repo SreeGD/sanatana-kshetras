@@ -9,7 +9,8 @@ traditions: [shaiva]
 continent: europe
 country: "Germany"
 city: "Berlin (Britz)"
-address: "Blaschkoallee, Britz, Berlin"
+address: "Blaschkoallee 48, Ideal-Siedlung, Britz, 12347 Berlin"
+coordinates: {lat: 52.4527437, lng: 13.4446970}
 worship_status: active
 darshan_hours: "Varies; consult the temple directly for the current schedule before visiting."
 best_time_to_visit: "Major Murugan festivals such as Thai Pongal, consistent with other Murugan/Sivasubramaniar temples founded by Sri Lankan Tamil communities elsewhere in Europe; confirm the current calendar with the temple."
@@ -19,7 +20,7 @@ sources:
 documented_vs_legend: documented
 status: pending
 review_flags:
-  - "No exact street number, founders' names, or architectural description were confirmed in the sources consulted; only the street (Blaschkoallee), district (Britz), consecration year (2013), and its status as Berlin's mainly Sri Lankan-Tamil, Murugan-dedicated first Hindu temple were independently confirmed."
+  - "Wave 2 follow-up: exact address (Blaschkoallee 48, 12347 Berlin) and coordinates were added via an OpenStreetMap Nominatim POI tagged 'Sri Mayurapathy Murugan Tempel'. Founders' names and an architectural description are still not confirmed in any source found; only the street/house number, district (Britz), consecration year (2013), and its status as Berlin's mainly Sri Lankan-Tamil, Murugan-dedicated first Hindu temple are independently confirmed."
 ---
 
 Consecrated in 2013 on Blaschkoallee in the Britz district of Berlin's Neukölln borough, the Sri Mayurapathy Murugan Temple was Berlin's first Hindu temple, predating the much larger Sri Ganesha Hindu Temple — already documented elsewhere in this directory — by over a decade. It serves what Wikipedia's overview of the Neukölln locality describes as "mainly Sri Lankan" Hindu community, part of the wider wave of Sri Lankan Tamil refugee settlement that also founded temples such as the Sri Kamadchi Ampal Temple in Hamm and the Sri Muthumariamman Temple in Hanover, both already documented elsewhere in this directory.

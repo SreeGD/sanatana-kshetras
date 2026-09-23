@@ -11,6 +11,7 @@ continent: oceania
 country: "New Zealand"
 city: "Henderson, Auckland"
 address: "11 Brick Street, Henderson, Auckland."
+coordinates: {lat: -36.8667, lng: 174.6133}
 worship_status: active
 darshan_hours: "Daily, 7:30am-8:30pm."
 best_time_to_visit: "Year-round; the temple hosts weekly Ramayana recitations and devotional singing, with Ram Navami as its principal annual festival given the temple's dedication."
@@ -20,6 +21,7 @@ festivals:
 sources:
   - {type: historical_record, note: "Cross-checked directly against the temple's own official website (shrirammandir.org.nz), which confirms the address as 11 Brick Street, Henderson, Auckland; that the Shri Ram Mandir Charitable Trust was established in September 2011, describing itself as 'the first community initiative for a Community Centre of its type in West Auckland'; that Rama is the primary deity, alongside Shiva, Parvati, and Ganesha; daily operating hours of 7:30am-8:30pm; and regular programming including daily prayers, weekly Ramayana recitations, and devotional singing."}
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Hinduism in New Zealand' article, which independently lists this temple at the same Henderson address."}
+  - {type: historical_record, note: "Coordinates added this pass via OpenStreetMap/Nominatim, geocoding 11 Brick Street, Henderson, Auckland to approximately -36.8667, 174.6133, an exact street-number match to the address already on file."}
 documented_vs_legend: documented
 status: verified
 ---

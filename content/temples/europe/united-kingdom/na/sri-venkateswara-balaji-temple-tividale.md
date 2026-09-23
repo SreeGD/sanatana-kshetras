@@ -12,12 +12,15 @@ traditions: [vaishnava]
 continent: europe
 country: "United Kingdom"
 city: "Tividale, Sandwell, West Midlands (near Birmingham)"
+address: "101 Dudley Road East, Tividale, West Midlands, B69 3DU"
+coordinates: {lat: 52.5133, lng: -2.0300}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own website for the current daily schedule before visiting."
 best_time_to_visit: "Brahmotsavam and other major Vaishnava festivals, consistent with its Tirupati-modeled worship calendar; confirm the current calendar with the temple."
 how_to_reach: "In Tividale, in the Sandwell borough of the West Midlands, a few miles northwest of central Birmingham; reachable by bus/road from Birmingham or Dudley, with Birmingham New Street the nearest mainline rail hub."
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Shri Venkateswara (Balaji) Temple' article: confirms the Telugu Vaishnavite community's origins worshipping at Shree Geeta Bhawan Mandir in Handsworth from the 1970s, the 1987 donation of the Tividale site by the Black Country Development Corporation, construction beginning in 1997 after fundraising of roughly £6.5 million (including a Millennium Commission grant), the temple opening to the public in 2000 and its formal consecration in 2006, its 30-acre site modeled on the Tirumala Venkateswara Temple in Andhra Pradesh, and the contemporaneous claim that it covered the largest land area of any Hindu temple in Europe at the time of its opening."}
+  - {type: historical_record, note: "Wave 2 follow-up: coordinates added, cross-checked between Wikipedia's own infobox (52°30'48\"N 2°01'48\"W) and an OpenStreetMap Nominatim name search for the temple, which agree to within ~20 m; the temple's own official site, venkateswara.org.uk, gives the complex's front/entrance address as 101 Dudley Road East, Tividale, B69 3DU (the 30-acre site's OSM building tag carries a different postcode, B69 3LG, consistent with a large single site with multiple road frontages). Also confirms the temple is a registered charity (No. 326712, 'Shri Venkateswara (Balaji) Temple of UK')."}
 documented_vs_legend: documented
 status: verified
 review_flags:

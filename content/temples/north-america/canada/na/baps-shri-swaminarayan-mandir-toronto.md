@@ -13,6 +13,7 @@ traditions: [vaishnava]
 continent: north-america
 country: "Canada"
 city: "Toronto, Ontario"
+coordinates: {lat: 43.7386, lng: -79.627}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult BAPS's own website for the current daily schedule before visiting."
 best_time_to_visit: "Year-round; the temple's anniversary celebrations in July draw especially large crowds."
@@ -22,6 +23,7 @@ festivals:
   - {name: "Janmashtami", approx_date: "August/September"}
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'BAPS Shri Swaminarayan Mandir Toronto' article: confirms the foundation stone ceremony on 23 July 2000, the adjoining haveli's opening on 18 July 2004, and the main shrine's consecration on 22 July 2007; also confirms the traditional shikharbaddha construction from roughly 24,000 hand-carved pieces of Italian Carrara marble, Turkish limestone, and Indian pink stone, and attendance by Prime Minister Stephen Harper, Ontario Premier Dalton McGuinty, and Toronto Mayor David Miller at the opening."}
+  - {type: historical_record, note: "Re-verified this pass directly against the article's infobox: coordinates given as 43°44'19\"N 79°37'37\"W (decimal 43.7386132, -79.6270385), added to this entry as a previously-missing field."}
 documented_vs_legend: documented
 status: verified
 ---

@@ -9,6 +9,7 @@ traditions: [shakta]
 continent: asia
 country: "Nepal"
 city: "Kathmandu"
+coordinates: {lat: 27.71111, lng: 85.35333}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own management for the current daily schedule before visiting. As at nearby Pashupatinath, non-Hindus are traditionally restricted from the innermost shrine area."
 best_time_to_visit: "October to March for cooler weather; Navaratri/Dashain (Sep/Oct) is the temple's most significant festival period, alongside its own Guhyeshwari Jatra."
@@ -20,6 +21,7 @@ sources:
   - {type: scripture, text: "Meru Tantra", reference: "Cited, per the Wikipedia article consulted, as the tantric source identifying this site as where Sati's anus and rectum fell."}
   - {type: historical_record, note: "Cross-checked against Wikipedia's Guhyeshwari Temple article: confirms the temple's location on the Bagmati river roughly 1 km east of Pashupatinath Temple; confirms renovation of the temple under the Malla-dynasty king Pratap Malla in the 17th century, though the article does not establish an original founding date prior to that renovation; confirms daily worship follows the Sarvamnaya Tantra tradition, performed by Newar priestly communities including Karmacharya priests specializing in Kaula practice; confirms Pashupati is identified in tantric texts as Guhyeshwari's consort."}
   - {type: oral_tradition, note: "The Shakti Peetha legend that Sati's anus/rectum fell at this spot, per the Meru Tantra, is tantric textual tradition rather than independently datable history."}
+  - {type: historical_record, note: "Coordinates (27.71111, 85.35333) added during a Wave 2 enrichment pass, taken directly from the geographic-coordinates field in the infobox of Wikipedia's Guhyeshwari Temple article."}
 documented_vs_legend: mixed
 status: verified
 review_flags:

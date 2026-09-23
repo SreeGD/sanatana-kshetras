@@ -14,6 +14,8 @@ traditions: [vaishnava, shaiva, shakta]
 continent: north-america
 country: "USA"
 city: "Lemont, Illinois (Greater Chicago)"
+coordinates: {lat: 41.6888, lng: -88.0046}
+address: "10915 Lemont Rd, Lemont, IL 60439."
 worship_status: active
 darshan_hours: "Varies by season and by shrine; consult HTGC's own website for the current daily schedule before visiting."
 best_time_to_visit: "Year-round; major festivals such as Ganesh Chaturthi and Diwali draw especially large crowds from across the Chicago area."
@@ -22,6 +24,7 @@ festivals:
   - {name: "Diwali", approx_date: "October/November"}
 how_to_reach: "On an 18-acre bluff-top property in Lemont, Illinois, a southwestern suburb of Chicago; reachable by car from anywhere in the Chicago metro area."
 sources:
+  - {type: historical_record, note: "Wave 2 re-verification: address confirmed directly via the temple's own official website (htgc.org), which gives '10915 Lemont Rd, Lemont IL 60439'; coordinates confirmed via Komoot Photon geocoding of the named temple ('The Hindu Temple of Greater Chicago', 41.6887725, -88.0046423). This entry previously had no coordinates or address field."}
   - {type: historical_record, note: "Cross-checked English Wikipedia's 'Hindu Temple of Greater Chicago' article: confirms the organization formed in 1977 among South Indian community leaders, the Rama temple building was inaugurated 4 July 1986, a second building was converted into a Ganesha-Shiva-Durga temple in 1994, the complex sits on 18 acres of bluff land, and a rival Telugu-community faction split off in 1983-84 to found a separate Venkateswara temple in Aurora, Illinois — indicating some internal community history behind the temple's founding."}
 documented_vs_legend: documented
 status: verified

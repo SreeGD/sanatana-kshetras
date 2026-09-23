@@ -7,6 +7,7 @@ traditions: [vaishnava]
 continent: asia
 country: "Nepal"
 city: "Budhanilkantha, Kathmandu"
+coordinates: {lat: 27.778056, lng: 85.362222}
 worship_status: active
 darshan_hours: "Open daily to pilgrims and visitors; consult local sources for the current schedule, especially around the Haribodhini Ekadashi festival when crowds are largest."
 best_time_to_visit: "Haribodhini Ekadashi (October/November), marking Vishnu's mythological awakening from his four-month cosmic sleep and the temple's single largest annual gathering; otherwise October to March for cooler weather."
@@ -14,7 +15,8 @@ how_to_reach: "In Budhanilkantha municipality at the northern edge of the Kathma
 festivals:
   - {name: "Haribodhini Ekadashi", approx_date: "October/November"}
 sources:
-  - {type: historical_record, note: "Cross-checked against Wikipedia's account of Budhanilkantha Temple during verification pass: confirms the central image is a roughly 5-meter black basalt statue of a reclining Vishnu (holding chakra, gada, conch, and a gem) set in a water tank at the base of Shivapuri Hill, generally described as the largest stone carving in Nepal and estimated to be more than 1,400 years old on stylistic grounds; confirms the Haribodhini Ekadashi festival marking Vishnu's awakening; confirms the tradition that Nepali monarchs after King Pratap Malla (r. 1641-1674) did not visit the site, said to stem from a prophetic warning to the king; confirms the site draws both Hindu and Buddhist worshippers."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's account of Budhanilkantha Temple during verification pass: confirms the central image is a roughly 5-meter black basalt statue of a reclining Vishnu (holding chakra, gada, conch, and a gem) set in a water tank at the base of Shivapuri Hill, generally described as the largest stone carving in Nepal and estimated to be more than 1,400 years old on stylistic grounds; confirms the Haribodhini Ekadashi festival marking Vishnu's awakening; confirms the tradition that Nepali monarchs after King Pratap Malla (r. 1641-1674) did not visit the site, said to stem from a prophetic warning to the king; confirms the site draws both Hindu and Buddhist worshippers; confirms the temple is registered as protected monument NP-KTMBK-01 under Nepal's Ancient Monuments Preservation Act, 1956."}
+  - {type: historical_record, note: "Coordinates (27.778056, 85.362222) added during a Wave 2 enrichment pass, sourced from Wikidata (Q1001415, coordinate location statement P625), since the English Wikipedia article's infobox does not itself list geographic coordinates."}
   - {type: oral_tradition, note: "The story that farmers first discovered the reclining statue while plowing a field, and the prophecy said to have been given to King Pratap Malla warning that a royal visit to the temple would bring premature death, are traditional/legendary accounts rather than documented historical events."}
 documented_vs_legend: mixed
 status: pending

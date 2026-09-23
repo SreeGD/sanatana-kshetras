@@ -12,11 +12,14 @@ traditions: [vaishnava, shaiva]
 continent: north-america
 country: "USA"
 city: "Calabasas, California"
+coordinates: {lat: 34.0951, lng: -118.7098}
+address: "1600 Las Virgenes Canyon Rd, Calabasas, CA 91302."
 worship_status: active
 darshan_hours: "Varies by season; consult the Hindu Temple Society of Southern California's own website for the current daily schedule before visiting."
 best_time_to_visit: "Year-round; the temple hosts major festival celebrations drawing the Southern California Hindu community."
 how_to_reach: "At 1600 Las Virgenes Road in the Santa Monica Mountains, technically in Calabasas though widely known as the 'Malibu Hindu Temple'; reachable by car from the greater Los Angeles area."
 sources:
+  - {type: historical_record, note: "Wave 2 re-verification: coordinates confirmed and added via Komoot Photon geocoding, which identifies 'Malibu Hindu Temple' at 1600 Las Virgenes Canyon Road, Calabasas, CA 91302 (34.0951485, -118.709752). This entry previously had no coordinates field."}
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Malibu Hindu Temple' article: confirms construction began in 1981, that the complex has an upper temple dedicated to Venkateswara and a lower temple dedicated to Shiva with additional shrines for Rama, Lakshmi, Bhoodevi, Krishna, and Hanuman, Dravidian architectural style rendered in concrete, and current management by the Hindu Temple Society of Southern California."}
 documented_vs_legend: documented
 status: verified

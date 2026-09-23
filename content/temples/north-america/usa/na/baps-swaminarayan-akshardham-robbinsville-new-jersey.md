@@ -13,6 +13,8 @@ traditions: [vaishnava]
 continent: north-america
 country: "USA"
 city: "Robbinsville, New Jersey (Mercer County)"
+coordinates: {lat: 40.2537, lng: -74.5798}
+address: "112 N Main St, Robbinsville Township, NJ 08561."
 worship_status: active
 darshan_hours: "Varies by season; consult BAPS's own website for the current daily schedule and required advance visit registration before visiting."
 best_time_to_visit: "Year-round; the temple's major festivals and its own anniversary celebrations draw especially large crowds."
@@ -21,6 +23,7 @@ festivals:
   - {name: "Janmashtami", approx_date: "August/September"}
 how_to_reach: "On a large campus in Robbinsville Township, Mercer County, New Jersey, roughly midway between New York City and Philadelphia; reachable by car, with Newark and Philadelphia international airports the nearest major hubs."
 sources:
+  - {type: historical_record, note: "Wave 2 re-verification: address and coordinates confirmed via two independent geocoders (Komoot Photon and OpenStreetMap/Nominatim), both returning 'BAPS Shri Swaminarayan Akshardham Mahamandir' at 112 North Main Street, Robbinsville Township, NJ 08561 (40.2536907, -74.5797529)."}
   - {type: historical_record, note: "Cross-checked English Wikipedia's 'Swaminarayan Akshardham (Robbinsville)' article: confirms construction by BAPS Swaminarayan Sanstha began in 2015 and finished in 2023, inauguration on 8 October 2023, thirteen shrines including a central shrine to Akshar Purushottam Maharaj (Bhagwan Swaminarayan with Gunatitanand Swami) alongside Radha-Krishna, Venkateshwara-Padmavati, Rama, and Shiva-Parvati shrines, construction using marble from Greece/Turkey/Italy, pink sandstone from Rajasthan, and Bulgarian/Turkish limestone, and widely reported description as the largest Hindu mandir in the Western Hemisphere and the second-largest Hindu temple complex in the world, with over 12,500 volunteers involved in building it."}
 documented_vs_legend: documented
 status: verified

@@ -8,7 +8,7 @@ traditions: [shaiva, other]
 continent: oceania
 country: "Fiji"
 city: "Nadi"
-coordinates: {lat: -17.8, lng: 177.42}
+coordinates: {lat: -17.8073, lng: 177.4151}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "May to October (Fiji's dry season); Thaipusam and Fiji's own fire-walking (Theemithi) festival are notable observances."
@@ -19,6 +19,7 @@ festivals:
 sources:
   - {type: historical_record, note: "Indo-Fijian indenture history (1879-1916) and the temple's construction/artisan provenance are documented Fijian and colonial-era records."}
   - {type: historical_record, note: "Cross-checked during verification pass against Wikipedia: confirmed the temple is dedicated to Shiva and Subramaniya (Murugan), was consecrated on 15 July 1994, is built in Dravidian style following Vastu tradition, and is described as the largest Hindu temple in the Southern Hemisphere. The Then India Sanmarga Ikya Sangam (TISI Sangam), which runs the temple, was established at the original site in 1926. Confirmed via Wikipedia's Indo-Fijians article that British colonial authorities brought Indian indentured laborers to Fiji between 1879 and 1916."}
+  - {type: historical_record, note: "Coordinates tightened this pass via OpenStreetMap/Nominatim, which geocodes a place of worship named 'Sri Siva Subramaniya Swami Temple' to Queens Road, Nadi (approximately -17.8073, 177.4151), refining this entry's prior 2-decimal-place rounded estimate (-17.8, 177.42) to a more precise, independently sourced value roughly 1 km away."}
 documented_vs_legend: documented
 status: verified
 ---

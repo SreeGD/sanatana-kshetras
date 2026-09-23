@@ -10,6 +10,7 @@ continent: oceania
 country: "New Zealand"
 city: "Mangere, Auckland"
 address: "69 Tidal Road, Mangere, Auckland."
+coordinates: {lat: -36.9791, lng: 174.8239}
 worship_status: active
 darshan_hours: "Varies by season and puja calendar; consult the New Zealand Hindu Temple Society for the current schedule before visiting."
 best_time_to_visit: "Year-round; Thaipusam is a principal observance given the temple's Murugan/Subramaniam dedication."
@@ -17,6 +18,7 @@ how_to_reach: "At 69 Tidal Road, Mangere, in South Auckland, reachable by car or
 sources:
   - {type: historical_record, note: "Cross-checked directly against the temple's own official website (aalayam.co.nz), which confirms the address as 69 Tidal Road, Mangere, Auckland; that the New Zealand Hindu Temple Society was incorporated in 1996 by founding members Jeevan Siva and Ilango Krishnamoorthy; and that the Society has owned and operated the temple, formally named 'Mangere Thiru Subramaniyar Aalayam Temple,' at this address since 2015. The site describes South Indian-style granite deity images and identifies the presiding deity as Thiru Subramaniyar (Lord Subramaniam/Murugan)."}
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Hinduism in New Zealand' article, which independently lists this temple at the same Tidal Road, Mangere address, describing its 'South Indian style granite deities.'"}
+  - {type: historical_record, note: "Coordinates added this pass via OpenStreetMap/Nominatim, geocoding 69 Tidal Road, Māngere, Auckland to approximately -36.9791, 174.8239, an exact street-number match to the address already on file."}
 documented_vs_legend: documented
 status: verified
 ---

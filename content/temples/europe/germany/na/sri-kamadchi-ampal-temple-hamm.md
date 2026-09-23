@@ -7,7 +7,8 @@ traditions: [shakta]
 continent: europe
 country: "Germany"
 city: "Hamm, North Rhine-Westphalia"
-coordinates: {lat: 51.6872, lng: 7.9511}
+address: "Siegenbeckstraße 5, 59071 Hamm-Uentrop"
+coordinates: {lat: 51.6871858, lng: 7.9507950}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own website for the current daily schedule before visiting."
 best_time_to_visit: "Major Hindu festivals such as Navaratri and Deepavali draw large crowds; the temple's dodecennial re-consecration (kumbhabhishekam) — first held in 2002 and repeated 29 May 2026 after months of renovation, with roughly 400 people attending — is a rare and especially significant event when its twelve-year cycle comes around."
@@ -16,6 +17,7 @@ festivals:
   - {name: "Kumbhabhishekam (temple re-consecration)", approx_date: "held roughly every 12 years; most recently 29 May 2026"}
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Sri Kamadchi Ampal Temple (Hamm)' article: confirms the 1989 founding as a Sri Lankan Tamil refugee community shrine in an apartment basement, the 1992 move to a converted laundry building, the March 2000 foundation stone and 7 July 2002 consecration, founder-priest Siva Sri Arumugam Paskarakurukkal (trained at the Kamakshi Amman Temple, Kanchipuram), architect Heinz-Rainer Eichhorst, the temple's 27x27m footprint and ~17m gopuram, its 2017 recognition as a Körperschaft des öffentlichen Rechts (corporation under public law) by North Rhine-Westphalia, and the 29 May 2026 re-consecration following renovation."}
+  - {type: historical_record, note: "Wave 2 follow-up: exact address (Siegenbeckstraße 5, 59071 Hamm-Uentrop) confirmed via OpenStreetMap Nominatim reverse-geocoding of the temple's coordinates, which also tightened the recorded longitude by about 25 m. The temple's own domain (kamadchiampal.de) could not be reached during this pass (DNS failure)."}
 documented_vs_legend: documented
 status: verified
 review_flags:

@@ -7,6 +7,7 @@ traditions: [vaishnava]
 continent: europe
 country: "United Kingdom"
 city: "Grangetown, Cardiff, Wales"
+address: "4 Merches Place, Grangetown, Cardiff, CF11 6RD"
 coordinates: {lat: 51.47408, lng: -3.18622}
 worship_status: active
 darshan_hours: "Varies; consult the temple directly for the current schedule before visiting."
@@ -14,6 +15,7 @@ best_time_to_visit: "Diwali and the temple's own anniversary celebrations, such 
 how_to_reach: "In Grangetown, Cardiff, Wales, a short distance south of Cardiff city centre; reachable by local bus or a walk from Cardiff Central railway station."
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Shri Swaminarayan Mandir, Cardiff' article: confirms the building was purchased in 1979 (a converted synagogue) and opened in 1982, relocated to its current Grangetown site in 1993, underwent a £700,000 refurbishment in 2005-2007 (part-funded by a £110,000 Welsh Assembly Government grant) that added three white stone spires — described as the first on a Hindu temple in Wales — new marble idols, and new classrooms and living quarters; its affiliation with the NarNarayan Dev Gadi branch of the Swaminarayan Sampraday; its status as the first and largest Hindu temple in Wales; a 2001 fundraising drive that raised £30,000 in three days for Gujarat earthquake relief; a 2007 silver-jubilee procession of about 3,000 people over 1.6 miles through Cardiff; and a visit by Welsh First Minister Rhodri Morgan for Diwali in 2008."}
+  - {type: historical_record, note: "Wave 2 follow-up: coordinates re-verified against an OpenStreetMap Nominatim reverse geocode, which resolves the point to 'Shree Swaminarayan Temple,' 4 Merches Place, Grangetown, Cardiff CF11 6RD, within about 15 m of the recorded coordinates — confirmed accurate. Further independent sources beyond Wikipedia were also identified in its own citation list: BBC News, 'Worshippers celebrate with parade' (22 Sep 2007); BBC News, 'Earthquake aid shipment organised' (30 Jan 2001); BBC News, 'Services held for attack victims' (15 Sep 2001, a post-9/11 vigil); and WalesOnline, 'It's a big day for temple project' (5 May 2007)."}
 documented_vs_legend: documented
 status: verified
 ---

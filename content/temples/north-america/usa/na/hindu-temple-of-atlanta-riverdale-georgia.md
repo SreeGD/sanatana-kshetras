@@ -15,12 +15,14 @@ traditions: [vaishnava, shaiva]
 continent: north-america
 country: "USA"
 city: "Riverdale, Georgia (Metro Atlanta)"
-coordinates: {lat: 33.5953, lng: -84.4086}
+coordinates: {lat: 33.5953, lng: -84.4085}
+address: "5851 GA-85, Riverdale, GA 30274."
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own website for the current daily schedule before visiting."
 best_time_to_visit: "Year-round; annual Brahmotsavam and temple anniversary celebrations draw the largest crowds."
 how_to_reach: "In Riverdale, Georgia, about 9 miles from Hartsfield-Jackson Atlanta International Airport and close to I-75, drawing visitors from across the southern, eastern seaboard, and midwestern US; reachable by car."
 sources: 
+  - {type: historical_record, note: "Wave 2 re-verification: address confirmed via Komoot Photon geocoding, which identifies 'The Hindu Temple of Atlanta' at 5851 State Route 85, Riverdale, GA 30274 (33.595332, -84.4085029), matching this entry's pre-existing coordinates almost exactly."}
   - {type: historical_record, note: "Cross-checked via Wikipedia's 'Hindu Temple of Atlanta' article: the temple, presided over by Venkateswara with Padmavathi and other deities, was established on 19 October 1984; a second shrine dedicated to Lord Shiva (worshipped locally as Ramalingeshwara) was consecrated in 2007; the complex's architecture is described as closely following Pandya-era South Indian temple design; additional shrines include Hanuman, Ganesha, Kala Bhairava, and the Navagraha. This is a distinct institution from the Lilburn, GA BAPS Shri Swaminarayan Mandir Atlanta already covered elsewhere in this directory."}
 documented_vs_legend: documented
 status: verified

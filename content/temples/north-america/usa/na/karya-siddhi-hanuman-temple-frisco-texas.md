@@ -9,6 +9,7 @@ traditions: [other]
 continent: north-america
 country: "USA"
 city: "Frisco, Texas (Dallas-Fort Worth area)"
+coordinates: {lat: 33.1785, lng: -96.7482}
 address: "12030 Independence Parkway, Frisco, Texas 75035"
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own website (dallashanuman.org) for the current daily schedule before visiting."
@@ -17,6 +18,7 @@ festivals:
   - {name: "Hanuman Jayanti", approx_date: "March/April"}
 how_to_reach: "At 12030 Independence Parkway in Frisco, Texas, in the Dallas-Fort Worth metroplex; reachable by car, with Dallas Fort Worth International Airport the nearest major airport."
 sources:
+  - {type: historical_record, note: "Wave 2 re-verification: coordinates confirmed and added via Komoot Photon geocoding, which identifies 'Karya Siddhi Hanuman Temple' at the entry's pre-existing address, 12030 Independence Parkway, Frisco, TX 75035 (33.178527, -96.7482479). This entry previously had no coordinates field."}
   - {type: historical_record, note: "Cross-checked via Wikipedia's 'Karya Siddhi Hanuman Temple' article: founded by spiritual leader Ganapathi Sachchidananda, construction began in 2007 and the temple opened on 23 July 2015; the 34,000-square-foot temple, designed by architect Thangam Subramanian Sthapathi under Agama Shastra guidelines and developed by Epsilon Architecture, added a 72-foot, 900-square-foot Raja Gopuram tower in 2019. On 1 August 2015, about a week after opening, the temple hosted a Guinness World Record for the longest continuous chanting of the Hanuman Chalisa (over 24 hours). Wikipedia's 'Indian Americans in Dallas-Fort Worth' article additionally notes that by 2023 the temple had Texas's largest prayer hall dedicated to Hinduism."}
 documented_vs_legend: documented
 status: verified

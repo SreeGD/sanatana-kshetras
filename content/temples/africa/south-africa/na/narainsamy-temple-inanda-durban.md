@@ -18,6 +18,7 @@ best_time_to_visit: "Year-round; as with other Tamil Hindu temples of the area, 
 how_to_reach: "On a ridge north of the Umgeni River in Inanda, eThekwini Metropolitan Municipality (Durban), KwaZulu-Natal; its white spire is visible from some distance."
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's dedicated 'Narainsamy Temple' article: founded in 1896 by a man named Narainsamy, now governed by a family trust he established; serves a predominantly Tamil Hindu congregation; features three image cells for Narainsamy, Ganesha, and Subrahmanya, plus a separate cell for Nataraja; recognised as a provincial heritage site. Architecture includes a prominent white spire, classical pedestals, stucco-decorated domes, mandala motifs, three arched entrance panels, and animal statues (a vole and a peacock)."}
+  - {type: historical_record, note: "Re-verified coordinates on a later pass directly against Wikipedia's infobox, which gives 29.7762°S 30.9669°E - matching this entry's recorded coordinates to within rounding (no correction needed)."}
 documented_vs_legend: documented
 status: verified
 review_flags:

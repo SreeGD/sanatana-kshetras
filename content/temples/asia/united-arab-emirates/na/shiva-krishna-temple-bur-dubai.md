@@ -14,6 +14,7 @@ traditions: [shaiva, vaishnava, shakta]
 continent: asia
 country: "United Arab Emirates"
 city: "Dubai"
+coordinates: {lat: 25.26482, lng: 55.29683}
 worship_status: active
 darshan_hours: "Varies by shrine and season; consult the temple management for the current daily schedule before visiting."
 best_time_to_visit: "November to March, the cooler and more comfortable Gulf winter."
@@ -24,7 +25,7 @@ sources:
 documented_vs_legend: documented
 status: verified
 review_flags:
-  - "This entry describes a historically unified temple complex that has, as of 2022-2024, split across two physical sites in Dubai — the original Bur Dubai location (still housing the Krishna Mandir) and a new Jebel Ali complex (housing the relocated Shiva Mandir and an adjoining Gurudwara). No confident, independently verified coordinates for the original Bur Dubai shrine were found in this pass, so coordinates have been omitted; confirm current site details before visiting either location."
+  - "This entry describes a historically unified temple complex that has, as of 2022-2024, split across two physical sites in Dubai — the original Bur Dubai location (still housing the Krishna Mandir) and a new Jebel Ali complex (housing the relocated Shiva Mandir and an adjoining Gurudwara). Coordinates given above are for the historic Bur Dubai/Al Souq Al Kabeer site (obtained via OpenStreetMap/Nominatim geocoding of a named 'Hindu Temple' point of interest on Ali Bin Abi Talib Street, Bur Dubai), not the newer Jebel Ali site, for which no coordinates could be confirmed in this pass; confirm current site details before visiting either location."
 ---
 
 Dubai's oldest Hindu temple traces to 1958, when Sheikh Rashid bin Saeed Al Maktoum, then ruler of Dubai, permitted a Hindu place of worship above a row of shops in what became known as the Bur Dubai Old Souk, west of Dubai Creek. Over the following decades the modest upper-floor complex grew to house separate altars to Shiva and Krishna, alongside a Sikh Gurudwara altar, serving generations of Dubai's Indian expatriate community from a site that never outwardly resembled a temple from the street.

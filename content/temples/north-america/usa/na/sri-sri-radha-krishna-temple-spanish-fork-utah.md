@@ -9,6 +9,7 @@ associated_saints:
 continent: north-america
 country: "USA"
 city: "Spanish Fork, Utah"
+coordinates: {lat: 40.0757, lng: -111.6621}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own website for the current daily schedule before visiting."
 best_time_to_visit: "Spring, for the temple's Holi Festival of Colors, which is described as the largest such celebration in the Western Hemisphere."
@@ -17,6 +18,7 @@ festivals:
   - {name: "Holi (Festival of Colors)", approx_date: "March"}
   - {name: "Janmashtami", approx_date: "August/September"}
 sources:
+  - {type: historical_record, note: "Wave 2 re-verification: coordinates confirmed and added via Komoot Photon geocoding, which identifies 'Radha Krishna Temple' at this entry's pre-existing address, 311 West 8500 South Street, Spanish Fork, UT 84660 (40.0757051, -111.662094). This entry previously had no coordinates field."}
   - {type: historical_record, note: "Cross-checked against Wikipedia's 'Sri Sri Radha Krishna Temple' (Spanish Fork, Utah) article: confirms a groundbreaking ceremony in 1996 and construction beginning 16 February 1998, led by ISKCON devotee Charu Das (formerly Christopher Warden), who had relocated to Spanish Fork in 1983 after first visiting the area via Brigham Young University in 1975; the article also confirms the temple hosts what it describes as the largest annual Holi Festival of Colors celebration in the Western Hemisphere."}
 documented_vs_legend: documented
 status: verified

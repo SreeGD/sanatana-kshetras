@@ -12,9 +12,14 @@ worship_status: active
 darshan_hours: "Open to pilgrims and visitors through the day. Consult local sources for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler, clearer weather in the Kathmandu Valley."
 how_to_reach: "On a hilltop about 12 km east of Kathmandu, close to Bhaktapur; reachable by road/taxi from either city."
+festivals:
+  - {name: "Naag Panchami", approx_date: "July/August"}
+  - {name: "Teej", approx_date: "August/September"}
+  - {name: "Prabodhini (Haribodhini) Ekadashi", approx_date: "October/November"}
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's account of Changu Narayan Temple during verification pass: confirms a Lichhavi-era pillar inscription of King Manadeva dated within his reign (c. 464-505 CE) at the site, among the oldest dated inscriptions found in Nepal; confirms the shared Hindu (Garuda Narayan) and Newar Buddhist (Hariharihari Vahan Lokeshwara) veneration of the main image; confirms UNESCO World Heritage inscription in 1979 as part of the Kathmandu Valley monument zones; confirms significant damage in the April 2015 earthquake with Chinese-assisted reconstruction completed within about five years."}
   - {type: oral_tradition, note: "Temple tradition dates the original founding to the 4th century CE; the earliest firm epigraphic evidence at the site (the Manadeva pillar inscription) is dated to the later 5th century CE, so the exact founding date is not independently fixed beyond that inscription."}
+  - {type: historical_record, note: "Festivals (Naag Panchami, Teej, Prabodhini Ekadashi) added during a Wave 2 enrichment pass, taken from the festivals field of Wikipedia's Changu Narayan Temple infobox; the article itself does not give month-level dates for these observances, so approximate dates follow the general Nepali Hindu festival calendar and should be confirmed locally."}
 documented_vs_legend: mixed
 status: verified
 review_flags:

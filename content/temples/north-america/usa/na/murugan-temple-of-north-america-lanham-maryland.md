@@ -14,12 +14,14 @@ traditions: [shaiva, shakta]
 continent: north-america
 country: "USA"
 city: "Lanham, Maryland"
-coordinates: {lat: 38.9696, lng: -76.8675}
+coordinates: {lat: 38.9696, lng: -76.8676}
+address: "6300 Princess Garden Pkwy, Lanham, MD 20706."
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own website for the current daily schedule before visiting."
 best_time_to_visit: "Year-round; the temple celebrates all major Hindu and Tamil festivals."
 how_to_reach: "In Lanham, Maryland, about 5 miles from Washington, D.C.; reachable by car. Note: this is a separate temple from the nearby Sri Siva Vishnu Temple, also in Lanham."
 sources:
+  - {type: historical_record, note: "Wave 2 re-verification: address confirmed via Komoot Photon geocoding, which identifies 'Murugan Temple of North America' at 6300 Princess Garden Parkway, Lanham, MD 20706 (38.9695756, -76.867607), matching this entry's pre-existing coordinates almost exactly."}
   - {type: historical_record, note: "Wikipedia article 'Murugan Temple of North America': described as the first temple in the United States dedicated to the Hindu deity Murugan, conceived in the 1980s and opened in 1999; the main shrine honors Murugan with consorts Valli and Devasena, with four additional shrines to Ganesha, Shiva, Meenakshi, Durga and Palani Aandavar; it is identified as a traditional Saivite Hindu temple serving devotees from Maryland, Washington D.C., Virginia and beyond; a second consecration (Kumbabhishegam) was performed May 13, 2011, and a new processional chariot (Ratham) was consecrated August 7-8, 2009."}
 documented_vs_legend: documented
 status: verified
