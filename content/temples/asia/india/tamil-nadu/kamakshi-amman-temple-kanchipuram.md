@@ -20,10 +20,11 @@ festivals:
   - {name: "Panguni Uthiram", approx_date: "March/April"}
 sources:
   - {type: oral_tradition, note: "Adi Shankaracharya's installation of the Sri Chakra and moderation of the deity's form is temple/matha tradition."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's account of Kamakshi Amman Temple during verification pass: Adi Shankaracharya's Sri Chakra installation is corroborated as temple tradition, but sources disagree on the temple's founding period (Pallava-era origins c. 5th-8th century CE vs. Chola-era construction c. 14th century vs. an 18th-century rebuilding tradition tied to an idol moved from Tiruvarur)."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Compiled from general historical/scriptural knowledge rather than a single verified structured dataset; recommend cross-checking specific dates, hours, and disputed historical claims against a dedicated scholarly or official temple-trust source before treating as fully verified."
+  - "Sources disagree on the temple's precise founding period (Pallava vs. Chola vs. an 18th-century rebuilding account); this entry deliberately avoids asserting a single founding date pending a more definitive scholarly source."
 ---
 
 One of the Shakti Peethas and among the most important Devi temples of South India, Kamakshi Amman is traditionally associated with Adi Shankaracharya, who is held by tradition to have installed the Sri Chakra before the goddess and established worship according to the Shaktha tradition, moderating an earlier, more fierce (ugra) form of the deity into her present benign form.

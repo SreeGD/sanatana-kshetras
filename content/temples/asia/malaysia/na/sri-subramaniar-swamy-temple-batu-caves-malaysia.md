@@ -16,10 +16,9 @@ festivals:
   - {name: "Thaipusam", approx_date: "January/February"}
 sources:
   - {type: historical_record, note: "Temple establishment (1890s, K. Thamboosamy Pillai) and the 2006 Murugan statue are documented Malaysian heritage/tourism records."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's account of Batu Caves during verification pass: confirms K. Thamboosamy Pillai promoted the caves as a site of Hindu worship and that the temple to Murugan was completed in 1891, with Thaipusam celebrations there beginning in 1892; confirms the 272 concrete steps (built 1940, replacing 1920 wooden stairs) and the 42.7-meter (140 ft) gold-painted Murugan statue unveiled in January 2006."}
 documented_vs_legend: documented
-status: pending
-review_flags:
-  - "Compiled from general historical knowledge rather than a single verified structured dataset; recommend cross-checking specific dates, hours, and disputed historical claims against a dedicated scholarly or official source before treating as fully verified."
+status: verified
 ---
 
-Set inside a limestone cave complex north of Kuala Lumpur, Batu Caves is topped by one of the world's tallest statues of Murugan (42.7 meters, completed 2006) and reached via 272 steps. It is the focal point of Malaysia's Thaipusam festival, in which devotees carry ornamented kavadi burdens, sometimes with body-piercing, in fulfillment of vows, drawing over a million pilgrims annually.
+Set inside a limestone cave complex north of Kuala Lumpur, Batu Caves was established as a Hindu worship site by Tamil trader K. Thamboosamy Pillai, with a temple to Murugan completed in 1891 and Thaipusam celebrations there beginning the following year. It is topped by one of the world's tallest statues of Murugan (42.7 meters, unveiled January 2006) and reached via 272 steps, built in 1940 to replace earlier wooden stairs. It is the focal point of Malaysia's Thaipusam festival, in which devotees carry ornamented kavadi burdens, sometimes with body-piercing, in fulfillment of vows, drawing over a million pilgrims annually.

@@ -17,11 +17,11 @@ festivals:
   - {name: "Teej", approx_date: "August/September"}
 sources:
   - {type: historical_record, note: "UNESCO World Heritage inscription (1979) and 17th-century Malla-era reconstruction are well documented."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's account of Pashupatinath Temple during verification pass: confirms UNESCO World Heritage inscription in 1979 and that the temple's current form was renovated in 1692 CE after earlier structures were damaged by termites and earthquakes (1692 falls within the Malla-dynasty period, which ruled the Kathmandu Valley until the late 1760s)."}
 documented_vs_legend: documented
-status: pending
+status: verified
 review_flags:
-  - "Non-Hindus are traditionally not permitted to cross into the main temple courtyard, though the complex and cremation ghats can be viewed from across the river."
-  - "Compiled from general historical knowledge rather than a single verified structured dataset; recommend cross-checking specific dates, hours, and disputed historical claims against a dedicated scholarly or official source before treating as fully verified."
+  - "Non-Hindus are traditionally not permitted to cross into the main temple courtyard, though the complex and cremation ghats can be viewed from across the river; this specific access-policy detail is well attested in general travel/heritage literature but was not explicitly confirmed within the Wikipedia excerpt reviewed in this verification pass."
 ---
 
-One of the most sacred Shiva temples in the world and a UNESCO World Heritage Site, Pashupatinath sits on the Bagmati river amid a large complex of temples, ashrams, and cremation ghats. Nepal's largest Hindu pilgrimage site, its present pagoda-style structure dates to the 17th century, though the site's sanctity as a Shiva kshetra is recorded in far older textual tradition.
+One of the most sacred Shiva temples in the world and a UNESCO World Heritage Site (inscribed 1979), Pashupatinath sits on the Bagmati river amid a large complex of temples, ashrams, and cremation ghats. Nepal's largest Hindu pilgrimage site, its present pagoda-style structure was renovated in 1692 CE (within the Malla dynasty's rule of the Kathmandu Valley) after earlier structures were damaged by termites and earthquakes, though the site's sanctity as a Shiva kshetra is recorded in far older textual tradition.

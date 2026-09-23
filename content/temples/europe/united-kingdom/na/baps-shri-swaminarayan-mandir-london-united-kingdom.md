@@ -15,11 +15,10 @@ how_to_reach: "In Neasden, northwest London, reachable via Neasden or Stonebridg
 festivals:
   - {name: "Diwali / Annakut", approx_date: "October/November"}
 sources:
-  - {type: historical_record, note: "1995 completion, traditional shilpa-shastra construction method, and scale are extensively documented (including by BAPS' own published construction records and independent architecture press)."}
+  - {type: historical_record, note: "Completion and inauguration on 20 August 1995 (by Pramukh Swami Maharaj), traditional shilpa-shastra construction method, and scale are extensively documented (including by BAPS' own published construction records and independent architecture press)."}
+  - {type: historical_record, note: "Cross-checked during verification pass against Wikipedia's account: construction began November 1992 (first stone laid June 1993); the mandir used roughly 990 cubic meters of Bulgarian limestone and 700 cubic meters of Indian/Italian marble, carved in India and shipped to London for assembly without steel; it is dedicated to Swaminarayan, Radha-Krishna, Rama-Sita, and Shiva-Parvati under the BAPS (Bochasanwasi Shri Akshar Purushottam Swaminarayan Sanstha) organization, part of the Vaishnava Swaminarayan Sampradaya."}
 documented_vs_legend: documented
-status: pending
-review_flags:
-  - "Compiled from general historical knowledge rather than a single verified structured dataset; recommend cross-checking specific dates, hours, and disputed historical claims against a dedicated scholarly or official source before treating as fully verified."
+status: verified
 ---
 
-Completed in 1995, the Neasden Temple was at the time the largest Hindu temple outside India, built following traditional shilpa shastra methods using Bulgarian limestone and Italian marble carved in India by thousands of artisans before assembly in London without structural steel. It belongs to the Swaminarayan Sampradaya (a Vaishnava tradition) and has become a landmark of British Hindu religious life.
+Construction began in November 1992, and the Neasden Temple was completed and inaugurated on 20 August 1995 by Pramukh Swami Maharaj; at the time it was the largest Hindu temple outside India. It was built following traditional shilpa shastra methods using roughly 990 cubic meters of Bulgarian limestone and 700 cubic meters of Indian and Italian marble, carved in India by thousands of artisans before shipment to London for assembly without structural steel. It belongs to BAPS (Bochasanwasi Shri Akshar Purushottam Swaminarayan Sanstha), part of the Swaminarayan Sampradaya (a Vaishnava tradition), and has become a landmark of British Hindu religious life.

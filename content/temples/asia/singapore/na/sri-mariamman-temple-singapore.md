@@ -16,10 +16,11 @@ festivals:
   - {name: "Thimithi (fire-walking festival)", approx_date: "October/November"}
 sources:
   - {type: historical_record, note: "1827 founding by Naraina Pillai and National Monument status are documented Singapore heritage records."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's account of Sri Mariamman Temple, Singapore during verification pass: confirms Naraina Pillai (a government clerk who arrived with Stamford Raffles in 1819) founded the temple in 1827; confirms National Monument gazettal on 6 July 1973; corrects the gopuram date (see review_flags)."}
 documented_vs_legend: documented
-status: pending
+status: verified
 review_flags:
-  - "Compiled from general historical knowledge rather than a single verified structured dataset; recommend cross-checking specific dates, hours, and disputed historical claims against a dedicated scholarly or official source before treating as fully verified."
+  - "Corrected during verification pass: earlier text said the gopuram was 'added in the 1930s'; Wikipedia's account instead places the original three-tiered entrance tower in 1903 and the current, more elaborate six-tiered gopuram in 1925, with further restoration and added sculptural work in the 1960s."
 ---
 
-Singapore's oldest Hindu temple, founded in 1827 by early Tamil immigrant Naraina Pillai, Sri Mariamman is dedicated to the goddess Mariamman, worshipped for her power to cure disease and bring rain. Its gopuram, added in the 1930s, is densely covered in sculpted deities and is a National Monument of Singapore, reflecting the temple's role at the heart of the city-state's Tamil Hindu community for nearly two centuries.
+Singapore's oldest Hindu temple, founded in 1827 by early Tamil immigrant Naraina Pillai, Sri Mariamman is dedicated to the goddess Mariamman, worshipped for her power to cure disease and bring rain. Its six-tiered gopuram — an entrance tower first built in 1903 and rebuilt in its current, more elaborate form in 1925, with further sculptural embellishment added in the 1960s restoration — is densely covered in sculpted deities. Gazetted a National Monument of Singapore on 6 July 1973, the temple reflects its role at the heart of the city-state's Tamil Hindu community for nearly two centuries.

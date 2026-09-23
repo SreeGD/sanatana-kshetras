@@ -18,10 +18,11 @@ festivals:
   - {name: "Diwali", approx_date: "October/November"}
 sources:
   - {type: historical_record, note: "Temple establishment and community role are documented in Australian Hindu community/heritage records."}
+  - {type: historical_record, note: "Cross-checked during verification pass against Wikipedia (the 'Hinduism in Australia,' 'Frankston, Victoria,' and 'Tamil diaspora' articles, plus the temple's own site): confirmed as the largest Hindu temple in Victoria, jointly dedicated to Shiva and Vishnu, in Carrum Downs, and drawing visitors beyond the Hindu community for Vedic/Tamil scripture study. No dedicated Wikipedia article exists for the temple, so its precise founding/consecration year could not be independently confirmed this pass."}
 documented_vs_legend: documented
 status: pending
 review_flags:
-  - "Compiled from general historical knowledge rather than a single verified structured dataset; recommend cross-checking specific dates, hours, and disputed historical claims against a dedicated scholarly or official source before treating as fully verified."
+  - "The specific consecration decade ('1990s') could not be independently confirmed from an authoritative source this pass — no dedicated encyclopedia article on the temple exists; general facts (location in Carrum Downs, joint Shiva-Vishnu dedication, status as Victoria's largest Hindu temple) were confirmed via Wikipedia's Hinduism in Australia, Frankston, and Tamil diaspora articles."
 ---
 
-One of the largest Hindu temples in Australia, jointly dedicated to Shiva and Vishnu to serve Melbourne's broad and growing Hindu community regardless of sectarian affiliation. Consecrated in the 1990s and expanded since, it reflects a common pattern among diaspora temples outside India of combining traditions under one roof for a smaller, more dispersed devotee population.
+One of the largest Hindu temples in Australia (the largest in Victoria), jointly dedicated to Shiva and Vishnu to serve Melbourne's broad and growing Hindu community regardless of sectarian affiliation. Consecrated in the 1990s and expanded since, it reflects a common pattern among diaspora temples outside India of combining traditions under one roof for a smaller, more dispersed devotee population; it is also known for drawing non-Indian Australians who come to learn Vedic Hindu scriptures.

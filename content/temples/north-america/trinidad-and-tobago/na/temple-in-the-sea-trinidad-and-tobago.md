@@ -18,11 +18,12 @@ how_to_reach: "On the west coast near Carapichaima, reachable by road from Port 
 festivals:
   - {name: "Diwali", approx_date: "October/November"}
 sources:
-  - {type: historical_record, note: "Sewdass Sadhu's construction (from 1947) and its causeway extension (1994-1995, Trinidad government) are well-documented modern history."}
+  - {type: historical_record, note: "Sewdass Sadhu's construction (1947-1952) and the temple's 1995 reopening after post-1970 reconstruction are well-documented modern history."}
+  - {type: historical_record, note: "Cross-checked during verification pass against Wikipedia's account: Sewdass Sadhu (b. 1901), an indentured laborer, was imprisoned 14 days and fined 100 pounds after his original shoreline temple was demolished by the Tate and Lyle Sugar Company's estate management; he then built the causeway and sea temple himself between 1947 and 1952. After his death in 1970, Randolph Rampersad led a reconstruction effort, and the rebuilt temple reopened in 1995, timed to the 150th anniversary of Indian indentured laborers' arrival in Trinidad (1845). It houses idols of Shiva, Ganesha, Hanuman, Durga, and Krishna."}
 documented_vs_legend: documented
-status: pending
+status: verified
 review_flags:
-  - "Compiled from general historical knowledge rather than a single verified structured dataset; recommend cross-checking specific dates, hours, and disputed historical claims against a dedicated scholarly or official source before treating as fully verified."
+  - "The specific claim that the Trinidad government funded/built the 1994-1995 causeway extension could not be independently confirmed via Wikipedia, which instead attributes the post-1970 reconstruction and 1995 reopening to a community effort led by Randolph Rampersad; this residual detail should still be checked against a dedicated local-history source."
 ---
 
-Built by Trinidadian devotee Sewdass Sadhu starting in 1947, this temple stands on an artificial islet just offshore, reached by a causeway, after Sadhu's original shoreline temple was demolished by colonial authorities and he resolved to build on land no one could take from him — the sea itself. It stands as an emblem of the resilience of Trinidad's Indo-Caribbean Hindu community, descended from 19th-century indentured laborers.
+Built by Trinidadian devotee Sewdass Sadhu (b. 1901), an indentured laborer, this temple stands on an artificial islet just offshore, reached by a causeway. Sadhu built it between 1947 and 1952 after his original shoreline temple was demolished by colonial-era estate management (he was imprisoned 14 days and fined 100 pounds for refusing to remove it) — he resolved instead to build on land no one could take from him, the sea itself. Following Sadhu's death in 1970, the temple was rebuilt under Randolph Rampersad's leadership and reopened in 1995, marking the 150th anniversary of Indian indentured laborers' first arrival in Trinidad. It houses idols of Shiva, Hanuman, Ganesha, Durga, and Krishna, and stands as an emblem of the resilience of Trinidad's Indo-Caribbean Hindu community, descended from 19th-century indentured laborers.

@@ -17,10 +17,11 @@ festivals:
   - {name: "Thrissur Pooram", approx_date: "April/May"}
 sources:
   - {type: oral_tradition, note: "Parashurama-founding legend recorded in Kerala Sthala Purana tradition (Keralolpathi)."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's account of Vadakkunnathan Temple, accessed during verification pass: confirms the Parashurama founding legend (deity said to have manifested as a lingam beneath a banyan tree at Sri Moola Sthana) and the temple's role as the venue for Thrissur Pooram at the surrounding Thekkinkadu Maidan; notes the temple's exact antiquity is uncertain and that some scholars consider other Kerala temples (e.g., Koodalmanikyam, Kodungallur Bhagavathy) potentially older."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Compiled from general historical/scriptural knowledge rather than a single verified structured dataset; recommend cross-checking specific dates, hours, and disputed historical claims against a dedicated scholarly or official temple-trust source before treating as fully verified."
+  - "The temple's exact antiquity remains scholarly uncertain; Wikipedia notes other Kerala temples may be comparably old or older, so specific age claims beyond the Parashurama legend should be treated cautiously."
 ---
 
-An ancient Shiva temple at the center of Thrissur city, traditionally associated with Parashurama (who, per Kerala's foundation legend, is said to have installed the deity as the first of the 108 Shiva temples he consecrated in Kerala). It is the focal point of the Thrissur Pooram, one of the largest and most famous temple festivals in Kerala, featuring elaborately caparisoned elephants.
+An ancient Shiva temple at the center of Thrissur city, traditionally associated with Parashurama (who, per Kerala's foundation legend, is said to have persuaded Shiva to manifest as a lingam beneath a banyan tree at Sri Moola Sthana, installing the deity as the first of the 108 Shiva temples he consecrated in Kerala). The main sanctum houses a roughly 16-foot lingam entirely covered by a mound of ghee. The Thekkinkadu Maidan surrounding the temple is the focal point of the Thrissur Pooram, often called the mother of all poorams in Kerala, a 36-hour festival featuring elaborately caparisoned elephants.

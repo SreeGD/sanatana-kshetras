@@ -18,11 +18,12 @@ festivals:
   - {name: "Bhai Dooj (closing day)", approx_date: "October/November"}
 sources:
   - {type: oral_tradition, note: "Pandava-founding and Adi Shankaracharya samadhi traditions, widely recorded in Char Dham pilgrimage literature."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's account of Kedarnath Temple during verification pass: confirms that it is not certain who built the original temple or when; the earliest documented textual reference to the site is in the Skanda Purana (c. 7th-8th century CE), and Kedarnath was firmly established as a pilgrimage center by the 12th century (per texts such as the Kritya-kalpataru)."}
 documented_vs_legend: legend
 status: pending
 review_flags:
-  - "The temple is seasonally closed; the founding legend (Pandavas, Adi Shankaracharya) is oral/hagiographic tradition, not independently documented history."
-  - "Compiled from general historical/scriptural knowledge rather than a single verified structured dataset; recommend cross-checking specific dates, hours, and disputed historical claims against a dedicated scholarly or official temple-trust source before treating as fully verified."
+  - "The temple is seasonally closed; the founding legend (Pandavas, Adi Shankaracharya) is oral/hagiographic tradition, not independently documented history. Wikipedia's own account states it is not certain who built the original temple or when."
+  - "Hagiographies disagree on where Adi Shankaracharya attained samadhi: some traditions place it at Kedarnath (as stated here), others at Kanchipuram; this entry follows the Kedarnath tradition without asserting it is the only account."
 ---
 
-One of the twelve Jyotirlingas, Kedarnath is also one of the Char Dham and Panch Kedar shrines, set high in the Garhwal Himalayas near the Mandakini river's source. Tradition associates its founding with the Pandavas seeking Shiva's forgiveness after the Kurukshetra war, and with a later restoration by Adi Shankaracharya, who is traditionally said to have attained samadhi near the temple.
+One of the twelve Jyotirlingas, Kedarnath is also one of the Char Dham and Panch Kedar shrines, set high in the Garhwal Himalayas near the Mandakini river's source. Tradition associates its founding with the Pandavas seeking Shiva's forgiveness after the Kurukshetra war, and with a later restoration by Adi Shankaracharya, who is traditionally said (in one of several conflicting hagiographic accounts) to have attained samadhi near the temple. It is not certain who built the original temple or precisely when; the earliest known textual reference to the site appears in the Skanda Purana (c. 7th-8th century CE), and Kedarnath was firmly established as a pilgrimage center by the 12th century.

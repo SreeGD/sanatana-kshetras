@@ -15,12 +15,12 @@ how_to_reach: "Located in central Durban, reachable by road/taxi from anywhere i
 festivals:
   - {name: "Kavady festival", approx_date: "varies (Thaipusam season)"}
 sources:
-  - {type: historical_record, note: "Natal indenture history (from 1860) and Durban's Indian-origin community are extensively documented South African history."}
+  - {type: historical_record, note: "Natal indenture history (from 1860, when the first indentured Indian laborers arrived aboard the Truro) and Durban's Indian-origin community are extensively documented South African history."}
+  - {type: historical_record, note: "Cross-checked during verification pass against Wikipedia's 'Hinduism in South Africa' article: confirmed the first Hindu temple in South Africa was established in 1869, and that early Tamil Hindu temples in the Durban area (e.g., the First River/Umbilo Shri Ambalavanaar temple, attested by 1875) followed soon after the 1860 start of Natal's indenture system. No dedicated source specifically documenting this temple's (Sri Siva Soobramaniar, Durban) own founding date was found this pass."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Specific founding date not confirmed from a single authoritative source consulted for this entry; the temple's general 19th/early-20th-century establishment within Durban's indentured-laborer community is well attested."
-  - "Compiled from general historical knowledge rather than a single verified structured dataset; recommend cross-checking specific dates, hours, and disputed historical claims against a dedicated scholarly or official source before treating as fully verified."
+  - "This specific temple's founding date could not be independently confirmed from an authoritative source this pass (no dedicated Wikipedia or equivalent article was found for it by this name/location); the broader context is well attested — the first Hindu temple in South Africa was established in 1869, and Natal's Indian indenture period began in 1860, with several Durban-area Tamil temples documented from the 1870s onward."
 ---
 
-One of South Africa's oldest and most prominent Hindu temples, serving the country's large Indian-origin community descended largely from 19th-century indentured laborers brought to work Natal's sugar plantations. Durban has one of the largest Indian populations of any city outside India, and its Hindu temples, including this one, remain vital centers of Tamil and broader Hindu religious and cultural life.
+One of South Africa's oldest and most prominent Hindu temples, serving the country's large Indian-origin community descended largely from indentured laborers brought to work Natal's sugar plantations from 1860 onward. Durban has one of the largest Indian populations of any city outside India, and its Hindu temples, including this one, remain vital centers of Tamil and broader Hindu religious and cultural life; the first Hindu temple in South Africa was established in 1869, and Durban-area Tamil temples are documented from the 1870s.

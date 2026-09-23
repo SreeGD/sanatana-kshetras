@@ -18,10 +18,11 @@ festivals:
   - {name: "Maha Shivaratri", approx_date: "February/March"}
 sources:
   - {type: historical_record, note: "Continuous patronage documented via Satavahana-era through Vijayanagara-era inscriptions and copper-plate grants found at the site."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's account of the Mallikarjuna Temple, Srisailam, accessed during verification pass: confirms Satavahana-era (2nd century CE) inscriptional evidence, a shrine structure dated to the 7th century, 12th-13th-century construction (veerasheromandapam, paathalaganga steps) under the Reddy-era Vhanni Reddi kingdom, and major Vijayanagara-period additions under Harihara I (14th-15th century)."}
 documented_vs_legend: documented
 status: pending
 review_flags:
-  - "Compiled from general historical/scriptural knowledge rather than a single verified structured dataset; recommend cross-checking specific dates, hours, and disputed historical claims against a dedicated scholarly or official temple-trust source before treating as fully verified."
+  - "Chola- and Kakatiya-era patronage (commonly cited in other secondary sources) was not independently confirmed in this pass's Wikipedia cross-check, which documented Satavahana, Reddy, and Vijayanagara involvement specifically; recommend confirming Chola/Kakatiya claims against a scholarly source before full verification."
 ---
 
-Uniquely counted among both the twelve Jyotirlingas of Shiva and the eighteen Maha Shakti Peethas of the Goddess (as Bhramaramba), Srisailam sits on the Nallamala hills above the Krishna river. Inscriptions and copper-plate grants from Satavahana, Chola, Kakatiya, Reddy, and Vijayanagara rulers document nearly two millennia of continuous royal patronage.
+Uniquely counted among both the twelve Jyotirlingas of Shiva and the eighteen Maha Shakti Peethas of the Goddess (as Bhramaramba), Srisailam sits on the Nallamala hills above the Krishna river. Inscriptional evidence of worship here dates to the 2nd-century Satavahana era, with the oldest surviving shrine structure dated to around the 7th century. The site saw further construction under the Reddy-era Vhanni Reddi kingdom in the 12th-13th centuries (including the veerasheromandapam and paathalaganga steps) and major additions during the Vijayanagara period under Harihara I in the 14th-15th centuries; Chola- and Kakatiya-era patronage is also frequently cited, spanning nearly two millennia of royal patronage in total.
