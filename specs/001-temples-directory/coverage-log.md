@@ -72,3 +72,13 @@ A 5th pass (Himachal Pradesh, J&K, Delhi, Puducherry, and the remaining single-t
 Genuinely came up empty after real research attempts (not forced): a second temple for Meghalaya, Nagaland, Andaman & Nicobar Islands, and Dadra & Nagar Haveli and Daman & Diu; and a second temple for Tripura specifically (Agartala candidates lacked confirmable founding/dynastic attribution).
 
 This completes the district-deepening pass: 55 temples added in total across all 5 groups.
+
+## Asia continent expansion (outside India)
+
+Dispatched 2 parallel research passes to expand Asia-outside-India coverage, same WebFetch-verification rigor throughout.
+
+**New countries** (5): Bangladesh (Dhakeshwari Temple — "National Temple of Bangladesh"; Chandranath Temple; Ramna Kali Mandir, rebuilt after the 1971 massacre), Thailand (Devasathan — Bangkok's royal Brahmin temple; Sri Maha Mariamman Temple; Erawan Shrine — deliberately flagged as not a conventional Hindu temple per its own Wikipedia sourcing, included for its Brahma iconographic origin), United Arab Emirates (BAPS Hindu Mandir Abu Dhabi, opened 2024; the historic Bur Dubai temple, honestly flagged for its 2022-2024 split across two sites), Myanmar (Shri Kali Temple, Yangon, 1871), and China (Quanzhou's medieval Tamil-merchant Hindu temple carvings, 1281-83 CE — worship_status: heritage; the agent caught and corrected a source conflation about the Buddhist Kaiyuan Temple).
+
+**Deepened existing countries** (8 new entries across 6 countries): Nepal (Janaki Mandir, Janakpur — Sita's traditional birthplace; Changu Narayan, oldest dated Hindu temple in Nepal), Sri Lanka (Kataragama — set worship_status: partially_active given its genuinely multi-religious character; Munneswaram), Pakistan (Hinglaj Mata Temple/"Nani Mandir," Balochistan — a major Shakti Peetha with ~300,000 annual pilgrims), Malaysia (Sri Rajakaliamman Glass Temple, Johor Bahru), Singapore (Sri Srinivasa Perumal Temple), and Indonesia (Pura Tanah Lot, Bali — a suspicious $480M restoration-cost figure was deliberately omitted rather than repeated unverified).
+
+Asia (outside India) now spans 14 countries.
