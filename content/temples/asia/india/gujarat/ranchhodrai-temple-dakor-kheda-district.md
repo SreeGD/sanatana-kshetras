@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Gujarat"
 city: "Dakor, Kheda district"
+coordinates: {lat: 22.75, lng: 73.15}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own trust for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Kartik Purnima (October/November), when the town's largest annual fair is held, is the single busiest and most significant time to visit."

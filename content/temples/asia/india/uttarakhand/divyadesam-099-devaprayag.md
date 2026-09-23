@@ -12,6 +12,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Devaprayag (Thirukkandam)"
 coordinates: {lat: 30.1462, lng: 78.5991}
+address: "Devprayag, Tehri Garhwal district, Uttarakhand 249301, India, at the Bhagirathi-Alaknanda confluence"
 worship_status: active
 darshan_hours: "Typically around 6:00 AM-12:00 PM and 4:00 PM-8:00 PM, as is customary for South Indian Vaishnava temples; the exact daily schedule was not available from the source dataset used to compile this entry and should be confirmed locally before a visit."
 best_time_to_visit: "October to March, for cooler weather; the temple's own festival days (see local Devasthanam/HR&CE calendar) are considered especially auspicious."

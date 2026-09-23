@@ -10,6 +10,7 @@ continent: asia
 country: "India"
 region: "Odisha"
 city: "Puri"
+coordinates: {lat: 19.80472, lng: 85.81833}
 worship_status: active
 darshan_hours: "Varies by season; consult the Jagannath Temple administration for current access, as the shrine sits within the main temple complex."
 best_time_to_visit: "October to March for cooler weather; Durga Puja (Sep/Oct) is the temple's principal festival, culminating in Vijayadashami rites."

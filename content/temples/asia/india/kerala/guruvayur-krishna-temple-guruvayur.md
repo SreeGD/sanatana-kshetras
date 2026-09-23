@@ -10,6 +10,7 @@ continent: asia
 country: "India"
 region: "Kerala"
 city: "Guruvayur, Thrissur district"
+coordinates: {lat: 10.5945, lng: 76.039}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "November-December for Guruvayur Ekadasi, or August/September for Krishna Janmashtami; otherwise October to March for cooler weather."
@@ -23,6 +24,7 @@ festivals:
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's Guruvayur Temple article: confirms the temple's location in Guruvayur town, Thrissur district; the presiding deity Guruvayurappan (Krishna) as a roughly 1.2-metre, four-armed shaligram-stone image holding conch, discus, mace, and lotus; the 1716 Dutch raid on the western gopuram and its 1747 reconstruction; Hyder Ali's 1766 invasion; Tipu Sultan's 1789 invasion, which prompted temporary relocation of the deity to Ambalapuzha and reinstallation at Guruvayur on September 17, 1792; the destructive 1970 fire; and the 1931-1947 Guruvayur Satyagraha, culminating in the temple's opening to all Hindus on June 2, 1947."}
   - {type: oral_tradition, note: "The Narada Purana's Gurupavanapura Mahatmya account — that the image was originally made by Vishnu in Vaikuntha, passed down through Brahma to King Sutapas and Queen Prishni, later recovered from the submerged city of Dwaraka by Krishna's disciple Uddhava, and installed at the present site by Brihaspati (guru of the gods) and Vayu (the wind-god), giving the town its name 'Guruvayur' — is devotional/legendary tradition rather than documented history."}
+  - {type: historical_record, note: "Re-verified via a fresh fetch of the same Wikipedia article on 2026-09-23: sourced coordinates (10.5945, 76.0390), previously missing from this entry. Exact darshan/Nirmalyam hours are not given in the article and remain unconfirmed."}
 documented_vs_legend: mixed
 status: verified
 ---

@@ -9,7 +9,7 @@ country: "India"
 region: "Maharashtra"
 city: "Pune"
 coordinates: {lat: 18.51639, lng: 73.85611}
-address: "Budhwar Peth area, central Pune, Maharashtra"
+address: "Shivaji Road, Budhwar Peth/Shaniwar Peth boundary, Pune, Maharashtra 411001, India"
 worship_status: active
 darshan_hours: "Varies by season and festival calendar; consult the temple trust for the current daily schedule before visiting."
 best_time_to_visit: "Ganesh Chaturthi/Ganeshotsav (Aug/Sep) is by far the most significant time, with the temple's pandal and idol a major citywide attraction; the temple is busy with everyday visitors year-round."

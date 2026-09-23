@@ -12,6 +12,7 @@ continent: asia
 country: "India"
 region: "Rajasthan"
 city: "Udaipur"
+coordinates: {lat: 24.5798, lng: 73.6839}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; the annual Rath Yatra is the temple's most striking festival."

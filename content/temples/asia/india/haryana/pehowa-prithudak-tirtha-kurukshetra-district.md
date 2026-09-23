@@ -10,6 +10,7 @@ continent: asia
 country: "India"
 region: "Haryana"
 city: "Pehowa, Kurukshetra district"
+coordinates: {lat: 29.98, lng: 76.58}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult local temple caretakers for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; the site is especially busy on new-moon (amavasya) days considered auspicious for ancestral rites (pind daan/shraddha)."
@@ -17,10 +18,11 @@ how_to_reach: "Pehowa is about 27 km west of Kurukshetra city, Haryana, on the b
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's Pehowa article: confirms the town, in Kurukshetra district on the Saraswati river, is one of the sites within the traditional 48 Kos Parikrama of Kurukshetra and is regarded as an important pitru-tirtha (Prithudak Tirtha) for ancestral rites; confirms an ancient Saraswati temple and a Kartikeya temple (the latter dated to around the 5th century) stand at the site, along with the Prithudak Tirtha complex where genealogical registers of pilgrim families are maintained by resident pandas; confirms 9th-century inscriptions record the Tomara family's construction of three Vishnu temples at Pehowa, and that an inscription dated 882-883 CE describes Prithudaka (Pehowa) as the site of a major fair notable for horse trading."}
   - {type: oral_tradition, note: "Local tradition holds that Krishna brought the Pandavas to Pehowa before the start of the Mahabharata war; this is devotional/epic tradition rather than independently dated history."}
+  - {type: historical_record, note: "Follow-up check of Wikipedia's Pehowa article confirmed town-level coordinates (29.98N, 76.58E) and clarified that the 9th-century Tomara-era Vishnu temples attested by inscription no longer stand ('not found in present-day Pehowa'), while the Kartikeya temple is itself described as a 5th-century structure and the Saraswati temple's ancient entrance pillars carry an unresolved citation-needed tag in the source."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "The ancient inscriptional record (9th-century Tomara-era Vishnu temples, the 5th-century-attributed Kartikeya temple, and the 882-883 CE fair inscription) documents a long history of temple-building and pilgrimage activity at Pehowa, but the source checked does not establish that the currently standing Saraswati and Kartikeya temple structures are themselves that old, as opposed to later rebuildings on ancient sites; treat the current buildings' precise age as unconfirmed."
+  - "The ancient inscriptional record (9th-century Tomara-era Vishnu temples, the 5th-century-attributed Kartikeya temple, and the 882-883 CE fair inscription) documents a long history of temple-building and pilgrimage activity at Pehowa. A fresh check of Wikipedia's Pehowa article confirms the Kartikeya temple is described there as itself 'a 5th-century temple' (suggesting an ancient standing structure), but flags the Saraswati temple's entrance pillars, said to 'date many centuries,' with its own citation-needed tag, and explicitly states that the 9th-century Tomara-era Vishnu temples described in inscriptions are 'not found in present-day Pehowa' -- i.e. those specific structures no longer stand. Treat the Kartikeya temple's structural antiquity as reasonably well attested and the Saraswati temple's as unconfirmed."
 ---
 
 Pehowa, on the banks of the now largely seasonal Saraswati river in Haryana's Kurukshetra district, is one of Hindu tradition's most significant Pitru Tirthas — sites where pilgrims perform pind daan and shraddha rites for deceased ancestors. Lying within the traditional 48 Kos Parikrama that marks out the wider sacred geography of Kurukshetra, the town is known in this context as Prithudak Tirtha, and resident pandas here maintain genealogical registers documenting generations of pilgrim families who have come to perform these rites on the Saraswati's banks. Local tradition holds that Krishna himself brought the Pandavas to Pehowa in the lead-up to the Mahabharata war, adding an epic-era layer to the site's ancestral significance.

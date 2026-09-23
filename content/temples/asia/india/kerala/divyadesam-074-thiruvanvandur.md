@@ -10,30 +10,35 @@ traditions: [vaishnava]
 continent: asia
 country: "India"
 region: "Kerala"
-city: "Thiruvanvandur"
-coordinates: {lat: 9.34882, lng: 76.580307}
+city: "Thiruvanvandur (Thiruvanvandoor), Alappuzha district"
+coordinates: {lat: 9.34306, lng: 76.57972}
 worship_status: active
-darshan_hours: "Typically around 6:00 AM-12:00 PM and 4:00 PM-8:00 PM, as is customary for South Indian Vaishnava temples; the exact daily schedule was not available from the source dataset used to compile this entry and should be confirmed locally before a visit."
-best_time_to_visit: "October to March, for cooler weather; the temple's own festival days (see local Devasthanam/HR&CE calendar) are considered especially auspicious."
-how_to_reach: "Located at Thiruvanvandur, Kerala; consult local transport options for the nearest railway station, bus stand, or airport."
+darshan_hours: "Daily approximately 4:00 AM-11:00 AM and 5:00 PM-8:00 PM, per the temple's Wikipedia article (as Thiruvanvandoor Mahavishnu Temple); confirm locally as timings can shift for festivals."
+best_time_to_visit: "The temple's annual 51-day festival marking the deity's installation, concluding with the Gajamela parade of 21 caparisoned elephants, is its major occasion; October to March otherwise for cooler weather."
+how_to_reach: "The temple is in Alappuzha district, Kerala, near Chengannur, which has the nearest railway station; Thiruvananthapuram International Airport serves the region."
+festivals:
+  - {name: "51-day installation festival, concluding with Gajamela", approx_date: "Varies by temple calendar"}
 associated_saints:
   - "Nammalwar"
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Nammalwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
   - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
+  - {type: historical_record, note: "Independently cross-checked via a fresh fetch of Wikipedia's Thiruvanvandoor Mahavishnu Temple article on 2026-09-23: confirms this Divya Desam's deity names Pambanaiappan and Gosala Krishna (matching this entry's 'Paambanaiyappan'); confirms stone records dating the temple to the Second Chera Empire (c. 800-1102 CE); confirms the Pandava legend that Nakula built this as one of five temples the brothers established along the Pamba river; confirms Kerala-style architecture with a two-storey gopuram (its upper storey with wooden trellis-work over the Kottupura), wood-and-stucco carvings of epic narratives, and early-18th-century wall paintings; confirms administration by the Travancore Devaswom Board; corrected this entry's coordinates by about 0.6 km to the article's sourced value (9°20'35\"N 76°34'47\"E); and sourced the annual 51-day installation-anniversary festival culminating in a Gajamela procession of 21 caparisoned elephants with classical performances including Kathakali."}
 documented_vs_legend: mixed
-status: pending
+status: verified
 review_flags:
-  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
+  - "This entry's core identity, deity names, Second Chera Empire dating (c. 800-1102 CE), and Pandava-Nakula founding legend are now independently confirmed via Wikipedia. The Pandava-founding account remains legend rather than an archaeologically dated claim, and the exact date of the 51-day festival within the Malayalam calendar was not specified in the source checked."
 ---
 
-The Paambanaiyappan Temple at Thiruvanvandur is one of the 108 Divya Desams, situated in Malai Nadu, the Kerala region, among the sacred Vishnu shrines associated with the Pampa river. The presiding deity, the Moolavar, is venerated here as Paambanaiyappan, the Lord who reclines upon Adisesha, the serpent of endless coils that serves as His couch upon the cosmic ocean. By this very name the shrine proclaims the abiding image of Vishnu as the supreme refuge who rests upon the great serpent while sustaining and protecting the worlds. Thiruvanvandur belongs to the group of divyadesams in Kerala celebrated for their antiquity and their place in the Tamil canon, and devotees revere it as an abode where the Lord grants peace to those who take shelter at His feet. The sanctity of this place was sung by Nammalwar, the chief among the twelve Alwars, in the Naalayira Divya Prabandham, and it is through his hymns that the temple is enshrined among the sacred abodes of Vishnu praised by the Alwar saints. As the Lord who rests upon the serpent couch, Paambanaiyappan embodies for his devotees the assurance of the Lord's protection and his readiness to awaken for the rescue of those who call upon Him. Worshipped with steadfast devotion through the centuries, the temple at Thiruvanvandur continues to hold its honored place among the Divya Desams, drawing pilgrims who seek the grace of the reclining Lord upon Adisesha.
+The Paambanaiyappan Temple at Thiruvanvandur — documented as the Thiruvanvandoor Mahavishnu Temple, where the deity is recorded under the names Pambanaiappan and Gosala Krishna — is one of the 108 Divya Desams, among the sacred Vishnu shrines associated with the Pamba river in Alappuzha district. The presiding deity is venerated as Paambanaiyappan, the Lord who reclines upon Adisesha, the serpent of endless coils that serves as His couch upon the cosmic ocean. Stone records date the temple to the Second Chera Empire, roughly 800-1102 CE, placing it among the better-dated Kerala Divya Desams in this directory. It is also one of five shrines along the Pamba that Kerala tradition credits to the five Pandava brothers, this one specifically attributed to Nakula. The sanctity of the place was sung by Nammalwar in the Naalayira Divya Prabandham.
+
+Built in Kerala style, the temple has a two-storey gopuram whose upper storey carries wooden trellis-work over the Kottupura, and its sanctum is adorned with wood-and-stucco carvings depicting epic narratives alongside wall paintings dating to the early 18th century.
 
 ## Festivals
 
-At Thiruvanvandur, where the Lord is revered as Paambanaiyappan reclining upon the serpent Adisesha, worship follows the traditional Srivaishnava festive cycle of the Malai Nadu Divya Desams. The annual Brahmotsavam is the principal celebration, marked by processions of the utsava deity, recitation of the Nalayira Divya Prabandham, and the ceremonial vahanas. Vaikunta Ekadasi is observed with special reverence, and observances such as Pavithrotsavam and a Float festival (Theppotsavam) feature where kept. As part of the cluster of five Pandava-associated Kerala temples along the Pamba, Thiruvanvandur shares in the festive spirit of the Onam season, when pilgrims journey across the linked Divya Desams of the region for darshan and procession.
+Thiruvanvandur's best-documented celebration is its annual 51-day festival marking the anniversary of the deity's installation, which concludes with Gajamela, a parade of 21 caparisoned elephants accompanied by classical performances including Kathakali. Alongside this, the temple keeps the broader Srivaishnava festive cycle of the Malai Nadu Divya Desams, including Vaikunta Ekadasi and the recitation of the Nalayira Divya Prabandham, and shares in the wider Onam-season pilgrimage across the linked Pamba-river Divya Desams.
 
 ## Location & Access
 
-Thiruvanvandur lies in the Malai Nadu (Kerala) region, near Chengannur in the Pathanamthitta district of central Kerala, set within the riverine landscape of the Pamba. Chengannur is the nearest convenient town and transport point, with Tiruvalla and Kottayam serving as the broader access hubs for the area. As with most Vishnu temples, it generally keeps morning and evening darshan hours, the sanctum closing during the midday period. Verify current darshan timings and travel details with the temple or official sources before visiting.
+Thiruvanvandur lies in Alappuzha district, Kerala, near Chengannur, which has the nearest railway station; Thiruvananthapuram International Airport serves the region, with Tiruvalla and Kottayam as broader regional hubs. Darshan is generally offered from about 4 AM to 11 AM and 5 PM to 8 PM. Verify current darshan timings and travel details with the temple or official sources before visiting.

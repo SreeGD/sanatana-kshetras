@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Manipur"
 city: "Lamangdong, Bishnupur district"
+coordinates: {lat: 24.6333, lng: 93.7667}
 worship_status: partially_active
 darshan_hours: "Varies by temple and season; consult local caretakers/the Archaeological Survey of India site management for the current schedule before visiting."
 best_time_to_visit: "October to March for cooler, drier weather."
@@ -19,6 +20,7 @@ status: pending
 review_flags:
   - "The 1470 CE treaty-and-idol narrative and King Kyamba's role in building the temple are drawn from a single tertiary source (Wikipedia) without independent cross-check against Manipuri royal chronicles such as the Cheitharol Kumbaba; treated here as historical tradition rather than fully independently verified fact."
   - "Current level of active daily worship versus purely custodial/heritage-monument status was not clearly established in the source checked, hence worship_status is recorded as partially_active rather than active or heritage."
+  - "Coordinates given (24.6333N, 93.7667E) are Wikipedia's town-level coordinates for Bishnupur generally, not a Lamangdong-temple-specific reading; the source consulted gives no separate coordinates for the temple itself."
 ---
 
 Bishnupur district in Manipur takes its very name from this small but historically significant Vishnu temple at Lamangdong, one of the earliest attested sites of Vaishnava worship in the Manipur valley — predating the far better-known royal Vaishnavism of the Govindaji temple in Imphal by roughly three centuries. Tradition credits its founding to the Meitei king Kyamba, who around 1470 CE allied with Chaopha Khe Khomba, the Shan ruler of Pong, to conquer the kingdom of Kyang in the Kabaw Valley (present-day Myanmar); as part of the resulting treaty, the Pong king presented Kyamba with a small image of Vishnu. Kyamba is said to have built a brick temple at Lamangdong to house the image, an act remembered as the beginning of regular Vishnu worship in Manipur, well before the Vaishnava reformation under later kings such as Pamheiba and Bhagyachandra reshaped Meitei religious life more broadly.

@@ -11,6 +11,7 @@ continent: asia
 country: "India"
 region: "Andhra Pradesh"
 city: "Pithapuram, Kakinada district"
+coordinates: {lat: 17.1067944, lng: 82.24333}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Maha Shivaratri and Navaratri are the temple's most significant occasions."
@@ -19,7 +20,7 @@ festivals:
   - {name: "Maha Shivaratri", approx_date: "February/March"}
   - {name: "Sharad Navaratri", approx_date: "September/October"}
 sources:
-  - {type: historical_record, note: "Cross-checked against Wikipedia's 'Kukkuteswara Temple' article: confirms the presiding Shiva form is worshipped as a self-manifested (swayambhu) lingam, and that the same temple complex houses the Puruhutika Devi shrine as its goddess aspect; confirms Puruhutika Devi's status as one of the eighteen Maha Shakti Peethas, conventionally numbered 10th in that list; confirms Pithapuram/this temple is distinct from, and not counted among, the separate group of five Pancharama Kshetra Shiva temples (which includes nearby Draksharamam). The source gives no founding date, dynasty, inscriptional record, or detailed festival calendar for either shrine."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's 'Kukkuteswara Temple' article: confirms the presiding Shiva form is worshipped as a self-manifested (swayambhu) lingam, and that the same temple complex houses the Puruhutika Devi shrine as its goddess aspect; confirms Puruhutika Devi's status as one of the eighteen Maha Shakti Peethas, conventionally numbered 10th in that list; confirms Pithapuram/this temple is distinct from, and not counted among, the separate group of five Pancharama Kshetra Shiva temples (which includes nearby Draksharamam). The source gives no founding date, dynasty, inscriptional record, or detailed festival calendar for either shrine. Coordinates (17.1067944°N, 82.24333°E) confirmed via the Wikipedia 'Kukkuteswara Temple' article infobox."}
   - {type: oral_tradition, note: "The identification of the Puruhutika Devi shrine as a Shakti Peetha marking the fall of a part of Sati's body here is devotional/Puranic tradition; the specific body part is most consistently given in secondary lists as the hip, though this entry treats that detail as traditional rather than settled."}
 documented_vs_legend: mixed
 status: pending

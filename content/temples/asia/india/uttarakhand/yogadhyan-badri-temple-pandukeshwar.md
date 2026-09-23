@@ -9,6 +9,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Pandukeshwar, Chamoli district"
 coordinates: {lat: 30.6339, lng: 79.5475}
+address: "Pandukeshwar (Pandukeshar), Nayachutti, Joshimath tehsil, Chamoli district, Uttarakhand, India"
 worship_status: active
 darshan_hours: "Varies by season; consult local priests/temple administration for the current daily schedule."
 best_time_to_visit: "Accessible for most of the year given its comparatively low elevation (roughly 1,829 m) and direct road access, though the broader Char Dham season of May-June and September-October is most convenient for pilgrims combining a visit with Badrinath; the temple takes on particular importance in winter, when it hosts the utsava-murti (festival image) of Badrinath during that shrine's own seasonal closure."

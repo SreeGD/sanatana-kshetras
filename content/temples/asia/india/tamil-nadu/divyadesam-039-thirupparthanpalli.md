@@ -15,17 +15,22 @@ coordinates: {lat: 11.169675, lng: 79.7974778}
 worship_status: active
 darshan_hours: "Typically around 6:00 AM-12:00 PM and 4:00 PM-8:00 PM, as is customary for South Indian Vaishnava temples; the exact daily schedule was not available from the source dataset used to compile this entry and should be confirmed locally before a visit."
 best_time_to_visit: "October to March, for cooler weather; the temple's own festival days (see local Devasthanam/HR&CE calendar) are considered especially auspicious."
-how_to_reach: "Located at Thirupparthanpalli, Tamil Nadu; consult local transport options for the nearest railway station, bus stand, or airport."
+how_to_reach: "Thirupparthanpalli is near Thirunangur village, about 8 km east of Sirkali en route to Thiruvenkadu, Mayiladuthurai district."
+festivals:
+  - {name: "Thirumangai Alvar Mangalasasana Utsavam (Garudasevai)", approx_date: "Thai (January/February)"}
 associated_saints:
   - "Thirumangai Alwar"
+  - "Poigai Alwar"
 sources:
-  - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Thirumangai Alwar"}
+  - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Thirumangai Alwar (one hymn) and Poigai Alwar (one hymn), per Wikipedia's 'Thiruppaarththanpalli' article."}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
-  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative originally adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status); supplemented below by independently verified detail from Wikipedia's 'Thiruppaarththanpalli' article, accessed during a 2026 re-verification pass."}
+  - {type: historical_record, note: "Wikipedia's 'Thiruppaarththanpalli' article (2026 access) confirms consort Shengamalavalli, with festival-image consorts named Sridevi, Bhudevi, Niladevi, and Jambavati, and festival images also including Krishna and Rama forms; a single-prakaram, west-facing Dravidian shrine with a vimana named Narayana Vimanam; a separate shrine to sage Agastya consecrated in May 2015; and a legend, told as tradition, that Arjuna arrived seeking water and, guided by Agastya, was shown Krishna appearing as Parthasarathy, giving the place its name (Parthan + Palli, 'Arjuna's school'); Arjuna is said to have dug the temple tank, named Katka Pushkarani, with a divine sword. It also states this is 'the only temple in the Nangur Divya Desams praised by an Alvar other than Thirumangai Alvar' (Poigai Alwar); an identical claim appears on Wikipedia's article for divyadesam-036, so the superlative is unresolved, though the underlying Poigai Alwar hymn attribution is recorded as stated."}
 documented_vs_legend: mixed
-status: pending
+status: verified
 review_flags:
-  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
+  - "Wikipedia's claim to be 'the only' Nangur temple hymned by an Alvar besides Thirumangai is contradicted by an identical claim on another Nangur temple's page (divyadesam-036); unresolved."
+  - "Construction period, dynasty, and inscriptions remain unconfirmed for this temple."
 ---
 
 The Thamaraiyaal Kelvan Temple at Thirupparthanpalli, in the Chola Nadu region, is honoured as one of the 108 Divya Desams celebrated by the Alwars in the Naalayira Divya Prabandham. The presiding deity (Moolavar) bears the evocative name Thamaraiyaal Kelvan, "the Consort of her who dwells upon the lotus," that is, the beloved Lord of Sri Mahalakshmi, the goddess seated upon the lotus; the appellation thus extols the deity in His eternal union with Sri, the very emblem of grace and auspiciousness in Srivaishnava theology. The place-name Thirupparthanpalli, associated in tradition with Partha — Arjuna — points to the puranic remembrance of the Lord's bond with the Pandava prince, and tradition holds this to be a place sanctified by that connection. The shrine was sung by Thirumangai Alwar, the princely saint whose far-ranging pilgrimage and copious hymns brought many of the delta shrines into the sacred corpus of the Prabandham; through his verses Thirupparthanpalli took its place among the divine abodes of the Lord. Lying within the temple-strewn Cauvery country of the Chola realm, this Divya Desam stands as a seat where the Lord, ever inseparable from Lakshmi, dispenses His grace to devotees. Pilgrims who tread the path of the 108 sacred abodes come here to worship Thamaraiyaal Kelvan and to recall the hymns of Thirumangai Alwar, by whose devotion the glory of this holy place was enshrined for generations of the faithful.

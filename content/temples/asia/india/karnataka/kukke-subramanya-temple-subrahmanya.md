@@ -10,6 +10,7 @@ continent: asia
 country: "India"
 region: "Karnataka"
 city: "Subrahmanya (Kukke Subramanya), Dakshina Kannada district"
+coordinates: {lat: 12.66, lng: 75.61}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own trust/administration for the current daily schedule before visiting, particularly before booking a Sarpa Samskara or Ashlesha Bali ritual, which run on a separate schedule."
 best_time_to_visit: "October to March for cooler weather; Champa Shasti (Skanda Shasti) draws the temple's largest crowds."
@@ -19,7 +20,7 @@ festivals:
   - {name: "Nagara Panchami", approx_date: "July/August"}
 sources:
   - {type: oral_tradition, note: "The temple's founding is attributed in tradition to the sage Parashurama as one of several sacred sites he is said to have consecrated; the core legend holds that the serpent king Vasuki took refuge here from Garuda, and that Kartikeya (Subrahmanya) and Ganesha defeated the demons Taraka and Shurapadma at the nearby Kumara Parvatha hill before Kartikeya's marriage to Devasena. These are Puranic/devotional narratives rather than dated history."}
-  - {type: historical_record, note: "Cross-checked against Wikipedia's account of Kukke Subramanya Temple: confirms its location on the bank of the Kumaradhara River in Subrahmanya village, Dakshina Kannada district; worship of Kartikeya here specifically as lord of all serpents, with the temple following the Tantra Sara Sangraha ritual tradition associated with Madhvacharya; priesthood historically held by Sthanika Brahmins (described as among the oldest Tulu Brahmin communities in South India) until the early 20th century, since when Shivalli Madhwa Brahmins have officiated; and the temple's particular renown for serpent-related remedial rites, especially Ashlesha Bali and Sarpa Dosha Parihara/Sarpa Samskara, alongside festivals including Champa/Kiru Shasti, Nagara Panchami, and Nagaradhane."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's account of Kukke Subramanya Temple: confirms its location on the bank of the Kumaradhara River in Subrahmanya village, Dakshina Kannada district (coordinates 12°40'N 75°37'E / 12.66°N 75.61°E); worship of Kartikeya here specifically as lord of all serpents, with the temple following the Tantra Sara Sangraha ritual tradition associated with Madhvacharya; priesthood historically held by Sthanika Brahmins (described as among the oldest Tulu Brahmin communities in South India) until the early 20th century, since when Shivalli Madhwa Brahmins have officiated; and the temple's particular renown for serpent-related remedial rites, especially Ashlesha Bali and Sarpa Dosha Parihara/Sarpa Samskara, alongside festivals including Champa/Kiru Shasti, Nagara Panchami, and Nagaradhane. The Wikipedia article does not give a founding date/century for the temple, consistent with review_flags below."}
 documented_vs_legend: legend
 status: pending
 review_flags:

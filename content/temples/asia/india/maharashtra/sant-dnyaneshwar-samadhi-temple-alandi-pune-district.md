@@ -11,6 +11,7 @@ country: "India"
 region: "Maharashtra"
 city: "Alandi, Pune district"
 coordinates: {lat: 18.6786, lng: 73.8994}
+address: "Alandi, Khed taluka, Pune district, Maharashtra 412105, India"
 worship_status: active
 darshan_hours: "Varies by season and festival calendar; consult the temple trust for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; the site is busiest on the dark-half Ekadashi of every month, around the Kartik Vadya Ekadashi samadhi-anniversary festival, and around the Ashadhi Wari departure in June/July."

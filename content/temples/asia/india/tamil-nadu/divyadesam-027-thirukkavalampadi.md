@@ -15,17 +15,20 @@ coordinates: {lat: 11.1749232, lng: 79.7789624}
 worship_status: active
 darshan_hours: "Typically around 6:00 AM-12:00 PM and 4:00 PM-8:00 PM, as is customary for South Indian Vaishnava temples; the exact daily schedule was not available from the source dataset used to compile this entry and should be confirmed locally before a visit."
 best_time_to_visit: "October to March, for cooler weather; the temple's own festival days (see local Devasthanam/HR&CE calendar) are considered especially auspicious."
-how_to_reach: "Located at Thirukkavalampadi (Nandhipura Vinnagaram), Tamil Nadu; consult local transport options for the nearest railway station, bus stand, or airport."
+how_to_reach: "Thirukkavalampadi lies in Thirunangur village, Sirkali taluk, Mayiladuthurai district, about 10 km from Sirkali."
+festivals:
+  - {name: "Thirumangai Alvar Mangalasasana Utsavam (Garudasevai)", approx_date: "Thai (January/February)"}
 associated_saints:
   - "Thirumangai Alwar"
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
-  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative originally adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status); supplemented below by independently verified detail from Wikipedia's 'Thirukkavalampadi' article, accessed during a 2026 re-verification pass."}
+  - {type: historical_record, note: "Wikipedia's 'Thirukkavalampadi' article (2026 access), full name 'Gopalakrishna Perumal Temple': confirms location in Thirunangur village, Sirkali taluk, Mayiladuthurai district (about 10 km from Sirkali); one of eleven interconnected 'Thirunangur Tirupathis' closely linked with Thirumangai Alwar; consorts Rukmini and Satyabhama; Tenkalai Vaishnava tradition; a modest Dravidian-style shrine with a vimanam and three-tiered gopuram, and a separate Garuda shrine outside the main gate; four daily ritual times (Ushathkalam 8 a.m., Kalasanthi 10 a.m., Sayarakshai 5 p.m., Ardha Jamam 7 p.m.); and the Thirumangai Alvar Mangalasasana Utsavam in the Tamil month of Thai (January/February), featuring the Garudasevai procession shared across all eleven Thirunangur temples. Wikipedia's 'Divya Desam' list article separately gives the consort as Senkamala Nachiyar, a naming variance not resolved here."}
 documented_vs_legend: mixed
-status: pending
+status: verified
 review_flags:
-  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
+  - "Construction period, dynasty, and inscriptions remain unconfirmed for this temple. Two Wikipedia sources give differing consort names (Rukmini/Satyabhama vs. Senkamala Nachiyar); not reconciled this pass."
 ---
 
 At Thirukkavalampadi, also known as Nandhipura Vinnagaram, in the Chola Nadu region, the Lord is enshrined as Gopala Krishnan, the cowherd Krishna, and the temple stands as one of the 108 Divya Desams revered by Sri Vaishnavas. The Moolavar here graces His devotees in the beloved form of Krishna, the divine herdsman of Brindavan, recalling the Lord's earthly leelas amid the cowherds and milkmaids. The appellation Vinnagaram, meaning a celestial city or temple of the heavens, marks this as one of the shrines whose very name proclaims its sanctity as an abode of the Lord. According to tradition, the place is linked with Nandi and with the worship offered here by celestial and divine beings, from which the name Nandhipura is drawn; the sthala purana cherishes the memory of Krishna's grace manifesting at this spot. Thirumangai Alwar, the great prince among the Alwar saints who sang of more Divya Desams than any other, glorified this temple in his hymns within the Naalayira Divya Prabandham, the four-thousand-verse compendium of the Alwars' devotion. By the sanctifying touch of his Tamil verses, Thirukkavalampadi was numbered among the Divya Desams and drawn into the sacred circuit of the Cauvery delta shrines. Pilgrims come here to behold Gopala Krishnan, seeking the tender, playful grace of the cowherd Lord who is held to draw near to His devotees with the same intimacy he showed the cowherds of old.

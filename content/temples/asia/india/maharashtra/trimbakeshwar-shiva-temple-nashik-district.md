@@ -8,6 +8,8 @@ continent: asia
 country: "India"
 region: "Maharashtra"
 city: "Trimbak, Nashik district"
+coordinates: {lat: 19.9354, lng: 73.5302}
+address: "Trimbak town, Trimbakeshwar taluka, Nashik district, Maharashtra 422212, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Maha Shivaratri draws especially large crowds, as does the Nashik-Trimbakeshwar Kumbh Mela, held once every twelve years."
@@ -16,6 +18,7 @@ festivals:
   - {name: "Maha Shivaratri", approx_date: "February/March"}
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's Trimbakeshwar Shiva Temple article: confirms the present black-stone temple was built by Peshwa Balaji Baji Rao in the 18th century, replacing a structure destroyed under Mughal rule during Aurangzeb's reign; confirms Jyotirlinga status, Hemadpanthi architectural style, the temple's location between the Brahmagiri, Nilagiri, and Kalagiri hills, and the 19th-century looting of the Nassak Diamond (once set on the linga) by British forces during the Third Anglo-Maratha War."}
+  - {type: historical_record, reference: "OpenStreetMap/Nominatim geocoding", note: "Coordinates (Trimbak town centroid) and address added via geocoding, September 2026, since no lat/lng was previously recorded for this entry."}
   - {type: oral_tradition, note: "The story of sage Gautama's penance on Brahmagiri Hill, and Shiva's consequent release of the Ganga to flow earthward as the Godavari river (the 'Ganga of the South'), is a Puranic/devotional account of the Godavari's origin rather than documented history. A related popular story crediting Peshwa Nanasaheb's reconstruction to a wager over whether the rock enclosing the linga was hollow is likewise local tradition, not verified fact."}
 documented_vs_legend: mixed
 status: verified

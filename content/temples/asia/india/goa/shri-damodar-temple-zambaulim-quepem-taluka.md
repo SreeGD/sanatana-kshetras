@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Goa"
 city: "Zambaulim, Quepem taluka, South Goa district"
+coordinates: {lat: 15.1866, lng: 74.0948}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust for the current daily schedule before visiting."
 best_time_to_visit: "November to February for cooler, drier weather; the Magha Poornima jatrotsav and Shigmo are the temple's major festival periods."

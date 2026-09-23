@@ -12,6 +12,7 @@ continent: asia
 country: "India"
 region: "Maharashtra"
 city: "Ramtek, Nagpur district"
+coordinates: {lat: 21.3958, lng: 79.3257}
 address: "Ramtek Fort, atop Ramtek Hill, Ramtek town, Nagpur district, Maharashtra, about 45 km northeast of Nagpur city."
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
@@ -28,7 +29,7 @@ documented_vs_legend: mixed
 status: verified
 review_flags:
   - "The identification of Ramtek with Kalidasa's 'Ramagiri' (Meghaduta) rests on 20th-century philological argument (V. V. Mirashi), not an inscription or an unambiguous textual match; sources describe it as the strongest candidate among several proposed sites rather than settled fact."
-  - "Precise geographic coordinates for Ramtek were not found in the source checked; location here is given descriptively (town/district/distance from Nagpur) rather than as lat/lng."
+  - "Precise geographic coordinates for the hilltop temple complex itself were not found in the source checked; the coordinates now given (21.3958, 79.3257), added via OpenStreetMap/Nominatim geocoding in September 2026, are the Ramtek town-boundary centroid rather than a temple-specific point, since the fort/temple summit itself is not separately tagged in that dataset."
 ---
 
 Ramtek takes its name from a tradition that this hill was Rama's own dwelling ("Rama" + "tek," hill) during part of his forest exile - the story goes that after killing the ascetic Shambuka on the hill, whose unauthorised penance had caused the death of a Brahmin's son, Rama transformed him into a Shiva linga still worshipped today as Dhumreshwar Mahadev, and made the hill his abode. This devotional account, rather than the Vakataka-era archaeology, is what gives the site its Ramayana identity and its place on the modern Ramayana Circuit.

@@ -9,6 +9,7 @@ country: "India"
 region: "Maharashtra"
 city: "Prabhadevi, Mumbai"
 coordinates: {lat: 19.017, lng: 72.8302}
+address: "Swatantrya Veer Savarkar Marg, Prabhadevi/Dadar West, Mumbai, Maharashtra 400025, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "Ganesh Chaturthi (Aug/Sep) is by far the busiest time; Tuesdays draw especially large weekly crowds year-round."

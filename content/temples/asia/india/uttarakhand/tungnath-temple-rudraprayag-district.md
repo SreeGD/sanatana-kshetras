@@ -8,12 +8,14 @@ continent: asia
 country: "India"
 region: "Uttarakhand"
 city: "Chopta area, Rudraprayag district"
+coordinates: {lat: 30.48944, lng: 79.21528}
+address: "Below Chandrashila peak, near Chopta, Rudraprayag district, Uttarakhand, India"
 worship_status: active
 darshan_hours: "Varies by season; temple is closed to pilgrims in winter (see below). Consult the temple priest/local administration for the current daily schedule during the open season."
 best_time_to_visit: "May to June and September to October, matching the Char Dham/Panch Kedar season; the temple is closed roughly November to April due to heavy snow, when the deity is ceremonially moved to Markandeshwar Temple in Mukku (Makku) village."
 how_to_reach: "Reached by a roughly 4-5 km trek from Chopta, itself several hours by road from Rishikesh/Rudraprayag; nearest railhead is Rishikesh and nearest airport is Dehradun (Jolly Grant)."
 sources:
-  - {type: historical_record, note: "Cross-checked against Wikipedia's 'Tungnath' article: confirms the temple stands at roughly 3,680 m elevation just below Chandrashila peak in Rudraprayag district, is considered the highest of the Panch Kedar shrines and among the highest Shiva temples in the world, is accessed by trek from Chopta, and is closed for winter with the deity ceremonially relocated to Markandeshwar Temple in Mukku village during that period."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's 'Tungnath' article: confirms the temple stands at roughly 3,680 m elevation just below Chandrashila peak in Rudraprayag district, is considered the highest of the Panch Kedar shrines and among the highest Shiva temples in the world, is accessed by trek from Chopta, and is closed for winter with the deity ceremonially relocated to Markandeshwar Temple in Mukku village during that period. Coordinates (30.48944, 79.21528) added via the same article's infobox, September 2026."}
   - {type: oral_tradition, note: "Panch Kedar founding legend: after the Kurukshetra war, the Pandavas sought Shiva's forgiveness; Shiva evaded them in the form of a bull and, when pursued and grabbed by Bhima, is said to have dived into the ground and reappeared in five different body-part forms at five Himalayan sites, of which Tungnath, associated with Shiva's arms, is one."}
 documented_vs_legend: mixed
 status: pending

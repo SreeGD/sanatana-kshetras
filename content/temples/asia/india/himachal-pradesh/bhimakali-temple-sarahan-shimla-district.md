@@ -10,6 +10,7 @@ continent: asia
 country: "India"
 region: "Himachal Pradesh"
 city: "Sarahan, Shimla district"
+coordinates: {lat: 31.44943, lng: 77.63087}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple management for the current daily schedule before visiting."
 best_time_to_visit: "March to June and September to November; Navaratri and Dussehra are the major festival periods."

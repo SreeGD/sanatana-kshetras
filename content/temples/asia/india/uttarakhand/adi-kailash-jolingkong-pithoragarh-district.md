@@ -13,6 +13,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Jolingkong, Kuthi Valley, Pithoragarh district"
 coordinates: {lat: 30.3192, lng: 80.6325}
+address: "Jolingkong Lake (Gauri Kund) base camp, Kuthi Valley, Pithoragarh district, Uttarakhand, India, near the India-Nepal-Tibet tri-junction"
 worship_status: active
 darshan_hours: "No fixed daily darshan hours; this is a high-altitude trek/yatra destination accessible only during the short Himalayan pilgrimage season (see best_time_to_visit), and only by daylight given the terrain."
 best_time_to_visit: "The route is only viable roughly June to October, before Himalayan snow closes the high passes and border-area roads; consult the Kumaon Mandal Vikas Nigam (KMVN) or local administration for the current year's opening dates, since the area sits within an Inner Line Permit zone with rules that can vary year to year."

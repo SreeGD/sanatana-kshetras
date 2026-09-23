@@ -9,6 +9,7 @@ country: "India"
 region: "Maharashtra"
 city: "Kolhapur"
 coordinates: {lat: 16.7, lng: 74.2333}
+address: "Bhavani Mandap, Mahadwar Road, Kolhapur, Maharashtra, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Navratri is a major observance, as is the Kirnotsav, a brief window of days (around late January/early February and again in early-mid November) when the setting sun's rays fall directly on the idol."
@@ -17,7 +18,7 @@ festivals:
   - {name: "Navratri", approx_date: "September/October"}
   - {name: "Kirnotsav (sun-alignment festival)", approx_date: "Late January/early February and early/mid November"}
 sources:
-  - {type: historical_record, note: "Cross-checked against Wikipedia's Mahalakshmi Temple, Kolhapur article: confirms the temple's status as one of the three-and-a-half Shakti Peethas recognized in Shakta tradition, the roughly 3-foot, approximately 40 kg black-stone image of the goddess with its five-headed serpent crown, and a genuine unresolved disagreement in the sources over the founding narrative - one account (citing Amar Nath Khanna) credits a Chalukya king Karnadeva with building the temple in 634 CE, while historian Paul Dundas, drawing on the writings of 12th-century Kannada poet Brahmashiva, argues the site was originally a Jain temple dedicated to the 8th Tirthankara, Chandraprabha, later converted to a Hindu shrine amid medieval religious tensions."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's Mahalakshmi Temple, Kolhapur article: confirms the temple's status as one of the three-and-a-half Shakti Peethas recognized in Shakta tradition, the roughly 3-foot, approximately 40 kg black-stone image of the goddess with its five-headed serpent crown, its address as Bhavani Mandap, Mahadwar Road, Kolhapur, and a genuine unresolved disagreement in the sources over the founding narrative - one account (citing Amar Nath Khanna) credits a Chalukya king Karnadeva with building the temple in 634 CE, while historian Paul Dundas, drawing on the writings of 12th-century Kannada poet Brahmashiva, argues the site was originally a Jain temple dedicated to the 8th Tirthankara, Chandraprabha, later converted to a Hindu shrine amid medieval religious tensions. Re-verified via WebFetch, September 2026."}
   - {type: oral_tradition, note: "The legend that the goddess manifested at Kolhapur to vanquish the demon Kolhasur, and that the city's name derives from this episode, is a devotional origin story rather than documented history."}
 documented_vs_legend: mixed
 status: pending

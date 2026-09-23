@@ -11,26 +11,26 @@ continent: asia
 country: "India"
 region: "Tamil Nadu"
 city: "Thiruvelukkai"
-coordinates: {lat: 12.83791, lng: 79.7039}
+coordinates: {lat: 12.8222, lng: 79.7064}
 worship_status: active
 darshan_hours: "Typically around 6:00 AM-12:00 PM and 4:00 PM-8:00 PM, as is customary for South Indian Vaishnava temples; the exact daily schedule was not available from the source dataset used to compile this entry and should be confirmed locally before a visit."
 best_time_to_visit: "October to March, for cooler weather; the temple's own festival days (see local Devasthanam/HR&CE calendar) are considered especially auspicious."
-how_to_reach: "Located at Thiruvelukkai, Tamil Nadu; consult local transport options for the nearest railway station, bus stand, or airport."
+how_to_reach: "The temple is within Kanchipuram's cluster of Vishnu shrines; Kanchipuram is well connected by road and rail, with Chennai the nearest major transport hub."
 associated_saints:
   - "Pey Alwar"
   - "Thirumangai Alwar"
 sources:
-  - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Pey Alwar, Thirumangai Alwar"}
+  - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Pey Alwar (three pasurams, per his own Wikipedia article) and Thirumangai Alwar."}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
   - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
+  - {type: historical_record, note: "Re-verification pass (2026): no dedicated Wikipedia article for this temple was found; detail was pieced together from Wikipedia's 'Pey Alvar' article and its 'Divya Desam' list. These confirm the full deity name as 'Sri Amritavalli sametha Sri Yoga Narasimha Perumal' -- a seated, meditative (Yoga) Narasimha locally called Azhagiya Singar, with consort Amritavalli -- and give an alternate, simpler etymology for Velukkai than this entry's own: 'Vel' (desire) plus 'irukkai' (place of stay), i.e. 'the place where Vishnu desired to stay,' rather than a story involving celestials and sages. Kanchipuram's own Wikipedia article lists the shrine as 'Sri Azhagiya Singar Temple.'"}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
-  - "Coordinates are an approximate town-level fallback shared with nearby temples in the source dataset, not a per-temple survey coordinate."
+  - "Construction period, dynasty, inscriptions, and specific festival dates beyond the generic Srivaishnava cycle remain unconfirmed for this temple. This entry's claims of Narasimha Jayanti and Garuda Sevai observances were not corroborated by any source checked this pass."
 ---
 
-Thiruvelukkai, set within the sacred precincts of Kanchipuram in the ancient Thondai Nadu country, is revered as one of the 108 Divya Desams, the holy abodes of Lord Vishnu hymned by the Alwars. Here the Lord is enshrined as Azhagiya Singar, the beautiful lion-form of Narasimha, the man-lion avatara who tore apart the demon Hiranyakashipu to protect his devotee Prahlada. According to the sthala purana, the place is associated with the Lord's fierce yet gracious Narasimha manifestation, and the very name Velukkai is traditionally explained as deriving from the Lord's resolve to remain seated here, fulfilling the prayers of the celestials and sages who sought his presence. The presiding Moolavar of Narasimha here is celebrated for combining the awe of the man-lion with surpassing beauty and compassion, so that the terror of the avatara is softened into grace for those who take refuge in him. The temple's glory was sung in the Naalayira Divya Prabandham by the early saint Pey Alwar, one of the three foremost Mudhal Alwars, and by Thirumangai Alwar, the warrior-poet whose pasurams adorn so many of the shrines of this region. Their inclusion of Thiruvelukkai among the sacred hundred and eight confirms its standing in the devotional landscape of Srivaishnavism. Pilgrims who worship at this shrine, counted among the many Divya Desams clustered in and around Kanchipuram, come seeking the protection of the Lord who appears as a refuge for the helpless, the fierce destroyer of evil who yet remains, in this place, the lovely and approachable Azhagiya Singar.
+Thiruvelukkai, set within the sacred precincts of Kanchipuram in the ancient Thondai Nadu country, is revered as one of the 108 Divya Desams, the holy abodes of Lord Vishnu hymned by the Alwars. Here the Lord is enshrined as Azhagiya Singar, the beautiful lion-form of Narasimha, the man-lion avatara who tore apart the demon Hiranyakashipu to protect his devotee Prahlada. According to the sthala purana, the place is associated with the Lord's fierce yet gracious Narasimha manifestation; Wikipedia gives a simpler etymology for Velukkai than the fuller celestials-and-sages account sometimes told -- "Vel" (desire) plus "irukkai" (place of stay), i.e. the place where Vishnu desired to stay. The presiding Moolavar of Narasimha here is celebrated for combining the awe of the man-lion with surpassing beauty and compassion, so that the terror of the avatara is softened into grace for those who take refuge in him. The temple's glory was sung in the Naalayira Divya Prabandham by the early saint Pey Alwar, one of the three foremost Mudhal Alwars, and by Thirumangai Alwar, the warrior-poet whose pasurams adorn so many of the shrines of this region. Their inclusion of Thiruvelukkai among the sacred hundred and eight confirms its standing in the devotional landscape of Srivaishnavism. Pilgrims who worship at this shrine, counted among the many Divya Desams clustered in and around Kanchipuram, come seeking the protection of the Lord who appears as a refuge for the helpless, the fierce destroyer of evil who yet remains, in this place, the lovely and approachable Azhagiya Singar.
 
 ## Festivals
 

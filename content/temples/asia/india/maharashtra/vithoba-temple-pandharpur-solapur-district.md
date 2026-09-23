@@ -9,6 +9,8 @@ continent: asia
 country: "India"
 region: "Maharashtra"
 city: "Pandharpur, Solapur district"
+coordinates: {lat: 18.6773, lng: 75.3355}
+address: "Sparsha Darshan Queue Line, Pandharpur, Solapur district, Maharashtra 413300, India"
 worship_status: active
 darshan_hours: "Varies by season and festival calendar, with round-the-clock darshan during the major Ekadashi observances; consult the temple's own trust for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Ashadhi Ekadashi (June/July) and Kartiki Ekadashi (October/November) are the temple's two largest pilgrimage occasions, when Warkari dindi processions converge on the town on foot from across Maharashtra."

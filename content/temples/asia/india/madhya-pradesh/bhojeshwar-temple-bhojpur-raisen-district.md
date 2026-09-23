@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Madhya Pradesh"
 city: "Bhojpur, Raisen district"
+coordinates: {lat: 23.1003, lng: 77.5797}
 worship_status: partially_active
 darshan_hours: "Managed as an Archaeological Survey of India monument, generally open during standard daylight visiting hours; regular daily worship is limited, with the largest gathering of devotees on Maha Shivaratri. Consult ASI/local authorities for current visiting hours."
 best_time_to_visit: "October to March for cooler weather; Maha Shivaratri (February/March), when the Madhya Pradesh government also holds the Bhojpur Utsav cultural festival at the site, is by far the most significant time to visit."

@@ -9,16 +9,18 @@ country: "India"
 region: "Uttar Pradesh"
 city: "Varanasi"
 coordinates: {lat: 25.282, lng: 82.9925}
+address: "On the banks of the Assi river, near Banaras Hindu University, Varanasi, Uttar Pradesh, India"
 worship_status: active
-darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
+darshan_hours: "Daily 4:30 AM-10:30 PM, with darshan closed between 12:00 PM and 3:00 PM; open until midnight on Tuesdays and Saturdays, per Wikipedia. Confirm locally as timings can shift for festivals."
 best_time_to_visit: "Tuesdays and Saturdays draw the largest weekly crowds; the temple's April classical music festival (Sankat Mochan Sangeet Samaroh) is a notable cultural event."
-how_to_reach: "Near Banaras Hindu University in southern Varanasi, reachable by road/auto-rickshaw from the city center."
+how_to_reach: "Near Banaras Hindu University in southern Varanasi, on the banks of the Assi river, reachable by road/auto-rickshaw from the city center."
 festivals:
   - {name: "Hanuman Jayanti", approx_date: "March/April"}
   - {name: "Sankat Mochan Sangeet Samaroh", approx_date: "April"}
 sources:
   - {type: oral_tradition, note: "Tulsidas's founding and the vision of Hanuman are temple/hagiographic tradition rather than independently documented history."}
   - {type: historical_record, note: "Cross-checked against Wikipedia's Sankat Mochan Hanuman Temple article: confirms the 2006 bombing, the Sankat Mochan Foundation's 1982 founding and river-conservation work, and the temple's growth alongside BHU."}
+  - {type: historical_record, note: "Re-verified via a fresh fetch of the same Wikipedia article on 2026-09-23: sourced the temple's daily hours (4:30 AM-10:30 PM, closed 12-3 PM, open to midnight on Tuesdays/Saturdays) and its location on the banks of the Assi river; confirms Tulsidas's founding is dated to the early 16th century in the article, with most of the present-day built structure dating to the mid-20th century alongside Varanasi's southward expansion and BHU's founding."}
 documented_vs_legend: mixed
 status: verified
 ---

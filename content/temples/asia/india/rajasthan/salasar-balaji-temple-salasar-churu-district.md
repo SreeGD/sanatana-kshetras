@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Rajasthan"
 city: "Salasar, Churu district"
+coordinates: {lat: 27.72, lng: 74.71}
 worship_status: active
 darshan_hours: "Varies by season and around the two annual melas; consult the temple's own trust for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; the Chaitra (March/April) and Ashwin (September/October) fairs are the busiest but most atmospheric times to visit."

@@ -15,17 +15,23 @@ coordinates: {lat: 12.8723204, lng: 79.6188426}
 worship_status: active
 darshan_hours: "Typically around 6:00 AM-12:00 PM and 4:00 PM-8:00 PM, as is customary for South Indian Vaishnava temples; the exact daily schedule was not available from the source dataset used to compile this entry and should be confirmed locally before a visit."
 best_time_to_visit: "October to March, for cooler weather; the temple's own festival days (see local Devasthanam/HR&CE calendar) are considered especially auspicious."
-how_to_reach: "Located at Thiruputkuzhi, Tamil Nadu; consult local transport options for the nearest railway station, bus stand, or airport."
+how_to_reach: "Thiruputkuzhi is about 7 miles (11 km) west of Kanchipuram, half a km from Baluchetti Chattiram on the Chennai-Vellore highway."
+festivals:
+  - {name: "Brahmotsavam", approx_date: "Masi (February/March)"}
+  - {name: "Theppotsavam (Float festival)", approx_date: "Thai (January/February)"}
+  - {name: "Pavitrotsavam", approx_date: "Avani (August/September)"}
+  - {name: "Vaikunta Ekadasi", approx_date: "Margazhi (December/January)"}
 associated_saints:
   - "Thirumangai Alwar"
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
-  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative originally adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status); superseded below by independently verified detail from Wikipedia's 'Vijayaraghava Perumal temple' article, accessed during a 2026 re-verification pass."}
+  - {type: historical_record, note: "Wikipedia's 'Vijayaraghava Perumal temple' article (2026 access) confirms: deity Vijayaraghavaswamy with a consort shrine for Margathavalli Thayar (also spelled Maragadhavalli), plus a separate shrine to Sri Ramanuja; construction attributed by temple-inscription tradition to Pandya kings in the 13th century, with later enhancements credited to the Cholas and the Thanjavur Nayaks -- Pandya political control this far north in Thondai Nadu during the 13th century is somewhat unusual historically, so this dating is reported as the source states it rather than independently verified; three Chola-period inscriptions in the complex; a five-tiered rajagopuram in Dravidian style within a granite enclosure; and a temple tank named Jatayu Tirtham (Jatayu Theertham) west of the main temple, the pond where, per legend, Jatayu fell after Ravana severed his wings, with Rama personally performing the bird's last rites here -- corroborating and detailing this entry's existing Jatayu legend, and confirming the place-name Thiruputkuzhi as deriving from 'Pul' (bird) plus 'kuzhi' (pit/burial place)."}
 documented_vs_legend: mixed
-status: pending
+status: verified
 review_flags:
-  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
+  - "The 13th-century Pandya construction attribution is unusual for this region and is reported as the source states it, not independently corroborated."
 ---
 
 The Vijayaraghava Perumal Temple at Thiruputkuzhi, in Thondai Nadu near Kanchipuram, enshrines the Lord as Vijayaraghava Perumal, the victorious scion of the Raghu line, that is, Sri Rama, and is counted among the 108 Divya Desams sung by the Alwars. The place is intimately associated with the sacred legend of Jatayu, the noble vulture-king of the Ramayana who gave his life striving to rescue Sita from the demon Ravana. According to the sthala purana, it was here that Rama, journeying in search of His consort, came upon the mortally wounded Jatayu and, honouring the bird's supreme sacrifice, performed his final rites with His own hands. The very name Thiruputkuzhi is understood in tradition to recall this sacred episode of the bird, and the Lord is worshipped here in a posture associated with the grace He bestowed upon Jatayu, granting him liberation. The shrine thus stands as a place where the Lord's compassion toward even a bird is forever commemorated. Thiruputkuzhi was sanctified by hymn through Thirumangai Alwar, the last of the twelve Alwars, whose pasurams in the Naalayira Divya Prabandham celebrate this kshetra and secure its place among the canonical Divya Desams. By the grace of the Alwar's verses and the abiding memory of Jatayu's devotion, pilgrims of the Srivaishnava tradition come to Thiruputkuzhi to take darshan of Vijayaraghava Perumal and to contemplate the Lord's boundless mercy toward His devotees.

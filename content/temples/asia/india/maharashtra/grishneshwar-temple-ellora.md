@@ -12,6 +12,7 @@ country: "India"
 region: "Maharashtra"
 city: "Ellora (Verul)"
 coordinates: {lat: 20.024972, lng: 75.169917}
+address: "Verul village, near Ellora Caves, Chhatrapati Sambhajinagar (Aurangabad) district, Maharashtra, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; easily combined with a visit to the neighboring Ellora Caves. Maha Shivaratri is the principal festival."

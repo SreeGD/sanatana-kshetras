@@ -11,6 +11,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Nandprayag, Chamoli district"
 coordinates: {lat: 30.3321, lng: 79.3154}
+address: "Nandprayag, Chamoli district, Uttarakhand 246449, India, at the Nandakini-Alaknanda confluence"
 worship_status: active
 darshan_hours: "Varies by season; consult the temple priests/local trust for the current daily schedule before visiting."
 best_time_to_visit: "Accessible year-round given the town's relatively modest elevation (given inconsistently across sources as roughly 900 m to 1,360 m; see review flag); most pilgrims pass through during the Char Dham Yatra season (roughly April/May-October/November) while travelling the Rishikesh-Badrinath highway."

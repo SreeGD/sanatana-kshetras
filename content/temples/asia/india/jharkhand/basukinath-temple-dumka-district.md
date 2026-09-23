@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Jharkhand"
 city: "Basukinath, Dumka district"
+coordinates: {lat: 24.6622, lng: 87.1525}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Shravani Mela (July/August) is by far its busiest pilgrimage period, alongside Maha Shivaratri."

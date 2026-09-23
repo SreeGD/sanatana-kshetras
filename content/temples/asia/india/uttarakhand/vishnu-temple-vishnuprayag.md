@@ -9,6 +9,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Vishnuprayag, near Joshimath, Chamoli district"
 coordinates: {lat: 30.5625, lng: 79.5753}
+address: "Vishnuprayag, near Joshimath, Chamoli district, Uttarakhand, India, at the Alaknanda-Dhauliganga confluence"
 worship_status: active
 darshan_hours: "Varies by season; consult the temple priests/local trust for the current daily schedule before visiting."
 best_time_to_visit: "Mainly accessible during the Char Dham Yatra season (roughly April/May-October/November); at 1,372 m elevation and this far up the Alaknanda valley it is more exposed to Himalayan winter conditions than the lower prayags downstream, so conditions should be checked before an off-season visit."

@@ -9,6 +9,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Nainital"
 coordinates: {lat: 29.3924, lng: 79.4520}
+address: "Thandi Sadak, Mallital, Nainital, Uttarakhand 263003, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "March to June and September to November; the temple sits on the northern shore of Naini Lake in the heart of Nainital town."

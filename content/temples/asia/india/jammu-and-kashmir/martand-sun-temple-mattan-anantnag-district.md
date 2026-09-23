@@ -10,6 +10,7 @@ continent: asia
 country: "India"
 region: "Jammu and Kashmir"
 city: "Mattan, Anantnag district"
+coordinates: {lat: 33.7456, lng: 75.2203}
 worship_status: heritage
 darshan_hours: "Open as an Archaeological Survey of India-protected monument, typically sunrise to sunset; regular temple puja is not conducted at the ruin itself. Confirm current ASI visiting hours locally."
 best_time_to_visit: "March to November; the site is an unroofed ruin at altitude, so heavy winter snow makes a visit less rewarding."

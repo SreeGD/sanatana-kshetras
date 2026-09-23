@@ -8,6 +8,8 @@ continent: asia
 country: "India"
 region: "Uttarakhand"
 city: "Subain (Subhain) village, near Joshimath, Chamoli district"
+coordinates: {lat: 30.4782, lng: 79.6769}
+address: "Subhain village, Joshimath tehsil, Chamoli district, Uttarakhand, India"
 worship_status: active
 darshan_hours: "Varies by season; the shrine is reached by forest trek, so visiting is effectively limited to daylight hours in the open season. Consult local priests for the current schedule."
 best_time_to_visit: "May to June and September to October, matching the wider Char Dham/Himalayan trekking season; the approach road and forest trail can be difficult or unsafe outside this window."
@@ -19,7 +21,7 @@ documented_vs_legend: mixed
 status: pending
 review_flags:
   - "The 'future Badrinath' tradition is a prophetic/eschatological legend, not a documented historical or scientific claim, and this entry does not present it as established fact."
-  - "Coordinates for this site were not available from the source consulted and have been omitted rather than estimated; only descriptive access details are given."
+  - "Coordinates for this site were not available from the source consulted and have been omitted rather than estimated; only descriptive access details are given. Partially resolved, September 2026: OpenStreetMap/Nominatim geocoding located Subhain village itself (now given above), though this is a village-level point rather than a temple-precise one, since the shrine sits a further forest-trek distance beyond the village."
   - "Sourced primarily from a single tertiary source (Wikipedia's 'Sapta Badri' article); would benefit from independent corroboration before being marked verified."
 ---
 

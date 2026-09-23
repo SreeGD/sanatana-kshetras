@@ -11,6 +11,7 @@ continent: asia
 country: "India"
 region: "Dadra and Nagar Haveli and Daman and Diu"
 city: "Diu (near Fudam village)"
+coordinates: {lat: 20.7054, lng: 70.9566}
 worship_status: active
 darshan_hours: "Accessible only at low tide, when the sea-level cave shrine and its lingas are exposed; consult local tide timings and the site's caretakers for the current schedule before visiting."
 best_time_to_visit: "October to March (cooler, drier season); time the visit to a low tide, since the cave and its lingas are submerged at high tide."

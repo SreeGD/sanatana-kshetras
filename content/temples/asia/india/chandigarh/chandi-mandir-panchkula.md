@@ -9,6 +9,7 @@ country: "India"
 region: "Chandigarh"
 city: "Chandimandir Cantonment, Panchkula district, Haryana"
 address: "Chandimandir Cantonment, on the Chandigarh-Kalka highway (NH-5), Panchkula district, Haryana; about 15 km from Chandigarh city."
+coordinates: {lat: 30.7443, lng: 76.9006}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management (the Shri Mata Mansa Devi Shrine Board) for the current daily schedule before visiting."
 best_time_to_visit: "Chaitra and Sharad Navratri draw the largest crowds; October to March is cooler."

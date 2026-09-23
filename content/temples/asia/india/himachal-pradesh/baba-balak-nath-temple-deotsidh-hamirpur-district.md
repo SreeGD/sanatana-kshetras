@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Himachal Pradesh"
 city: "Deotsidh (Chakmoh village), Hamirpur district"
+coordinates: {lat: 31.455392, lng: 76.5429816}
 worship_status: active
 darshan_hours: "Open through the day; consult the temple trust for the current schedule, especially around the Chaitra Mela when timings and crowd-management arrangements change."
 best_time_to_visit: "Chaitra (roughly March/April) for the main Chaitra Mela; cooler months (October-March) for a quieter visit."
@@ -20,7 +21,8 @@ sources:
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "No independently dated founding history for the cave shrine itself was found in the source checked; the site's antiquity rests on Nath-tradition legend rather than inscriptional or archaeological dating."
+  - "No independently dated founding history for the cave shrine itself was found in the source checked; the site's antiquity rests on Nath-tradition legend rather than inscriptional or archaeological dating. A follow-up check of the Hamirpur district government site (hphamirpur.nic.in) confirms the shrine's popular name and prominence but likewise gives no founding date; the temple trust's own site (bababalaknathdeothsidh.com) could not be retrieved (JS-rendered, no body content returned)."
+  - "Coordinates are an OpenStreetMap/Nominatim geocode for the Deotsidh hamlet, not a precise pin on the hilltop cave shrine itself, since no Wikipedia infobox coordinates exist for this temple; treat as approximate."
 ---
 
 High on a hilltop at Deotsidh in Himachal Pradesh's Hamirpur district, the Baba Balak Nath Temple centers on a natural cave shrine dedicated to Baba Balak Nath, a revered folk deity of the Nath (Siddha) ascetic tradition worshipped as an eternally youthful form of Shiva. Devotional tradition holds that he was born into a Gaur Brahmin family at Girnar Parbat, a hill long associated with Nath and fakir ascetic lineages in Kathiawar, and that he continues to manifest as a celibate child-sage rather than an aged one. His iconography includes a peacock as mount and the mantra "Hari Om Shri Siddhaye Namah."

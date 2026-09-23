@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Jammu and Kashmir"
 city: "Teetwal, Karnah tehsil, Kupwara district"
+coordinates: {lat: 34.39, lng: 73.77}
 worship_status: active
 darshan_hours: "Not centrally documented in the sources consulted; given the site's sensitive border location, confirm current access and timings with local authorities before visiting."
 best_time_to_visit: "Summer months (roughly April-October), when the high-altitude Karnah/Kupwara area is most accessible; check current security and travel advisories for this Line-of-Control-adjacent area before planning a visit."
@@ -16,6 +17,7 @@ access_notes: "Located in a security-sensitive border area close to the Line of 
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's Teetwal article: confirms a Sharda Devi temple at Teetwal, Karnah tehsil, Kupwara district, close to the Line of Control, which had served historically as a base camp roughly 40 km from the ancient Sharda Peeth (now across the Line of Control in Pakistan-administered Kashmir and inaccessible to Indian pilgrims) before being destroyed amid the tribal raids of 1947. Confirms local Muslim residents donated land for its reconstruction in 2021 and took part in the rebuilding and inauguration; Union Home Minister Amit Shah re-inaugurated the rebuilt temple on 22 March 2023, and a Kumbhabhisheka consecration was performed in June 2023 by a successor Jagadguru Shankaracharya; also notes a mosque being built nearby as a further gesture of interfaith cooperation."}
   - {type: oral_tradition, note: "The temple's framing as a modern-day accessible revival point for the ancient, cross-border Sharda Peeth tradition (itself linked in Puranic/medieval accounts to Saraswati/Sharda as a major seat of learning and one of the Shakti Peethas) is a contemporary revivalist narrative rather than a claim that the present structure is itself centuries old."}
+  - {type: historical_record, note: "Coordinates (34.39N, 73.77E) are Wikipedia's village-level coordinates for Teetwal generally, not a temple-specific reading; the source consulted did not give coordinates for the temple building itself."}
 documented_vs_legend: mixed
 status: pending
 review_flags:

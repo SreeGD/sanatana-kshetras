@@ -9,6 +9,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Rudranath, Chamoli district"
 coordinates: {lat: 30.5333, lng: 79.3333}
+address: "Rudranath, near Panar/Naila high-altitude meadows, Chamoli district, Uttarakhand, India"
 worship_status: active
 darshan_hours: "Varies by season; the temple is closed to pilgrims in winter (see below). Consult local priests/administration for the current daily schedule during the open season."
 best_time_to_visit: "May to June and September to October, matching the Char Dham/Panch Kedar season; closed roughly November to April due to heavy snow, when the deity is ceremonially moved down to the Gopinath Mandir in Gopeshwar."

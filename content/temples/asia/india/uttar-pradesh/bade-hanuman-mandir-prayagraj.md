@@ -10,13 +10,15 @@ region: "Uttar Pradesh"
 city: "Prayagraj (Allahabad)"
 coordinates: {lat: 25.4285, lng: 81.8839}
 worship_status: active
-darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
+darshan_hours: "Daily, approximately 5:00 AM-2:00 PM and 5:00 PM-8:00 PM, extended to around 10:00 PM on Tuesdays and Saturdays, per Wikipedia; confirm locally as timings can shift around festivals and the Kumbh/Magh Mela."
 best_time_to_visit: "October to March; the temple is an integral stop for pilgrims visiting the nearby Sangam, and is especially significant during the Magh Mela and Kumbh Mela."
-how_to_reach: "Located near the Sangam (confluence of the Ganga, Yamuna, and mythical Saraswati) in Prayagraj, close to Prayagraj Junction railway station; Prayagraj (Bamrauli) Airport is also nearby."
+how_to_reach: "Located near the Sangam (confluence of the Ganga, Yamuna, and mythical Saraswati) in Prayagraj, close to Allahabad Fort, about 1 km from the confluence itself and roughly 7 km from Prayagraj Junction railway station; Prayagraj (Bamrauli) Airport is also nearby."
 festivals:
   - {name: "Hanuman Jayanti", approx_date: "March/April"}
+  - {name: "Rama Navami", approx_date: "March/April"}
+  - {name: "Narak Chaturdashi", approx_date: "October/November"}
 sources:
-  - {type: historical_record, note: "Cross-checked against Wikipedia's Bade Hanuman Mandir article: confirms the temple's roughly 20-foot reclining image of Hanuman, described there as the only one of its kind; that the idol is seasonally and partially submerged by rising Ganga floodwaters; the temple's location near the Sangam; the tradition of a 1582 Akbar-era episode in which the Mughal emperor could not move the idol during a fort-building project and instead dedicated the surrounding land to it; and ongoing renovation and expansion of the temple ahead of the 2025 Prayag Kumbh Mela."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's Bade Hanuman Mandir article: confirms the temple's roughly 20-foot reclining image of Hanuman, described there as the only one of its kind; that the idol is seasonally and partially submerged by rising Ganga floodwaters; the temple's location near the Sangam and Allahabad Fort; the tradition of a 1582 Akbar-era episode in which the Mughal emperor could not move the idol during a fort-building project and instead dedicated the surrounding land to it; ongoing renovation and expansion of the temple ahead of the 2025 Prayag Kumbh Mela; and daily darshan hours (approx. 5 AM-2 PM and 5 PM-8 PM, extended on Tuesdays/Saturdays) and the additional festivals Rama Navami and Narak Chaturdashi. Re-verified via a fresh fetch of the same article on 2026-09-23."}
   - {type: oral_tradition, note: "The legend of a childless merchant from Kannauj who commissioned the idol from Vindhyachal stone, was blessed with a son after leaving it at Prayagraj, and of the ascetic Baba Balagiri Ji later recovering and installing the image at its present site, is devotional temple tradition rather than documented history; the temple's commonly cited age of about 700 years is likewise a traditional estimate rather than an independently dated figure."}
 documented_vs_legend: mixed
 status: pending

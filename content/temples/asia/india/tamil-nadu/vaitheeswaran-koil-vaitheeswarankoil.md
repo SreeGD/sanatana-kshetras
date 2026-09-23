@@ -11,10 +11,12 @@ continent: asia
 country: "India"
 region: "Tamil Nadu"
 city: "Vaitheeswarankoil, Mayiladuthurai district"
+coordinates: {lat: 11.195, lng: 79.71417}
+address: "Vaitheeswaran Koil, Vaitheeswarankoil town, about 13 km from Mayiladuthurai and 7 km from Sirkazhi, Mayiladuthurai district, Tamil Nadu."
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/devasthanam for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Tuesdays, associated with Mars, and the Kanda Sashti and Brahmotsavam festivals are considered especially significant."
-how_to_reach: "Vaitheeswarankoil is about 13 km from Mayiladuthurai and 27 km from Chidambaram, roughly 235 km from Chennai; well connected by road, with Mayiladuthurai the nearest railhead."
+how_to_reach: "Vaitheeswarankoil is about 13 km from Mayiladuthurai, 7 km from Sirkazhi, and roughly 235 km from Chennai, accessible via the Thanjavur-Chidambaram highway with frequent government bus services; a railway station connects to the Chennai-Mayiladuthurai line, and Karaikal Airport is about 40 km away."
 festivals:
   - {name: "Brahmotsavam", approx_date: "January/February"}
   - {name: "Karthigai Deepam", approx_date: "November/December"}
@@ -23,6 +25,7 @@ sources:
   - {type: scripture, text: "Tevaram", reference: "Glorified by Nayanar saints Thirunavukkarasar (Appar) and Sambandar (7th century), earning Paadal Petra Sthalam status."}
   - {type: oral_tradition, note: "Several legends explain the temple's healing associations: that Angaraka (Mars), afflicted with leprosy, was cured here by Shiva as Vaidyanathar, anchoring the site's role as the Mars/Navagraha shrine; that Shiva took the form of a healer to tend Subrahmanya's wounds after his battle with the demon Surapadman; and that Rama, Lakshmana, and the Saptarishis worshipped here during the Ramayana narrative. These are devotional traditions rather than dated history."}
   - {type: historical_record, note: "Cross-checked against Wikipedia's account of Vaitheeswaran Koil: confirms the temple's precise founding date is not established, but that inscriptions attest significant activity and patronage during the reign of Kulottunga Chola I (circa 1070-1120 CE), with later contributions from Vikrama Chola, the Vijayanagara-era Nayak governor Achuthappa Nayak, and the Maratha prince Thulaja; Shiva worshipped as Vaidyanathar ('vaidya' = physician, 'ishvara' = lord), reflecting his role as divine healer; the temple's status as one of Tamil Nadu's nine Navagraha temples, representing Mars (Angaraka); Dravidian architecture with a five-tiered gopuram and the sacred tank Siddhamirtham, whose waters are traditionally held to have curative properties; and the temple's standing as a Paadal Petra Sthalam hymned by Thirunavukkarasar and Sambandar in the 7th-century Tevaram."}
+  - {type: historical_record, note: "Re-checked 2026-09-23: Wikipedia infobox gives coordinates approximately 11°11'42\"N 79°42'51\"E, confirms the town is about 13 km from Mayiladuthurai and 7 km from Sirkazhi, and gives access details (Thanjavur-Chidambaram highway, government bus services, a railway station on the Chennai-Mayiladuthurai line, and Karaikal Airport about 40 km away)."}
 documented_vs_legend: mixed
 status: verified
 review_flags:

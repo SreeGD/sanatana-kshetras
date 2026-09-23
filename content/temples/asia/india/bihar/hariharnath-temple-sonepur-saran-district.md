@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Bihar"
 city: "Sonepur, Saran district"
+coordinates: {lat: 25.7, lng: 85.18}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own trust/management committee for the current daily schedule before visiting."
 best_time_to_visit: "Kartik Purnima (October/November), when the temple's ceremonial Ganga bathing and the adjoining Sonepur Mela are at their peak; otherwise October to February for cooler weather."

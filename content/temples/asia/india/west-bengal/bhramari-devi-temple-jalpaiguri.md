@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "West Bengal"
 city: "Jalpaiguri"
+coordinates: {lat: 26.52565, lng: 88.86684}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own local management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Navratri (Sep/Oct) is typically the most significant period for Shakta worship in the region."
@@ -21,6 +22,7 @@ documented_vs_legend: legend
 status: pending
 review_flags:
   - "No dedicated, substantive source for this specific temple's own history, founding date, or architecture was located; all information here is drawn from brief mentions in articles primarily about the neighboring Jalpesh Temple or from general Shakti Peetha reference lists. This entry should be treated as provisional pending a source focused on the Bhramari Devi shrine itself."
+  - "Coordinates are Wikipedia's infobox coordinates for the neighboring, well-documented Jalpesh Temple, not a precise pin on the Bhramari Devi shrine itself (described in sources only as standing 'behind a rice mill' nearby); treat as approximate. A fresh re-check of the Jalpesh Temple Wikipedia article found no additional detail on the Bhramari Devi shrine's own location or any festival specific to it."
   - "The 'left leg' body-part attribution comes from a general Shakta Pithas reference table rather than a source specific to this temple, and was not independently corroborated."
 ---
 

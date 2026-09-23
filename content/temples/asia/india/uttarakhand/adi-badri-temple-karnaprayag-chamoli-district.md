@@ -8,6 +8,8 @@ continent: asia
 country: "India"
 region: "Uttarakhand"
 city: "Near Karnaprayag, Chamoli district"
+coordinates: {lat: 30.1561, lng: 79.2266}
+address: "NH109, near Simli Bazar, Gairsain tehsil, Chamoli district, Uttarakhand 246487, India"
 worship_status: active
 darshan_hours: "Not confirmed from available sources for this entry; consult local temple administration for current darshan timings before visiting."
 best_time_to_visit: "Accessible for most of the year given its relatively low elevation and direct road access, which distinguishes it from the high-altitude Panch Kedar and main Panch Badri shrines; the wider Char Dham season of May-June and September-October is a natural pairing for pilgrims also visiting Badrinath."
@@ -18,7 +20,7 @@ sources:
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Wikipedia's own infobox coordinate for this Uttarakhand site (approximately 30°27'N 77°20'E) appears to be erroneous: that longitude corresponds to the unrelated Adi Badri site in Yamunanagar district, Haryana (a separate place documented on the same Wikipedia disambiguation page), not to the Karnaprayag/Chamoli-district location described in the article's own text. This entry omits coordinates rather than repeat what looks like a transcription error in the source."
+  - "Wikipedia's own infobox coordinate for this Uttarakhand site (approximately 30°27'N 77°20'E) appears to be erroneous: that longitude corresponds to the unrelated Adi Badri site in Yamunanagar district, Haryana (a separate place documented on the same Wikipedia disambiguation page), not to the Karnaprayag/Chamoli-district location described in the article's own text. Resolved, September 2026: coordinates (30.1561, 79.2266) and a street address were instead sourced independently via OpenStreetMap/Nominatim geocoding of the 'Adi Badri Vishnu temple complex' near Simli Bazar, Chamoli district — consistent with the article's own textual description (near Karnaprayag) rather than the erroneous infobox figure, which this entry does not use."
   - "The Gupta-period (5th-8th century CE) construction dating for the shrines, and the Adi Shankara attribution, come from a single tertiary source (Wikipedia) that this entry has not been able to independently cross-check against a second source; treat the precise dating with some caution pending further verification."
 ---
 

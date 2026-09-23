@@ -10,6 +10,7 @@ continent: asia
 country: "India"
 region: "Karnataka"
 city: "Hampi, Vijayanagara district"
+coordinates: {lat: 15.335165, lng: 76.458727}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to February, for cooler weather to explore the wider Hampi ruins on foot."
@@ -18,7 +19,7 @@ festivals:
   - {name: "Virupaksha-Pampa Kalyanotsava (divine wedding festival)", approx_date: "December"}
   - {name: "Maha Shivaratri", approx_date: "February/March"}
 sources:
-  - {type: historical_record, note: "Cross-checked against Wikipedia's Virupaksha Temple, Hampi article: confirms a shrine on the site from around the 7th century CE, later additions under the late Chalukyas and Hoysalas, major expansion under the Vijayanagara Empire (including work commissioned by chieftain Lakkana Dandesha under King Deva Raya II), the temple's survival of the 1565 sack of Vijayanagara that destroyed much of the city, and its listing as part of the UNESCO 'Group of Monuments at Hampi' (inscribed 1986)."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's Virupaksha Temple, Hampi article: confirms a shrine on the site from around the 7th century CE, later additions under the late Chalukyas and Hoysalas, major expansion under the Vijayanagara Empire (including work commissioned by chieftain Lakkana Dandesha under King Deva Raya II), the temple's survival of the 1565 sack of Vijayanagara that destroyed much of the city, and its listing as part of the UNESCO 'Group of Monuments at Hampi' (inscribed 1986). Coordinates (15.335165°N, 76.458727°E) confirmed via the Wikipedia article infobox."}
   - {type: oral_tradition, note: "The identification of Virupaksha with the goddess Pampa, and the framing of their union as a divine marriage re-enacted in the December festival, reflects local Pampa-Kshetra devotional tradition rather than an independently datable historical event."}
 documented_vs_legend: mixed
 status: verified

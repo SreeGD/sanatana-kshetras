@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Chhattisgarh"
 city: "Kawardha, Kabirdham district"
+coordinates: {lat: 22.116, lng: 81.148}
 worship_status: active
 darshan_hours: "Varies by season; consult local temple/ASI-site caretakers for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather and sightseeing."
@@ -18,7 +19,7 @@ sources:
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "Sources disagree on the temple's exact founding dynasty and century: construction is variously attributed, across different parts of the source consulted, to Naga kings of Chakrakota, a Phani Nagvanshi/Faninagvansh dynasty (naming rulers Laxman Dev Rai and Gopal Dev), and an earlier Panduvamshi brick-temple phase. This entry does not attempt to resolve that conflict and presents 'roughly 11th century, within a 7th-12th century construction span' as the most defensible summary rather than a single settled date."
+  - "Sources disagree on the temple's exact founding dynasty and century: construction is variously attributed, across different parts of the source consulted, to Naga kings of Chakrakota, a Phani Nagvanshi/Faninagvansh dynasty (naming rulers Laxman Dev Rai and Gopal Dev), a Kalachuri-period dating (10th-12th centuries), and an earlier brick-temple phase (referred to in the source as the 'Istaliq temple') claimed to date as early as the 2nd-3rd century. A follow-up check confirms Wikipedia's own article flags this section with an internal contradiction notice. This entry does not attempt to resolve the conflict and presents 'roughly 11th century, within a 7th-12th century construction span' as the most defensible summary rather than a single settled date."
 ---
 
 Bhoramdeo Temple stands in wooded hill country about 18 km northwest of Kawardha, in Chhattisgarh's Kabirdham district -- a Shiva temple whose fame rests as much on its sculpture as on its worship. Its stone construction is generally placed around the eleventh century, part of a longer building history that different accounts trace variously to Naga kings of the Chakrakota line, to a separately named Phani Nagvanshi dynasty, and to an earlier brick-temple phase under Panduvamshi rulers; this entry does not try to adjudicate between those competing attributions, since no single settled chronology emerged from the source checked. What is clearer is the temple's construction technique: rather than following the tiered curvilinear sikhara typical of north Indian Nagara temples, Bhoramdeo rises in a distinctive receding, stepped profile sometimes called the "Gurur" style, particular to this part of Chhattisgarh.

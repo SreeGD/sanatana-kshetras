@@ -16,11 +16,17 @@ worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; the temple is also busiest and most festive during its major annual observances."
 how_to_reach: "Dharmasthala is about 75 km from Mangaluru, which has both a railway station and an international airport; the nearest railhead is at Ujire, a few kilometers away, with regular buses from Mangaluru and Bengaluru."
+festivals:
+  - {name: "Lakshadeepotsava", approx_date: "November/December (five days in the Hindu month of Kartika)"}
+  - {name: "Maha Shivaratri", approx_date: "February/March"}
+  - {name: "Navaratri", approx_date: "September/October"}
+  - {name: "Annual Jathre (temple car festival)", approx_date: "April"}
 associated_saints:
   - "Vadiraja Tirtha"
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's article on the Dharmasthala temple: confirms the presiding deity Manjunatha (Shiva), the temple's administration by a Jain Bunt family (the Pergades) holding the hereditary title of Heggade/Dharmadhikari for close to twenty generations, current Dharmadhikari D. Veerendra Heggade in the role since 26 October 1968, worship conducted by Madhwa (Vaishnava) Brahmin priests, the co-housed shrines to goddess Ammanavaru and the Jain Tirthankara Chandraprabha alongside four guardian deities, and the 16th-century reconsecration of the temple by the Madhwa saint Vadiraja Tirtha at the request of then-administrator Devaraja Heggade."}
   - {type: oral_tradition, note: "The temple's traditional founding narrative — that the site takes its name 'Dharmasthala' (abode of dharma) from a divine visitation to the ancestral Jain Pergade family, who were asked to dedicate their home to righteous conduct and open worship — is transmitted through temple and local tradition rather than as independently documented history."}
+  - {type: historical_record, note: "Cross-checked against the temple's official website (shridharmasthala.org): confirms Lakshadeepotsava, a five-day festival of lights in the Hindu month of Kartika (November-December), as the temple's most prominent annual celebration, alongside Navaratri (special pooja at the Ammanavaru shrine over nine days), Maha Shivaratri, Deepavali processions of Manjunatha Swamy, Ganesha Chaturthi, and an Annual Jathre (car festival) held over nine days in April."}
 documented_vs_legend: mixed
 status: verified
 review_flags:
@@ -31,4 +37,4 @@ Dharmasthala is best known not just for its deity but for who looks after him: t
 
 The site's name, meaning roughly "abode of dharma," is explained by a founding legend in which the ancestral Jain household was asked, through a divine visitation, to open its home to righteous conduct and to worship beyond its own community — an origin story that helps account for the temple's unusually plural character today. Alongside Manjunatha's sanctum stand shrines to the goddess Ammanavaru and to the Jain Tirthankara Chandraprabha, together with four guardian deities (Kalarahu, Kalarkayi, Kumaraswami, and Kanyakumari), so that Shaiva, Vaishnava, and Jain devotion are all accommodated within the same temple complex.
 
-The temple's continuity was reinforced in the 16th century, when the Madhwa saint Vadiraja Tirtha reconsecrated it at the invitation of the administrator of the time, Devaraja Heggade — an episode often cited as cementing the arrangement under which Vaishnava priests have continued to serve a Shiva deity administered by a Jain family ever since. Today Dharmasthala is among the most visited pilgrimage and charitable centers in coastal Karnataka, known as much for its scale of daily free dining (annadana) for pilgrims as for its temple rites.
+The temple's continuity was reinforced in the 16th century, when the Madhwa saint Vadiraja Tirtha reconsecrated it at the invitation of the administrator of the time, Devaraja Heggade — an episode often cited as cementing the arrangement under which Vaishnava priests have continued to serve a Shiva deity administered by a Jain family ever since. Today Dharmasthala is among the most visited pilgrimage and charitable centers in coastal Karnataka, known as much for its scale of daily free dining (annadana) for pilgrims as for its temple rites. Its largest annual observance is Lakshadeepotsava, a five-day festival of lights held in the Hindu month of Kartika (November/December) with religious seminars, cultural programs, and handicraft exhibitions; the temple also marks Navaratri with nine days of special worship at the Ammanavaru shrine, Maha Shivaratri, and a nine-day Annual Jathre car festival each April.

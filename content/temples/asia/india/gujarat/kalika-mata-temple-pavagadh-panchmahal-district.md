@@ -10,15 +10,17 @@ continent: asia
 country: "India"
 region: "Gujarat"
 city: "Pavagadh, near Halol, Panchmahal district"
+coordinates: {lat: 22.46111, lng: 73.51167}
+address: "Pavagadh Hill, within Champaner-Pavagadh Archaeological Park, Panchmahal district, Gujarat"
 worship_status: active
-darshan_hours: "Varies by temple and season; consult the temple's own trust for the current daily schedule before visiting."
+darshan_hours: "Wikipedia describes the temple as open for long hours to accommodate the volume of pilgrims, though it does not give an exact fixed schedule; consult the temple's own trust for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather while making the hill ascent; Navratri and the Chaitra Sud Aatham fair draw the largest crowds."
 how_to_reach: "Pavagadh Hill is near Halol, about 46 km from Vadodara, which has the nearest railway station and airport; the final stretch to the temple near the summit is covered on foot or by a ropeway that has operated since 1986."
 festivals:
   - {name: "Navratri", approx_date: "September/October"}
   - {name: "Chaitra Sud Aatham Fair", approx_date: "March/April"}
 sources:
-  - {type: historical_record, note: "Cross-checked against Wikipedia's Kalika Mata Temple, Pavagadh article: confirms a 10th-11th century dating for the temple/yantra, the Panchmahal district location atop Pavagadh Hill, the shrine's inclusion within the Champaner-Pavagadh Archaeological Park UNESCO World Heritage Site, and continued large-scale active pilgrimage alongside a 2022 redevelopment of the hilltop approach."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's Kalika Mata Temple, Pavagadh article: confirms a 10th-11th century dating for the temple/yantra, the Panchmahal district location atop Pavagadh Hill at 827-832 m elevation, the shrine's inclusion within the Champaner-Pavagadh Archaeological Park UNESCO World Heritage Site, coordinates of 22.46111N 73.51167E, continued large-scale active pilgrimage alongside a 2022 redevelopment of the hilltop approach, a 5 km forest pathway from the roadhead as the walking route, the ropeway commissioned in 1986, and that the temple is kept open long hours to accommodate pilgrim volume without a stated fixed schedule."}
   - {type: oral_tradition, note: "The Shakti Peetha legend holding that the toe of the goddess Sati's right leg fell at the summit of Pavagadh is devotional tradition, not documented history."}
 documented_vs_legend: mixed
 status: verified

@@ -9,6 +9,7 @@ country: "India"
 region: "Maharashtra"
 city: "Shirdi, Ahmednagar district"
 coordinates: {lat: 19.7645, lng: 74.4762}
+address: "Shirdi, Rahata taluka, Ahilyanagar (Ahmednagar) district, Maharashtra 423109, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "Ram Navami and Vijayadashami (Sai Baba's death anniversary observance) are the temple's largest festivals; October to March for cooler weather otherwise."

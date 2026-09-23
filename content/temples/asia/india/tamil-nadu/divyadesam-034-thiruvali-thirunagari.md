@@ -15,18 +15,22 @@ coordinates: {lat: 11.202979, lng: 79.774538}
 worship_status: active
 darshan_hours: "Typically around 6:00 AM-12:00 PM and 4:00 PM-8:00 PM, as is customary for South Indian Vaishnava temples; the exact daily schedule was not available from the source dataset used to compile this entry and should be confirmed locally before a visit."
 best_time_to_visit: "October to March, for cooler weather; the temple's own festival days (see local Devasthanam/HR&CE calendar) are considered especially auspicious."
-how_to_reach: "Located at Thiruvali Thirunagari, Tamil Nadu; consult local transport options for the nearest railway station, bus stand, or airport."
+how_to_reach: "Thiruvali is about 10 km from Sirkali and 5 km from its sister shrine at Thirunagari, Mayiladuthurai district."
+festivals:
+  - {name: "Thirumangai Alvar Mangalasasana Utsavam (Garudasevai)", approx_date: "Thai (January/February), new-moon day"}
 associated_saints:
   - "Kulasekara Alwar"
   - "Thirumangai Alwar"
 sources:
-  - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Kulasekara Alwar, Thirumangai Alwar"}
+  - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Kulasekara Alwar, Thirumangai Alwar; Wikipedia notes the combined Thiruvali-Thirunagari Divya Desam is covered by 41 pasurams in total."}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
-  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative originally adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status); supplemented below by independently verified detail from Wikipedia's 'Thiruvali-Thirunagari' article, accessed during a 2026 re-verification pass."}
+  - {type: historical_record, note: "Wikipedia's 'Thiruvali-Thirunagari' article (2026 access) confirms: the Aḻagiyasingar (Narasimha) deity at Thiruvali is seated with consort Lakshmi on his right (unusually, since Narasimha shrines typically place the consort on the left); a roughly 0.5-acre, west-facing, granite-walled enclosure; a festival deity named Thiruvali Nagaralan; a separate Thirumangai Alwar shrine outside the temple walls opposite the Garuda Mandapam; and a legend, told as tradition rather than fact, that Vedarajan and Aḻagiyasingar appeared to Thirumangai Alwar at this spot. Construction is traditionally credited to the Cholas, with later Vijayanagara and Thanjavur Nayak-era additions in the 16th century, though no specific king or date is given. Believed to be Thirumangai Alwar's birthplace and spiritual home. Administered under the Tenkalai tradition by the Tamil Nadu HR&CE Board."}
 documented_vs_legend: mixed
-status: pending
+status: verified
 review_flags:
-  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
+  - "Coordinate check: Wikipedia gives approximately 11.2256N, 79.7994E for Thiruvali, about 2-3 km from this entry's recorded coordinates (11.202979, 79.774538); it is unclear whether the file's point represents Thiruvali or the linked Thirunagari shrine specifically. Not resolved this pass."
+  - "Specific inscriptions, king names, and construction dates remain unconfirmed for this temple."
 ---
 
 The temple at Thiruvali Thirunagari, in the Chola country, enshrines the Lord in two intimately linked sacred sites that tradition regards as a single Divya Desam. At Thiruvali the presiding deity is worshipped in his fierce, beautiful lion-man aspect as Azhagiya Singar (the comely Narasimha), while at the neighbouring Thirunagari he stands in serene grace as Vayalali Manavalan, the bridegroom-Lord amid the fertile paddy fields whose name the place itself carries. This twin abode holds a special place among the 108 Divya Desams as the birthplace and spiritual home of Thirumangai Alwar, the warrior-poet and last of the twelve Alwars, whose copious outpourings make up a large portion of the Naalayira Divya Prabandham. Tradition holds that it was here that the Lord drew Thirumangai to himself and transformed the chieftain Neelan into the great devotee Parakala, and the saint sang the glory of this his native soil with deep attachment. Kulasekara Alwar, the royal saint and author of the Perumal Tirumozhi, likewise consecrated the shrine in his hymns, so that the place is doubly hallowed in the divine corpus. Pilgrims revere Thiruvali Thirunagari both for the protective strength of Narasimha and for the tender, accessible presence of the Lord as the eternal bridegroom, and the abode remains inseparably bound, in the memory of the Srivaishnava community, to the life and conversion of Thirumangai Alwar.

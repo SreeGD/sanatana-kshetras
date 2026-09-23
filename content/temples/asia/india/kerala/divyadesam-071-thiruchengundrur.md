@@ -10,30 +10,37 @@ traditions: [vaishnava]
 continent: asia
 country: "India"
 region: "Kerala"
-city: "Thiruchengundrur"
-coordinates: {lat: 9.326667, lng: 76.604167}
+city: "Thiruchengundrur (Thrichittatt), Chengannur, Alappuzha district"
+coordinates: {lat: 9.32667, lng: 76.60417}
 worship_status: active
-darshan_hours: "Typically around 6:00 AM-12:00 PM and 4:00 PM-8:00 PM, as is customary for South Indian Vaishnava temples; the exact daily schedule was not available from the source dataset used to compile this entry and should be confirmed locally before a visit."
-best_time_to_visit: "October to March, for cooler weather; the temple's own festival days (see local Devasthanam/HR&CE calendar) are considered especially auspicious."
-how_to_reach: "Located at Thiruchengundrur, Kerala; consult local transport options for the nearest railway station, bus stand, or airport."
+darshan_hours: "Daily approximately 5:00 AM-11:00 AM and 5:00 PM-8:00 PM (Thursdays 5:30 AM-11:00 AM and 5:30 PM-7:30 PM), per the temple's Wikipedia article (as Thrichittatt Maha Vishnu Temple); confirm locally as timings can shift for festivals."
+best_time_to_visit: "The ten-day temple festival running from Atham to Thiruvonam (i.e., during Onam, August/September) is a major occasion; October to March otherwise for cooler weather."
+how_to_reach: "The temple is at Chengannur, Alappuzha district, Kerala; Chengannur has the nearest railway station, and Thiruvananthapuram International and Cochin International are the closest airports."
+festivals:
+  - {name: "Temple festival (Atham to Thiruvonam)", approx_date: "August/September, 10 days"}
+  - {name: "Vaikuntha Ekadasi", approx_date: "December/January"}
+  - {name: "Sri Krishna Jayanthi (Janmashtami)", approx_date: "August/September"}
 associated_saints:
   - "Nammalwar"
 sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Nammalwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
   - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
+  - {type: historical_record, note: "Independently cross-checked via a fresh fetch of Wikipedia's Thrichittatt Maha Vishnu Temple article on 2026-09-23: confirms this Divya Desam's deity name as Imayavarappa Perumal (matching this entry's 'Imayavarappan'); confirms coordinates matching this entry's existing value (9°19'36\"N 76°36'15\"E); confirms stone inscriptions dating the temple to the Second Chera Empire (c. 800-1102 CE) and the earliest textual references appearing in Nammalwar's hymns from around 800 CE; confirms Kerala-style architecture with no gateway tower, a rectangular enclosure (Kshetra-Madilluka), metal flagpost, an outer pavilion (Chuttuambalam), and a circular sanctum (Sreekovil) under a conical terracotta roof; confirms the Pamba-river Pandava-shrine tradition, with legend crediting Yudhishthira as builder of this particular temple; and sourced exact darshan hours and the festivals Vaikuntha Ekadasi, the ten-day Atham-to-Thiruvonam temple festival, and Sri Krishna Jayanthi (Janmashtami)."}
 documented_vs_legend: mixed
-status: pending
+status: verified
 review_flags:
-  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
+  - "This entry's core identity, deity name, coordinates, and dating (Second Chera Empire, c. 800-1102 CE, with earliest textual reference c. 800 CE in Nammalwar's hymns) are now independently confirmed via Wikipedia, making this one of the better-dated Kerala Divya Desams in this directory. The Pandava-Yudhishthira founding legend remains devotional tradition rather than an archaeologically dated claim."
 ---
 
-The Imayavarappan Temple at Thiruchengundrur, in the Malai Nadu (Kerala) country, enshrines Lord Vishnu as Imayavarappan and is honoured as one of the 108 Divya Desams celebrated in the Naalayira Divya Prabandham. Set in the sacred landscape of the Pamba river region, this shrine belongs to the group of Kerala Divya Desams that tradition associates with the worship of the Pandava brothers, who are said to have venerated the Lord at these abodes during their years of exile. The name Imayavarappan, traditionally understood to mean the Lord who is the bestower of boons, reflects the gracious disposition of the deity who abides here to grant the prayers of those who take refuge in Him. The glory of Thiruchengundrur was sung by Nammalwar, the foremost of the Alwars, whose Tiruvaaymozhi verses consecrate this place within the canonical body of the Tamil Prabandham and establish its standing among the sacred abodes of the Lord. The benediction of Nammalwar's hymns lends the temple enduring sanctity in the eyes of the Sri Vaishnava tradition, marking it as a place worthy of pilgrimage and contemplation. Like its neighbouring Malai Nadu shrines, the temple bears the architectural and liturgical imprint of Kerala's distinctive Vaishnava heritage, even as its inclusion among the Divya Desams joins it to the broader devotional vision of the Alwars, who beheld in such abodes the descent of the Supreme Lord into accessible, worshippable form for the salvation of all.
+The Imayavarappan Temple at Thiruchengundrur — documented as the Thrichittatt Maha Vishnu Temple, where the deity is recorded as Imayavarappa Perumal — is honoured as one of the 108 Divya Desams celebrated in the Naalayira Divya Prabandham, and is unusually well dated among Kerala's Divya Desams: stone inscriptions place the temple within the Second Chera Empire, roughly 800-1102 CE, and the earliest surviving textual references to it appear in the hymns of Nammalwar from around 800 CE, whose Tiruvaaymozhi verses consecrate this place within the canonical Tamil Prabandham. Set in the sacred landscape of the Pamba river region near Chengannur, this shrine also belongs to the group of Kerala temples that tradition associates with the five Pandava brothers; legend specifically credits Yudhishthira, the eldest, as the temple's builder.
+
+Architecturally the temple is built without a gateway tower, in a rectangular walled enclosure (Kshetra-Madilluka) with a metal flagpost, an outer pavilion (Chuttuambalam), and a circular central shrine (Sreekovil) roofed in conical terracotta tile — features typical of the older stratum of Kerala temple architecture.
 
 ## Festivals
 
-Thiruchengundrur, counted among the Malai Nadu Divya Desams sung in the Nalayira Divya Prabandham, traditionally observes the Srivaishnava festival cycle adapted to Kerala temple custom. The annual Brahmotsavam is the foremost observance, with festive alankarams, recitation of the Prabandham hymns, and procession of the processional deity. Vaikunta Ekadasi in Margazhi is kept with special reverence and night-long devotion, while Pavithrotsavam is traditionally observed as a festival of purification. The temple's worship blends the Tamil Prabandham heritage with regional Kerala practices, including the local festival calendar and Onam-season observances. On these utsavam days devotees assemble in greater numbers for darshan, sacred offerings, and the recitation of divine hymns honoring Imayavarappan.
+Thiruchengundrur observes a documented festival calendar alongside the broader Srivaishnava cycle: a ten-day temple festival running from Atham to Thiruvonam, coinciding with the Onam season (August/September); Vaikuntha Ekadasi; and Sri Krishna Jayanthi (Janmashtami). The temple's worship blends this local calendar with the wider Tamil Prabandham heritage of the Divya Desams.
 
 ## Location & Access
 
-The Imayavarappan temple is located at Thiruchengundrur in the Malai Nadu (Kerala) region, one of the Divya Desams clustered along the Pamba river near Chengannur in central Kerala. Chengannur and Tiruvalla are the nearby towns with rail access, while Kottayam and the wider central Kerala belt serve as the regional transport hubs for road and train travel. As with most Vishnu temples, it generally observes morning and evening darshan hours and closes during midday. Verify current darshan timings and travel details with the temple or official sources before visiting.
+The Imayavarappan (Thrichittatt) temple is located at Thiruchengundrur near Chengannur, Alappuzha district, Kerala, one of the Divya Desams clustered along the Pamba river. Chengannur has the nearest railway station, and Thiruvananthapuram International and Cochin International are the nearest airports. Darshan is generally offered from about 5 AM to 11 AM and 5 PM to 8 PM (with slightly later Thursday timings). Verify current darshan timings and travel details with the temple or official sources before visiting.

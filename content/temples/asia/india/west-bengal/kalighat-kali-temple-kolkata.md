@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "West Bengal"
 city: "Kolkata"
+coordinates: {lat: 22.52, lng: 88.34194}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own trust/management committee for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Kali Puja (Oct/Nov) and Durga Puja are the temple's busiest periods, alongside Poila Baisakh (Bengali New Year, mid-April)."

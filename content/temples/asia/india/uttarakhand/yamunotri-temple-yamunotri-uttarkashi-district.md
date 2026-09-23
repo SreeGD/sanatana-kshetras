@@ -9,6 +9,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Yamunotri, Uttarkashi district"
 coordinates: {lat: 31.0106, lng: 78.4587}
+address: "Yamunotri, near Janki Chatti, Uttarkashi district, Uttarakhand, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "Late April/May (Akshaya Tritiya reopening) to October; closed in winter like the other Char Dham sites."

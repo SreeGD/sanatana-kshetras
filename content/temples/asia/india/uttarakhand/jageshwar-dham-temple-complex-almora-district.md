@@ -9,6 +9,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Jageshwar, Almora district"
 coordinates: {lat: 29.6373, lng: 79.8547}
+address: "SH37, Jageshwar village, Almora district, Uttarakhand 263624, India"
 worship_status: active
 darshan_hours: "Varies by season; generally daytime hours only, given the site's remote hill location. Consult local sources for the current schedule before visiting."
 best_time_to_visit: "March to June and September to November for pleasant trekking weather; Maha Shivaratri (February/March) and the monsoon-season Jageshwar Monsoon Festival (Shravani Mela, July/August) are the complex's major pilgrimage occasions."

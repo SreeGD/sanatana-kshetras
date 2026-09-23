@@ -15,7 +15,9 @@ coordinates: {lat: 10.86835, lng: 79.704407}
 worship_status: active
 darshan_hours: "Typically around 6:00 AM-12:00 PM and 4:00 PM-8:00 PM, as is customary for South Indian Vaishnava temples; the exact daily schedule was not available from the source dataset used to compile this entry and should be confirmed locally before a visit."
 best_time_to_visit: "October to March, for cooler weather; the temple's own festival days (see local Devasthanam/HR&CE calendar) are considered especially auspicious."
-how_to_reach: "Located at Thirukkannapuram, Tamil Nadu; consult local transport options for the nearest railway station, bus stand, or airport."
+how_to_reach: "Thirukkannapuram lies inland from Nagapattinam, the nearest major town and transport hub, with Tiruvarur and Thanjavur serving the wider district by road and rail."
+festivals:
+  - {name: "Masi Magam", approx_date: "Masi (February/March)"}
 associated_saints:
   - "Nammalwar"
   - "Kulasekara Alwar"
@@ -26,10 +28,11 @@ sources:
   - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Nammalwar, Kulasekara Alwar, Periyalwar, Andal, Thirumangai Alwar"}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
   - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
+  - {type: historical_record, note: "Re-verification pass (2026): Wikipedia's village article (fetched under the spelling 'Thirukannapuram') confirms the local Vaishnavite shrine is called 'Neelamegha Perumal Temple,' corroborating this entry's own note that the deity is affectionately called Neelamega Perumal, and confirms a specific dated festival, Masi Magam, held in the Tamil month of Masi (mid-February to mid-March). It also notes a separate Shiva Paadal Petra Sthalam, the Ramanadheeswarar Temple, in the same village. Wikipedia's 'Divya Desam' list article gives the consort as Kannapura Nayaki and classifies the shrine among the five Panchakanna Kshetrams (Krishna-linked Divya Desams)."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
+  - "Construction period, dynasty, inscriptions, and architectural detail remain unconfirmed for this temple; the 5-Alwar hymn attribution already in this entry was not independently re-confirmed this pass, though it is plausible and commonly cited."
 ---
 
 The Sauriraja Perumal Temple at Thirukkannapuram, in the fertile Chola Nadu region, is among the most exalted of the 108 Divya Desams, the sacred abodes of Sriman Narayana glorified in the Naalayira Divya Prabandham. The presiding deity, the Moolavar, is worshipped here as Sauriraja Perumal, also revered by devotees with the affectionate name Neelamega Perumal for the dark, rain-cloud beauty of His form. The very name Thirukkannapuram, the holy town of the dark-hued Lord, evokes His captivating presence, and tradition cherishes this kshetra as one where the Lord stands in surpassing splendour. The singular distinction of this Divya Desam is that it was sung by no fewer than five of the Alwar saints whose hymns make up the Prabandham: Nammalwar, the foremost of the Alwars; Kulasekara Alwar, the royal devotee; Periyalwar; his foster-daughter Andal, the bridal saint; and Thirumangai Alwar, who lavished many verses upon the shrines of the Chola land. To be celebrated by this great company of saints marks Thirukkannapuram as a place of extraordinary sanctity, for few among the Divya Desams received the praise of so many Alwars. Through their paasurams the form, grace, and majesty of Sauriraja Perumal were woven permanently into the four thousand sacred Tamil hymns recited in the daily liturgy of the Srivaishnava tradition. Pilgrims hold that worship here, accompanied by the recitation of these verses, brings the Lord's abounding grace, and Thirukkannapuram endures as one of the deeply venerated abodes of the Chola country, radiant with the devotion of the Alwars who sang its glory.

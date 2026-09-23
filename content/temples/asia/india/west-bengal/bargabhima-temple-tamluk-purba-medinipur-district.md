@@ -10,6 +10,7 @@ continent: asia
 country: "India"
 region: "West Bengal"
 city: "Tamluk, Purba Medinipur district"
+coordinates: {lat: 22.29002, lng: 87.92385}
 worship_status: active
 darshan_hours: "Varies by season; consult local temple caretakers for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Durga Puja and Kali Puja are major local observances."
@@ -24,7 +25,7 @@ sources:
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "No specific construction/rebuilding date for the Tamluk Raj family's structure was found in the sources checked."
+  - "No specific construction/rebuilding date for the Tamluk Raj family's structure was found in the sources checked, including on a fresh re-check of Wikipedia's Bargabhima Temple article, which states only that the present structure 'was rebuilt after the Islamic occupation of Bengal in the Middle Ages' without a year."
 ---
 
 Bargabhima Temple, on the bank of the Rupnarayan river in Tamluk, Purba Medinipur district, is identified with the Vibhash Shakta Pitha, one of Bengal's 51 Shakti Peethas. Tradition holds that the left ankle of Sati fell here after her body was cut apart; the presiding goddess is worshipped as Kapalini, in her fierce Bhimarupa aspect, and is popularly known simply as Bargabhima. Tamluk itself carries older layers of religious memory beyond the Shakti Peetha tradition — the town is mentioned in the Mahabharata in connection with Bhima, and the site's character is described as blending Bengali Hindu and Buddhist influences, reflecting the region's long, layered religious history.

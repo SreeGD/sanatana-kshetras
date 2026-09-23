@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Uttar Pradesh"
 city: "Prayagraj"
+address: "Alopibagh, Prayagraj, Uttar Pradesh 211006, India"
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own management for the current daily schedule before visiting."
 best_time_to_visit: "During the Magh Mela/Kumbh Mela season (Jan/Feb) when Prayagraj's Sangam pilgrimage traffic is at its peak, or October to March generally for cooler weather."

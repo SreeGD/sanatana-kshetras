@@ -9,6 +9,7 @@ country: "India"
 region: "Maharashtra"
 city: "Parli Vaijnath, Beed district"
 coordinates: {lat: 18.8428, lng: 76.5354}
+address: "Parli town, Beed district, Maharashtra 431515, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Maha Shivaratri is the principal festival, drawing very large crowds."

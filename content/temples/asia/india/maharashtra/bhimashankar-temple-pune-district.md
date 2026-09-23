@@ -9,6 +9,7 @@ country: "India"
 region: "Maharashtra"
 city: "Bhimashankar, Pune district"
 coordinates: {lat: 19.072, lng: 73.536}
+address: "Bhimashankar village, Khed taluka, Pune district, Maharashtra, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather in the Sahyadri hills; Maha Shivaratri is the principal festival. The temple sits inside the Bhimashankar Wildlife Sanctuary, so heavy monsoon rain (June-September) can make the hill approach difficult."
@@ -22,7 +23,7 @@ sources:
 documented_vs_legend: mixed
 status: verified
 review_flags:
-  - "The 13th-century date sometimes given for the shrine's origin is less firmly documented than the 18th-century Nana Phadnavis-era construction; treat the earlier date as tradition pending stronger sourcing."
+  - "The 13th-century date sometimes given for the shrine's origin is less firmly documented than the 18th-century Nana Phadnavis-era construction; treat the earlier date as tradition pending stronger sourcing. Re-checked via WebFetch, September 2026: Wikipedia's own article states both claims side by side ('dating back to the 13th century' and that 'the current construction... seems to be fairly new'), without reconciling them — the tension is in the source itself, not just secondary reporting of it, so this flag is retained as a genuine open question rather than a sourcing gap that could be closed with another citation."
 ---
 
 One of the twelve Jyotirlingas and one of three in Maharashtra (alongside Trimbakeshwar and Grishneshwar), Bhimashankar sits deep in the Sahyadri range near Khed, about 110 km from Pune, at an elevation of roughly 930 metres. Shaiva tradition holds that Shiva took the fierce form of Bhima Shankara here to destroy the asura Tripurasura, who had grown invincible through penance and conquered the three worlds; the exertion of that battle is said to have produced the sweat that became the Bhimarathi river, which flows from the site. This origin story is devotional narrative rather than documented history.

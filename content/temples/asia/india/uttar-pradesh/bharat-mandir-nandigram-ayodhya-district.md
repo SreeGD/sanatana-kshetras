@@ -10,12 +10,13 @@ country: "India"
 region: "Uttar Pradesh"
 city: "Nandigram (Bharatkund), Ayodhya district"
 coordinates: {lat: 26.65, lng: 82.15}
+address: "Nandigram (Bharatkund), Sohawal tehsil, Ayodhya district, Uttar Pradesh 224202, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; pilgrims commonly combine a visit with nearby Ayodhya's Rama Navami and Deepotsav observances, though no festival calendar specific to this site was confirmed by the sources consulted."
 how_to_reach: "In Sohawal tehsil, Ayodhya district, Uttar Pradesh, about 15 km south of Ayodhya city; served by Bharatkund railway station, with Ayodhya Cantt and Ayodhya Dham Junction also within reach, and road access via NH 330 (the Ayodhya-Sultanpur highway). Ayodhya Airport and Lucknow International Airport are the nearest air links."
 sources:
-  - {type: historical_record, note: "Cross-checked against Wikipedia's Nandigram, Ayodhya article: confirms the village's alternate/ancient name Bharatkund, its location in Sohawal tehsil, Ayodhya district (coordinates approx. 26°39'N 82°09'E), its distance (~15 km) from Ayodhya city, road/rail/air access (Bharatkund railway station, NH 330, Ayodhya and Lucknow airports), a population of roughly 1,500 (2011 census), and documented structures at the site including a temple called Bharat Mandir, an Aarti Kaksh pavilion at the Bharat Sarovar tank, and a location called Ram Charan. No founding date or construction history for the Bharat Mandir structure itself was given."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's Nandigram, Ayodhya article: confirms the village's alternate/ancient name Bharatkund, its location in Sohawal tehsil, Ayodhya district (coordinates approx. 26°39'N 82°09'E, postal code 224202), its distance (~15 km) from Ayodhya city, road/rail/air access (Bharatkund railway station, NH 330, Ayodhya and Lucknow airports), a population of roughly 1,500 (2011 census), and documented structures at the site including a temple called Bharat Mandir, an Aarti Kaksh pavilion at the Bharat Sarovar tank, and a location called Ram Charan. No founding date or construction history for the Bharat Mandir structure itself was given. Re-verified via a fresh fetch of the same article on 2026-09-23; no Kanpur Dehat-district alternative site or additional founding-history detail turned up on this pass."}
   - {type: scripture, text: "Ramayana", reference: "Bharata's refusal of the throne after Dasharatha's death, his request for Rama's sandals, and his rule as regent of Kosala for fourteen years from the village of Nandigrama on Ayodhya's outskirts, with the sandals placed on the throne in Rama's stead, per the account summarized from Wikipedia's article on Bharata (Ramayana)."}
 documented_vs_legend: mixed
 status: pending

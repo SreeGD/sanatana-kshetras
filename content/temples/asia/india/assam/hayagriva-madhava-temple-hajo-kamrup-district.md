@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Assam"
 city: "Hajo, Kamrup district"
+coordinates: {lat: 26.2427, lng: 91.5265}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own trust/management committee for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Doul Utsav (Holi, February/March) and Janmashtami are its major festivals."

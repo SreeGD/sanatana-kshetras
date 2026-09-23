@@ -10,6 +10,7 @@ continent: asia
 country: "India"
 region: "Himachal Pradesh"
 city: "Chandreshwar village, near Palampur, Kangra district"
+coordinates: {lat: 32.14833, lng: 76.41917}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; the Navaratri periods draw the largest crowds."
@@ -20,10 +21,11 @@ festivals:
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's article on the Kangra-district Chamunda Devi temple: confirms the present temple on the banks of the Baner river was built roughly four centuries ago (giving it a circa-16th/17th-century origin) as a more accessible alternative to an older hilltop shrine, Aadi Himani Chamunda, and notes that while it is popularly counted among Himachal Pradesh's major Shakti temples, it is not among the canonically enumerated 51/52 Shakti Peethas."}
   - {type: oral_tradition, note: "Local legend holds that a priest was directed in a dream to the location of an ancient image of the goddess, which a king's men then recovered and installed at the present, more accessible site below the older hilltop shrine."}
+  - {type: historical_record, note: "Follow-up cross-check against Wikipedia's dedicated 'Shri Chamunda Devi Mandir' article (distinct from the general Kangra-district source previously checked) independently corroborates the 'constructed around 400 years ago' dating and the dream-vision/relocation legend, and confirms Navaratri as the temple's primary festival. It still does not name the king or priest involved, so the founder's identity remains unconfirmed, but the approximate 16th/17th-century date now rests on two independently checked sources rather than one."}
 documented_vs_legend: mixed
 status: pending
 review_flags:
-  - "The 'roughly 400 years ago' / 16th-17th century founding date and the builder's identity rest on a single secondary source (Wikipedia) without an on-site inscription cited; treat the date as approximate."
+  - "The 'roughly 400 years ago' / 16th-17th century founding date is now corroborated by two independently checked sources (Wikipedia's Kangra-district source and its dedicated 'Shri Chamunda Devi Mandir' article), but neither names the king or priest involved, and no on-site inscription has been cited; treat the date as approximate and the builder's identity as unconfirmed."
   - "This temple is popularly grouped among Himachal Pradesh's major Shakti temples but is not part of the canonically enumerated Shakti Peetha list; that popular status, not canonical Shakti Peetha status, is what this entry claims."
 ---
 

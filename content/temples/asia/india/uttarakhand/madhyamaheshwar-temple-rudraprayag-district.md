@@ -11,6 +11,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Gaundar village, Rudraprayag district"
 coordinates: {lat: 30.6369, lng: 79.2161}
+address: "Above Gaundar village, upper Madhmaheshwar valley, Rudraprayag district, Uttarakhand, India"
 worship_status: active
 darshan_hours: "Varies by season; the temple is closed to pilgrims in winter (see below). Consult local priests/administration for the current daily schedule during the open season."
 best_time_to_visit: "Opens with the onset of summer after the winter closure and remains accessible through October/November; closed the rest of the year, when the deity is ceremonially moved down to Ukhimath."

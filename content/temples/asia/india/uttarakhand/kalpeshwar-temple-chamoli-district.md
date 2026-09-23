@@ -9,6 +9,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Urgam Valley, Chamoli district"
 coordinates: {lat: 30.577, lng: 79.4229}
+address: "Urgam Valley, near Devgram village, beside the Kalpganga river, Chamoli district, Uttarakhand, India"
 worship_status: active
 darshan_hours: "Unlike the other Panch Kedar shrines, Kalpeshwar remains open year-round; consult local priests for the current daily schedule."
 best_time_to_visit: "Accessible throughout the year, unlike the other Panch Kedar shrines, which close for winter; the broader Char Dham season of May-June and September-October is nonetheless the most convenient window given weather and road conditions."

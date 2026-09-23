@@ -10,6 +10,8 @@ continent: asia
 country: "India"
 region: "Uttarakhand"
 city: "Haridwar"
+coordinates: {lat: 29.9336, lng: 78.1801}
+address: "Neel Parvat, NH34, Haridwar, Uttarakhand 249401, India"
 worship_status: active
 darshan_hours: "Varies by season; consult the temple management for the current daily schedule before visiting."
 best_time_to_visit: "Year-round, but especially during Navaratri and Chandi Chaudas, and during Haridwar's Kumbh/Ardh Kumbh Mela years."

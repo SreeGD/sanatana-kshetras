@@ -11,6 +11,7 @@ continent: asia
 country: "India"
 region: "Arunachal Pradesh"
 city: "Lohit district (near Tezu)"
+coordinates: {lat: 27.8775, lng: 96.3592}
 worship_status: active
 darshan_hours: "Varies by temple and season, and the site is a pilgrimage kund rather than a single managed temple; consult local authorities/caretakers for the current schedule before visiting, especially around the Makar Sankranti mela."
 best_time_to_visit: "Mid-January for Makar Sankranti, when the annual mela and ritual bathing take place; the monsoon months are best avoided given the Lohit River's flow."

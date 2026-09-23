@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "West Bengal"
 city: "Bishnupur, Bankura district"
+coordinates: {lat: 23.08070, lng: 87.32360}
 worship_status: heritage
 best_time_to_visit: "October to March for cooler, comfortable sightseeing weather; Bishnupur's terracotta temple cluster is best seen in early morning or late afternoon light."
 how_to_reach: "Bishnupur has its own railway station on the South Eastern Railway's Kharagpur-Bankura-Bishnupur line, about 150 km from Kolkata by road or rail."

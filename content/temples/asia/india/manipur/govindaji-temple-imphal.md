@@ -10,6 +10,7 @@ continent: asia
 country: "India"
 region: "Manipur"
 city: "Imphal"
+coordinates: {lat: 24.7978, lng: 93.9485}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; visit around Rath Yatra (June/July) or Janmashtami (August) to see the temple's major festivities and Ras Lila performances."

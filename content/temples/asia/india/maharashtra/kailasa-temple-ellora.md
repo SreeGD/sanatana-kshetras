@@ -9,6 +9,7 @@ country: "India"
 region: "Maharashtra"
 city: "Ellora"
 coordinates: {lat: 20.0258, lng: 75.1794}
+address: "Ellora Caves, Verul village, Chhatrapati Sambhajinagar (Aurangabad) district, Maharashtra, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather while exploring the site on foot."

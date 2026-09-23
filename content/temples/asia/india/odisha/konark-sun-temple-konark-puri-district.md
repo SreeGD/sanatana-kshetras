@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Odisha"
 city: "Konark, Puri district"
+coordinates: {lat: 19.8875, lng: 86.09472}
 worship_status: heritage
 best_time_to_visit: "November to February for cooler, comfortable sightseeing weather; the Konark Dance Festival (early December) and the Chandrabhaga Mela (around February) are notable times to visit."
 how_to_reach: "Konark is about 35 km northeast of Puri and roughly 65 km from Bhubaneswar, which has the nearest airport and major railway station; regular buses and taxis connect Konark to both."

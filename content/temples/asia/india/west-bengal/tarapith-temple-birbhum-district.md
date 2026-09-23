@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "West Bengal"
 city: "Tarapith, Rampurhat, Birbhum district"
+coordinates: {lat: 24.11, lng: 87.8}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own trust/management committee for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Kaushiki Amavasya (August/September) is the temple's principal festival and draws its largest crowds."

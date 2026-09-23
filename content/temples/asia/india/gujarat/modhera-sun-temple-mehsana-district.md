@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Gujarat"
 city: "Modhera, Mehsana district"
+coordinates: {lat: 23.583806, lng: 72.1326861}
 worship_status: heritage
 best_time_to_visit: "October to March for cooler weather; the equinoxes (around March 21 and September 23) are when the sanctum's solar alignment is most visually apparent."
 how_to_reach: "Modhera is about 30 km from Mehsana, which has a railway station; the nearest airport is Ahmedabad, roughly 100-105 km away."

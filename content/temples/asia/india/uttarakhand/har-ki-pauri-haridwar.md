@@ -10,6 +10,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Haridwar"
 coordinates: {lat: 29.9457, lng: 78.1642}
+address: "Har Ki Pauri, Haridwar, Uttarakhand 249401, India, on the Brahmakund stretch of the Ganges"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "Evening for the daily Ganga Aarti; Kumbh Mela (every 12 years) and Ardh Kumbh (every 6 years) are the largest gatherings, though extremely crowded."

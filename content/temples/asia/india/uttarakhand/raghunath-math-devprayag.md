@@ -12,6 +12,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Devprayag, Tehri Garhwal district"
 coordinates: {lat: 30.1462, lng: 78.5991}
+address: "Devprayag, Tehri Garhwal district, Uttarakhand 249301, India, on a terrace above the Bhagirathi-Alaknanda confluence"
 worship_status: active
 darshan_hours: "Varies by season; consult the temple priests/local trust for the current daily schedule before visiting."
 best_time_to_visit: "Accessible year-round given the town's relatively low elevation (~830 m); most pilgrims pass through during the Char Dham Yatra season (roughly April/May-October/November) while travelling the Rishikesh-Badrinath highway. Makar Sankranti, Basant Panchami, and Ram Navami are noted as especially busy occasions at the Panch Prayag sites generally."

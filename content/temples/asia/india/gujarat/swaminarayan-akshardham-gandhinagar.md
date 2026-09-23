@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Gujarat"
 city: "Gandhinagar"
+coordinates: {lat: 23.22917, lng: 72.67417}
 worship_status: active
 darshan_hours: "Varies by season; the complex is typically closed one day a week for maintenance. Consult the temple's own trust for the current schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; the evening water/light show is a major draw year-round."

@@ -8,6 +8,8 @@ continent: asia
 country: "India"
 region: "Uttarakhand"
 city: "Purnagiri hill, near Tanakpur, Champawat district"
+coordinates: {lat: 28.9927, lng: 80.0702}
+address: "NH9, Banbasa, Purnagiri, Champawat district, Uttarakhand 262310, India"
 worship_status: active
 darshan_hours: "Varies by season and is significantly affected by pilgrim volume during Navratri; consult local or official Uttarakhand tourism sources for the current schedule before visiting."
 best_time_to_visit: "Chaitra Navratri (March/April) for the temple's largest annual fair, though this is also its most crowded period; October to March otherwise offers cooler, quieter trekking weather."
@@ -23,7 +25,7 @@ documented_vs_legend: mixed
 status: pending
 review_flags:
   - "No dedicated primary source (e.g. a standalone Wikipedia article) was found for this temple; details here are drawn from its treatment within the Wikipedia article on nearby Tanakpur, supplemented by a cross-check against the separate Shakti Peetha article, which does not list Purnagiri among the canonical 51."
-  - "No coordinates could be confirmed from the sources checked; location is described only by distance and direction from Tanakpur."
+  - "No coordinates could be confirmed from the sources checked; location is described only by distance and direction from Tanakpur. Resolved, September 2026: coordinates (28.9927, 80.0702) and an address were sourced independently via OpenStreetMap/Nominatim geocoding."
 ---
 
 High above the Sharda (Kali) river near the India-Nepal border in Uttarakhand's Champawat district, the Purnagiri Temple is one of the major Devi pilgrimage sites of the Kumaon Himalaya, popularly regarded in regional tradition as one of the 108 Siddha Peeths. Pilgrims commonly travel by road from Tanakpur to the village of Tunyas and then make a roughly three-kilometer uphill trek (or take a ropeway) to reach the hilltop shrine.

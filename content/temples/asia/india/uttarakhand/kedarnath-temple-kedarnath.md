@@ -9,6 +9,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Kedarnath"
 coordinates: {lat: 30.7346, lng: 79.0669}
+address: "Kedarnath, near the source of the Mandakini river, Rudraprayag district, Uttarakhand, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/devasthanam for the current daily schedule before visiting."
 best_time_to_visit: "May to June and September to October; the temple is closed roughly November to April due to snow (Uttarakhand Char Dham season)."

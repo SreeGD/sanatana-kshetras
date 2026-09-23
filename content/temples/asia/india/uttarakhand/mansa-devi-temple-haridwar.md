@@ -9,6 +9,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Haridwar"
 coordinates: {lat: 29.9581, lng: 78.1647}
+address: "Bilwa Parvat, Haridwar Bypass Road, near Har Ki Pauri, Haridwar, Uttarakhand 249401, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Navratri is the busiest period."

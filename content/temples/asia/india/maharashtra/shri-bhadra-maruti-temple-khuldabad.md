@@ -8,7 +8,8 @@ continent: asia
 country: "India"
 region: "Maharashtra"
 city: "Khuldabad"
-coordinates: {lat: 20.0231, lng: 75.1856}
+coordinates: {lat: 20.0098, lng: 75.1957}
+address: "NH752H, Khuldabad, Chhatrapati Sambhajinagar (Aurangabad) district, Maharashtra, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "Hanuman Jayanti and Ram Navami draw the largest crowds."

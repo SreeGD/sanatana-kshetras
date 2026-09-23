@@ -12,6 +12,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Rudraprayag, Rudraprayag district"
 coordinates: {lat: 30.2833, lng: 78.9833}
+address: "At the Alaknanda-Mandakini confluence, Rudraprayag town, Uttarakhand, India"
 worship_status: active
 darshan_hours: "Varies by season; consult the temple priests/local trust for the current daily schedule before visiting."
 best_time_to_visit: "Accessible year-round given the town's relatively low elevation (~690 m); most pilgrims pass through during the Char Dham Yatra season (roughly April/May-October/November) while travelling the Rishikesh-Badrinath highway."

@@ -8,12 +8,14 @@ continent: asia
 country: "India"
 region: "Chhattisgarh"
 city: "Sirpur, Mahasamund district"
+coordinates: {lat: 21.3452, lng: 82.1848}
 worship_status: heritage
 best_time_to_visit: "November to February for cooler weather for sightseeing among the Sirpur ruins."
 how_to_reach: "Sirpur is about 78 km from Mahasamund and roughly 84 km from Raipur, which has the nearest airport and major railway junction; connected by road."
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's Sirpur Group of Monuments article: confirms the Lakshmana Temple is dated 595-605 CE, one of the earliest structures at Sirpur, built substantially of brick with carved stone door/sanctum frames, an eastward-facing sanctum, and Anantasayana Vishnu and Dashavatara relief panels; confirms it survives today as a ruined ASI-protected monument with an on-site museum, in Mahasamund district on the Mahanadi river; confirms Alexander Cunningham's 1872 survey brought the site to wider historical attention."}
   - {type: historical_record, note: "Cross-checked against Wikipedia's Panduvamshis of Dakshina Kosala article: confirms an inscription at the temple records it was built by Queen Vasata in memory of her husband, King Harshagupta, a Panduvamshi ruler of Dakshina Kosala (capital Shripura/Sirpur), described in the inscription as a lifelong devotee of Vishnu ('Achyuta'); also records their son Balarjuna's later reign (c. 730-790 CE) at Sirpur."}
+  - {type: historical_record, note: "Coordinates (21.3452N, 82.1848E) are Wikipedia's site-general coordinates for the Sirpur Group of Monuments, not a Lakshmana-Temple-specific reading; no separate coordinates for this individual temple were found."}
 documented_vs_legend: documented
 status: verified
 ---

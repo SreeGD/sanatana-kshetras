@@ -8,6 +8,8 @@ continent: asia
 country: "India"
 region: "Maharashtra"
 city: "Tuljapur, Dharashiv district"
+coordinates: {lat: 18.0114, lng: 76.1256}
+address: "Raje Shahaji Mahadwar Road, Jijamata Nagar, Tuljapur, Dharashiv district, Maharashtra 413601, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Navratri (both Chaitra and Sharad) is the temple's biggest observance and draws very large crowds."
@@ -17,6 +19,7 @@ festivals:
   - {name: "Chaitra Navratri", approx_date: "March/April"}
 sources:
   - {type: historical_record, note: "Cross-checked against Wikipedia's Tulja Bhavani Temple article: confirms the temple's location atop Yamunachala hill above the Bori river in Tuljapur, Dharashiv district; a 12th-century (1169 CE) construction attributed to Mahamandaleshwara Maradadeva of the Kadamb dynasty; its standing among the recognized Shakti Pithas and specifically as one of the four principal Shakti Peethas of Maharashtra (with Kolhapur, Mahur, and Vani/Saptashrungi); Hemadpanthi black-stone architecture; the temple's long-documented association with the Bhosale clan of Chhatrapati Shivaji, including gateways named for Shivaji's parents Shahaji and Jijabai and for the Nimbalkar family; and Shivaji's recorded devotion to the goddess."}
+  - {type: historical_record, reference: "Wikipedia: Tuljabhavani Temple", note: "Coordinates and address added via WebFetch, September 2026."}
   - {type: oral_tradition, note: "The Skanda Purana-linked legend of the goddess defeating the buffalo demon Mahishasura and then rescuing a devotee widow named Anubhuti from further demons, said to be the origin of the name 'Tulja' Bhavani, is Puranic devotional narrative rather than documented history. The popular story that the goddess personally gifted Shivaji a sword (later known as the 'Bhavani' sword) is likewise temple/regional legend, distinct from the separately documented historical fact of the Bhosale family's devotion to the goddess as their kuladevata (family deity)."}
 documented_vs_legend: mixed
 status: verified

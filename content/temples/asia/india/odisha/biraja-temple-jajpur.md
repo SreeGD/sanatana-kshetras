@@ -10,6 +10,7 @@ continent: asia
 country: "India"
 region: "Odisha"
 city: "Jajpur"
+coordinates: {lat: 20.8337639, lng: 86.3381444}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Durga Puja and Navratri (Sep/Oct) are the temple's busiest periods."

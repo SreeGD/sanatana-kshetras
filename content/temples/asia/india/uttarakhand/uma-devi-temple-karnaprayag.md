@@ -9,6 +9,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Karnaprayag, Chamoli district"
 coordinates: {lat: 30.2589, lng: 79.2181}
+address: "Karnaprayag, Chamoli district, Uttarakhand 246444, India, at the Alaknanda-Pindar confluence"
 worship_status: active
 darshan_hours: "Varies by season; consult the temple priests/local trust for the current daily schedule before visiting."
 best_time_to_visit: "Accessible year-round given the town's relatively low elevation (~860 m); most pilgrims pass through during the Char Dham Yatra season (roughly April/May-October/November) while travelling the Rishikesh-Badrinath highway."

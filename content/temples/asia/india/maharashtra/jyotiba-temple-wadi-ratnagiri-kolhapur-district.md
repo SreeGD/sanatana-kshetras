@@ -11,7 +11,8 @@ continent: asia
 country: "India"
 region: "Maharashtra"
 city: "Wadi Ratnagiri, Kolhapur district"
-coordinates: {lat: 16.7936, lng: 74.1497}
+coordinates: {lat: 16.7949, lng: 74.1762}
+address: "Near Giroli village, Panhala taluka, Kolhapur district, Maharashtra 416201, India"
 worship_status: active
 darshan_hours: "Varies by season; consult the temple trust for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; the Chaitra Poornima and Vaishakha Poornima fairs are the temple's largest annual gatherings, and Sundays hold special significance."
@@ -26,7 +27,7 @@ documented_vs_legend: mixed
 status: pending
 review_flags:
   - "The claimed 8th-century Kedarnath lineage of the temple's 'Kedar artisans' is a traditional attribution relayed by a single tertiary source and is not independently verified here."
-  - "Current darshan hours could not be confirmed from the sources checked."
+  - "Current darshan hours could not be confirmed from the sources checked (re-checked via WebFetch, September 2026; Wikipedia's article does not state visiting hours)."
 ---
 
 On a hilltop 18 km northwest of Kolhapur, the Jyotiba temple honors a deity worshipped locally as Jyotiba or Kedareshwar and understood, according to Hindu theology recorded in the source consulted, as a combined manifestation of Brahma, Vishnu, and Shiva — though devotees overwhelmingly treat him as a form of Shiva through the Kedareshwar name. A small original shrine here is attributed to a figure called Navaji Sayaji, popularly "Kedar baba," but the temple as it stands today dates to 1730, when the Maratha noble Ranoji Shinde built the main black-basalt structure; tradition holds that the craftsmen who worked on it, called Kedar artisans, descended from the builders who reconstructed the original Kedarnath Temple in the Himalayas under Adi Shankaracharya in the 8th century CE — a claim of lineage rather than a documented genealogy, but one that has shaped the site's self-understanding for generations. Two further temples were added within the same hilltop complex: a second built by Daulatrao Shinde in 1808, and a third, the Ramling temple, around 1780.

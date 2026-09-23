@@ -18,6 +18,7 @@ festivals:
 sources:
   - {type: scripture, text: "Panchamukha Hanuman Kavacham", reference: "Describes the five-faced form and its protective significance"}
   - {type: historical_record, note: "The general Panchamukha Hanuman iconographic tradition (the five faces and their meanings) was cross-checked against Wikipedia's Panchamukha Hanuman article and confirmed; this specific Karaikkudi temple's own founding history and local traditions were not covered by that source and were not independently confirmed elsewhere this pass."}
+  - {type: historical_record, note: "Re-checked 2026-09-23: a Wikipedia search for this temple returned only a same-named 'Panchamuga Anjaneyar Temple' in Gowrivakkam, Chennai (a different temple, per the 'List of Hindu temples in Tamil Nadu' article) rather than this Karaikkudi shrine; no dedicated source describing the Karaikkudi temple's own founding history, architecture, or festivals was located this pass either."}
 documented_vs_legend: legend
 status: pending
 review_flags:

@@ -12,6 +12,7 @@ continent: asia
 country: "India"
 region: "Tamil Nadu"
 city: "Palani"
+coordinates: {lat: 10.438805, lng: 77.520261}
 worship_status: active
 darshan_hours: "Varies by season and festival calendar; consult the temple's own trust/devasthanam for the current daily schedule before visiting."
 best_time_to_visit: "Thaipusam (January/February) draws the largest crowds by far; October to March is otherwise cooler and more comfortable for the hill climb."
@@ -25,6 +26,7 @@ sources:
   - {type: scripture, text: "Tirumurukāṟṟuppaṭai", reference: "Sangam-era devotional poem naming the site (as 'Thiruaavinankudi') among Murugan's sacred hills"}
   - {type: historical_record, note: "Cross-checked against Wikipedia's account of the Palani Murugan (Dhandayuthapani Swamy) Temple, accessed during verification pass: confirms the deity as a staff-bearing ascetic form of Murugan, an origin attributed to the Cheras and dated broadly to the 2nd-5th century CE, the Sangam-era 'Thiruaavinankudi'/'Pothini' place names (Tirumurukāṟṟuppaṭai, Akananuru), 13th-century Pandya-era inscriptional grants to the temple, the early-Dravidian gold-plated vimanam, and the tradition that the hilltop image is made of an amalgam of nine medicinal/poisonous substances (navapashanam)."}
   - {type: oral_tradition, note: "Kanda Puranam-derived Tamil Kaumaram devotional tradition: after Ganesha won a contest with Murugan over a cosmic fruit (by circling their parents rather than the world), Murugan renounced his princely status in anger and retired to Palani hill as a hermit; a separate but linked episode holds that the asura Idumban, carrying two hills southward on Sage Agastya's orders, was defeated here by Murugan, and one of the hills remains as the temple hill. This renunciation episode is this shrine's traditionally assigned role among the six Arupadaiveedu abodes."}
+  - {type: historical_record, note: "Re-verification pass (2026): re-fetched Wikipedia's Palani Murugan Temple article specifically for coordinates, not previously recorded in this entry; infobox gives 10°26'20\"N 77°31'13\"E (10.438805N, 77.520261E), on the higher of the two Palani hills (Sivagiri). No street address is given beyond the town/district and hilltop location already recorded."}
 documented_vs_legend: mixed
 status: verified
 ---

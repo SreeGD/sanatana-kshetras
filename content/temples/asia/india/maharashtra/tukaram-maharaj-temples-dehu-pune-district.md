@@ -12,6 +12,7 @@ country: "India"
 region: "Maharashtra"
 city: "Dehu, Pune district"
 coordinates: {lat: 18.7167, lng: 73.7667}
+address: "Dehu, Haveli taluka, Pune district, Maharashtra 412109, India"
 worship_status: active
 darshan_hours: "Varies by season and festival calendar; consult the temple trust for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; the site is busiest around the Ashadhi Wari departure (Tukaram Palkhi to Pandharpur) in June/July."

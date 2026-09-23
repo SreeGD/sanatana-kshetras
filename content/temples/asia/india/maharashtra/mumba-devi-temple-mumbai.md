@@ -10,8 +10,8 @@ continent: asia
 country: "India"
 region: "Maharashtra"
 city: "Bhuleshwar, Mumbai"
-coordinates: {lat: 18.95, lng: 72.83}
-address: "Bhuleshwar, South Mumbai, Maharashtra"
+coordinates: {lat: 18.952, lng: 72.8307}
+address: "Sheikh Memon Street, Navi Wadi, Lohar Chawl, Bhuleshwar, Mumbai, Maharashtra 400002, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "Navratri is the major annual observance; October to March is otherwise cooler for visiting."

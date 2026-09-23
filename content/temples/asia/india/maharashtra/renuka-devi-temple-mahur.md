@@ -10,7 +10,8 @@ continent: asia
 country: "India"
 region: "Maharashtra"
 city: "Mahur (Mahurgad), Nanded district"
-coordinates: {lat: 19.8478, lng: 77.9239}
+coordinates: {lat: 19.8329, lng: 77.9233}
+address: "NH161A, near Nakhegaon/Anjankhed, Mahur, Nanded district, Maharashtra 431721, India"
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own trust/management committee for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; the Vijayadashami/Dussehra fair is the temple's largest annual gathering, and Navaratri and Datta Pournima also draw large crowds."

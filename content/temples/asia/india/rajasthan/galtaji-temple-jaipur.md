@@ -10,6 +10,7 @@ continent: asia
 country: "India"
 region: "Rajasthan"
 city: "Jaipur"
+coordinates: {lat: 26.8761, lng: 76.1242}
 worship_status: active
 darshan_hours: "Varies by season; consult local temple management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Makar Sankranti (mid-January) draws especially large crowds of pilgrims to bathe in the kunds."

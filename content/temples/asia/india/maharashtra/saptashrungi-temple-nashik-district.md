@@ -8,6 +8,8 @@ continent: asia
 country: "India"
 region: "Maharashtra"
 city: "Vani, Nashik district"
+coordinates: {lat: 20.39028, lng: 73.90861}
+address: "Near Nanduri village, Kalwan taluka, Nashik district, Maharashtra, India"
 worship_status: active
 darshan_hours: "Varies by season; consult the temple trust for the current daily schedule before visiting."
 best_time_to_visit: "Chaitrotsav (Chaitra Navratri through the Chaitra full moon, Mar/Apr) is the temple's grandest festival; October to March otherwise for cooler weather."
@@ -17,7 +19,7 @@ festivals:
   - {name: "Navratri", approx_date: "September/October"}
 sources:
   - {type: scripture, text: "Devi Bhagavata Purana", reference: "Cited, per the Wikipedia article consulted, as naming Saptashringa among the Shakti Pithas."}
-  - {type: historical_record, note: "Cross-checked against Wikipedia's Saptashrungi article: confirms the temple's location on the Saptashrungi hills near Vani, Nashik district; confirms the image is an 18-armed, roughly 8-foot rock-cut form of the goddess covered in vermilion, each arm bearing a weapon attributed to a different deity; confirms the 510-step stone stairway to the shrine was built in 1710 CE under the patronage of Umabai Dabhade, of the Maratha Dabhade family. Notes the article's own account of which body part of Sati fell here (the right arm) differs from a separate cross-referenced Shakta Pithas listing, which instead names the chin."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's Saptashrungi article: confirms the temple's location on the Saptashrungi hills near Vani (Nanduri, Kalwan taluka), Nashik district, at coordinates 20.39028N, 73.90861E; confirms the image is an 18-armed, roughly 8-foot rock-cut form of the goddess covered in vermilion, each arm bearing a weapon attributed to a different deity; confirms the 510-step stone stairway to the shrine was built in 1710 CE under the patronage of Umabai Dabhade, of the Maratha Dabhade family. Notes the article's own account of which body part of Sati fell here (the right arm) differs from a separate cross-referenced Shakta Pithas listing, which instead names the chin. Coordinates and taluka added via WebFetch, September 2026."}
   - {type: oral_tradition, note: "Beyond the Shakti Peetha legend itself, local tradition holds that the sage Markandeya composed the Devi Mahatmya at this site; this is devotional tradition, not independently documented history."}
 documented_vs_legend: mixed
 status: pending

@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Madhya Pradesh"
 city: "Amarkantak"
+coordinates: {lat: 22.822, lng: 81.7532}
 worship_status: active
 darshan_hours: "Varies by season; consult the temple's own management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Narmada Jayanti (Jan/Feb) is a particularly significant date for pilgrims at the river's source."

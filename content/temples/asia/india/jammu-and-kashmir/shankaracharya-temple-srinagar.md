@@ -11,6 +11,7 @@ continent: asia
 country: "India"
 region: "Jammu and Kashmir"
 city: "Srinagar"
+coordinates: {lat: 34.0789, lng: 74.8436}
 worship_status: active
 darshan_hours: "Restricted by security protocol as of recent years (fixed visiting window, ID checks, no bags/electronics beyond a certain point); confirm the current arrangement locally or with Jammu and Kashmir Tourism before visiting."
 best_time_to_visit: "March to October for clear hill-top views over Srinagar and the Dal Lake; Maha Shivaratri (locally, Herath) is the major festival day."

@@ -11,6 +11,7 @@ country: "India"
 region: "Maharashtra"
 city: "Panchavati, Nashik"
 coordinates: {lat: 20.00694, lng: 73.795}
+address: "Shabrichi Bol, Saraf Bazaar, Panchavati, Nashik, Maharashtra 422001, India"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Rama Navami is the temple's single biggest annual event, alongside Navaratri and Diwali."

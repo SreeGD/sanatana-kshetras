@@ -9,6 +9,7 @@ country: "India"
 region: "Uttarakhand"
 city: "Rishikesh, Pauri Garhwal district"
 coordinates: {lat: 30.0807, lng: 78.3409}
+address: "Neelkanth Mahadev hill, Pauri Garhwal district, Uttarakhand, India, about 32 km from Rishikesh"
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "March to June and September to November; Maha Shivaratri (February/March) and the Shravan month (July/August), when Kanwar pilgrims arrive on foot from Haridwar, are the busiest periods."

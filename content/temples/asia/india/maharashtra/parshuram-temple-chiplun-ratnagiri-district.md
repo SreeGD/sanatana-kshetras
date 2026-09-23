@@ -10,7 +10,8 @@ continent: asia
 country: "India"
 region: "Maharashtra"
 city: "Parshuram, near Chiplun, Ratnagiri district"
-coordinates: {lat: 17.5686, lng: 73.5325}
+coordinates: {lat: 17.5557, lng: 73.5049}
+address: "Parshuram Mandir, Mumbai-Goa Highway (NH 66), Parshuram village, Chiplun taluka, Ratnagiri district, Maharashtra 415707, India"
 worship_status: active
 darshan_hours: "Not confirmed from available sources for this entry; consult the temple trust for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Akshaya Tritiya, traditionally observed elsewhere in India as Parashurama Jayanti, is a likely period of increased visitation, though this entry could not confirm a temple-specific festival calendar."
@@ -22,7 +23,7 @@ documented_vs_legend: mixed
 status: pending
 review_flags:
   - "The identity of the temple's 1700 CE builder, given in the source as 'Siddi Rasul Yakut Khan' acting at the initiative of Swami Paramhans Brahmendra, is a specific and historically notable claim (a Muslim patron commissioning a Vishnu-avatar temple) drawn from a single tertiary source; it is relayed here as reported rather than independently corroborated against a primary record."
-  - "A temple-specific festival calendar (e.g., a confirmed Parashurama Jayanti observance) could not be established from the source consulted."
+  - "A temple-specific festival calendar (e.g., a confirmed Parashurama Jayanti observance) could not be established from the source consulted (re-checked via WebFetch, September 2026; Wikipedia's Chiplun article still does not mention a festival calendar or visiting hours for this temple)."
 ---
 
 Above the Konkan town of Chiplun, where the Mumbai–Goa highway climbs the Parshuram ghat, stands one of the small handful of Indian temples dedicated to Parashurama, the axe-wielding sixth avatar of Vishnu and, by regional legend, the very creator of the Konkan coastline. According to Wikipedia's account of Chiplun, the temple dates to 1700 CE and was built by a patron named Siddi Rasul Yakut Khan at the initiative of Swami Paramhans Brahmendra — a detail notable enough, if accurate, to merit independent corroboration, since it would mean a Muslim noble commissioning a temple to a Vishnu avatar. Whatever the precise circumstances of its founding, the resulting structure reflects a genuinely mixed architectural inheritance, blending Hindu, Muslim, and European elements in a main shrine flanked by two smaller buildings; inside, the central image of Parashurama is flanked by Brahma to his right and Shiva to his left, an unusual iconographic pairing for a temple otherwise squarely in the Vaishnava tradition.

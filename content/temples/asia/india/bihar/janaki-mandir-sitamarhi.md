@@ -8,6 +8,7 @@ continent: asia
 country: "India"
 region: "Bihar"
 city: "Sitamarhi"
+coordinates: {lat: 26.59417, lng: 85.50056}
 worship_status: active
 darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
 best_time_to_visit: "October to March for cooler weather; Vivah Panchami (commemorating the wedding of Rama and Sita, Nov/Dec) and Janaki Navami draw the largest crowds."

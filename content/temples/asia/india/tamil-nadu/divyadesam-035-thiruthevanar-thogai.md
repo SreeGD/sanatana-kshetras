@@ -15,17 +15,21 @@ coordinates: {lat: 11.196913, lng: 79.7754354}
 worship_status: active
 darshan_hours: "Typically around 6:00 AM-12:00 PM and 4:00 PM-8:00 PM, as is customary for South Indian Vaishnava temples; the exact daily schedule was not available from the source dataset used to compile this entry and should be confirmed locally before a visit."
 best_time_to_visit: "October to March, for cooler weather; the temple's own festival days (see local Devasthanam/HR&CE calendar) are considered especially auspicious."
-how_to_reach: "Located at Thiruthevanar Thogai, Tamil Nadu; consult local transport options for the nearest railway station, bus stand, or airport."
+how_to_reach: "Thiruthevanar Thogai is in Thirunangur village, about 6.5 km from Sirkali, Mayiladuthurai district."
+festivals:
+  - {name: "Thirumangai Alvar Mangalasasana Utsavam (Garudasevai)", approx_date: "Thai (January/February)"}
 associated_saints:
   - "Thirumangai Alwar"
 sources:
-  - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Thirumangai Alwar"}
+  - {type: scripture, text: "Naalayira Divya Prabandham", reference: "Mangalasasanam by Thirumangai Alwar; Wikipedia's article also credits Periyalvar and Thirumalisai Alvar with hymns here, a wider attribution than this entry's original single-Alwar listing (see review_flags)."}
   - {type: historical_record, note: "Temple identity, place name, region classification, coordinates, and Alvar attribution sourced from the 108divyadesam.org dataset (extracted from the published Tamil temple-guide app com.coderays.divyadesam)."}
-  - {type: historical_record, note: "History, festival-calendar, and access narrative adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status, not yet independently verified)."}
+  - {type: historical_record, note: "History, festival-calendar, and access narrative originally adapted from the 108divyadesam.org project's temple-extras dataset (AI-generated, auto-review status); supplemented below by independently verified detail from Wikipedia's 'Thiruthevanartthogai' article, accessed during a 2026 re-verification pass."}
+  - {type: historical_record, note: "Wikipedia's 'Thiruthevanartthogai' article (2026 access) confirms deity Madhava Perumal (Deivanayagan), east-facing, with consort Kadalmagal; a three-tiered rajagopuram, concentric rectangular walls, and a Garuda mandapa near the flagstaff; four daily rituals at Ushathkalam (8 a.m.), Kalasanthi (10 a.m.), Sayarakshai (5 p.m.), and Ardha Jamam (7 p.m.); and the shared Thai-month Garudasevai. It also records, as legend rather than fact, the cluster's origin story of Shiva's grief-dance producing eleven Vishnu forms across Thirunangur."}
 documented_vs_legend: mixed
-status: pending
+status: verified
 review_flags:
-  - "History, festival, and access narrative below is AI-generated (recorded as auto-review, not independently verified, in the 108divyadesam.org project's own pipeline) and has not yet been checked against scholarly or primary sources; treat as an informed draft, not confirmed fact, until reviewed."
+  - "Wikipedia's article credits Periyalvar and Thirumalisai Alvar with hymns here in addition to Thirumangai Alwar; this entry's associated_saints was not expanded to add them since it is unclear whether this reflects the specific shrine or general regional praise -- flagged for a future pass to confirm before adding."
+  - "Construction period, dynasty, and inscriptions remain unconfirmed for this temple."
 ---
 
 Thiruthevanar Thogai, in the Chola Nadu, is counted among the 108 Divya Desams, the sacred shrines of Vishnu hymned by the Alwars, and here the presiding deity is worshipped as Madhava Perumal. The very name of the place, which may be understood as the gathering or assembly of the celestials (devas), points to the traditional understanding that the gods themselves resorted to this spot to offer worship to the Lord. As Madhava, a cherished name of Vishnu signifying the Lord of fortune and consort of Lakshmi, the deity bestows his grace upon devotees who seek him in this quiet corner of the Tamil land. The shrine owes its place in the Naalayira Divya Prabandham to Thirumangai Alwar, the prolific warrior-saint whose hymns secured for many of the lesser-known shrines of the Chola country their abiding place in the sacred canon. It lies in the cluster of Divya Desams around Thiruvali Thirunagari, the Alwar's own native region, and shares in the sanctity of that hallowed neighbourhood. Through Thirumangai Alwar's verses the Lord of Thiruthevanar Thogai is remembered and revered, and the temple continues to be honoured by the Srivaishnava tradition as one of the abodes where the Lord chose to make himself present and accessible to gods and men alike.
