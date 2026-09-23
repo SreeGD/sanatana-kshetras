@@ -151,9 +151,9 @@ Single content/data repository (see plan.md § Project Structure):
 
 ### Implementation for User Story 6
 
-- [ ] T031 [P] [US6] Add a GitHub PR template at `.github/PULL_REQUEST_TEMPLATE.md` requiring: which entity file(s) changed, source citations for new claims, and confirmation that `python3 scripts/validate_content.py` passes locally
-- [ ] T032 [US6] Add a `--check-locked <base-ref>` flag to `scripts/validate_content.py`: diff changed `content/divya-desam/*.md` files against `base-ref` and fail if `seq`, `region_group`, or `physical` changed, per FR-014
-- [ ] T033 [US6] Document the review workflow (pending → approved, duplicate handling) in `CONTRIBUTING.md`, referencing `scripts/validate_content.py`'s duplicate-candidate warnings from T007 per FR-015 (depends on T032)
+- [x] T031 [P] [US6] Add a GitHub PR template at `.github/PULL_REQUEST_TEMPLATE.md` requiring: which entity file(s) changed, source citations for new claims, and confirmation that `python3 scripts/validate_content.py` passes locally
+- [x] T032 [US6] Add a `--check-locked <base-ref>` flag to `scripts/validate_content.py`: diff changed `content/divya-desam/*.md` files against `base-ref` and fail if `seq`, `region_group`, or `physical` changed, per FR-014
+- [x] T033 [US6] Document the review workflow (pending → approved, duplicate handling) in `CONTRIBUTING.md`, referencing `scripts/validate_content.py`'s duplicate-candidate warnings from T007 per FR-015 (depends on T032)
 
 **Checkpoint**: All user stories independently functional.
 
@@ -161,9 +161,9 @@ Single content/data repository (see plan.md § Project Structure):
 
 ## Phase 9: Polish & Cross-Cutting Concerns
 
-- [ ] T034 [P] Run `python3 scripts/validate_content.py` (full run, no flags) and fix any remaining violations across all entries authored in Phases 3–7
-- [ ] T035 [P] Update `specs/001-temples-directory/quickstart.md` if any command/flag names changed from what T005/T006/T032 actually implemented
-- [ ] T036 Walk through `quickstart.md` end-to-end (add one of each entity type, run all three validator flags) and confirm the documented steps match actual script behavior (depends on T034, T035)
+- [x] T034 [P] Run `python3 scripts/validate_content.py` (full run, no flags) and fix any remaining violations across all entries authored in Phases 3–7
+- [x] T035 [P] Update `specs/001-temples-directory/quickstart.md` if any command/flag names changed from what T005/T006/T032 actually implemented
+- [x] T036 Walk through `quickstart.md` end-to-end (add one of each entity type, run all three validator flags) and confirm the documented steps match actual script behavior (depends on T034, T035)
 
 ---
 

@@ -42,6 +42,22 @@ python3 scripts/validate_content.py --divya-desam-report
 
 Expected: reports exactly 108 entries with `seq` covering 1–108 with no gaps or duplicates, and 0 physical entries missing a `temple_ref`.
 
+## Check for likely duplicate temples (FR-015)
+
+```bash
+python3 scripts/validate_content.py --duplicates
+```
+
+Expected: lists any two Temple entries in the same city with near-identical names, or "No duplicate candidates found."
+
+## Check for unreviewed changes to locked Divya Desam fields (FR-014)
+
+```bash
+python3 scripts/validate_content.py --check-locked <base-ref>
+```
+
+Expected: fails and lists any `content/divya-desam/*.md` file whose `seq`, `region_group`, or `physical` field differs from `<base-ref>` (e.g. `main`); "No locked-field changes detected." otherwise. Run this before merging any PR that touches `content/divya-desam/`.
+
 ## Check global/continent coverage (SC-003, SC-010)
 
 ```bash
