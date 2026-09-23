@@ -130,12 +130,14 @@ Single content/data repository (see plan.md § Project Structure):
 
 **Independent Test**: `python3 scripts/validate_content.py` confirms every `content/beyond-earth/*.md` file has ≥1 `tradition_accounts` entry with sources, and none carry `address`/`coordinates`/`darshan_hours`/`how_to_reach` (rejected by realm.schema.json).
 
+**Status**: Complete. 11 entries: the 6 named upper lokas (Bhuvarloka, Svarloka, Maharloka, Janaloka, Tapoloka, Satyaloka/Brahmaloka) plus a consolidated entry for the seven Patalas (lower lokas), and 4 spiritual-world abodes (Vaikuntha, Goloka Vrindavana, Kailasa, Manidvipa) — each attributed to its own tradition per FR-021, with Vaikuntha cross-referenced to (not merged with) Divya Desam #108/Paramapadam, and Kailasa's dual physical/transcendent nature (Mount Kailash) noted rather than treated as a physical directory entry.
+
 ### Implementation for User Story 5
 
-- [ ] T027 [P] [US5] Author Realm entries for the material-cosmos lokas (`category: loka`) — the traditional fourteen-loka system — under `content/beyond-earth/<slug>.md`, each with ≥1 `tradition_accounts` item citing a named Purana/Upanishad per realm.schema.json
-- [ ] T028 [P] [US5] Author Realm entries for the spiritual-world abodes (`category: spiritual-world`) — Vaikuntha, Goloka Vrindavana, Kailasa, Devi Loka/Manidvipa — under `content/beyond-earth/<slug>.md`
-- [ ] T029 [US5] For any abode where traditions disagree (e.g., the "supreme eternal abode" differs across Vaishnava/Shaiva/Shakta accounts), add one `tradition_accounts` entry per tradition to the same file rather than merging into a single narrative, per FR-021 (depends on T027, T028)
-- [ ] T030 [US5] Run `python3 scripts/validate_content.py` and confirm zero Beyond-Earth entries are rejected for a forbidden visit field (FR-022) and all cite ≥1 source (FR-020) (depends on T029)
+- [x] T027 [P] [US5] Author Realm entries for the material-cosmos lokas (`category: loka`) — the traditional fourteen-loka system — under `content/beyond-earth/<slug>.md`, each with ≥1 `tradition_accounts` item citing a named Purana/Upanishad per realm.schema.json
+- [x] T028 [P] [US5] Author Realm entries for the spiritual-world abodes (`category: spiritual-world`) — Vaikuntha, Goloka Vrindavana, Kailasa, Devi Loka/Manidvipa — under `content/beyond-earth/<slug>.md`
+- [x] T029 [US5] For any abode where traditions disagree (e.g., the "supreme eternal abode" differs across Vaishnava/Shaiva/Shakta accounts), add one `tradition_accounts` entry per tradition to the same file rather than merging into a single narrative, per FR-021 (depends on T027, T028)
+- [x] T030 [US5] Run `python3 scripts/validate_content.py` and confirm zero Beyond-Earth entries are rejected for a forbidden visit field (FR-022) and all cite ≥1 source (FR-020) (depends on T029)
 
 **Checkpoint**: US1–US5 all independently functional.
 
