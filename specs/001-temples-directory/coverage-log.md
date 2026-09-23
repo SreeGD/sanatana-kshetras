@@ -140,3 +140,17 @@ The broader search found 8 genuine gaps among India's most-visited spiritual/tou
 - **Amarnath Cave Shrine** — the ice-lingam pilgrimage site drawing hundreds of thousands annually; its documented history of security incidents (2000, 2001, 2002, 2017) is noted factually as pilgrimage-planning context, not sensationalized
 
 This audit is a useful reminder that "comprehensive" coverage benefits from periodic top-down checks against known-major sites, not just bottom-up state/district/country sweeps.
+
+## Completing three canonical Shaiva/Murugan lists
+
+Following the Jyotirlinga/Panch Bhoota Sthalam/Arupadaiveedu gap audit, dispatched 2 parallel passes to complete all three well-defined lists (this directory already had 9/12 Jyotirlingas and 1/5 Panch Bhoota Sthalams; 0/6 of Murugan's Arupadaiveedu existed).
+
+**Jyotirlingas — now 12/12**: added Bhimashankar (Maharashtra), Nageshwar (Gujarat, honestly flagged for a genuine three-way location dispute with rival claimant sites in Uttarakhand and Maharashtra), and Grishneshwar (Maharashtra — confirmed distinct from the already-covered Kailasa Temple, Ellora, ~1.5 km away; caught and flagged an internal inconsistency in Wikipedia's own article over who funded its 1729 rebuild).
+
+**Panch Bhoota Sthalams — now 5/5**: added Thillai Nataraja Temple, Chidambaram (akasha/ether — confirmed clearly distinct from the existing Divya Desam Govindaraja Perumal Vishnu-shrine entry at the same complex), Arunachaleswarar Temple, Tiruvannamalai (agni/fire, with Ramana Maharshi's associated ashram noted briefly), Srikalahasti (vayu/air), and Jambukeswarar Temple, Thiruvanaikaval (jala/water) — the latter two both had their popular founding-date claims flagged as unconfirmed rather than repeated as fact.
+
+**Arupadaiveedu (Murugan's six abodes) — now 6/6**: Palani, Tiruchendur, Swamimalai, Tiruttani, Pazhamudircholai, and Thiruparankundram, each tagged with its traditional mythological episode (renunciation, Soorasamharam, teaching Om to Shiva, the Valli courtship, etc.).
+
+Also added: **Bhagavathy Amman Temple, Kanyakumari** — India's southernmost major Devi temple, with the secular Vivekananda Rock Memorial nearby correctly excluded as not a temple.
+
+This closes out the canonical-list-completion approach for Shaiva/Murugan traditions, mirroring how the 108 Divya Desam collection was completed earlier for Vaishnava tradition.
