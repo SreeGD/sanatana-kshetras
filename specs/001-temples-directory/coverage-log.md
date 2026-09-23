@@ -125,3 +125,18 @@ Dispatched 3 parallel passes to add temples in additional cities within Canada, 
 **Zimbabwe**: genuinely nothing additional verifiable found — reported honestly.
 
 This round again relied entirely on WebFetch (Wikipedia in multiple languages, official temple sites, and one national heritage database) since WebSearch remained unavailable throughout.
+
+## Major spiritual tourist destination gap-check (user-requested audit)
+
+User asked to specifically verify coverage of Ayodhya, Vrindavan, Srirangam, Haridwar, Madurai, and Guruvayur, and to search for other major spiritual tourist destinations. All 6 named places were already covered (Ayodhya and Srirangam via Divya Desam, Madurai via Meenakshi Amman + Koodal Azhagar Divya Desam, Guruvayur, Haridwar via Mansa Devi Temple, Vrindavan via ISKCON Krishna Balaram Mandir).
+
+The broader search found 8 genuine gaps among India's most-visited spiritual/tourist sites, all now added:
+- **Banke Bihari Temple**, Vrindavan — arguably Vrindavan's single most-visited temple, distinct from ISKCON's Krishna Balaram Mandir
+- **Prem Mandir**, Vrindavan — a major modern pilgrimage/tourist site (2012, ~150 crore)
+- **Swaminarayan Akshardham**, Delhi — Guinness World Record holder for world's largest comprehensive Hindu temple
+- **Shree Samadhi Mandir, Shirdi** — one of India's most-visited pilgrimage sites (~25,000 daily pilgrims); included with an explicit review_flag noting Sai Baba's own teaching and practice were syncretic (Hindu-Muslim), not straightforwardly Sanatana Dharma, per this project's stated scope for historically shared/syncretic sites
+- **Gangotri** and **Yamunotri** — completing the Char Dham circuit (Badrinath and Kedarnath were already covered)
+- **Har Ki Pauri**, Haridwar — the actual sacred ghat and site of the daily Ganga Aarti, distinct from the previously-covered Mansa Devi Temple
+- **Amarnath Cave Shrine** — the ice-lingam pilgrimage site drawing hundreds of thousands annually; its documented history of security incidents (2000, 2001, 2002, 2017) is noted factually as pilgrimage-planning context, not sensationalized
+
+This audit is a useful reminder that "comprehensive" coverage benefits from periodic top-down checks against known-major sites, not just bottom-up state/district/country sweeps.
