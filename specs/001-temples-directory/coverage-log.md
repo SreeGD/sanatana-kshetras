@@ -184,3 +184,13 @@ Per explicit user direction to shift from pure canonical-list-completion to a sy
 **Enrichment work**: several agents attempted to resolve open review_flags on existing pending entries via additional independent sourcing; most could not be resolved (reported honestly rather than forced), but 2 entries (Baidyanath Deoghar, Biraja Jajpur) gained useful contextual sourcing without a full status upgrade.
 
 One duplicate-detector false positive was investigated and confirmed as such: Chandi Devi and Mansa Devi, Haridwar are two distinct, real hilltop shrines that happen to share a naming pattern and city.
+
+## State-by-state audit, round 2: remaining 15 states/UTs
+
+Completed the state-by-state audit across the full remaining set: Assam, Chhattisgarh, Goa, Haryana, Chandigarh, Delhi, Puducherry (moderate-density states) plus Manipur, Tripura, Sikkim, Meghalaya, Nagaland, Arunachal Pradesh, Andaman & Nicobar Islands, and Dadra & Nagar Haveli/Daman & Diu (thinner NE/island regions). This completes the audit strategy across all 33 states/UTs currently in the directory.
+
+**14 new temples added**: Basistha and Umananda (Assam), Bhoramdeo/"Khajuraho of Chhattisgarh" (Chhattisgarh, with a genuine dynasty-attribution conflict flagged rather than resolved), Mangeshi Temple (Goa's largest/most-visited temple, a real gap the task brief had mistakenly assumed was covered), Jyotisar/Kapal Mochan/Bhima Devi Site Museum (Haryana), Mata Basanti Devi Mandir (Chandigarh — corrects an earlier assumption that no genuine Hindu temple exists inside the UT boundary itself; it does), Jhandewalan and Yogmaya Temple (Delhi — the latter historically significant as reportedly Delhi's only pre-Sultanate temple still in active use), Vedapureeswarar Temple (Puducherry, filling a real gap since the 3 existing entries were all Ganesha/Vishnu/Shani-focused with no major Shiva temple), plus Hiyangthang Lairembi (Manipur), Chaturdasha Temple (Tripura), and Thakurbari Temple (Sikkim).
+
+**6 regions genuinely yielded nothing further** after real search effort: Meghalaya, Nagaland, Andaman & Nicobar Islands, Arunachal Pradesh, and Dadra & Nagar Haveli/Daman & Diu - each confirmed via multiple search angles rather than a single failed guess.
+
+**Notable judgment call**: an agent deliberately omitted a single-sourced, unverified claim about historical human sacrifice associated with early Tripura's Manikya dynasty from the Chaturdasha Temple entry, even though hedged, rather than repeat a serious unverified claim.
