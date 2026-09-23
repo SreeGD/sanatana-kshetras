@@ -112,11 +112,13 @@ Single content/data repository (see plan.md § Project Structure):
 
 **Independent Test**: `python3 scripts/validate_content.py --coverage-report` shows temples in ≥15 non-India countries across all 6 continents; every non-India entry has `worship_status` set.
 
+**Status**: Complete. 17 entries (11 active-worship diaspora + 1 living-tradition Balinese temple counted among active + 4 heritage sites... see coverage-log.md) span 16 countries outside India across all 6 inhabited continents (`--coverage-report` confirms). Compiled from general historical knowledge rather than a single verified dataset; each entry carries a review_flag recommending independent verification.
+
 ### Implementation for User Story 4
 
-- [ ] T024 [P] [US4] Author actively-worshipped diaspora temple entries for ≥8 countries (e.g., USA, UK, Canada, Malaysia, Singapore, Mauritius, Trinidad and Tobago, South Africa) under `content/temples/<continent>/<country>/na/<slug>.md`, setting `worship_status: active` and omitting `region` (only required when `country="India"` per temple.schema.json)
-- [ ] T025 [P] [US4] Author heritage/monument temple entries for ≥4 countries (e.g., Cambodia — Angkor Wat, Indonesia — Prambanan, Vietnam — My Son) under the same path convention, setting `worship_status: heritage`, omitting `darshan_hours` (not required when `worship_status: heritage`), and using `how_to_reach` for visitor/tourism access info instead of darshan logistics
-- [ ] T026 [US4] Run `python3 scripts/validate_content.py --coverage-report` and author additional entries under any missing continent's `content/temples/<continent>/` until ≥15 non-India countries and all 6 continents are represented (SC-003, SC-010) (depends on T024, T025)
+- [x] T024 [P] [US4] Author actively-worshipped diaspora temple entries for ≥8 countries (e.g., USA, UK, Canada, Malaysia, Singapore, Mauritius, Trinidad and Tobago, South Africa) under `content/temples/<continent>/<country>/na/<slug>.md`, setting `worship_status: active` and omitting `region` (only required when `country="India"` per temple.schema.json)
+- [x] T025 [P] [US4] Author heritage/monument temple entries for ≥4 countries (e.g., Cambodia — Angkor Wat, Indonesia — Prambanan, Vietnam — My Son) under the same path convention, setting `worship_status: heritage`, omitting `darshan_hours` (not required when `worship_status: heritage`), and using `how_to_reach` for visitor/tourism access info instead of darshan logistics
+- [x] T026 [US4] Run `python3 scripts/validate_content.py --coverage-report` and author additional entries under any missing continent's `content/temples/<continent>/` until ≥15 non-India countries and all 6 continents are represented (SC-003, SC-010) (depends on T024, T025)
 
 **Checkpoint**: US1–US4 all independently functional.
 
