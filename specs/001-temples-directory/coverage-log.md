@@ -56,3 +56,11 @@ Dispatched 3 parallel research passes to systematically cover every Indian state
 **Genuinely no verifiable Hindu temple found** (not a gap — an honest research finding, consistent with regional demographics): Mizoram (Christian-majority; only an unverifiable aggregate mention of "13 temples" via one committee, no individual temple confirmable), Ladakh (Buddhist-majority; no Hindu temple article/category exists), Lakshadweep (Muslim-majority; same).
 
 India state/UT coverage: 33/36.
+
+## District-level deepening within covered states
+
+Dispatched 5 parallel research passes (4 landed so far) to add temples in districts/cities not previously represented within already-covered states, same WebFetch-verification rigor throughout. Added 47 new temple entries across Andhra Pradesh, Karnataka, Kerala, Telangana, Uttar Pradesh, Madhya Pradesh, Uttarakhand, Rajasthan, Gujarat, Maharashtra, Goa, Punjab, Haryana, West Bengal, Odisha, Bihar, Assam, Jharkhand, and Chhattisgarh — including several major sites previously missing entirely (Khajuraho, Omkareshwar, Trimbakeshwar, Pandharpur's Vithoba Temple, Hampi's Virupaksha Temple, Sabarimala, Guruvayur, Konark Sun Temple, Modhera Sun Temple).
+
+Notable judgment calls made honestly rather than glossed over: Modhera, Konark, and Sirpur's Lakshmana Temple were set to `worship_status: heritage` after confirming no active daily worship; Kolhapur's Mahalakshmi Temple got a `review_flags` entry for a genuine scholarly dispute over whether it was originally a Jain temple; Achaleshwar Mahadev (Mount Abu) got a flag for an internal date conflict in its own sourcing (a cited 1412 construction date predates the Rana Kumbha reign it's also attributed to) rather than a fabricated resolution.
+
+A 5th pass (Himachal Pradesh, J&K, Delhi, Puducherry, and the remaining single-temple states/UTs) is still in progress as of this commit.
