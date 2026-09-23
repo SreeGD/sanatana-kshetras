@@ -71,15 +71,17 @@ Single content/data repository (see plan.md § Project Structure):
 
 **Independent Test**: `python3 scripts/validate_content.py --divya-desam-report` reports 108/108 present, no `seq` gaps/duplicates, and 0 unresolved `temple_ref` values.
 
+**Status**: Complete (108/108), but via a different path than originally planned — see `research.md` § "The 108 Divya Desam identity/region/coordinate/Alvar data is generated from the `108divyadesam` project's dataset". Six parallel web-research passes surfaced real name-collision misattributions and a region-group error (Nadu Nadu vs. Thondai Nadu conflated), so identity/region/coordinates/Alvar-attribution were regenerated from an authoritative dataset instead. **Trade-off**: each entry's `history` is currently a short, accurate, fact-grounded stub rather than a full researched legend — see US3/T020-T023 below, which are NOT yet satisfied by this data and remain open follow-up work.
+
 ### Implementation for User Story 2
 
-- [ ] T013 [P] [US2] Author Divya Desam entries for the Chola Nadu region group under `content/divya-desam/0XX-<slug>.md` with matching Temple files under `content/temples/asia/india/tamil-nadu/<slug>.md`, cross-linking both directions (`divya_desam_ref` on the Temple, `temple_ref` on the Divya-Desam entry); set `region_group: chola-nadu`, `physical: true`, `country: india`, `locked: true` per divya-desam.schema.json
-- [ ] T014 [P] [US2] Author Divya Desam entries for the Pandya Nadu region group, same cross-linking/required-field rules as T013 but `region_group: pandya-nadu`
-- [ ] T015 [P] [US2] Author Divya Desam entries for the Malai Nadu (Kerala) region group, `region_group: malai-nadu`
-- [ ] T016 [P] [US2] Author Divya Desam entries for the Nadu Nadu (Thondai Nadu) region group, `region_group: nadu-nadu`
-- [ ] T017 [P] [US2] Author Divya Desam entries for the Vada Nadu (North India + Nepal) region group, `region_group: vada-nadu`; set `country: nepal` for the Salagramam/Muktinath entry (FR-004b) and `country: india` for the rest
-- [ ] T018 [US2] Author the 2 celestial Divya Desam entries (Thiruparkadal, Paramapadam/Vaikuntam) under `content/divya-desam/`: `physical: false`, `region_group: celestial`, a `celestial_note` explaining their non-physical nature, and no `temple_ref`/`country` (divya-desam.schema.json forbids these when `physical: false`); assign final `seq` numbers after T013–T017 (depends on T013, T014, T015, T016, T017)
-- [ ] T019 [US2] Run `python3 scripts/validate_content.py --divya-desam-report` and fix entries until it reports exactly 108/108 with no `seq` gaps/duplicates and 0 unresolved `temple_ref` (depends on T018)
+- [x] T013 [P] [US2] Author Divya Desam entries for the Chola Nadu region group under `content/divya-desam/0XX-<slug>.md` with matching Temple files under `content/temples/asia/india/tamil-nadu/<slug>.md`, cross-linking both directions (`divya_desam_ref` on the Temple, `temple_ref` on the Divya-Desam entry); set `region_group: chola-nadu`, `physical: true`, `country: india`, `locked: true` per divya-desam.schema.json
+- [x] T014 [P] [US2] Author Divya Desam entries for the Pandya Nadu region group, same cross-linking/required-field rules as T013 but `region_group: pandya-nadu`
+- [x] T015 [P] [US2] Author Divya Desam entries for the Malai Nadu (Kerala) region group, `region_group: malai-nadu`
+- [x] T016 [P] [US2] Author Divya Desam entries for the Nadu Nadu (Thondai Nadu) region group, `region_group: nadu-nadu`
+- [x] T017 [P] [US2] Author Divya Desam entries for the Vada Nadu (North India + Nepal) region group, `region_group: vada-nadu`; set `country: nepal` for the Salagramam/Muktinath entry (FR-004b) and `country: india` for the rest
+- [x] T018 [US2] Author the 2 celestial Divya Desam entries (Thiruparkadal, Paramapadam/Vaikuntam) under `content/divya-desam/`: `physical: false`, `region_group: celestial`, a `celestial_note` explaining their non-physical nature, and no `temple_ref`/`country` (divya-desam.schema.json forbids these when `physical: false`); assign final `seq` numbers after T013–T017 (depends on T013, T014, T015, T016, T017)
+- [x] T019 [US2] Run `python3 scripts/validate_content.py --divya-desam-report` and fix entries until it reports exactly 108/108 with no `seq` gaps/duplicates and 0 unresolved `temple_ref` (depends on T018)
 
 **Checkpoint**: US1 and US2 both independently functional.
 

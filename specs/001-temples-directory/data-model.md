@@ -44,7 +44,7 @@ Fixed collection of 108 (spec: **Divya Desam Entry**).
 | `seq` | integer 1–108 | yes | Canonical sequence number; unique. |
 | `id` | string (slug) | yes | |
 | `name` | string | yes | |
-| `region_group` | enum: chola-nadu, pandya-nadu, malai-nadu, nadu-nadu, vada-nadu, celestial | yes | FR-003. |
+| `region_group` | enum: chola-nadu, nadu-nadu, thondai-nadu, malai-nadu, pandya-nadu, vada-nadu, celestial | yes | FR-003. Seven traditional groups, not six: Nadu Nadu (a distinct 2-temple "central region" group) and Thondai Nadu (22 temples, the Kanchipuram/Chennai cluster) are separate groups, not synonyms. |
 | `physical` | boolean | yes | `false` only for the 2 celestial entries. |
 | `temple_ref` | string (Temple id) | required if `physical == true` | Links to the full Temple record. |
 | `country` | enum: india, nepal | required if `physical == true` | FR-004(a)/(b). |

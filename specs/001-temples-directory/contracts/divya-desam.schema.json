@@ -10,7 +10,7 @@
     "name": { "type": "string", "minLength": 1 },
     "region_group": {
       "type": "string",
-      "enum": ["chola-nadu", "pandya-nadu", "malai-nadu", "nadu-nadu", "vada-nadu", "celestial"]
+      "enum": ["chola-nadu", "nadu-nadu", "thondai-nadu", "malai-nadu", "pandya-nadu", "vada-nadu", "celestial"]
     },
     "physical": { "type": "boolean" },
     "temple_ref": { "type": "string" },
