@@ -154,3 +154,15 @@ Following the Jyotirlinga/Panch Bhoota Sthalam/Arupadaiveedu gap audit, dispatch
 Also added: **Bhagavathy Amman Temple, Kanyakumari** — India's southernmost major Devi temple, with the secular Vivekananda Rock Memorial nearby correctly excluded as not a temple.
 
 This closes out the canonical-list-completion approach for Shaiva/Murugan traditions, mirroring how the 108 Divya Desam collection was completed earlier for Vaishnava tradition.
+
+## Shakti Peetha and Sapta Puri audit
+
+User asked to check Shakti Peetha and Sapta Puri coverage specifically. Sapta Puri (the seven moksha-giving cities: Ayodhya, Mathura, Haridwar, Kashi/Varanasi, Kanchipuram, Ujjain, Dwarka) was already fully covered - all 7 cities have temples in the directory.
+
+Shakti Peethas were a major gap: 36 of ~64 commonly-named sites (the tradition itself varies between 51/52/64/108 total depending on source) were missing. Dispatched 3 parallel passes; 30 new entries added, with genuine, honestly-flagged source conflicts throughout rather than false confidence:
+
+- **Major sites** (11): Kalighat, Vimala/Puri (distinguished from the existing Jagannath entry), Saptashrungi, Biraja/Jajpur, Alopi Devi/Prayagraj (whose Shakti Peetha status is itself disputed in sourcing - flagged), Mangla Gauri/Gaya, Vishalakshi/Varanasi, Guhyeshwari/Kathmandu, Bhramari Devi/Jalpaiguri, Narmada Udgam/Amarkantak (whose primary source doesn't even call it a Shakti Peetha - flagged), Ugratara Sthan/Bihar.
+- **Regional sites** (10, one combined entry): Tara Tarini, Renuka Mahur, the Draksharamam pair (Bhimeswara + Manikyamba - confirmed same complex, written as one combined entry rather than a duplicate), Bajreshwari Kangra (confirmed genuinely distinct from the already-covered Jwalamukhi, ~30km away), Bhabanipur/Bangladesh, Nainativu/Sri Lanka, Jeshoreshwari/Bangladesh, Narayani/Suchindram, Manibandh/Pushkar.
+- **Smaller West Bengal/regional sites** (9 of 14 attempted): Bahula, Attahas, Kankalitala, Kiriteswari, Nandikeshwari, Sugandha, Bargabhima/Vibhash, Jogadya, Katyayani/Vrindavan. 4 genuinely yielded nothing verifiable and were correctly left out (Ratnavali, Ujaani, Ambika/Bharatpur, Panchsagar) rather than forced.
+
+Nearly every entry in this batch carries genuine review_flags for unresolved source conflicts (body-part attribution, founding dates, disputed Peetha status) - the Shakti Peetha tradition itself is far less textually unified than the Divya Desam or Jyotirlinga lists, and the dataset reflects that honestly rather than papering over it.
