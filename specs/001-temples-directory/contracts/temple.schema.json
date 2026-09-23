@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "temple.schema.json",
+  "title": "Temple front matter",
+  "type": "object",
+  "required": [
+    "id", "name", "deities", "traditions", "continent", "country", "city",
+    "worship_status", "best_time_to_visit", "how_to_reach", "sources",
+    "documented_vs_legend", "status"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "alt_names": { "type": "array", "items": { "$ref": "common.schema.json#/definitions/altName" } },
+    "deities": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "traditions": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/definitions/tradition" },
+      "minItems": 1
+    },
+    "continent": { "$ref": "common.schema.json#/definitions/continent" },
+    "country": { "type": "string", "minLength": 1 },
+    "region": { "type": "string" },
+    "city": { "type": "string", "minLength": 1 },
+    "coordinates": {
+      "type": "object",
+      "required": ["lat", "lng"],
+      "properties": { "lat": { "type": "number" }, "lng": { "type": "number" } },
+      "additionalProperties": false
+    },
+    "address": { "type": "string" },
+    "worship_status": { "type": "string", "enum": ["active", "heritage", "partially_active"] },
+    "darshan_hours": { "type": "string" },
+    "best_time_to_visit": { "type": "string", "minLength": 1 },
+    "festivals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "approx_date"],
+        "properties": { "name": { "type": "string" }, "approx_date": { "type": "string" } },
+        "additionalProperties": false
+      }
+    },
+    "how_to_reach": { "type": "string", "minLength": 1 },
+    "access_notes": { "type": "string" },
+    "associated_saints": { "type": "array", "items": { "type": "string" } },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/definitions/sourceCitation" },
+      "minItems": 1
+    },
+    "documented_vs_legend": { "type": "string", "enum": ["documented", "legend", "mixed"] },
+    "images": { "type": "array", "items": { "type": "string" } },
+    "divya_desam_ref": { "type": "string" },
+    "status": { "type": "string", "enum": ["verified", "pending"] },
+    "duplicate_of": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "country": { "const": "India" } } },
+      "then": { "required": ["region"] }
+    },
+    {
+      "if": { "properties": { "worship_status": { "not": { "const": "heritage" } } } },
+      "then": { "required": ["darshan_hours"] }
+    }
+  ],
+  "additionalProperties": false
+}

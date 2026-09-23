@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "common.schema.json",
+  "title": "Shared definitions",
+  "definitions": {
+    "tradition": {
+      "type": "string",
+      "enum": ["vaishnava", "shaiva", "shakta", "smarta", "folk_regional", "other"]
+    },
+    "continent": {
+      "type": "string",
+      "enum": ["asia", "europe", "africa", "north-america", "south-america", "oceania"]
+    },
+    "sourceCitation": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": { "type": "string", "enum": ["scripture", "oral_tradition", "historical_record"] },
+        "text": { "type": "string" },
+        "reference": { "type": "string" },
+        "note": { "type": "string" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "scripture" } } },
+          "then": { "required": ["text"] }
+        },
+        {
+          "if": { "properties": { "type": { "const": "oral_tradition" } } },
+          "then": { "required": ["note"] }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "altName": {
+      "type": "object",
+      "required": ["value"],
+      "properties": {
+        "language": { "type": "string" },
+        "script": { "type": "string" },
+        "value": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

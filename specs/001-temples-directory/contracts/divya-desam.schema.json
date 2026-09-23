@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "divya-desam.schema.json",
+  "title": "Divya Desam entry front matter",
+  "type": "object",
+  "required": ["seq", "id", "name", "region_group", "physical", "locked"],
+  "properties": {
+    "seq": { "type": "integer", "minimum": 1, "maximum": 108 },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "region_group": {
+      "type": "string",
+      "enum": ["chola-nadu", "pandya-nadu", "malai-nadu", "nadu-nadu", "vada-nadu", "celestial"]
+    },
+    "physical": { "type": "boolean" },
+    "temple_ref": { "type": "string" },
+    "country": { "type": "string", "enum": ["india", "nepal"] },
+    "celestial_note": { "type": "string" },
+    "locked": { "const": true }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "physical": { "const": true } } },
+      "then": { "required": ["temple_ref", "country"] }
+    },
+    {
+      "if": { "properties": { "physical": { "const": false } } },
+      "then": {
+        "required": ["celestial_note"],
+        "not": { "anyOf": [{ "required": ["temple_ref"] }, { "required": ["country"] }] }
+      }
+    }
+  ],
+  "additionalProperties": false
+}
