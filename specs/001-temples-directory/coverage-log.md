@@ -166,3 +166,7 @@ Shakti Peethas were a major gap: 36 of ~64 commonly-named sites (the tradition i
 - **Smaller West Bengal/regional sites** (9 of 14 attempted): Bahula, Attahas, Kankalitala, Kiriteswari, Nandikeshwari, Sugandha, Bargabhima/Vibhash, Jogadya, Katyayani/Vrindavan. 4 genuinely yielded nothing verifiable and were correctly left out (Ratnavali, Ujaani, Ambika/Bharatpur, Panchsagar) rather than forced.
 
 Nearly every entry in this batch carries genuine review_flags for unresolved source conflicts (body-part attribution, founding dates, disputed Peetha status) - the Shakti Peetha tradition itself is far less textually unified than the Divya Desam or Jyotirlinga lists, and the dataset reflects that honestly rather than papering over it.
+
+## Ashtavinayak (8 Ganesha temples, Maharashtra)
+
+Added all 8: Moreshwar/Morgaon (the circuit's start-and-end point), Siddhivinayak/Siddhatek (explicitly distinguished from the far more famous, unrelated Siddhivinayak Temple in Mumbai/Prabhadevi - a secondary source consulted had incorrectly conflated the two, corrected here), Ballaleshwar/Pali, Varadavinayak/Mahad, Chintamani/Theur, Girijatmaj/Lenyadri (a rock-cut cave shrine), Vighnahar/Ozar, and Mahaganapati/Ranjangaon. 3 of 8 (Morgaon, Siddhatek, Ranjangaon) were freshly WebFetch-verified this session; the other 5 were compiled from established general knowledge of this well-known fixed circuit and marked status: pending with an honest flag noting they weren't freshly re-verified.
