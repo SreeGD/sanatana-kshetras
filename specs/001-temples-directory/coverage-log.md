@@ -92,3 +92,19 @@ Dispatched 4 parallel research passes: 2 for general Europe expansion (Germany, 
 **Asia ISKCON gap-fill: 5 new entries** — Bangladesh (Swami Bagh Temple/ISKCON Dhaka, with the 2021 Noakhali violence correctly identified as a *different* location, not conflated), Indonesia (ISKCON Jakarta), Thailand (ISKCON Bangkok's multi-center presence, no single flagship address found), Malaysia (thin sourcing, honestly flagged), Singapore (a genuinely unusual case: ISKCON was legally banned by name in the 1970s; the community still worships today under other registered names — documented as such rather than glossed over). Nepal and Sri Lanka yielded no verifiable ISKCON temple after extensive search and were correctly left out.
 
 Europe now spans 11 countries; Asia (outside India) 14 countries, several with a dedicated ISKCON presence now recorded alongside their general temples.
+
+## Full continent sweep: Africa, North America, South America, Oceania
+
+Dispatched 5 parallel research passes to bring the remaining thin continents up to a comparable standard: 2 for Africa, 1 each for North America, South America, and Oceania.
+
+**Africa: 19 temples, 8 countries** (was 2 countries, 3 temples) — Kenya (incl. ISKCON Nairobi/Devasadan, active since 1969), Tanzania (incl. ISKCON Dar es Salaam), Uganda (Shree Sanatan Dharma Mandal, Kampala, 1954-64 — no ISKCON presence found, reported honestly), Réunion (Temple du Colosse and Temple du Gol, both centuries-old), South Africa deepened to 4 (Johannesburg/Lenasia), Mauritius deepened to 3 (Triolet's Maheswarnath Mandir, Sagar Shiv Mandir), plus new entries in Zimbabwe and Zambia. Nigeria and Madagascar yielded nothing verifiable.
+
+**North America: 14 temples, 3 countries** (was 2 countries, 4 temples) — Canada added entirely (BAPS Toronto, ISKCON Toronto, Vishnu Mandir Richmond Hill), USA deepened to 9 (Malibu, BAPS Atlanta, BAPS Houston, Sri Siva Vishnu Maryland, Sri Meenakshi Pearland, ISKCON Spanish Fork Utah), Trinidad and Tobago deepened to 2.
+
+**South America: 9 temples, 4 countries** (was 2 countries, 2 temples) — Suriname added entirely (Arya Diwaker Mandir 1929, Surya Mandir, ISKCON Nieuw Nickerie), Brazil and Guyana deepened, plus a genuine find in Chile: Punta Arenas Hindu Temple, described as the southernmost Hindu temple in the world.
+
+**Oceania: 8 temples, 3 countries** (was 2 countries, 3 temples) — New Zealand added entirely (Bharatiya Mandir Auckland, 1986/1993 - NZ's oldest purpose-built Hindu temple; Shri Swaminarayan Mandir Auckland), Australia deepened with Perth (2 temples), Fiji deepened with a historically significant 1905 temple destroyed in 2008 communal arson (documented as heritage status given unconfirmed rebuild).
+
+**Countries outside India: 41** (up from 18 before this session's Asia/Europe/Africa/Americas/Oceania passes began).
+
+Consistent pattern throughout: WebSearch unavailable all session, so every claim is WebFetch-verified against Wikipedia (occasionally non-English Wikipedia or official temple sites); every genuinely unconfirmable detail is hedged in prose or flagged, never asserted; several countries (Nigeria, Madagascar, Argentina, Venezuela, and specific cities within covered countries) were honestly reported as yielding nothing verifiable rather than forced.
