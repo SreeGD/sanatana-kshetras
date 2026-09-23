@@ -36,3 +36,13 @@ Of 18 names: 3 were already in this directory (Jagannath Puri, Mahakaleshwar Ujj
 ## ISKCON coverage, batch 2
 
 6 more ISKCON entries: London (1968, Europe's first ISKCON temple, verified), Chennai (existence confirmed, details pending), and 4 compiled-from-general-knowledge entries explicitly marked `status: pending` since a live source couldn't be reached this session for these regions — South Africa (Durban), Brazil (Nova Gokula), Belgium (Radhadesh), Australia (Sydney). This intentionally trades some rigor for continent coverage (Africa, South America, Oceania now all have an ISKCON presence recorded) per explicit user direction; each carries a clear review_flag recommending independent confirmation.
+
+## India catalog expansion via Wikipedia state-list articles
+
+Explored Wikipedia's "List of Hindu temples in <state>"-style articles to find candidates beyond the initial curated set, verified each individually before writing (same standard as elsewhere). Added 6 entries across 3 states with no prior coverage:
+
+- **Telangana**: Ramappa Temple (Palampet — UNESCO World Heritage, 13th-century Kakatiya "floating brick" engineering), Sri Lakshmi Narasimha Swamy Temple (Yadagirigutta — ~1,800 crore, 2016-2022 renovation).
+- **Bihar**: Vishnupad Temple (Gaya — India's principal ancestral-rites/shraddha pilgrimage site), Mundeshwari Temple (Kaimur — among the oldest surviving Hindu temple structures in India, with a genuinely disputed dating between 108 CE and the 6th-7th century), Mahavir Mandir (Patna — one of the most-visited Hanuman temples in India).
+- **Goa**: Shanta Durga Temple (Kavalem — Goa's most important Hindu temple, relocated inland after Portuguese destruction of the original site in 1566).
+
+State list articles also surfaced many more candidates (Bhadrachalam and Birla Mandir in Telangana; several more in Bihar and Goa) not yet added — a natural next expansion.
