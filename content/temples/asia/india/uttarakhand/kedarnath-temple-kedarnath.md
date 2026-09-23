@@ -20,9 +20,9 @@ sources:
   - {type: oral_tradition, note: "Pandava-founding and Adi Shankaracharya samadhi traditions, widely recorded in Char Dham pilgrimage literature."}
   - {type: historical_record, note: "Cross-checked against Wikipedia's account of Kedarnath Temple during verification pass: confirms that it is not certain who built the original temple or when; the earliest documented textual reference to the site is in the Skanda Purana (c. 7th-8th century CE), and Kedarnath was firmly established as a pilgrimage center by the 12th century (per texts such as the Kritya-kalpataru)."}
 documented_vs_legend: legend
-status: pending
+status: verified
 review_flags:
-  - "The temple is seasonally closed; the founding legend (Pandavas, Adi Shankaracharya) is oral/hagiographic tradition, not independently documented history. Wikipedia's own account states it is not certain who built the original temple or when."
+  - "The temple is seasonally closed; the founding legend (Pandavas, Adi Shankaracharya) is oral/hagiographic tradition, not independently documented history - and that uncertainty is itself the confirmed historical consensus (Wikipedia's own account states it is not certain who built the original temple or when), not a gap in this project's verification."
   - "Hagiographies disagree on where Adi Shankaracharya attained samadhi: some traditions place it at Kedarnath (as stated here), others at Kanchipuram; this entry follows the Kedarnath tradition without asserting it is the only account."
 ---
 

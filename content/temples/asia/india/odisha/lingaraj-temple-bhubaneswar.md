@@ -20,10 +20,10 @@ sources:
   - {type: historical_record, note: "11th-century Somavamshi-dynasty construction documented via inscriptions; Kalinga architectural style well studied."}
   - {type: historical_record, note: "Cross-checked against Wikipedia's account of Lingaraj Temple, accessed during verification pass: confirms the 180 ft (55 m) tower height, Kalinga/Deula architectural style, and restricted non-Hindu entry (viewing platform outside). Confirms the builder dynasty as Somavamshi (per Wikipedia, believed built under Somavamshi king Yayati I, c. 1025-1040), not 'Someshvara' as originally recorded here, with the assembly hall and sanctum dated to the 11th century and the hall of offering added in the 12th century under later Eastern Ganga patronage."}
 documented_vs_legend: documented
-status: pending
+status: verified
 review_flags:
   - "Corrected during verification pass: original text named the builder dynasty 'Someshvara'; this was an inaccurate rendering — Wikipedia confirms the dynasty is the Somavamshi dynasty (believed built under king Yayati I), which has been corrected here."
-  - "The description of the deity as a combined Harihara (Shiva-Vishnu) form, worshipped with both Shaiva and Vaishnava rites, is widely cited in other secondary/tourism sources but was not explicitly confirmed by this pass's Wikipedia cross-check (which notes Vishnu imagery present at the temple but does not describe the main deity itself as Harihara); flagging for further confirmation against a scholarly source."
+  - "The 'Harihara' characterization of the deity is popularly cited but not confirmed by Wikipedia's own Lingaraj article, nor by a follow-up check of Wikipedia's dedicated Harihara article, which instead documents a confirmed Harihara murti at the separate, nearby Mukteshvara Temple (9th-10th c.) and does not mention Lingaraj at all — the body text here is phrased as 'popularly described' rather than settled fact for exactly this reason."
   - "Entry to the inner temple is traditionally restricted to Hindus; non-Hindu visitors typically view from a platform outside, per longstanding temple practice."
 ---
 

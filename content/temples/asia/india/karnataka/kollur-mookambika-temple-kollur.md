@@ -22,9 +22,9 @@ sources:
   - {type: oral_tradition, note: "Adi Shankaracharya consecration and Sri Chakra installation are matha/temple tradition, not independently documented history."}
   - {type: historical_record, note: "Cross-checked against Wikipedia's account of Mookambika Temple, Kollur, accessed during verification pass: confirms the self-manifested linga bisected by a golden line (goddess-half representing Kali/Lakshmi/Saraswati) and tradition crediting Adi Shankara with installing the four-armed goddess form; also cites an approximate 800 CE establishment under King Halugallu Veera Sangayya, though this founding date is not independently corroborated beyond the encyclopedia entry."}
 documented_vs_legend: legend
-status: pending
+status: verified
 review_flags:
-  - "The ~800 CE founding date and King Halugallu Veera Sangayya are cited by Wikipedia but not independently corroborated against a scholarly source in this pass; Adi Shankaracharya's consecration remains matha tradition rather than documented history."
+  - "The entry deliberately omits the ~800 CE founding date and King Halugallu Veera Sangayya from the body text since that specific claim could not be independently corroborated beyond a single encyclopedia mention; only the shrine's physical description and its traditional (legend-labeled) narrative are stated as such."
 ---
 
 A major Shakti Peetha-adjacent shrine in the foothills of Kodachadri on the western slopes of the Western Ghats, near the Souparnika river, Mookambika enshrines the goddess as a self-manifested linga bisected by a golden line, whose two halves are said to represent the triple goddess (Kali, Lakshmi, Saraswati) and the trinity of gods (Shiva, Vishnu, Brahma). Tradition holds Adi Shankaracharya installed the Sri Chakra here and consecrated a separate four-armed goddess image alongside the linga. The goddess's name is traditionally linked to her vanquishing of the demon Mookasura while aiding the sage Kola Maharishi's austerities.
