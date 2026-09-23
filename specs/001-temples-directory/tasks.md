@@ -56,10 +56,10 @@ Single content/data repository (see plan.md § Project Structure):
 
 ### Implementation for User Story 1
 
-- [ ] T009 [P] [US1] Author 10+ major South Indian temple entries (Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana) under `content/temples/asia/india/<state>/<slug>.md`, each satisfying temple.schema.json's required fields: `id, name, deities (≥1), traditions (≥1), continent, country, region (required because country="India"), city, worship_status, best_time_to_visit, how_to_reach, sources (≥1), documented_vs_legend, status`
-- [ ] T010 [P] [US1] Author 10+ major North/East/West Indian temple entries (Uttar Pradesh, Odisha, Gujarat, Rajasthan, West Bengal, Uttarakhand) under `content/temples/asia/india/<state>/<slug>.md`, same required-field set as T009
-- [ ] T011 [US1] Run `python3 scripts/validate_content.py` and fix any violations in T009/T010 entries until exit code is 0 (depends on T009, T010)
-- [ ] T012 [US1] Run `python3 scripts/validate_content.py --coverage-report` and save the per-state India counts as a baseline snapshot in `specs/001-temples-directory/coverage-log.md` (depends on T011)
+- [x] T009 [P] [US1] Author 10+ major South Indian temple entries (Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana) under `content/temples/asia/india/<state>/<slug>.md`, each satisfying temple.schema.json's required fields: `id, name, deities (≥1), traditions (≥1), continent, country, region (required because country="India"), city, worship_status, best_time_to_visit, how_to_reach, sources (≥1), documented_vs_legend, status`
+- [x] T010 [P] [US1] Author 10+ major North/East/West Indian temple entries (Uttar Pradesh, Odisha, Gujarat, Rajasthan, West Bengal, Uttarakhand) under `content/temples/asia/india/<state>/<slug>.md`, same required-field set as T009
+- [x] T011 [US1] Run `python3 scripts/validate_content.py` and fix any violations in T009/T010 entries until exit code is 0 (depends on T009, T010)
+- [x] T012 [US1] Run `python3 scripts/validate_content.py --coverage-report` and save the per-state India counts as a baseline snapshot in `specs/001-temples-directory/coverage-log.md` (depends on T011)
 
 **Checkpoint**: US1 independently functional — a schema-valid, growing Indian temple catalog with full visit-planning fields.
 
