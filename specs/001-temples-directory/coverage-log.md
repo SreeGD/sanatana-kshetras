@@ -22,3 +22,7 @@ Countries outside India (1):
 
 - **Active-worship diaspora/living tradition (12)**: Singapore, Malaysia, Nepal (Pashupatinath), Indonesia (Pura Besakih, Bali — living Balinese Hindu tradition), Fiji, Australia, USA, Trinidad and Tobago, United Kingdom, South Africa, Mauritius, Guyana, Sri Lanka.
 - **Heritage/monument sites (4)**: Cambodia (Angkor Wat), Vietnam (My Son Sanctuary), Indonesia (Prambanan), Pakistan (Katas Raj Temples) — each flagged with its current worship status (no longer active, or only occasional/limited pilgrimage) per FR-007.
+
+## ISKCON (Gaudiya Vaishnava) coverage
+
+7 ISKCON/Hare Krishna temples added, all `status: verified` from the outset (cross-checked against dedicated Wikipedia articles before authoring, not after): 4 in India (Mayapur — ISKCON's world headquarters, Vrindavan's Krishna Balaram Mandir, Bangalore, Delhi) and 3 international (New Vrindaban WV USA, Bhaktivedanta Manor UK, and the founding site in New York City, 1966). Represents ISKCON's global footprint (~100+ countries) with a curated, high-confidence starting set rather than exhaustive coverage — a natural area to expand later given how well-documented the movement is.
