@@ -28,9 +28,9 @@ Single content/data repository (see plan.md § Project Structure):
 
 ## Phase 1: Setup (Shared Infrastructure)
 
-- [ ] T001 Create the content repository skeleton: `content/temples/`, `content/divya-desam/`, `content/beyond-earth/`, and `scripts/` directories at repo root (each with a `.gitkeep` if empty)
-- [ ] T002 [P] Add `requirements.txt` at repo root pinning `pyyaml` and `jsonschema` (per plan.md Technical Context)
-- [ ] T003 [P] Add `CONTRIBUTING.md` at repo root describing the pending→review→approved workflow as a GitHub PR (per research.md's deferred-decisions note substituting PR state for a bespoke status field) and stating the rule that `content/divya-desam/**`'s `locked: true` fields (`seq`, `region_group`, `physical`) cannot change via unreviewed submission (FR-014)
+- [x] T001 Create the content repository skeleton: `content/temples/`, `content/divya-desam/`, `content/beyond-earth/`, and `scripts/` directories at repo root (each with a `.gitkeep` if empty)
+- [x] T002 [P] Add `requirements.txt` at repo root pinning `pyyaml` and `jsonschema` (per plan.md Technical Context)
+- [x] T003 [P] Add `CONTRIBUTING.md` at repo root describing the pending→review→approved workflow as a GitHub PR (per research.md's deferred-decisions note substituting PR state for a bespoke status field) and stating the rule that `content/divya-desam/**`'s `locked: true` fields (`seq`, `region_group`, `physical`) cannot change via unreviewed submission (FR-014)
 
 ---
 
@@ -38,11 +38,11 @@ Single content/data repository (see plan.md § Project Structure):
 
 **⚠️ CRITICAL**: No user story content-authoring can begin until this phase is complete — every story's content is validated by this tooling.
 
-- [ ] T004 Implement `scripts/validate_content.py`: walk `content/`, parse each Markdown file's YAML front matter, and validate `content/temples/**` against `specs/001-temples-directory/contracts/temple.schema.json`, `content/divya-desam/**` against `divya-desam.schema.json`, and `content/beyond-earth/**` against `realm.schema.json` (resolving their shared `common.schema.json` refs); print a per-file list of violations and exit non-zero on any failure (quickstart.md "Validate the dataset")
-- [ ] T005 [P] Add a `--divya-desam-report` flag to `scripts/validate_content.py`: assert exactly 108 files exist under `content/divya-desam/`, that their `seq` values form the exact integer set {1..108} with no gaps or duplicates (data-model.md invariant; SC-002), and that every entry with `physical: true` has a `temple_ref` resolving to an existing file under `content/temples/`
-- [ ] T006 [P] Add a `--coverage-report` flag to `scripts/validate_content.py`: print a table of temple counts grouped by `continent` and by `country` (excluding India) to track SC-003 ("≥15 countries outside India") and SC-010 ("all 6 inhabited continents represented")
-- [ ] T007 [P] Add duplicate-candidate detection to `scripts/validate_content.py`: flag any two Temple entries whose `city` values match and whose `name`/`alt_names` values are near-identical (simple normalized string comparison), printing them as warnings per FR-015
-- [ ] T008 Create fixture files under `scripts/fixtures/`: one minimal valid Temple entry, one minimal valid physical Divya-Desam entry, one minimal valid celestial Divya-Desam entry, and one minimal valid Realm entry; confirm `python3 scripts/validate_content.py` (pointed at the fixtures dir) reports all four as valid before authoring real content
+- [x] T004 Implement `scripts/validate_content.py`: walk `content/`, parse each Markdown file's YAML front matter, and validate `content/temples/**` against `specs/001-temples-directory/contracts/temple.schema.json`, `content/divya-desam/**` against `divya-desam.schema.json`, and `content/beyond-earth/**` against `realm.schema.json` (resolving their shared `common.schema.json` refs); print a per-file list of violations and exit non-zero on any failure (quickstart.md "Validate the dataset")
+- [x] T005 [P] Add a `--divya-desam-report` flag to `scripts/validate_content.py`: assert exactly 108 files exist under `content/divya-desam/`, that their `seq` values form the exact integer set {1..108} with no gaps or duplicates (data-model.md invariant; SC-002), and that every entry with `physical: true` has a `temple_ref` resolving to an existing file under `content/temples/`
+- [x] T006 [P] Add a `--coverage-report` flag to `scripts/validate_content.py`: print a table of temple counts grouped by `continent` and by `country` (excluding India) to track SC-003 ("≥15 countries outside India") and SC-010 ("all 6 inhabited continents represented")
+- [x] T007 [P] Add duplicate-candidate detection to `scripts/validate_content.py`: flag any two Temple entries whose `city` values match and whose `name`/`alt_names` values are near-identical (simple normalized string comparison), printing them as warnings per FR-015
+- [x] T008 Create fixture files under `scripts/fixtures/`: one minimal valid Temple entry, one minimal valid physical Divya-Desam entry, one minimal valid celestial Divya-Desam entry, and one minimal valid Realm entry; confirm `python3 scripts/validate_content.py` (pointed at the fixtures dir) reports all four as valid before authoring real content
 
 **Checkpoint**: Foundation ready — schema validation and reporting work end-to-end on fixture data.
 
