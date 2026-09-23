@@ -50,6 +50,7 @@ Fixed collection of 108 (spec: **Divya Desam Entry**).
 | `country` | enum: india, nepal | required if `physical == true` | FR-004(a)/(b). |
 | `celestial_note` | markdown | required if `physical == false` | Explains the non-physical nature (FR-004(c)); no location/visiting fields permitted. |
 | `locked` | boolean | yes, always `true` | Enforces FR-014: `seq`, `region_group`, and `physical` cannot change via unreviewed contribution. |
+| `sources` | list<SourceCitation> | required if `physical == false` | A physical entry's sourcing lives on its linked Temple record; a celestial entry has no Temple to inherit from, so it MUST carry its own `sources` directly to satisfy FR-020. |
 | `review_flags` | list<string>, ≥1 if present | no | Same purpose as Temple.review_flags — e.g., uncertainty about which region group a temple traditionally belongs to. |
 
 Validation invariant: exactly 108 entries, `seq` values are the set {1..108} with no gaps/dupes (SC-002).

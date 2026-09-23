@@ -17,7 +17,12 @@
     "country": { "type": "string", "enum": ["india", "nepal"] },
     "celestial_note": { "type": "string" },
     "locked": { "const": true },
-    "review_flags": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+    "review_flags": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/definitions/sourceCitation" },
+      "minItems": 1
+    }
   },
   "allOf": [
     {
@@ -27,7 +32,7 @@
     {
       "if": { "properties": { "physical": { "const": false } } },
       "then": {
-        "required": ["celestial_note"],
+        "required": ["celestial_note", "sources"],
         "not": { "anyOf": [{ "required": ["temple_ref"] }, { "required": ["country"] }] }
       }
     }
