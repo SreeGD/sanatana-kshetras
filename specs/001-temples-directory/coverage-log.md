@@ -64,3 +64,11 @@ Dispatched 5 parallel research passes (4 landed so far) to add temples in distri
 Notable judgment calls made honestly rather than glossed over: Modhera, Konark, and Sirpur's Lakshmana Temple were set to `worship_status: heritage` after confirming no active daily worship; Kolhapur's Mahalakshmi Temple got a `review_flags` entry for a genuine scholarly dispute over whether it was originally a Jain temple; Achaleshwar Mahadev (Mount Abu) got a flag for an internal date conflict in its own sourcing (a cited 1412 construction date predates the Rana Kumbha reign it's also attributed to) rather than a fabricated resolution.
 
 A 5th pass (Himachal Pradesh, J&K, Delhi, Puducherry, and the remaining single-temple states/UTs) is still in progress as of this commit.
+
+## District deepening, final pass (5th group)
+
+8 more temples: Himachal Pradesh (Naina Devi, Bilaspur — distinct from Uttarakhand's Naina Devi, Nainital), Jammu and Kashmir (Raghunath Temple, Jammu), Delhi (Kalkaji Mandir; Laxminarayan/Birla Mandir, Mandir Marg — distinct from Hyderabad's Birla Mandir), Puducherry (Thirunallar Dharbaranyeswarar, Karaikal district — a Navagraha/Shani temple), Manipur (Vishnu Temple, Lamangdong), Arunachal Pradesh (Malinithan, a 13th-14th c. archaeological site — worship_status: heritage), and Sikkim (Siddhesvara Dham, Namchi — a modern Char Dham/Jyotirlinga-replica complex, distinct district from the existing Legship entry).
+
+Genuinely came up empty after real research attempts (not forced): a second temple for Meghalaya, Nagaland, Andaman & Nicobar Islands, and Dadra & Nagar Haveli and Daman & Diu; and a second temple for Tripura specifically (Agartala candidates lacked confirmable founding/dynastic attribution).
+
+This completes the district-deepening pass: 55 temples added in total across all 5 groups.
