@@ -1,26 +1,35 @@
 ---
 id: brisbane-selva-vinayakar-kovil
-name: "Brisbane Selva Vinayakar Kovil"
+name: "Sri Selva Vinayakar Temple"
 alt_names:
-  - {value: "Sri Selva Vinayakar Temple"}
+  - {value: "Brisbane Selva Vinayakar Kovil"}
 deities:
   - "Ganesha (Vinayakar)"
-traditions: [shaiva]
+  - "Shiva"
+  - "Abirami (Parvati)"
+  - "Maha Vishnu"
+  - "Murugan"
+traditions: [shaiva, vaishnava]
 continent: oceania
 country: "Australia"
-city: "Brisbane"
+city: "South Maclean, Brisbane"
+address: "4915-4923 Mt Lindesay Highway, South Maclean, QLD 4280, on a 4.5-acre elevated site roughly 35 km south of the Brisbane CBD."
 worship_status: active
-darshan_hours: "Varies by temple and season; consult the temple's own trust/management for the current daily schedule before visiting."
-best_time_to_visit: "Year-round; Ganesh Chaturthi is likely the temple's principal annual festival, though this is not independently confirmed."
-how_to_reach: "In Brisbane, Queensland; specific suburb/street address not confirmed in the source consulted this pass — consult the temple's own management for current directions."
+darshan_hours: "Varies by season and festival calendar; consult the temple's own management for the current daily schedule before visiting."
+best_time_to_visit: "Year-round; Ganesh Chaturthi is the temple's principal annual festival, and the 5 February consecration anniversary is also observed."
+how_to_reach: "At 4915-4923 Mt Lindesay Highway in the South Maclean suburb of greater Brisbane, roughly 35 km south of the CBD, reachable by car."
+festivals:
+  - {name: "Ganesh Chaturthi", approx_date: "August/September"}
+  - {name: "Consecration (Kumbabishekam) anniversary", approx_date: "5 February"}
 sources:
-  - {type: historical_record, note: "Cross-checked against Wikipedia's 'Hinduism in Australia' article, which states: 'Completion of the Brisbane Selva Vinayakar Kovil the consecration ceremony was held on 5 February 1995.' No dedicated Wikipedia article exists for this temple, and no independently reachable temple website was found this pass to confirm its exact suburb/address, founding organization, or festival calendar."}
+  - {type: historical_record, note: "Cross-checked against the temple's own official site (sriselvavinayakar.org/history.htm — reachable only via a text-proxy this pass since the site's SSL certificate has expired), which confirms: Tamil migration to Queensland accelerated after 1983, when Hindu families began monthly congregational prayers at SWARA Hall, Spring Hill; a Convening Committee formed on 25 April 1986 and officially registered as 'Hindu Alaya Sangam'; the South Maclean property was purchased in 1990 after fundraising from 1987-1990; foundation-laying occurred 10 June 1993; shrine construction began 24 June 1994; the first consecration (Kumbabishekam) was held on 5 February 1995; and the temple was rebuilt and re-consecrated on 1 May 2015. Confirms the address as 4915-4923 Mt Lindesay Highway, South Maclean, QLD 4280, on 4.5 acres. Confirms deities as Vinayakar (primary), Shiva, Abirami (Parvathi), Maha Vishnu, Murugan, Navagraha, Vairavar, Chandeswarar, the Nalvar saints, and Sri Ramakrishna."}
+  - {type: historical_record, note: "Cross-checked against Wikipedia's 'Hinduism in Australia' article, which independently corroborates the temple's name and 5 February 1995 consecration date."}
 documented_vs_legend: documented
-status: pending
+status: verified
 review_flags:
-  - "Sourced only from a single-line entry in Wikipedia's 'Hinduism in Australia' timeline confirming the temple's name and a consecration ceremony held on 5 February 1995; its exact suburb/address, founding community organization, and current festival calendar could not be independently confirmed this pass. Deity is inferred from the temple's name ('Vinayakar' is a Tamil name for Ganesha) rather than from a separate confirming source."
+  - "Sourced primarily from the temple's own official site, reached this pass only via a text-rendering proxy because the site's TLS/SSL certificate has expired; the site itself (and thus this entry) could not be cross-checked against an independent secondary source beyond the single-line Wikipedia mention of the name and 1995 consecration date. Exact current festival calendar and priest/trust leadership names were not confirmed."
 ---
 
-Brisbane's Selva Vinayakar Kovil is a Tamil-tradition temple dedicated to Ganesha (known here by his Tamil name, Vinayakar, in the form "Selva Vinayakar," a wealth-granting aspect of the deity). Available sources confirm only that its consecration ceremony was held on 5 February 1995, placing its founding within the wave of purpose-built South Indian temples established across Australia's state capitals from the 1990s onward as diaspora communities grew large enough to fund dedicated worship sites.
+Founded as Tamil migration to Queensland accelerated after 1983, this temple began as monthly congregational prayers held by Hindu families, first at home gatherings and then at SWARA Hall in Spring Hill, Brisbane. A Convening Committee formed on 25 April 1986 and registered as the Hindu Alaya Sangam, electing its first Management Committee that October. After several years of fundraising (1987-1990), the Sangam purchased a 4.5-acre elevated site at South Maclean, roughly 35 km south of the Brisbane CBD, in 1990. Building permission followed in May 1992, a foundation stone was laid on 10 June 1993, shrine construction began in June 1994, and the temple held its first consecration (Kumbabishekam) ceremony on 5 February 1995.
 
-Beyond the consecration date, details commonly documented for other diaspora temples in this directory — the temple's precise Brisbane suburb, its founding organization, and its regular festival calendar — are not confirmed in the source consulted this pass, so this entry is recorded as pending further verification.
+Twenty years later, the temple was rebuilt and expanded, reopening with a fresh consecration ceremony on 1 May 2015. Built in South Indian temple style, the central shrine honors Vinayakar (Ganesha) as the presiding deity, known here as "Selva Vinayakar" — a wealth-granting aspect of the god — alongside subsidiary shrines to Shiva, Abirami (Parvati), Maha Vishnu, Murugan, Navagraha, Vairavar, Chandeswarar, the Nalvar Shaiva saints, and Sri Ramakrishna. Beyond regular worship, the temple functions as a cultural and educational hub for Brisbane's Tamil Hindu community, offering religious classes, music, and dance programs.

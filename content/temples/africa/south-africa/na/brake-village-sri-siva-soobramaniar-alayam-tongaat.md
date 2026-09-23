@@ -21,7 +21,7 @@ documented_vs_legend: documented
 status: pending
 review_flags:
   - "No founding/consecration year for this temple was found in either source consulted this pass (the temple's own website and the Wikipedia 'OThongathi' article); only its current dedication, address, and an active recent festival (2023 Kavady) are confirmed."
-  - "This temple is distinct from the separately listed, more generically named 'Sri Siva Soobramaniar Temple' (Durban) already in this directory - that entry uses central Durban coordinates and lacks a precise address, while this one is specifically the Brake Village, Tongaat institution with a confirmed street address; a future reviewer may wish to check whether the two could in fact be the same institution under different research passes, though nothing found this pass indicates that they are."
+  - "This temple is distinct from the separately listed 'Clairwood Shree Siva Soobramoniar Temple' (Sirdar Road, Clairwood, Durban) also in this directory - a later research pass confirmed via Wikipedia's dedicated article on that temple that it is specifically the Clairwood/Sirdar Road institution (founded c. 1889), distinct from this Brake Village, Tongaat temple."
 ---
 
 The Brake Village Sri Siva Soobramaniar Alayam serves the Tamil Hindu community of Tongaat's Brake Village area on South Africa's KwaZulu-Natal coast, dedicated to Lord Muruga (Subramanya) under the honorific "Sri Siva Soobramaniar." Like the area's other Tamil temples, it sits within the broader pattern of Hindu institution-building among Natal's indentured and free Indian communities dating back to the 1860s indenture period, though no source located during this pass gives this specific temple's own founding year.
