@@ -10,6 +10,7 @@
     "category": { "type": "string", "enum": ["loka", "spiritual-world"] },
     "governing_deity": { "type": "string" },
     "position_in_cosmology": { "type": "string" },
+    "review_flags": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
     "tradition_accounts": {
       "type": "array",
       "minItems": 1,

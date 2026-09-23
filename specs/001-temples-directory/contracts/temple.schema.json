@@ -53,7 +53,8 @@
     "images": { "type": "array", "items": { "type": "string" } },
     "divya_desam_ref": { "type": "string" },
     "status": { "type": "string", "enum": ["verified", "pending"] },
-    "duplicate_of": { "type": "string" }
+    "duplicate_of": { "type": "string" },
+    "review_flags": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
   },
   "allOf": [
     {

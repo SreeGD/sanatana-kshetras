@@ -16,7 +16,8 @@
     "temple_ref": { "type": "string" },
     "country": { "type": "string", "enum": ["india", "nepal"] },
     "celestial_note": { "type": "string" },
-    "locked": { "const": true }
+    "locked": { "const": true },
+    "review_flags": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
   },
   "allOf": [
     {

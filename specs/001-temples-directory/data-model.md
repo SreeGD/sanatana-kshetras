@@ -33,6 +33,7 @@ Represents a single place of worship or heritage site (spec: **Temple**).
 | `divya_desam_ref` | string (Divya Desam id) | no | Set when this temple is also one of the 108. |
 | `status` | enum: verified, pending | yes | FR-013. |
 | `duplicate_of` | string (Temple id) | no | Set by reviewers when FR-015 flags a duplicate; entry is retired in favor of the canonical one. |
+| `review_flags` | list<string>, ≥1 if present | no | Notes on specific facts the author could not fully verify (e.g., conflicting sources on a date or a claim found only in one secondary source) — signals which parts of an otherwise `status: pending` entry need the most scrutiny before verification. |
 
 ## Divya Desam Entry
 
@@ -49,6 +50,7 @@ Fixed collection of 108 (spec: **Divya Desam Entry**).
 | `country` | enum: india, nepal | required if `physical == true` | FR-004(a)/(b). |
 | `celestial_note` | markdown | required if `physical == false` | Explains the non-physical nature (FR-004(c)); no location/visiting fields permitted. |
 | `locked` | boolean | yes, always `true` | Enforces FR-014: `seq`, `region_group`, and `physical` cannot change via unreviewed contribution. |
+| `review_flags` | list<string>, ≥1 if present | no | Same purpose as Temple.review_flags — e.g., uncertainty about which region group a temple traditionally belongs to. |
 
 Validation invariant: exactly 108 entries, `seq` values are the set {1..108} with no gaps/dupes (SC-002).
 
