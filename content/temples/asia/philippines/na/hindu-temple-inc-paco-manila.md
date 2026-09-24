@@ -1,0 +1,27 @@
+---
+id: hindu-temple-inc-paco-manila
+name: "Hindu Temple, Inc. (Paco, Manila)"
+deities:
+  - "Hindu deities (unspecified in available sources)"
+traditions: [other]
+continent: asia
+country: "Philippines"
+city: "Manila"
+address: "Mahatma Gandhi Street, at or near the corner of Apacible and Escoda Streets, Paco/Ermita, City of Manila (one source separately describes a Hindu temple on a nearby 'Looban Street'; street naming is inconsistent across sources but all place it in the same small Paco enclave)."
+worship_status: active
+darshan_hours: "Not documented in available sources; consult the local Hindu community/temple management for current timings before visiting."
+best_time_to_visit: "Year-round; major festivals such as Diwali are observed by the local Sindhi Hindu community, though a specific festival calendar for this temple is not documented in available sources."
+how_to_reach: "In the Paco district of the City of Manila, close to the Khalsa Diwan Indian Sikh Temple (gurdwara) on United Nations Avenue, roughly a 10-15 minute walk away; reachable via Manila's LRT and city bus/jeepney network."
+associated_saints: []
+sources:
+  - {type: historical_record, note: "Cross-checked multiple English Wikipedia articles. 'Hinduism in Southeast Asia' states: 'Today, there is a Hindu temple (attended mostly by Sindhis) on Mahatma Gandhi Street, and the Khalsa Diwan Indian Sikh Temple gurdwara on United Nations Avenue. Both are in the traditionally Indian enclaves of Paco and Pandacan... some 15 minutes away from each other by foot,' with a note that 'In the late 1970s and early 1980s, the ISKCON temple was right beside the Hindu Temple' (this ISKCON detail is itself uncited on Wikipedia and could not be independently corroborated, so it is treated here as unverified historical trivia, not a confirmed present-day or past ISKCON entry). 'Indian Filipino' and 'Hinduism in the Philippines' both independently confirm current active use: 'Most Hindus congregate for socio-cultural and religious activities at the Hindu Temple (Mahatma Gandhi Street, Paco, Manila)...'. 'Paco, Manila' separately mentions 'a Hindu temple at Looban Street' a ten-minute walk from the Sikh gurdwara. A Wikimedia Commons category, 'Hindu Temple, Inc. (Paco, Manila),' with photographs contributed by a named individual (Filipino jurist Florentino Floro), independently corroborates the temple's formal name and locates it at 'Apacible Street corner Escoda Street corner Mahatma Gandhi Street.' 'Religion in the Philippines' names two temples, 'Hari Ram Temple (Paco)' and 'Saya Aur Devi Mandir Temple (Paco),' but this claim is flagged {{Citation needed}} in that article's own wikitext and could not be corroborated elsewhere, so those specific names are not asserted as confirmed fact here."}
+documented_vs_legend: documented
+status: pending
+review_flags:
+  - "This is the first and only temple entry for the Philippines in this directory, based on a genuine, multiply-corroborated Hindu temple serving Manila's historic Sindhi merchant community, formally 'Hindu Temple, Inc.' Its precise founding date, presiding deities, and festival calendar are not documented in any source consulted, and street-naming for its exact address is inconsistent across sources (Mahatma Gandhi St. vs. a separately-mentioned 'Looban Street', a short walk apart in the same small enclave)."
+  - "A separate, uncited Wikipedia footnote claims an ISKCON temple stood beside this Hindu Temple in the late 1970s/early 1980s; this could not be independently corroborated in any other source and is not presented as a confirmed ISKCON entry. Two other temple names, 'Hari Ram Temple' and 'Saya Aur Devi Mandir Temple,' appear in one Wikipedia article's own {{Citation needed}}-flagged prose and are likewise not independently confirmed; they may or may not refer to this same temple."
+---
+
+Manila's Paco district is home to the Philippines' most established Hindu community institution: a temple referred to in Wikipedia's coverage of Hinduism in the Philippines simply as the "Hindu Temple," and identified more formally, via an independently-contributed Wikimedia Commons photograph collection, as "Hindu Temple, Inc." It sits on or near Mahatma Gandhi Street, within the same small, historically Indian enclave of Paco (and neighboring Pandacan) that also holds the Khalsa Diwan Indian Sikh Temple (gurdwara) on United Nations Avenue, a short walk away. The temple serves a community that multiple sources describe as predominantly Sindhi in origin, part of a Sindhi trading diaspora with roots across South and Southeast Asia.
+
+Multiple current-tense Wikipedia articles ("Indian Filipino," "Hinduism in the Philippines") describe it as the community's active hub for "socio-cultural and religious activities," alongside a separate Radha Soami Satsang Beas center in Alabang. Its precise founding date, presiding deity or deities, and festival calendar could not be confirmed from the sources available for this entry. A separate, uncited note in Wikipedia's "Hinduism in Southeast Asia" article claims that in the late 1970s and early 1980s — the era of A. C. Bhaktivedanta Swami Prabhupada's founding of ISKCON temples worldwide — an ISKCON (Hare Krishna) temple stood immediately beside this Hindu Temple; this claim carries no citation and could not be independently corroborated elsewhere, so it is recorded here only as unverified historical context, not as a confirmed ISKCON presence, past or present, in Manila.
