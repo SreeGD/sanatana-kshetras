@@ -11,7 +11,8 @@ match_keywords:
   - "nrusimha"
   - "nrisimha"
 sources:
-  - {type: historical_record, note: "Deity/iconography summary compiled from general, widely-corroborated knowledge of Puranic and regional Hindu tradition; not tied to a single citation the way an individual temple entry is."}
+  - {type: scripture, text: "Srimad Bhagavatam", reference: "Canto 7, the Prahlada/Hiranyakashipu narrative and Narasimha's appearance and iconographic description (mane, fierce eyes, half-lion half-man form), cross-checked against the Bhaktivedanta Book Trust translation via the sibling vidya-karana-kg project's indexed corpus"}
+  - {type: historical_record, note: "General iconography and temple-significance summary compiled from widely-corroborated knowledge of Puranic and regional Hindu tradition."}
 ---
 
 Narasimha, Vishnu's fourth avatar, took a half-man half-lion form to destroy the demon-king Hiranyakashipu without violating the specific conditions of a boon that made the demon otherwise unkillable. Dedicated Narasimha temples are comparatively rare relative to the scale of Rama or Krishna worship, with the Ahobilam Nava Narasimha complex, Simhachalam, Yadagirigutta, and Mangalagiri among the most significant.

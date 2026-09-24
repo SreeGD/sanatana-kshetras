@@ -15,7 +15,8 @@ match_keywords:
   - "sita ram"
   - "kodanda rama"
 sources:
-  - {type: historical_record, note: "Deity/iconography summary compiled from general, widely-corroborated knowledge of Puranic and regional Hindu tradition; not tied to a single citation the way an individual temple entry is."}
+  - {type: scripture, text: "Valmiki Ramayana", reference: "The foundational narrative of Rama's life; his identity as Vishnu's seventh avatar is stated directly in the text's own account of the avatara descent, cross-checked via the sibling vidya-karana-kg project's indexed corpus"}
+  - {type: historical_record, note: "General iconography and temple-significance summary compiled from widely-corroborated knowledge of Puranic and regional Hindu tradition."}
 ---
 
 Rama, the seventh avatar of Vishnu and hero of the Ramayana, is worshipped both as a historical-mythic king of Ayodhya and as the ideal of dharma. Temples dedicated to Rama range from sites tied to specific Ramayana episodes (Ayodhya, Chitrakoot, Panchavati, Rameswaram) to shrines built around a specific consecrated image without a direct narrative connection to the epic.
