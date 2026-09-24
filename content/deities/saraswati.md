@@ -8,7 +8,8 @@ match_keywords:
   - "sarada"
   - "sharada"
 sources:
-  - {type: historical_record, note: "Deity/iconography summary compiled from general, widely-corroborated knowledge of Puranic and regional Hindu tradition; not tied to a single citation the way an individual temple entry is."}
+  - {type: scripture, text: "Srimad Bhagavatam", reference: "8.8.16, naming Sarasvati, the goddess of learning, among the gift-bearers at the celestial wedding following the Samudra Manthan; independently verified against vedabase.io"}
+  - {type: historical_record, note: "General iconography and temple-scarcity summary compiled from widely-corroborated knowledge of Puranic and regional Hindu tradition."}
 ---
 
 Saraswati, goddess of knowledge, music, and the arts, has comparatively few dedicated temples relative to her devotional prominence — Basara's Gnana Saraswati Temple and the historic (now inaccessible) Sharada Peeth in Kashmir are among the most significant.

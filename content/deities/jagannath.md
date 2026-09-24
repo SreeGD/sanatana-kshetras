@@ -9,7 +9,8 @@ match_keywords:
   - "balabhadra"
   - "subhadra"
 sources:
-  - {type: historical_record, note: "Deity/iconography summary compiled from general, widely-corroborated knowledge of Puranic and regional Hindu tradition; not tied to a single citation the way an individual temple entry is."}
+  - {type: scripture, text: "Sri Caitanya-caritamrta", reference: "Antya-lila and Madhya-lila, extensive firsthand-tradition descriptions of Jagannath worship, the Rath Yatra, and Sri Chaitanya's residence at Jagannath Puri; cross-checked via the sibling vidya-karana-kg project's indexed corpus"}
+  - {type: historical_record, note: "General iconography and ritual summary compiled from widely-corroborated knowledge of Puranic and regional Hindu tradition."}
 ---
 
 Jagannath, 'Lord of the Universe,' is a distinctive form of Krishna/Vishnu centered on the Jagannath Temple, Puri, Odisha, and its immense annual Rath Yatra chariot festival, with an iconography and ritual tradition (including periodic wooden-image renewal) unlike any other Vishnu form.

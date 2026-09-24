@@ -11,7 +11,8 @@ match_keywords:
   - "bajrangbali"
   - "vayuputra"
 sources:
-  - {type: historical_record, note: "Deity/iconography summary compiled from general, widely-corroborated knowledge of Puranic and regional Hindu tradition; not tied to a single citation the way an individual temple entry is."}
+  - {type: scripture, text: "Valmiki Ramayana", reference: "Sundara Kanda, Sarga 1, 'Hanuman Leaps Across the Ocean' — his leap to Lanka in search of Sita; cross-checked via the sibling vidya-karana-kg project's indexed corpus"}
+  - {type: historical_record, note: "General iconography and temple-significance summary compiled from widely-corroborated knowledge of Puranic and regional Hindu tradition."}
 ---
 
 Hanuman, the devoted monkey-deity of the Ramayana renowned for strength, celibacy, and unwavering devotion (bhakti) to Rama, has an exceptionally large number of major standalone temples independent of any Rama-narrative site, including several — such as Salasar Balaji and Mehandipur Balaji — associated with distinctive ritual practices.

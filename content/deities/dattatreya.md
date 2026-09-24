@@ -8,7 +8,8 @@ match_keywords:
   - "datta guru"
   - "dattaguru"
 sources:
-  - {type: historical_record, note: "Deity/iconography summary compiled from general, widely-corroborated knowledge of Puranic and regional Hindu tradition; not tied to a single citation the way an individual temple entry is."}
+  - {type: scripture, text: "Srimad Bhagavatam", reference: "2.7.4, describing the Lord's promise to sage Atri to incarnate as his son (hence 'Datta'); independently verified against vedabase.io"}
+  - {type: historical_record, note: "General iconography and lineage-significance summary compiled from widely-corroborated knowledge of Puranic and regional Hindu tradition."}
 ---
 
 Dattatreya, revered as a combined embodiment of the Trimurti (Brahma-Vishnu-Shiva) and as the adi-guru of several yogic and Nath lineages, is the presiding deity of sites including Girnar and Ganagapur, and is especially significant to Maharashtra's Datta-sampradaya.

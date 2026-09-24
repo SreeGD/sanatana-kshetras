@@ -7,7 +7,8 @@ match_keywords:
   - "surya"
   - "suryanar"
 sources:
-  - {type: historical_record, note: "Deity/iconography summary compiled from general, widely-corroborated knowledge of Puranic and regional Hindu tradition; not tied to a single citation the way an individual temple entry is."}
+  - {type: scripture, text: "Srimad Bhagavatam", reference: "5.21.16 (Sarartha-darsini commentary), describing the charioteer Aruna driving Surya's chariot; cross-checked via the sibling vidya-karana-kg project's indexed corpus"}
+  - {type: historical_record, note: "General iconography and temple-significance summary compiled from widely-corroborated knowledge of Puranic and regional Hindu tradition."}
 ---
 
 Surya, the sun god, is the presiding deity of a small but architecturally significant group of temples — most famously Konark and Modhera — and of Tamil Nadu's Suryanar Kovil, part of the Navagraha (nine-planet) temple circuit.
