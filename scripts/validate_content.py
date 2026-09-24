@@ -22,6 +22,7 @@ SCHEMA_FILES = {
     "temples": "temple.schema.json",
     "divya-desam": "divya-desam.schema.json",
     "beyond-earth": "realm.schema.json",
+    "deities": "deity.schema.json",
 }
 
 
@@ -87,7 +88,8 @@ def cmd_validate(content_root):
     print(
         f"{len(entries['temples'])} temples, "
         f"{len(entries['divya-desam'])} divya-desam entries, "
-        f"{len(entries['beyond-earth'])} beyond-earth entries — all valid."
+        f"{len(entries['beyond-earth'])} beyond-earth entries, "
+        f"{len(entries['deities'])} deity categories — all valid."
     )
     return 0
 
@@ -150,6 +152,84 @@ def cmd_coverage_report(content_root):
     print(f"\nCountries outside India ({len(by_country)}):")
     for country, count in sorted(by_country.items()):
         print(f"  {country}: {count}")
+    return 0
+
+
+def cmd_deity_report(content_root, export_path=None):
+    errors, entries = load_entries(content_root)
+    if errors:
+        for e in errors:
+            print(e)
+        print(f"\n{len(errors)} schema violation(s) found; fix before running the deity report.")
+        return 1
+
+    categories = []
+    for path, fm in entries["deities"]:
+        pattern = re.compile(
+            r"\b(" + "|".join(re.escape(kw) for kw in fm["match_keywords"]) + r")\b",
+            re.IGNORECASE,
+        )
+        categories.append({"id": fm["id"], "name": fm["name"], "pattern": pattern, "temples": []})
+
+    by_id = {c["id"]: c for c in categories}
+    fallback_target = {"vaishnava": "vishnu-other", "shaiva": "shiva", "shakta": "devi-shakti"}
+
+    matched_any = set()
+    fallback_used = set()
+    for path, fm in entries["temples"]:
+        deity_text = " | ".join(fm.get("deities", []))
+        hit = False
+        for cat in categories:
+            if cat["pattern"].search(deity_text):
+                cat["temples"].append((path, fm.get("name", ""), fm.get("city", "")))
+                hit = True
+        if hit:
+            matched_any.add(str(path))
+            continue
+        # Fallback tier: free-text deity epithets (esp. Divya Desam Tamil names) often carry
+        # none of our keyword strings even though the temple's `traditions` field unambiguously
+        # identifies it. If exactly one of vaishnava/shaiva/shakta applies, bucket it into that
+        # tradition's general category rather than leaving it uncategorized.
+        traditions = set(fm.get("traditions", []))
+        relevant = traditions & set(fallback_target)
+        if len(relevant) == 1:
+            target_id = fallback_target[next(iter(relevant))]
+            by_id[target_id]["temples"].append((path, fm.get("name", ""), fm.get("city", "")))
+            matched_any.add(str(path))
+            fallback_used.add(str(path))
+
+    uncategorized = [
+        (path, fm.get("name", ""), fm.get("deities", []))
+        for path, fm in entries["temples"]
+        if str(path) not in matched_any
+    ]
+
+    result = {
+        "categories": [
+            {
+                "id": c["id"],
+                "name": c["name"],
+                "count": len(c["temples"]),
+                "temples": [{"path": str(p), "name": n, "city": ci} for p, n, ci in c["temples"]],
+            }
+            for c in categories
+        ],
+        "uncategorized_count": len(uncategorized),
+        "uncategorized": [{"path": str(p), "name": n, "deities": d} for p, n, d in uncategorized],
+    }
+
+    if export_path:
+        Path(export_path).write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
+        print(f"Wrote full deity index to {export_path}")
+
+    total_temples = len(entries["temples"])
+    print(f"Deity categories computed from {total_temples} temples (a temple may match more than one category):\n")
+    for c in sorted(categories, key=lambda c: -len(c["temples"])):
+        print(f"  {c['name']} ({c['id']}): {len(c['temples'])}")
+    print(f"\nOf which matched via traditions-only fallback (no deity keyword matched; bucketed by their single vaishnava/shaiva/shakta tradition instead): {len(fallback_used)}")
+    print(f"Uncategorized (matched no deity category, keyword or fallback): {len(uncategorized)} of {total_temples}")
+    if uncategorized and not export_path:
+        print("(pass --export-json to see the full uncategorized list and per-category temple listings)")
     return 0
 
 
@@ -242,6 +322,8 @@ def main():
     parser.add_argument("--divya-desam-report", action="store_true", help="Check 108 Divya Desam completeness.")
     parser.add_argument("--coverage-report", action="store_true", help="Report temple counts by continent/country.")
     parser.add_argument("--duplicates", action="store_true", help="Flag likely duplicate temple entries.")
+    parser.add_argument("--deity-report", action="store_true", help="Compute temple groupings by deity-worship category.")
+    parser.add_argument("--export-json", metavar="PATH", help="With --deity-report, write the full computed index to PATH as JSON.")
     parser.add_argument("--check-locked", metavar="BASE_REF", help="Check for locked-field changes vs. BASE_REF.")
     args = parser.parse_args()
 
@@ -255,6 +337,8 @@ def main():
         sys.exit(cmd_coverage_report(content_root))
     if args.duplicates:
         sys.exit(cmd_duplicates(content_root))
+    if args.deity_report:
+        sys.exit(cmd_deity_report(content_root, args.export_json))
     sys.exit(cmd_validate(content_root))
 
 

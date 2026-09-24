@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "deity.schema.json",
+  "title": "Deity category front matter",
+  "description": "A canonical worship-category entity (data-model.md's 'Deity'). Temple.deities is deliberately free-text (temple-specific local epithets), so these files define the coarser categories used to compute a 'temples by deity worshipped' grouping (data-model.md's 'Curated Collection', FR-011) rather than being hand-maintained lists — see scripts/validate_content.py --deity-report.",
+  "type": "object",
+  "required": ["id", "name", "traditions", "match_keywords"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "traditions": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/definitions/tradition" },
+      "minItems": 1
+    },
+    "iconography_notes": { "type": "string" },
+    "match_keywords": {
+      "type": "array",
+      "description": "Case-insensitive, word-boundary-matched substrings used to bucket a Temple into this category by scanning its `deities` array. Not part of the original data-model.md field list; a pragmatic addition so the grouping can be computed rather than hand-maintained. Keep specific (e.g. 'narasimha', 'narsimha') to avoid false matches against unrelated compound epithets.",
+      "items": { "type": "string", "minLength": 2 },
+      "minItems": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/definitions/sourceCitation" },
+      "minItems": 1
+    }
+  },
+  "additionalProperties": false
+}

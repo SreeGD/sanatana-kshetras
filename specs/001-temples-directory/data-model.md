@@ -72,12 +72,16 @@ Validation invariant: **no** `address`, `coordinates`, `darshan_hours`, or `how_
 
 ## Deity
 
+Implemented as content files under `content/deities/` (contract: `contracts/deity.schema.json`). 29 canonical worship-category entries as of this writing (Rama, Krishna, Narasimha, Shiva, Devi/Shakti, Ganesha, etc.) — coarser groupings than Temple.deities, which stays deliberately free-text (temple-specific local epithets).
+
 | Field | Type | Required | Notes |
 |---|---|---|---|
 | `id` | string (slug) | yes | |
 | `name` | string | yes | |
 | `traditions` | list<enum, see Temple.traditions> | yes | |
 | `iconography_notes` | string | no | |
+| `match_keywords` | list<string> | yes | Not in the original spec; added so `scripts/validate_content.py --deity-report` can compute which temples belong to this category by scanning `Temple.deities` for these (word-boundary, case-insensitive) substrings, rather than hand-maintaining a temple list per deity. |
+| `sources` | list<Source Citation> | no | |
 
 ## Tradition/Sect
 
@@ -102,7 +106,7 @@ Represented as a pull request against this repository during the data phase (see
 
 ## Curated Collection
 
-Not a content file; a computed grouping (Featured, Trending, New, 108 Divya Desam = all files under `content/divya-desam/`, Beyond Earth = all files under `content/beyond-earth/`) for FR-011.
+Not a content file; a computed grouping (Featured, Trending, New, 108 Divya Desam = all files under `content/divya-desam/`, Beyond Earth = all files under `content/beyond-earth/`) for FR-011. "Temples by deity worshipped" is implemented the same way: `scripts/validate_content.py --deity-report [--export-json PATH]` computes the grouping live against each Deity's `match_keywords` (plus a traditions-based fallback for temples whose free-text `deities` field carries no matching keyword) rather than a hand-authored list, so it never goes stale as temples are added.
 
 ## Relationships
 
