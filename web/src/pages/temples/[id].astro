@@ -25,11 +25,7 @@ const mapsEmbedSrc = `https://maps.google.com/maps?q=${encodeURIComponent(mapQue
   <article class="wrap temple-page">
     <p class="crumb"><a href={`${base}temples/`}>&larr; All temples</a></p>
 
-    {t.images?.[0] ? (
-      <img class="hero-image" src={t.images[0]} alt={t.name} />
-    ) : (
-      <div class="no-image-placeholder">No image available for this temple yet</div>
-    )}
+    {t.images?.[0] ? <img class="hero-image" src={t.images[0]} alt={t.name} /> : null}
 
     <h1>{t.name}</h1>
     <p class="location">{location}</p>
