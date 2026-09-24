@@ -1,0 +1,231 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description = 'A comprehensive, sourced directory of Hindu / Sanatana Dharma temples across India and the globe.' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title} · Sanatana Kshetras</title>
+    <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href={base}>
+          <span class="brand-mark" aria-hidden="true">卐</span>
+          <span>Sanatana Kshetras</span>
+        </a>
+        <nav aria-label="Primary">
+          <a href={`${base}temples/`}>Temples</a>
+          <a href={`${base}divya-desam/`}>108 Divya Desam</a>
+          <a href={`${base}deities/`}>By Deity</a>
+          <a href={`${base}beyond-earth/`}>Beyond Earth</a>
+          <a href={`${base}about/`}>About</a>
+        </nav>
+        <a class="search-link" href={`${base}search/`} aria-label="Search">🔍 Search</a>
+      </div>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Sanatana Kshetras is a git-based, sourced directory of Hindu / Sanatana Dharma temples.
+          Every entry cites its sources and honestly flags what remains uncertain.
+        </p>
+        <p>
+          <a href="https://github.com/SreeGD/sanatana-kshetras" target="_blank" rel="noopener">View on GitHub</a>
+          · <a href={`${base}contribute/`}>Contribute</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    color-scheme: light;
+    --bg: #fbf6ee;
+    --bg-card: #ffffff;
+    --bg-muted: #f1e6d3;
+    --ink: #241a12;
+    --ink-muted: #6b5c4a;
+    --border: #e4d5bb;
+    --accent: #b5501f;
+    --accent-ink: #ffffff;
+    --accent-2: #8a1f2d;
+    --gold: #a9781f;
+    --verified: #2f6b3a;
+    --pending: #a9781f;
+    --radius: 0.6rem;
+    --max-width: 74rem;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #1a1410;
+      --bg-card: #241c15;
+      --bg-muted: #2c2219;
+      --ink: #f2e8d8;
+      --ink-muted: #b8a98f;
+      --border: #3d3020;
+      --accent: #e07a3f;
+      --accent-ink: #1a1410;
+      --accent-2: #d97a86;
+      --gold: #d9b85c;
+      --verified: #6fbf7a;
+      --pending: #d9b85c;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Noto Serif", Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+  }
+  img { max-width: 100%; display: block; }
+  [hidden] { display: none !important; }
+  a { color: var(--accent); }
+  a:hover { color: var(--accent-2); }
+
+  .wrap {
+    max-width: var(--max-width);
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+
+  .skip-link {
+    position: absolute;
+    left: -999px;
+    top: 0;
+    background: var(--accent);
+    color: var(--accent-ink);
+    padding: 0.5rem 1rem;
+    z-index: 100;
+  }
+  .skip-link:focus { left: 0; }
+
+  .site-header {
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-card);
+    position: sticky;
+    top: env(safe-area-inset-top, 0px);
+    z-index: 10;
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-block: 0.85rem;
+    flex-wrap: wrap;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: var(--ink);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .brand-mark { color: var(--accent); font-size: 1.3rem; }
+  .site-header nav {
+    display: flex;
+    gap: 1.1rem;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+  }
+  .site-header nav a { text-decoration: none; color: var(--ink-muted); }
+  .site-header nav a:hover { color: var(--accent); }
+  .search-link {
+    margin-left: auto;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: var(--ink-muted);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.35rem 0.75rem;
+  }
+  .search-link:hover { color: var(--accent); border-color: var(--accent); }
+
+  main { min-height: 60vh; }
+
+  .site-footer {
+    border-top: 1px solid var(--border);
+    margin-top: 3rem;
+    padding-block: 1.5rem;
+    color: var(--ink-muted);
+    font-size: 0.9rem;
+  }
+
+  h1, h2, h3 { font-family: "Noto Serif", Georgia, serif; line-height: 1.25; }
+
+  .badge {
+    display: inline-block;
+    font-family: system-ui, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+    border: 1px solid currentColor;
+  }
+  .badge-verified { color: var(--verified); }
+  .badge-pending { color: var(--pending); }
+  .badge-documented { color: var(--verified); }
+  .badge-legend { color: var(--accent-2); }
+  .badge-mixed { color: var(--gold); }
+
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.1rem 1.25rem;
+  }
+
+  .grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+
+  .review-flags {
+    background: var(--bg-muted);
+    border: 1px dashed var(--gold);
+    border-radius: var(--radius);
+    padding: 0.85rem 1rem;
+    font-size: 0.92rem;
+  }
+  .review-flags h3 { margin-top: 0; font-size: 0.95rem; color: var(--gold); }
+
+  .no-image-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 4 / 3;
+    background: var(--bg-muted);
+    border: 1px dashed var(--border);
+    border-radius: var(--radius);
+    color: var(--ink-muted);
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 1rem;
+  }
+</style>

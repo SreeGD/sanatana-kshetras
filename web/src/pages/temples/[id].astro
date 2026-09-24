@@ -1,0 +1,118 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import StatusBadges from '../../components/StatusBadges.astro';
+
+export async function getStaticPaths() {
+  const temples = await getCollection('temples');
+  return temples.map((temple) => ({ params: { id: temple.data.id }, props: { temple } }));
+}
+
+const { temple } = Astro.props;
+const t = temple.data;
+const { Content } = await render(temple);
+const base = import.meta.env.BASE_URL;
+const location = [t.city, t.region, t.country].filter(Boolean).join(', ');
+const mapHref = t.coordinates
+  ? `https://www.openstreetmap.org/?mlat=${t.coordinates.lat}&mlon=${t.coordinates.lng}#map=14/${t.coordinates.lat}/${t.coordinates.lng}`
+  : undefined;
+---
+<Base title={t.name} description={`${t.name}, ${location} — deities: ${t.deities.join(', ')}`}>
+  <article class="wrap temple-page">
+    <p class="crumb"><a href={`${base}temples/`}>&larr; All temples</a></p>
+
+    {t.images?.[0] ? (
+      <img class="hero-image" src={t.images[0]} alt={t.name} />
+    ) : (
+      <div class="no-image-placeholder">No image available for this temple yet</div>
+    )}
+
+    <h1>{t.name}</h1>
+    <p class="location">{location}</p>
+    <div class="badges"><StatusBadges status={t.status} documentedVsLegend={t.documented_vs_legend} /></div>
+
+    {t.alt_names?.length ? (
+      <p class="alt-names">Also known as: {t.alt_names.map((a) => a.value).join(' · ')}</p>
+    ) : null}
+
+    <dl class="facts">
+      <div><dt>Deities</dt><dd>{t.deities.join(', ')}</dd></div>
+      <div><dt>Traditions</dt><dd>{t.traditions.join(', ')}</dd></div>
+      <div><dt>Worship status</dt><dd>{t.worship_status.replace('_', ' ')}</dd></div>
+      {t.address ? <div><dt>Address</dt><dd>{t.address}</dd></div> : null}
+      {t.coordinates ? (
+        <div>
+          <dt>Coordinates</dt>
+          <dd><a href={mapHref} target="_blank" rel="noopener">{t.coordinates.lat}, {t.coordinates.lng}</a></dd>
+        </div>
+      ) : null}
+      {t.darshan_hours ? <div><dt>Darshan hours</dt><dd>{t.darshan_hours}</dd></div> : null}
+      <div><dt>Best time to visit</dt><dd>{t.best_time_to_visit}</dd></div>
+      <div><dt>How to reach</dt><dd>{t.how_to_reach}</dd></div>
+      {t.access_notes ? <div><dt>Access notes</dt><dd>{t.access_notes}</dd></div> : null}
+      {t.festivals?.length ? (
+        <div><dt>Festivals</dt><dd>{t.festivals.map((f) => `${f.name} (${f.approx_date})`).join(', ')}</dd></div>
+      ) : null}
+      {t.associated_saints?.length ? (
+        <div><dt>Associated saints</dt><dd>{t.associated_saints.join(', ')}</dd></div>
+      ) : null}
+    </dl>
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    <section class="sources">
+      <h2>Sources</h2>
+      <ul>
+        {t.sources.map((s) => (
+          <li>
+            <strong>{s.type.replace('_', ' ')}:</strong>{' '}
+            {s.text}{s.reference ? ` — ${s.reference}` : ''}{s.note ? s.note : ''}
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    {t.review_flags?.length ? (
+      <div class="review-flags">
+        <h3>For review</h3>
+        <ul>
+          {t.review_flags.map((f) => <li>{f}</li>)}
+        </ul>
+      </div>
+    ) : null}
+
+    {t.divya_desam_ref ? (
+      <p class="divya-desam-link">
+        Part of the <a href={`${base}divya-desam/`}>108 Divya Desam</a> collection.
+      </p>
+    ) : null}
+  </article>
+</Base>
+
+<style>
+  .temple-page { padding-block: 2rem 3rem; max-width: 46rem; }
+  .crumb { margin-bottom: 1rem; }
+  .crumb a { text-decoration: none; color: var(--ink-muted); font-size: 0.9rem; }
+  .hero-image { width: 100%; border-radius: var(--radius); margin-bottom: 1.25rem; aspect-ratio: 16/9; object-fit: cover; }
+  h1 { margin-bottom: 0.25rem; }
+  .location { color: var(--ink-muted); margin-top: 0; }
+  .badges { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+  .alt-names { font-size: 0.9rem; color: var(--ink-muted); font-style: italic; }
+  .facts { display: grid; gap: 0.75rem; margin: 1.5rem 0; padding: 1rem 1.25rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); }
+  .facts > div { display: grid; grid-template-columns: 10rem 1fr; gap: 0.5rem; }
+  .facts dt { font-weight: 600; color: var(--ink-muted); font-size: 0.88rem; }
+  .facts dd { margin: 0; }
+  .prose { margin-block: 1.75rem; }
+  .prose :global(p) { margin-bottom: 1rem; }
+  .sources { margin-top: 2rem; }
+  .sources ul { padding-left: 1.25rem; font-size: 0.92rem; color: var(--ink-muted); }
+  .sources li { margin-bottom: 0.4rem; }
+  .review-flags { margin-top: 1.5rem; }
+  .review-flags ul { padding-left: 1.25rem; margin: 0.5rem 0 0; }
+  .divya-desam-link { margin-top: 1.5rem; }
+  @media (max-width: 30rem) {
+    .facts > div { grid-template-columns: 1fr; }
+  }
+</style>

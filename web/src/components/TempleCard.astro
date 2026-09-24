@@ -1,0 +1,46 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import StatusBadges from './StatusBadges.astro';
+
+interface Props {
+  temple: CollectionEntry<'temples'>;
+}
+const { temple } = Astro.props;
+const t = temple.data;
+const base = import.meta.env.BASE_URL;
+const location = [t.city, t.region, t.country].filter(Boolean).join(', ');
+const image = t.images?.[0];
+---
+<a class="temple-card card" href={`${base}temples/${t.id}/`}>
+  {image ? (
+    <img src={image} alt={t.name} loading="lazy" />
+  ) : (
+    <div class="no-image-placeholder small">No image available</div>
+  )}
+  <div class="temple-card-body">
+    <h3>{t.name}</h3>
+    <p class="location">{location}</p>
+    <p class="deities">{t.deities.slice(0, 2).join(', ')}{t.deities.length > 2 ? ', …' : ''}</p>
+    <div class="badges"><StatusBadges status={t.status} documentedVsLegend={t.documented_vs_legend} /></div>
+  </div>
+</a>
+
+<style>
+  .temple-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    padding: 0;
+    overflow: hidden;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .temple-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .temple-card img { aspect-ratio: 4 / 3; object-fit: cover; }
+  .no-image-placeholder.small { aspect-ratio: 4 / 3; border-radius: 0; border-width: 0 0 1px 0; font-size: 0.75rem; }
+  .temple-card-body { padding: 0.9rem 1rem; }
+  .temple-card h3 { margin: 0 0 0.25rem; font-size: 1.05rem; }
+  .location { margin: 0 0 0.35rem; color: var(--ink-muted); font-size: 0.88rem; }
+  .deities { margin: 0 0 0.6rem; font-size: 0.85rem; }
+  .badges { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+</style>

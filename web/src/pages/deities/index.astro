@@ -1,0 +1,59 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { computeDeityMatches } from '../../lib/deity-match';
+
+const temples = await getCollection('temples');
+const deities = (await getCollection('deities')).sort((a, b) => a.data.name.localeCompare(b.data.name));
+const { byDeity, uncategorized } = computeDeityMatches(temples, deities);
+const base = import.meta.env.BASE_URL;
+
+const sorted = [...deities].sort((a, b) => (byDeity.get(b.data.id)?.length ?? 0) - (byDeity.get(a.data.id)?.length ?? 0));
+---
+<Base title="Browse by deity" description="Temples grouped by the deity worshipped there, computed live from every temple's own listing.">
+  <div class="wrap deities-page">
+    <h1>Browse by deity worshipped</h1>
+    <p class="lede">
+      These {deities.length} categories are computed directly from every temple's own free-text
+      deity listing — not a hand-maintained list — so a temple with several shrines under one roof
+      can (and often does) appear in more than one category.
+    </p>
+    <ul class="deity-list">
+      {sorted.map((d) => (
+        <li>
+          <a href={`${base}deities/${d.data.id}/`}>
+            <span class="deity-name">{d.data.name}</span>
+            <span class="deity-count">{byDeity.get(d.data.id)?.length ?? 0}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    {uncategorized.length ? (
+      <p class="footnote">
+        {uncategorized.length} temples don't fall cleanly into any category above — usually because
+        their deity is explicitly unspecified in available sources, or names a figure outside this
+        taxonomy (e.g. Vishwakarma, Valmiki, Sai Baba of Shirdi).
+      </p>
+    ) : null}
+  </div>
+</Base>
+
+<style>
+  .deities-page { padding-block: 2rem 3rem; }
+  .lede { max-width: 42rem; color: var(--ink-muted); }
+  .deity-list { list-style: none; padding: 0; display: grid; gap: 0.6rem; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); margin-top: 1.5rem; }
+  .deity-list a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.7rem 1rem;
+    color: var(--ink);
+  }
+  .deity-list a:hover { border-color: var(--accent); }
+  .deity-count { color: var(--ink-muted); font-size: 0.85rem; background: var(--bg-muted); border-radius: 999px; padding: 0.1rem 0.55rem; }
+  .footnote { margin-top: 2rem; color: var(--ink-muted); font-size: 0.88rem; max-width: 40rem; }
+</style>

@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import TempleCard from '../../components/TempleCard.astro';
+import { computeDeityMatches } from '../../lib/deity-match';
+
+export async function getStaticPaths() {
+  const temples = await getCollection('temples');
+  const deities = await getCollection('deities');
+  const { byDeity } = computeDeityMatches(temples, deities);
+  return deities.map((deity) => ({
+    params: { id: deity.data.id },
+    props: { deity, matched: (byDeity.get(deity.data.id) ?? []).sort((a, b) => a.data.name.localeCompare(b.data.name)) },
+  }));
+}
+
+const { deity, matched } = Astro.props;
+const d = deity.data;
+const base = import.meta.env.BASE_URL;
+---
+<Base title={d.name} description={`Temples dedicated to ${d.name}.`}>
+  <div class="wrap deity-page">
+    <p class="crumb"><a href={`${base}deities/`}>&larr; All deities</a></p>
+    <h1>{d.name}</h1>
+    {d.iconography_notes ? <p class="iconography">{d.iconography_notes}</p> : null}
+    <p class="count">{matched.length} temple{matched.length === 1 ? '' : 's'} in this directory</p>
+    <div class="grid">
+      {matched.map((t) => <TempleCard temple={t} />)}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .deity-page { padding-block: 2rem 3rem; }
+  .crumb a { text-decoration: none; color: var(--ink-muted); font-size: 0.9rem; }
+  .iconography { max-width: 42rem; color: var(--ink-muted); font-style: italic; }
+  .count { color: var(--ink-muted); font-size: 0.9rem; margin-bottom: 1.25rem; }
+</style>

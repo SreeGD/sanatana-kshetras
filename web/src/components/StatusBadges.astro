@@ -1,0 +1,11 @@
+---
+interface Props {
+  status: 'verified' | 'pending';
+  documentedVsLegend: 'documented' | 'legend' | 'mixed';
+}
+const { status, documentedVsLegend } = Astro.props;
+const statusLabel = status === 'verified' ? 'Verified' : 'Pending review';
+const dvlLabel = { documented: 'Documented history', legend: 'Oral tradition / legend', mixed: 'Documented + legend' }[documentedVsLegend];
+---
+<span class:list={['badge', `badge-${status}`]}>{statusLabel}</span>
+<span class:list={['badge', `badge-${documentedVsLegend}`]}>{dvlLabel}</span>

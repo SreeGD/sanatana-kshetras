@@ -1,0 +1,152 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import TempleCard from '../../components/TempleCard.astro';
+import { computeDeityMatches } from '../../lib/deity-match';
+
+const temples = (await getCollection('temples')).sort((a, b) => a.data.name.localeCompare(b.data.name));
+const deities = await getCollection('deities');
+const { byTemple } = computeDeityMatches(temples, deities);
+
+const continents = [...new Set(temples.map((t) => t.data.continent))].sort();
+const traditions = [...new Set(temples.flatMap((t) => t.data.traditions))].sort();
+const deityOptions = [...deities].sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+<Base title="Browse temples" description="Browse all temples by continent, country, state, tradition, and deity.">
+  <div class="wrap browse-page">
+    <h1>Browse {temples.length} temples</h1>
+
+    <form id="filters" class="filters">
+      <div class="field">
+        <label for="f-continent">Continent</label>
+        <select id="f-continent" name="continent">
+          <option value="">All continents</option>
+          {continents.map((c) => <option value={c}>{c}</option>)}
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-country">Country</label>
+        <select id="f-country" name="country">
+          <option value="">All countries</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-tradition">Tradition</label>
+        <select id="f-tradition" name="tradition">
+          <option value="">All traditions</option>
+          {traditions.map((t) => <option value={t}>{t}</option>)}
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-deity">Deity</label>
+        <select id="f-deity" name="deity">
+          <option value="">All deities</option>
+          {deityOptions.map((d) => <option value={d.data.id}>{d.data.name}</option>)}
+        </select>
+      </div>
+      <div class="field field-checkbox">
+        <label><input type="checkbox" id="f-divyadesam" /> Divya Desam only</label>
+      </div>
+      <button type="reset" id="f-reset">Reset filters</button>
+    </form>
+
+    <p id="result-count" class="result-count" aria-live="polite">{temples.length} temples shown</p>
+
+    <div class="grid" id="temple-grid">
+      {temples.map((t) => (
+        <div
+          class="grid-item"
+          data-continent={t.data.continent}
+          data-country={t.data.country}
+          data-tradition={t.data.traditions.join(',')}
+          data-deity={(byTemple.get(t.id) ?? []).join(',')}
+          data-divyadesam={t.data.divya_desam_ref ? '1' : '0'}
+        >
+          <TempleCard temple={t} />
+        </div>
+      ))}
+    </div>
+    <p id="no-results" class="no-results" hidden>No temples match those filters. Try broadening your search.</p>
+  </div>
+</Base>
+
+<script>
+  const items = Array.from(document.querySelectorAll<HTMLElement>('#temple-grid .grid-item'));
+  const continentSelect = document.getElementById('f-continent') as HTMLSelectElement;
+  const countrySelect = document.getElementById('f-country') as HTMLSelectElement;
+  const traditionSelect = document.getElementById('f-tradition') as HTMLSelectElement;
+  const deitySelect = document.getElementById('f-deity') as HTMLSelectElement;
+  const divyaDesamCheckbox = document.getElementById('f-divyadesam') as HTMLInputElement;
+  const resultCount = document.getElementById('result-count')!;
+  const noResults = document.getElementById('no-results')!;
+  const resetButton = document.getElementById('f-reset') as HTMLButtonElement;
+
+  function countriesFor(continent: string): string[] {
+    const set = new Set<string>();
+    for (const item of items) {
+      if (!continent || item.dataset.continent === continent) set.add(item.dataset.country!);
+    }
+    return [...set].sort();
+  }
+
+  function rebuildCountryOptions() {
+    const selected = countrySelect.value;
+    const countries = countriesFor(continentSelect.value);
+    countrySelect.innerHTML = '<option value="">All countries</option>' +
+      countries.map((c) => `<option value="${c}">${c}</option>`).join('');
+    if (countries.includes(selected)) countrySelect.value = selected;
+  }
+
+  function applyFilters() {
+    const continent = continentSelect.value;
+    const country = countrySelect.value;
+    const tradition = traditionSelect.value;
+    const deity = deitySelect.value;
+    const divyaDesamOnly = divyaDesamCheckbox.checked;
+
+    let visible = 0;
+    for (const item of items) {
+      const matches =
+        (!continent || item.dataset.continent === continent) &&
+        (!country || item.dataset.country === country) &&
+        (!tradition || item.dataset.tradition!.split(',').includes(tradition)) &&
+        (!deity || item.dataset.deity!.split(',').includes(deity)) &&
+        (!divyaDesamOnly || item.dataset.divyadesam === '1');
+      item.hidden = !matches;
+      if (matches) visible += 1;
+    }
+    resultCount.textContent = `${visible} temple${visible === 1 ? '' : 's'} shown`;
+    noResults.hidden = visible !== 0;
+  }
+
+  continentSelect.addEventListener('change', () => { rebuildCountryOptions(); applyFilters(); });
+  for (const el of [countrySelect, traditionSelect, deitySelect]) el.addEventListener('change', applyFilters);
+  divyaDesamCheckbox.addEventListener('change', applyFilters);
+  resetButton.addEventListener('click', () => {
+    setTimeout(() => { rebuildCountryOptions(); applyFilters(); }, 0);
+  });
+</script>
+
+<style>
+  .browse-page { padding-block: 2rem 3rem; }
+  .filters {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: end;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .field { display: flex; flex-direction: column; gap: 0.3rem; font-size: 0.85rem; }
+  .field label { color: var(--ink-muted); }
+  .field select { padding: 0.4rem 0.5rem; border-radius: 0.4rem; border: 1px solid var(--border); background: var(--bg); color: var(--ink); min-width: 10rem; }
+  .field-checkbox { flex-direction: row; align-items: center; gap: 0.4rem; }
+  .field-checkbox label { display: flex; align-items: center; gap: 0.4rem; color: var(--ink); }
+  #f-reset { margin-left: auto; align-self: center; border: 1px solid var(--border); background: transparent; color: var(--ink-muted); border-radius: 0.4rem; padding: 0.45rem 0.8rem; cursor: pointer; }
+  #f-reset:hover { color: var(--accent); border-color: var(--accent); }
+  .result-count { color: var(--ink-muted); font-size: 0.9rem; }
+  .no-results { padding: 2rem; text-align: center; color: var(--ink-muted); }
+</style>

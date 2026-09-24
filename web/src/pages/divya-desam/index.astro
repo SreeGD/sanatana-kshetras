@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const entries = (await getCollection('divya-desam')).sort((a, b) => a.data.seq - b.data.seq);
+const base = import.meta.env.BASE_URL;
+
+const regionLabels: Record<string, string> = {
+  'chola-nadu': 'Chola Nadu',
+  'nadu-nadu': 'Nadu Nadu',
+  'thondai-nadu': 'Thondai Nadu',
+  'malai-nadu': 'Malai Nadu',
+  'pandya-nadu': 'Pandya Nadu',
+  'vada-nadu': 'Vada Nadu',
+  celestial: 'Celestial',
+};
+const regions = [...new Set(entries.map((e) => e.data.region_group))];
+---
+<Base title="108 Divya Desam" description="The complete, editorially-locked collection of 108 Divya Desam — the Sri Vaishnava tradition's most sacred Vishnu temples.">
+  <div class="wrap dd-page">
+    <h1>The 108 Divya Desam</h1>
+    <p class="lede">
+      The Divya Desam are 108 temples of Vishnu glorified in the Naalayira Divya Prabandham, the
+      canonical Tamil hymnal of the twelve Alvar saints. 106 are physical temples across India and
+      Nepal; two — Thiruparkadal and Paramapadam — are celestial abodes with no earthly location.
+      This collection is complete and its core classification is editorially locked.
+    </p>
+
+    {regions.map((region) => (
+      <section class="region-section">
+        <h2>{regionLabels[region] ?? region}</h2>
+        <ol class="dd-list" start={entries.find((e) => e.data.region_group === region)?.data.seq}>
+          {entries.filter((e) => e.data.region_group === region).map((e) => (
+            <li>
+              <a href={`${base}divya-desam/${e.data.seq}/`}>{e.data.name}</a>
+              {!e.data.physical ? <span class="celestial-tag">celestial</span> : null}
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .dd-page { padding-block: 2rem 3rem; }
+  .lede { max-width: 42rem; color: var(--ink-muted); }
+  .region-section { margin-top: 2rem; }
+  .dd-list { columns: 2; column-gap: 2rem; padding-left: 1.5rem; }
+  .dd-list li { break-inside: avoid; margin-bottom: 0.4rem; }
+  .celestial-tag { font-size: 0.75rem; color: var(--gold); margin-left: 0.4rem; }
+  @media (max-width: 36rem) { .dd-list { columns: 1; } }
+</style>

@@ -1,0 +1,49 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const temples = await getCollection('temples');
+const verified = temples.filter((t) => t.data.status === 'verified').length;
+const pending = temples.length - verified;
+---
+<Base title="About" description="Why this directory exists and how its accuracy standard works.">
+  <div class="wrap prose-page">
+    <h1>About Sanatana Kshetras</h1>
+    <p>
+      Sanatana Kshetras is a comprehensive, git-based directory of Hindu / Sanatana Dharma
+      temples across India and the globe — built so pilgrims can plan a visit, and so podcasters,
+      monks, and researchers have a well-sourced starting point for a story.
+    </p>
+
+    <h2>Verified vs. pending</h2>
+    <p>
+      Of {temples.length} temples, {verified} are marked <strong>verified</strong> — corroborated
+      by at least one independently checkable source — and {pending} are marked
+      <strong>pending</strong>, meaning something about the entry (a date, a founding legend, a
+      precise location) could not yet be independently confirmed. Pending doesn't mean wrong; it
+      means honest about what's still uncertain. Every entry with unresolved questions carries
+      explicit <em>review flags</em> describing exactly what's unconfirmed, rather than smoothing
+      the uncertainty over.
+    </p>
+
+    <h2>Documented history vs. oral tradition</h2>
+    <p>
+      Every entry marks its history as <strong>documented</strong> (independently attested),
+      <strong>legend</strong> (oral or scriptural tradition, not independently verifiable), or
+      <strong>mixed</strong> — and every source is cited by type: scripture, oral tradition, or
+      historical record.
+    </p>
+
+    <h2>The data is public and versioned</h2>
+    <p>
+      Nothing here lives in a private database. Every temple is a Markdown file in a public
+      GitHub repository, validated against a published schema, with its full edit history
+      visible. See <a href={`${import.meta.env.BASE_URL}contribute/`}>Contribute</a> for how to
+      add or correct an entry.
+    </p>
+  </div>
+</Base>
+
+<style>
+  .prose-page { padding-block: 2rem 3rem; max-width: 42rem; }
+</style>

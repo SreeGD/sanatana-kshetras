@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import Search from 'astro-pagefind/components/Search.astro';
+---
+<Base title="Search" description="Search the full temple directory by name, deity, or place.">
+  <div class="wrap search-page">
+    <h1>Search</h1>
+    <p class="lede">Search by temple name, alternate name, deity, city, or country.</p>
+    <Search className="pagefind-search" />
+  </div>
+</Base>
+
+<style>
+  .search-page { padding-block: 2rem 3rem; }
+  .lede { color: var(--ink-muted); }
+  .pagefind-search { margin-top: 1rem; }
+</style>

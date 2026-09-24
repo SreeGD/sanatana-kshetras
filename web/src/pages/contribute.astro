@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Contribute" description="How to add or correct a temple entry in Sanatana Kshetras.">
+  <div class="wrap prose-page">
+    <h1>Contribute</h1>
+    <p>
+      Every entry in this directory is a plain Markdown file with a small set of structured
+      fields, validated automatically. Contributing is done through GitHub, the same way you'd
+      contribute to any open-source project — there's no separate submission form.
+    </p>
+
+    <h2>Before you add a temple</h2>
+    <ul>
+      <li>Every fact needs a source: a named scripture/text, a historical record, or an explicit "oral tradition" note.</li>
+      <li>Don't fabricate dates, coordinates, or history. If something is genuinely uncertain, say so — use <code>status: pending</code> and a <code>review_flags</code> entry rather than presenting a guess as fact.</li>
+      <li>Distinguish documented history from legend using <code>documented_vs_legend</code>.</li>
+    </ul>
+
+    <h2>How to submit</h2>
+    <ol>
+      <li>Fork or branch the <a href="https://github.com/SreeGD/sanatana-kshetras" target="_blank" rel="noopener">GitHub repository</a>.</li>
+      <li>Add or edit a file under <code>content/temples/</code>, <code>content/divya-desam/</code>, or <code>content/beyond-earth/</code>, following the field definitions in the repo's <code>specs/001-temples-directory/data-model.md</code> and the JSON Schema contracts in <code>specs/001-temples-directory/contracts/</code>.</li>
+      <li>Run <code>python3 scripts/validate_content.py</code> locally and fix any reported issues.</li>
+      <li>Open a pull request. Opening the PR is the submission — until it's merged, it's pending review and not part of the published directory.</li>
+    </ol>
+
+    <p>
+      Full details, including the duplicate-detection and locked-field checks for the 108 Divya
+      Desam collection, are in <a href="https://github.com/SreeGD/sanatana-kshetras/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">CONTRIBUTING.md</a>.
+    </p>
+  </div>
+</Base>
+
+<style>
+  .prose-page { padding-block: 2rem 3rem; max-width: 42rem; }
+  .prose-page ul, .prose-page ol { padding-left: 1.25rem; }
+  .prose-page li { margin-bottom: 0.5rem; }
+  code { background: var(--bg-muted); padding: 0.1rem 0.35rem; border-radius: 0.3rem; font-size: 0.9em; }
+</style>

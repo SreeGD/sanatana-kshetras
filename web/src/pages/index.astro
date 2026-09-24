@@ -1,0 +1,97 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import TempleCard from '../components/TempleCard.astro';
+
+const temples = await getCollection('temples');
+const divyaDesam = await getCollection('divya-desam');
+const beyondEarth = await getCollection('beyond-earth');
+const countries = new Set(temples.map((t) => t.data.country));
+const nonIndiaCountries = new Set(temples.filter((t) => t.data.country !== 'India').map((t) => t.data.country));
+const continents = new Set(temples.map((t) => t.data.continent));
+
+// A small, stable "featured" sample: one verified, well-documented entry per continent.
+const featured = [...continents]
+  .map((c) => temples.find((t) => t.data.continent === c && t.data.status === 'verified' && t.data.documented_vs_legend === 'documented'))
+  .filter((t): t is NonNullable<typeof t> => Boolean(t))
+  .slice(0, 8);
+
+const base = import.meta.env.BASE_URL;
+---
+<Base title="Home">
+  <section class="hero">
+    <div class="wrap">
+      <h1>A sourced directory of Hindu &amp; Sanatana Dharma temples</h1>
+      <p class="lede">
+        {temples.length} temples across {continents.size} continents and {countries.size} countries
+        ({nonIndiaCountries.size} outside India) — plus the complete 108 Divya Desam collection and
+        {beyondEarth.length} cosmology entries describing realms beyond the physical world.
+      </p>
+      <p class="lede">
+        Every entry cites where its facts come from, distinguishes documented history from oral
+        tradition, and honestly flags what remains uncertain — for pilgrims planning a visit, and
+        for podcasters and researchers who need a real starting point.
+      </p>
+      <div class="cta-row">
+        <a class="cta cta-primary" href={`${base}temples/`}>Browse all temples</a>
+        <a class="cta" href={`${base}search/`}>Search by name</a>
+        <a class="cta" href={`${base}divya-desam/`}>108 Divya Desam</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <h2>A few starting points</h2>
+    <div class="grid">
+      {featured.map((t) => <TempleCard temple={t} />)}
+    </div>
+  </section>
+
+  <section class="wrap explore-more">
+    <h2>Explore by category</h2>
+    <div class="explore-grid">
+      <a class="card explore-card" href={`${base}temples/`}>
+        <h3>Browse by place</h3>
+        <p>Filter by continent, country, state, or tradition.</p>
+      </a>
+      <a class="card explore-card" href={`${base}deities/`}>
+        <h3>Browse by deity</h3>
+        <p>29 worship categories, computed from every temple's own deity listing.</p>
+      </a>
+      <a class="card explore-card" href={`${base}divya-desam/`}>
+        <h3>108 Divya Desam</h3>
+        <p>The complete, editorially-locked Sri Vaishnava collection.</p>
+      </a>
+      <a class="card explore-card" href={`${base}beyond-earth/`}>
+        <h3>Beyond Earth</h3>
+        <p>Lokas and spiritual worlds described in scripture, not physical places to visit.</p>
+      </a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero { padding-block: 3rem 2.5rem; background: var(--bg-muted); border-bottom: 1px solid var(--border); }
+  .hero h1 { font-size: clamp(1.7rem, 4vw, 2.4rem); max-width: 40rem; margin-top: 0; }
+  .lede { max-width: 42rem; color: var(--ink-muted); }
+  .cta-row { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1.5rem; }
+  .cta {
+    text-decoration: none;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.55rem 1.1rem;
+    color: var(--ink);
+    background: var(--bg-card);
+    font-size: 0.95rem;
+  }
+  .cta:hover { border-color: var(--accent); color: var(--accent); }
+  .cta-primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .cta-primary:hover { color: var(--accent-ink); opacity: 0.9; }
+
+  section.wrap { padding-block: 2.5rem; }
+  .explore-more h2 { margin-bottom: 1.25rem; }
+  .explore-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+  .explore-card { text-decoration: none; color: inherit; }
+  .explore-card h3 { margin: 0 0 0.4rem; color: var(--accent); }
+  .explore-card p { margin: 0; color: var(--ink-muted); font-size: 0.92rem; }
+</style>

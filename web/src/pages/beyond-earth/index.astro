@@ -1,0 +1,76 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const entries = await getCollection('beyond-earth');
+const lokas = entries.filter((e) => e.data.category === 'loka');
+const spiritualWorlds = entries.filter((e) => e.data.category === 'spiritual-world');
+---
+<Base title="Beyond Earth" description="Lokas and spiritual worlds described across Sanatana Dharma scripture — cosmology, not places to visit.">
+  <div class="wrap be-page">
+    <h1>Beyond Earth</h1>
+    <p class="lede">
+      These {entries.length} entries describe realms of Sanatana Dharma cosmology — from the
+      fourteen lokas of the material universe to spiritual worlds entirely beyond material
+      creation. None of these are physical places to visit: no address, coordinates, darshan
+      hours, or how-to-reach directions are given, because none apply.
+    </p>
+
+    <h2>The Fourteen Lokas</h2>
+    <div class="be-list">
+      {lokas.map((e) => (
+        <article class="card be-entry">
+          <h3>{e.data.name}</h3>
+          {e.data.position_in_cosmology ? <p class="position">{e.data.position_in_cosmology}</p> : null}
+          {e.data.governing_deity ? <p class="deity">Governing deity: {e.data.governing_deity}</p> : null}
+          {e.data.tradition_accounts.map((acc) => (
+            <div class="account">
+              <p class="tradition-tag">{acc.tradition}</p>
+              <p>{acc.description}</p>
+            </div>
+          ))}
+          {e.data.review_flags?.length ? (
+            <div class="review-flags"><ul>{e.data.review_flags.map((f) => <li>{f}</li>)}</ul></div>
+          ) : null}
+        </article>
+      ))}
+    </div>
+
+    <h2>Spiritual Worlds</h2>
+    <p class="lede">
+      Beyond material creation entirely — the eternal abodes described in each tradition's own
+      theology, presented here on each tradition's own terms rather than as a single ranked list.
+    </p>
+    <div class="be-list">
+      {spiritualWorlds.map((e) => (
+        <article class="card be-entry">
+          <h3>{e.data.name}</h3>
+          {e.data.position_in_cosmology ? <p class="position">{e.data.position_in_cosmology}</p> : null}
+          {e.data.governing_deity ? <p class="deity">Governing deity: {e.data.governing_deity}</p> : null}
+          {e.data.tradition_accounts.map((acc) => (
+            <div class="account">
+              <p class="tradition-tag">{acc.tradition}</p>
+              <p>{acc.description}</p>
+            </div>
+          ))}
+          {e.data.review_flags?.length ? (
+            <div class="review-flags"><ul>{e.data.review_flags.map((f) => <li>{f}</li>)}</ul></div>
+          ) : null}
+        </article>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .be-page { padding-block: 2rem 3rem; }
+  .lede { max-width: 44rem; color: var(--ink-muted); }
+  .be-list { display: grid; gap: 1.25rem; margin: 1.5rem 0 3rem; }
+  .be-entry h3 { margin-top: 0; }
+  .position { color: var(--ink-muted); font-size: 0.9rem; font-style: italic; }
+  .deity { font-size: 0.9rem; }
+  .account { margin-top: 0.75rem; }
+  .tradition-tag { text-transform: uppercase; font-size: 0.72rem; letter-spacing: 0.03em; color: var(--gold); margin-bottom: 0.25rem; }
+  .review-flags { margin-top: 0.75rem; }
+  .review-flags ul { padding-left: 1.25rem; margin: 0; font-size: 0.88rem; }
+</style>
