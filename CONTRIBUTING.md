@@ -1,6 +1,6 @@
-# Contributing to the Temple Directory Dataset
+# Contributing to Sanatana Kshetras
 
-This repository holds the Global Sanatana Temple Directory as structured content files (see `specs/001-temples-directory/` for the full spec, data model, and schemas). Content lives under `content/` as one Markdown file per temple, Divya Desam entry, or Beyond-Earth (cosmology) entry.
+This repository holds the Sanatana Kshetras temple directory as structured content files (see `specs/001-temples-directory/` for the full spec, data model, and schemas). Content lives under `content/` as one Markdown file per temple, Divya Desam entry, Beyond-Earth (cosmology) entry, or deity worship-category.
 
 ## Workflow
 
