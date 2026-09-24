@@ -14,9 +14,16 @@ const mapPoints = entries
   .map((e) => {
     const temple = templeById.get(e.data.temple_ref!);
     const coordinates = temple?.data.coordinates;
-    return coordinates ? { seq: e.data.seq, name: e.data.name, ...coordinates } : null;
+    return coordinates && temple
+      ? { seq: e.data.seq, name: e.data.name, templeId: temple.data.id, ...coordinates }
+      : null;
   })
-  .filter((p): p is { seq: number; name: string; lat: number; lng: number } => p !== null);
+  .filter((p): p is { seq: number; name: string; templeId: string; lat: number; lng: number } => p !== null);
+
+function entryHref(e: (typeof entries)[number]): string {
+  const temple = e.data.temple_ref ? templeById.get(e.data.temple_ref) : undefined;
+  return temple ? `${base}temples/${temple.data.id}/` : `${base}divya-desam/${e.data.seq}/`;
+}
 
 const landPath = buildLandPath();
 const mapViewBox = boundingViewBox(mapPoints, 3);
@@ -54,7 +61,7 @@ const regions = [...new Set(entries.map((e) => e.data.region_group))];
           {mapPoints.map((p) => {
             const [x, y] = projectPoint(p.lat, p.lng);
             return (
-              <a href={`${base}divya-desam/${p.seq}/`}>
+              <a href={`${base}temples/${p.templeId}/`}>
                 <circle cx={x} cy={y} r={2.6} class="dd-dot">
                   <title>#{p.seq} {p.name}</title>
                 </circle>
@@ -75,7 +82,7 @@ const regions = [...new Set(entries.map((e) => e.data.region_group))];
         <ol class="dd-list" start={entries.find((e) => e.data.region_group === region)?.data.seq}>
           {entries.filter((e) => e.data.region_group === region).map((e) => (
             <li>
-              <a href={`${base}divya-desam/${e.data.seq}/`}>{e.data.name}</a>
+              <a href={entryHref(e)}>{e.data.name}</a>
               {!e.data.physical ? <span class="celestial-tag">celestial</span> : null}
             </li>
           ))}
