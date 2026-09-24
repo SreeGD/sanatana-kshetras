@@ -125,6 +125,14 @@ const deityOptions = [...deities].sort((a, b) => a.data.name.localeCompare(b.dat
   resetButton.addEventListener('click', () => {
     setTimeout(() => { rebuildCountryOptions(); applyFilters(); }, 0);
   });
+
+  rebuildCountryOptions();
+  const params = new URLSearchParams(location.search);
+  const initialCountry = params.get('country');
+  if (initialCountry && countriesFor(continentSelect.value).includes(initialCountry)) {
+    countrySelect.value = initialCountry;
+  }
+  applyFilters();
 </script>
 
 <style>

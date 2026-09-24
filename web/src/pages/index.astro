@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import TempleCard from '../components/TempleCard.astro';
+import { aggregateByCountry, buildLandPath, projectPoint, WORLD_MAP_WIDTH, WORLD_MAP_HEIGHT } from '../lib/world-map';
 
 const temples = await getCollection('temples');
 const divyaDesam = await getCollection('divya-desam');
@@ -17,6 +18,15 @@ const featured = [...continents]
   .slice(0, 8);
 
 const base = import.meta.env.BASE_URL;
+
+const bubbles = aggregateByCountry(temples);
+const landPath = buildLandPath();
+const maxCount = Math.max(...bubbles.map((b) => b.count));
+const MIN_RADIUS = 3;
+const MAX_RADIUS = 26;
+function radiusFor(count: number): number {
+  return MIN_RADIUS + (MAX_RADIUS - MIN_RADIUS) * Math.sqrt(count / maxCount);
+}
 ---
 <Base title="Home">
   <section class="hero">
@@ -37,6 +47,34 @@ const base = import.meta.env.BASE_URL;
         <a class="cta" href={`${base}search/`}>Search by name</a>
         <a class="cta" href={`${base}divya-desam/`}>108 Divya Desam</a>
       </div>
+    </div>
+  </section>
+
+  <section class="wrap world-section">
+    <h2>Temples around the world</h2>
+    <p class="lede">
+      Bubble size shows how many temples are documented in each country — hover a dot for the
+      count, click to browse that country's temples.
+    </p>
+    <div class="world-map-wrap">
+      <svg
+        viewBox={`0 0 ${WORLD_MAP_WIDTH} ${WORLD_MAP_HEIGHT}`}
+        role="img"
+        aria-label="World map with a bubble over each country sized by its number of documented temples"
+        class="world-map"
+      >
+        <path class="landmass" d={landPath} />
+        {bubbles.map((b) => {
+          const [x, y] = projectPoint(b.lat, b.lng);
+          return (
+            <a href={`${base}temples/?country=${encodeURIComponent(b.country)}`}>
+              <circle cx={x} cy={y} r={radiusFor(b.count)} class="bubble">
+                <title>{b.country} — {b.count} temple{b.count === 1 ? '' : 's'}</title>
+              </circle>
+            </a>
+          );
+        })}
+      </svg>
     </div>
   </section>
 
@@ -89,6 +127,25 @@ const base = import.meta.env.BASE_URL;
   .cta-primary:hover { color: var(--accent-ink); opacity: 0.9; }
 
   section.wrap { padding-block: 2.5rem; }
+  .world-section h2 { margin-bottom: 0.4rem; }
+  .world-map-wrap {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.75rem;
+    margin-top: 1rem;
+  }
+  .world-map { display: block; width: 100%; height: auto; }
+  .landmass { fill: var(--bg-muted); stroke: var(--border); stroke-width: 0.5; }
+  .bubble {
+    fill: var(--accent);
+    fill-opacity: 0.6;
+    stroke: var(--accent-2);
+    stroke-width: 0.5;
+    cursor: pointer;
+    transition: fill-opacity 0.15s ease;
+  }
+  .bubble:hover { fill-opacity: 0.9; }
   .explore-more h2 { margin-bottom: 1.25rem; }
   .explore-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
   .explore-card { text-decoration: none; color: inherit; }
