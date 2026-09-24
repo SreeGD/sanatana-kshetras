@@ -47,3 +47,7 @@ python3 scripts/validate_content.py --deity-report --export-json out.json  # tem
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). In short: every entry needs a source, the validator has to pass, and the 108 Divya Desam collection's core fields (`seq`, `region_group`, `physical`) are locked against routine edits.
+
+## License
+
+Licensed under the [GNU General Public License v3.0](LICENSE).
