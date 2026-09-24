@@ -17,6 +17,23 @@ export function projectPoint(lat: number, lng: number): [number, number] {
   return project(lng, lat);
 }
 
+/**
+ * A viewBox string cropped to the padded bounding box of a set of points, in the same
+ * projected coordinate space as projectPoint()/buildLandPath() — for zooming a map into
+ * a region (e.g. India + Nepal) rather than showing the whole world.
+ */
+export function boundingViewBox(points: { lat: number; lng: number }[], paddingDeg = 3): string {
+  const lats = points.map((p) => p.lat);
+  const lngs = points.map((p) => p.lng);
+  const latMin = Math.max(-90, Math.min(...lats) - paddingDeg);
+  const latMax = Math.min(90, Math.max(...lats) + paddingDeg);
+  const lngMin = Math.max(-180, Math.min(...lngs) - paddingDeg);
+  const lngMax = Math.min(180, Math.max(...lngs) + paddingDeg);
+  const [x0, y0] = projectPoint(latMax, lngMin);
+  const [x1, y1] = projectPoint(latMin, lngMax);
+  return `${x0.toFixed(2)} ${y0.toFixed(2)} ${(x1 - x0).toFixed(2)} ${(y1 - y0).toFixed(2)}`;
+}
+
 /** Renders the world's landmasses (Natural Earth 110m, via world-atlas) as one SVG path string. */
 export function buildLandPath(): string {
   const topology = landTopology as unknown as Topology;

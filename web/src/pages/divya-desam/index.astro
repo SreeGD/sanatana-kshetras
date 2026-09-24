@@ -1,9 +1,25 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import { buildLandPath, projectPoint, boundingViewBox } from '../../lib/world-map';
 
 const entries = (await getCollection('divya-desam')).sort((a, b) => a.data.seq - b.data.seq);
+const temples = await getCollection('temples');
+const templeById = new Map(temples.map((t) => [t.data.id, t]));
 const base = import.meta.env.BASE_URL;
+
+const physicalCount = entries.filter((e) => e.data.physical).length;
+const mapPoints = entries
+  .filter((e) => e.data.physical && e.data.temple_ref)
+  .map((e) => {
+    const temple = templeById.get(e.data.temple_ref!);
+    const coordinates = temple?.data.coordinates;
+    return coordinates ? { seq: e.data.seq, name: e.data.name, ...coordinates } : null;
+  })
+  .filter((p): p is { seq: number; name: string; lat: number; lng: number } => p !== null);
+
+const landPath = buildLandPath();
+const mapViewBox = boundingViewBox(mapPoints, 3);
 
 const regionLabels: Record<string, string> = {
   'chola-nadu': 'Chola Nadu',
@@ -26,6 +42,33 @@ const regions = [...new Set(entries.map((e) => e.data.region_group))];
       This collection is complete and its core classification is editorially locked.
     </p>
 
+    <section class="dd-map-section">
+      <div class="dd-map-wrap">
+        <svg
+          viewBox={mapViewBox}
+          role="img"
+          aria-label="Map of the physical Divya Desam temples across India and Nepal"
+          class="dd-map"
+        >
+          <path class="landmass" d={landPath} />
+          {mapPoints.map((p) => {
+            const [x, y] = projectPoint(p.lat, p.lng);
+            return (
+              <a href={`${base}divya-desam/${p.seq}/`}>
+                <circle cx={x} cy={y} r={2.6} class="dd-dot">
+                  <title>#{p.seq} {p.name}</title>
+                </circle>
+              </a>
+            );
+          })}
+        </svg>
+      </div>
+      <p class="map-caption">
+        {mapPoints.length} of {physicalCount} physical Divya Desam shown, positioned from each
+        entry's linked temple coordinates — hover a dot for its name, click to open that entry.
+      </p>
+    </section>
+
     {regions.map((region) => (
       <section class="region-section">
         <h2>{regionLabels[region] ?? region}</h2>
@@ -45,6 +88,25 @@ const regions = [...new Set(entries.map((e) => e.data.region_group))];
 <style>
   .dd-page { padding-block: 2rem 3rem; }
   .lede { max-width: 42rem; color: var(--ink-muted); }
+  .dd-map-section { margin-top: 1.5rem; max-width: 28rem; }
+  .dd-map-wrap {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.75rem;
+  }
+  .dd-map { display: block; width: 100%; height: auto; max-height: 26rem; }
+  .landmass { fill: var(--bg-muted); stroke: var(--border); stroke-width: 0.5; }
+  .dd-dot {
+    fill: var(--accent);
+    fill-opacity: 0.75;
+    stroke: var(--accent-2);
+    stroke-width: 0.3;
+    cursor: pointer;
+    transition: fill-opacity 0.15s ease, r 0.15s ease;
+  }
+  .dd-dot:hover { fill-opacity: 1; r: 4.5; }
+  .map-caption { margin: 0.5rem 0 0; font-size: 0.82rem; color: var(--ink-muted); }
   .region-section { margin-top: 2rem; }
   .dd-list { columns: 2; column-gap: 2rem; padding-left: 1.5rem; }
   .dd-list li { break-inside: avoid; margin-bottom: 0.4rem; }
