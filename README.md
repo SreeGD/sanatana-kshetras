@@ -8,7 +8,7 @@ The goal: give pilgrims a reliable way to plan a visit, and give podcasters, mon
 
 | | |
 |---|---|
-| **Temples** | 824, across 6 continents and 64 countries outside India |
+| **Temples** | 860, across 6 continents and 67 countries outside India |
 | **108 Divya Desam** | 106 physical + 2 celestial entries — the canonical Vaishnava collection, complete and locked |
 | **Beyond Earth** | 11 cosmology entries (the six lokas, the seven patalas, and spiritual-world abodes like Vaikuntha and Kailasa) |
 | **Deity categories** | 29 computed worship categories (Rama, Krishna, Narasimha, Shiva, Devi/Shakti, Ganesha, Murugan, Hanuman, and more) — see below |
